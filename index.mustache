@@ -20,9 +20,9 @@
     <main>
         <fgs-gamearray />
     </main>
-    <footer>
-        <fgs-footer />
-    </footer>
+<!--    <footer>-->
+<!--        <fgs-footer />-->
+<!--    </footer>-->
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins');
@@ -136,36 +136,36 @@
     <script>
         var games = {{{ games }}};
 
-        window.customElements.define(
-            "fgs-footer",
-            class footer extends HTMLElement {
-                constructor() {
-                    super();
-                }
-
-                render() {
-                    this.innerHTML = `
-                <div id="footerContainer"></div>
-            `
-                    for (let i = 0; i++; i < footerText.length) {
-                        var text = document.createElement('p')
-                        text.innerText = footerText[i]
-                        document.getElementById("footerContainer").appendChild(text)
-                        if (i !== footerText.length - 1) {
-                            var dot = document.createElement('div')
-                            document.getElementById("footerContainer").appendChild(dot)
-                        }
-                    }
-                }
-
-                connectedCallback() {
-                    if (!this.rendered) {
-                        this.render()
-                        this.rendered = true
-                    }
-                }
-            }
-        )
+        // window.customElements.define(
+        //     "fgs-footer",
+        //     class footer extends HTMLElement {
+        //         constructor() {
+        //             super();
+        //         }
+        //
+        //         render() {
+        //             this.innerHTML = `
+        //         <div id="footerContainer"></div>
+        //     `
+        //             for (let i = 0; i++; i < footerText.length) {
+        //                 var text = document.createElement('p')
+        //                 text.innerText = footerText[i]
+        //                 document.getElementById("footerContainer").appendChild(text)
+        //                 if (i !== footerText.length - 1) {
+        //                     var dot = document.createElement('div')
+        //                     document.getElementById("footerContainer").appendChild(dot)
+        //                 }
+        //             }
+        //         }
+        //
+        //         connectedCallback() {
+        //             if (!this.rendered) {
+        //                 this.render()
+        //                 this.rendered = true
+        //             }
+        //         }
+        //     }
+        // )
 
         window.customElements.define(
             "fgs-gamearray",
@@ -178,7 +178,7 @@
                     this.innerHTML = `
                 <div id="gameArray" style="display: grid; width: 100%; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); grid-auto-rows: 250px;"></div>
             `
-                    for (let i = 0; i < games.length; i++) {
+                    for (const i in games) {
                         var game = document.createElement('div')
                         game.className = "game"
                         game.setAttribute('onclick', `location.href += '${games[i]['link']}'`)
