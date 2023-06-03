@@ -52,7 +52,11 @@ app.get('/', (req, res) => {
 })
 
 app.get('/:game', (req, res) => {
-    res.render('game', {title: games[req.params.game]['title'], embed: games[req.params.game]['embedLink']})
+    if (req.params.game in games) {
+        res.render('game', {title: games[req.params.game]['title'], embed: games[req.params.game]['embedLink']})
+    } else {
+        res.render('404', {link: req.params.game})
+    }
 })
 
 app.listen(port)
