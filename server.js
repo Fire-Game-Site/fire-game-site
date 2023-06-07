@@ -51,6 +51,10 @@ app.get('/', (req, res) => {
     res.render('index', {games: JSON.stringify(games)})
 })
 
+app.get('/contact', (req, res) => {
+    res.render('contact')
+})
+
 app.get('/:game', (req, res) => {
     if (req.params.game in games) {
         res.render('game', {title: games[req.params.game]['title'], embed: games[req.params.game]['embedLink']})
