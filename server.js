@@ -45,7 +45,7 @@ var games = {
 
 app.engine('mustache', mustache());
 app.set('view engine', 'mustache');
-app.set('views', './');
+app.set('views', __dirname);
 
 app.get('/', (req, res) => {
     res.render('index', {games: JSON.stringify(games)})
