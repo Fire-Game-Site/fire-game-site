@@ -11,11 +11,11 @@ var games = {
         image: "https://th.bing.com/th/id/OIP.52nSt-_9qvnIJd4vJoOQqwHaEo?pid=ImgDet&rs=1", // type the link to the cover image here
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fpapa-s-freezeria.xml" // type the iframe embed link here
     },
-    "2nd game": {
-        title: "2nd game",
-        link: "",
-        image: "",
-        embedLink: ""
+    "defly.io": {
+        title: "Defly.io (All Games)",
+        link: "defly.io",
+        image: "https://lh4.googleusercontent.com/x-06SpzRpykRqdDlwO6XYo3mbHQJOxKL1FsXHeNkjgNHzIzq7sa5N4ihiXKGv5sT8vQliWb3XZTIbQirERRF9ZmvVvcCdgmYdxaZC0cvTz02J7RqhcClT8iiXoJHlGhV=w1280",
+        embedLink: "https://defly.io/"
     },
     "3rd game": {
         title: "3rd game",
