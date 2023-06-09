@@ -17,11 +17,11 @@ var games = {
         image: "https://lh4.googleusercontent.com/x-06SpzRpykRqdDlwO6XYo3mbHQJOxKL1FsXHeNkjgNHzIzq7sa5N4ihiXKGv5sT8vQliWb3XZTIbQirERRF9ZmvVvcCdgmYdxaZC0cvTz02J7RqhcClT8iiXoJHlGhV=w1280",
         embedLink: "https://defly.io/"
     },
-    "3rd game": {
-        title: "3rd game",
-        link: "",
-        image: "",
-        embedLink: ""
+    "paper.io 2": {
+        title: "Paper.io 2",
+        link: "paper.io 2",
+        image: "https://lh5.googleusercontent.com/e-YntJcibwLsPkjW5pHGCZNyehhJcM67B_gwIian7_k1qQH4_VAI9h5NGXCWpE2OSwSk708J54jwESGy3FzhPco=w1280",
+        embedLink: "https://paper-io.com/"
     },
     "4th game": {
         title: "4th game",
