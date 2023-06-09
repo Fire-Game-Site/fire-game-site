@@ -48,18 +48,18 @@ app.set('view engine', 'mustache');
 app.set('views', __dirname);
 
 app.get('/', (req, res) => {
-    res.render('index', {games: JSON.stringify(games)})
+    res.render('index', {games: JSON.stringify(games), firebase: process.env.firebase})
 })
 
 app.get('/contact', (req, res) => {
-    res.render('contact')
+    res.render('contact', {firebase: process.env.firebase})
 })
 
 app.get('/:game', (req, res) => {
     if (req.params.game in games) {
-        res.render('game', {title: games[req.params.game]['title'], embed: games[req.params.game]['embedLink']})
+        res.render('game', {title: games[req.params.game]['title'], embed: games[req.params.game]['embedLink'], firebase: process.env.firebase})
     } else {
-        res.render('404', {link: req.params.game})
+        res.render('404', {link: req.params.game, firebase: process.env.firebase})
     }
 })
 
