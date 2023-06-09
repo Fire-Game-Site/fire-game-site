@@ -20,7 +20,7 @@ var games = {
     "paper.io 2": {
         title: "Paper.io 2",
         link: "paper.io 2",
-        image: "https://lh5.googleusercontent.com/e-YntJcibwLsPkjW5pHGCZNyehhJcM67B_gwIian7_k1qQH4_VAI9h5NGXCWpE2OSwSk708J54jwESGy3FzhPco=w1280",
+        image: "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/d2708e8aa31df3fe7b211bca36405d6d.png",
         embedLink: "https://paper-io.com/"
     },
     "4th game": {
