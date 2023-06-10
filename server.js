@@ -38,31 +38,31 @@ var games = {
     "motox3m2": {
         title: "Moto X3M 2",
         link: "motox3m2",
-        image: "",
+        image: "https://arsholde.sirv.com/Images/download.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://840137492-163049537400263946.preview.editmysite.com/uploads/b/139890129-622598590552046666/files/mx3m2.xml"
     },
     "motox3m3": {
         title: "Moto X3M 3",
         link: "motox3m3",
-        image: "",
+        image: "https://arsholde.sirv.com/Images/download%20(1).jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://486017395-735910036185936427.preview.editmysite.com/uploads/b/139890129-378637188943279878/files/mx3m3.xml"
     },
     "motox3m-spookyland": {
         title: "Moto X3M Spooky Land",
         link: "motox3m-spookyland",
-        image: "",
+        image: "https://arsholde.sirv.com/Images/images%20(2).jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://318573026-162284027483016384.preview.editmysite.com/uploads/b/139890129-642750312748978757/files/mx3msl.xml"
     },
     "motox3m-winter": {
         title: "Moto X3M Winter",
         link: "motox3m-winter",
-        image: "",
+        image: "https://arsholde.sirv.com/Images/download%20(2).jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if10dv@30dcfcb302cb76dee9d919a6ff87ee97b63efe7b/ue4d1w/moto-x3m-winter.xml"
     },
     "motox3m-poolparty": {
         title: "Moto X3M Pool Party",
         link: "motox3m-poolparty",
-        image: "",
+        image: "https://arsholde.sirv.com/Images/download%20(3).jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://649025137-174029463385024710.preview.editmysite.com/uploads/b/139890129-767696982876512205/files/mx3mpp.xml"
     },"game": {
         title: "game",
