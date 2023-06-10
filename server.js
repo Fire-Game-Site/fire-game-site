@@ -14,7 +14,7 @@ var games = {
     "defly.io": {
         title: "Defly.io (All Games)",
         link: "defly.io",
-        image: "https://defly.io/img/facebook-share.png",
+        image: "https://arsholde.sirv.com/Images/Untitled.jpg?w=209&h=177",
         embedLink: "https://defly.io/"
     },
     "paper.io 2": {
