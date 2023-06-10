@@ -29,18 +29,65 @@ var games = {
         image: "https://arsholde.sirv.com/Images/images.jpg",
         embedLink: "https://kdata1.com/2020/05/slope/"
     },
-    "5th game": {
-        title: "5th game",
+    "game": {
+        title: "game",
         link: "",
         image: "",
         embedLink: ""
     },
-    "6th game": {
-        title: "6th game",
+    "game": {
+        title: "game",
         link: "",
         image: "",
         embedLink: ""
     },
+    "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },
+    "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },
+    "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },
+    "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },"game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },
+    "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },
+    "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },"game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },
+    
 }
 
 app.engine('mustache', mustache());
