@@ -26,7 +26,7 @@ var games = {
     "slope": {
         title: "Slope",
         link: "slope",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRibs2u9OXtqGIiG8tdQVbCGpmjqKZWXXi-Tw&usqp=CAU",
+        image: "blob:chrome-untrusted://media-app/862bc4f6-0cb3-44dc-aed4-9d8cf8883b5d",
         embedLink: "https://kdata1.com/2020/05/slope/"
     },
     "5th game": {
