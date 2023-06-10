@@ -23,11 +23,11 @@ var games = {
         image: "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/d2708e8aa31df3fe7b211bca36405d6d.png",
         embedLink: "https://paper-io.com/"
     },
-    "4th game": {
-        title: "4th game",
-        link: "",
-        image: "",
-        embedLink: ""
+    "slope": {
+        title: "Slope",
+        link: "slope",
+        image: "https://lh5.googleusercontent.com/ctZPIHDb6rm9_moSaTWKrTNCGTtnnHP1KQjfldIVZMWLrFa-pvJrqICN7tp8e4DAfoigxnN66zqzqo1rwimFWeE9gNgl_sPFqWXY88C4y1lAXgobdbOvky6H5U0IIH7KSg=w1280",
+        embedLink: "https://kdata1.com/2020/05/slope/"
     },
     "5th game": {
         title: "5th game",
