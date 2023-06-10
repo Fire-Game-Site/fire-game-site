@@ -32,7 +32,7 @@ var games = {
     "motox3m1": {
         title: "Moto X3M 1",
         link: "motox3m1",
-        image: "",
+        image: "https://arsholde.sirv.com/Images/images.jpeg?w=209&scale.option=ignore",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if10dv@cf85de94e37e2fdb071b8ef5c4f09623682e9955/f12ds3/motox3m.xml"
     },
     "motox3m2": {
