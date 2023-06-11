@@ -44,7 +44,7 @@ var games = {
     "motox3m3": {
         title: "Moto X3M 3",
         link: "motox3m3",
-        image: "https://arsholde.sirv.com/Images/download%20(1).jpeg?w=209&h=177&scale.option=ignore",
+        image: "https://arsholde.sirv.com/Images/mx3m3.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://486017395-735910036185936427.preview.editmysite.com/uploads/b/139890129-378637188943279878/files/mx3m3.xml"
     },
     "motox3m-spookyland": {
