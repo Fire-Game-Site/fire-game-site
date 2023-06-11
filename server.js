@@ -22,6 +22,12 @@ var games = {
         link: "paper.io-2",
         image: "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/d2708e8aa31df3fe7b211bca36405d6d.png",
         embedLink: "https://paper-io.com/"
+    },  
+        "hexanaut.io": {
+        title: "Hexanaut.io",
+        link: "hexanaut.io",
+        image: "https://arsholde.sirv.com/Images/hexanaut.jpeg?w=209&h=177&scale.option=ignore",
+        embedLink: "https://hexanaut.coolmathgames.com",
     },
     "slope": {
         title: "Slope",
@@ -64,24 +70,91 @@ var games = {
         link: "motox3m-poolparty",
         image: "https://arsholde.sirv.com/Images/mx3mpp.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://649025137-174029463385024710.preview.editmysite.com/uploads/b/139890129-767696982876512205/files/mx3mpp.xml"
-    },"game": {
+    },"run1": {
+        title: "Run 1",
+        link: "run1",
+        image: "",
+        embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Frun1.xml"
+    },
+    "run2": {
+        title: "Run 2",
+        link: "run2",
+        image: "",
+        embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Frun2.xml"
+    },
+    "run3": {
+        title: "Run 3",
+        link: "run3",
+        image: "",
+        embedLink: "https://lekug.github.io/tn6pS9dCf37xAhkJv/"
+    },
+    "idlebreakout": {
+        title: "Idle Breakout",
+        link: "idlebreakout",
+        image: "",
+        embedLink: "https://v6p9d9t4.ssl.hwcdn.net/html/1317921/index.html"
+    },
+     "spacebarclicker": {
+        title: "Spacebar Clicker",
+        link: "spacebarclicker",
+        image: "",
+        embedLink: "https://js13kgames.com/games/spacebar-clicker/index.html"
+    },
+     "polyblicy": {
+        title: "Polyblicy",
+        link: "polyblicy",
+        image: "",
+        embedLink: "https://www.gaming-style.com/POLYBLICY/Game/index.php"
+    },
+     "chess": {
+        title: "Chess",
+        link: "chess",
+        image: "",
+        embedLink: "https://games.s3.yandex.net/98056/97gqo1d58zqyyat5ser6l0pnqqxp3f13/index.html"
+    },
+     "eggycar": {
+        title: "Eggy Car",
+        link: "eggycar",
+        image: "",
+        embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://493104753-963057148227461038.preview.editmysite.com/uploads/b/139890129-825858355833705451/files/ecf.xml"
+    },
+     "retrobowl": {
+        title: "Retro Bowl",
+        link: "retrobowl",
+        image: "",
+        embedLink: "https://game316009.konggames.com/gamez/0031/6009/live/index.html"
+    },
+     "flap": {
+        title: "Flap",
+        link: "flap",
+        image: "",
+        embedLink: "https://19042.cache.armorgames.com/files/games/flap-19042/index.html?v=1600193528"
+    },
+     "8ballpool": {
+        title: "8 Ball Pool",
+        link: "8ballpool",
+        image: "",
+        embedLink: "//ams.cdn.arkadiumhosted.com/assets/global/game/pool-default/?show_game_end=false&locale=en-us&device_type=pc&arena_name=gamedistribution.arkadiumarena.com&game_name=8%20Ball%20Pool&events=game_start,game_end,pause_ready,event_change,abtest_init,reward_start&play_id=LTUyNzg=?show_game_end=false&locale=en-us&device_type=pc&arena_name=gamedistribution.arkadiumarena.com&game_name=8%20Ball%20Pool&events=game_start,game_end,pause_ready,event_change,abtest_init,reward_start&play_id=LTUyNzg="
+    },
+     "game": {
         title: "game",
         link: "",
         image: "",
         embedLink: ""
     },
-    "game": {
+     "game": {
         title: "game",
         link: "",
         image: "",
         embedLink: ""
     },
-    "game": {
+     "game": {
         title: "game",
         link: "",
         image: "",
         embedLink: ""
-    },"game": {
+    },
+     "game": {
         title: "game",
         link: "",
         image: "",
