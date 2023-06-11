@@ -50,19 +50,19 @@ var games = {
     "motox3m-spookyland": {
         title: "Moto X3M Spooky Land",
         link: "motox3m-spookyland",
-        image: "https://arsholde.sirv.com/Images/images%20(2).jpeg?w=209&h=177&scale.option=ignore",
+        image: "https://arsholde.sirv.com/Images/mx3msl.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://318573026-162284027483016384.preview.editmysite.com/uploads/b/139890129-642750312748978757/files/mx3msl.xml"
     },
     "motox3m-winter": {
         title: "Moto X3M Winter",
         link: "motox3m-winter",
-        image: "https://arsholde.sirv.com/Images/download%20(2).jpeg?w=209&h=177&scale.option=ignore",
+        image: "https://arsholde.sirv.com/Images/mx3mw.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if10dv@30dcfcb302cb76dee9d919a6ff87ee97b63efe7b/ue4d1w/moto-x3m-winter.xml"
     },
     "motox3m-poolparty": {
         title: "Moto X3M Pool Party",
         link: "motox3m-poolparty",
-        image: "https://arsholde.sirv.com/Images/download%20(3).jpeg?w=209&h=177&scale.option=ignore",
+        image: "https://arsholde.sirv.com/Images/mx3mpp.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://649025137-174029463385024710.preview.editmysite.com/uploads/b/139890129-767696982876512205/files/mx3mpp.xml"
     },"game": {
         title: "game",
