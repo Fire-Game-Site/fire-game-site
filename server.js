@@ -152,7 +152,7 @@ var games = {
         title: "Google Doodle Pacman",
         link: "googlepacman",
         image: "",
-        embedLink: "https://384742067-atari-embeds.googleusercontent.com/embeds/16cb204cf3a9d4d223a0a3fd8b0eec5d/inner-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.wW0KrNepdTU.O%2Fd%3D1%2Frs%3DAHpOoo8Je2IwWe-sD_xcm5fABAaEfyuc1g%2Fm%3D__features__"
+        embedLink: "https://g.co/kgs/pB4pSY"
     },
      "game": {
         title: "game",
