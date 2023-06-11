@@ -152,7 +152,7 @@ var games = {
         title: "Google Doodle Pacman",
         link: "googlepacman",
         image: "",
-        embedLink: "https://g.co/kgs/pB4pSY"
+        embedLink: "//www.google.com/logos/2010/pacman10-hp.html?hl=en&sdoodles=1"
     },
      "game": {
         title: "game",
