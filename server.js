@@ -136,23 +136,23 @@ var games = {
         image: "https://arsholde.sirv.com/Images/8ballpool.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "//ams.cdn.arkadiumhosted.com/assets/global/game/pool-default/?show_game_end=false&locale=en-us&device_type=pc&arena_name=gamedistribution.arkadiumarena.com&game_name=8%20Ball%20Pool&events=game_start,game_end,pause_ready,event_change,abtest_init,reward_start&play_id=LTUyNzg=?show_game_end=false&locale=en-us&device_type=pc&arena_name=gamedistribution.arkadiumarena.com&game_name=8%20Ball%20Pool&events=game_start,game_end,pause_ready,event_change,abtest_init,reward_start&play_id=LTUyNzg="
     },
-     "game": {
-        title: "game",
-        link: "",
+     "googlebaseball": {
+        title: "Google Doodle Baseball",
+        link: "googlebaseball",
         image: "",
-        embedLink: ""
+        embedLink: "https://www.google.com/logos/2019/july4th19/r3/july4th19.html"
     },
-     "game": {
-        title: "game",
-        link: "",
+     "googlecricket": {
+        title: "Google Doodle Cricket",
+        link: "googlecricket",
         image: "",
-        embedLink: ""
+        embedLink: "https://www.google.com/logos/2017/cricket17/cricket17.html"
     },
-     "game": {
-        title: "game",
-        link: "",
+     "googlepacman": {
+        title: "Google Doodle Pacman",
+        link: "googlepacman",
         image: "",
-        embedLink: ""
+        embedLink: "/logos/2010/pacman10-hp.html#bg=black&autoplay"
     },
      "game": {
         title: "game",
