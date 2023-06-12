@@ -151,56 +151,56 @@ var games = {
      "googlesnake": {
         title: "Google Snake",
         link: "googlesnake",
-        image: "",
+        image: "https://arsholde.sirv.com/Images/googlesnake.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://snak.ee/google-snake-new/index.html"
     },
-        "game": {
-        title: "game",
-        link: "",
-        image: "",
-        embedLink: ""
+        "awesomeplanes": {
+        title: "Awesome Planes",
+        link: "awesomeplanes",
+        image: "https://arsholde.sirv.com/Images/awesomeplanes.jpeg?w=209&h=177&scale.option=ignore",
+        embedLink: "https://games.kidzsearch.com/computer/flashgame_data/ruffleplayer.html?game=awesome-planes-43646"
     },
-        "game": {
-        title: "game",
-        link: "",
-        image: "",
-        embedLink: ""
+        "awesometanks": {
+        title: "Awesome Tanks",
+        link: "awesometanks",
+        image: "https://arsholde.sirv.com/Images/awesometanks.jpeg?w=209&h=177&scale.option=ignore",
+        embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://638508418-274639104736829364.preview.editmysite.com/uploads/b/139890129-212982790859809719/files/at1.xml"
     },
-        "game": {
-        title: "game",
-        link: "",
-        image: "",
-        embedLink: ""
+        "awesometanks2": {
+        title: "Awesome Tanks 2",
+        link: "awesometanks2",
+        image: "https://arsholde.sirv.com/Images/awesometanks2.jpeg?w=209&h=177&scale.option=ignore",
+        embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://37406915-471836402253847146.preview.editmysite.com/uploads/b/139890129-165727670653336700/files/at2.xml"
     },
-        "game": {
-        title: "game",
-        link: "",
-        image: "",
-        embedLink: ""
+        "basketballstars": {
+        title: "Basketball Stars",
+        link: "basketballstars",
+        image: "https://arsholde.sirv.com/Images/basketballstars.jpeg?w=209&h=177&scale.option=ignore",
+        embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if3dv@66c73577d404dbf17a688cd4ae3198db4ba840d4/zm48hw/bs.xml"
     },
-        "game": {
-        title: "game",
-        link: "",
-        image: "",
-        embedLink: ""
+        "candycrush": {
+        title: "Candy Crush",
+        link: "candycrush",
+        image: "https://arsholde.sirv.com/Images/candycrush.jpeg?w=209&h=177&scale.option=ignore",
+        embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://830581635-628405001538672842.preview.editmysite.com/uploads/b/139890129-709153476852373754/files/cc.xml"
     },
-        "game": {
-        title: "game",
-        link: "",
-        image: "",
-        embedLink: ""
+        "wrestlebros": {
+        title: "Wrestle Bros",
+        link: "wrestlebros",
+        image: "https://arsholde.sirv.com/Images/wrestlebros.jpeg?w=209&h=177&scale.option=ignore",
+        embedLink: "https://wrestlebros.io/"
     },
-        "game": {
-        title: "game",
-        link: "",
-        image: "",
-        embedLink: ""
+        "getawayshootout": {
+        title: "Getaway Shootout",
+        link: "getawayshootout",
+        image: "https://arsholde.sirv.com/Images/getawayshootout.jpeg?w=209&h=177&scale.option=ignore",
+        embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@d2542b2b948a265eddaa25f984368f25fafc1447/g64dh6j/Getaway-Shootout.xml"
     },
-        "game": {
-        title: "game",
-        link: "",
-        image: "",
-        embedLink: ""
+        "1v1.lol": {
+        title: "1v1.lol",
+        link: "1v1.lol",
+        image: "https://arsholde.sirv.com/Images/1v1lol.jpeg?w=209&h=177&scale.option=ignore",
+        embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/ko1ov/to@1e8a949f89fcf2b110640c41a0705db01405d161/d7uf4.xml"
     },
         "game": {
         title: "game",
