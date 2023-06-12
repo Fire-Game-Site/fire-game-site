@@ -202,7 +202,79 @@ var games = {
         image: "https://arsholde.sirv.com/Images/1v1lol.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/ko1ov/to@1e8a949f89fcf2b110640c41a0705db01405d161/d7uf4.xml"
     },
-        "game": {
+        "driftboss": {
+        title: "Drift Boss",
+        link: "driftboss",
+        image: "https://arsholde.sirv.com/Images/driftboss.jpeg?w=209&scale.option=ignore",
+        embedLink: "https://www.mathplayground.com/drift-boss-v3/index.html"
+    },
+       "worldshardestgame": {
+        title: "World's Hardest Game",
+        link: "worldshardestgame",
+        image: "https://arsholde.sirv.com/Images/worldshardestgame.jpeg?w=209&h=177&scale.option=ignore",
+        embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fthe-world-s-hardest-game.xml"
+    },
+       "Minecraft1.5.2": {
+        title: "Minecraft 1.5.2",
+        link: "Minecraft1.5.2",
+        image: "https://arsholde.sirv.com/Images/minecraft1.5.2.jpeg?w=209&h=177&scale.option=ignore",
+        embedLink: "https://sd592g.github.io/zj684od4lfg/"
+    },
+       "Minecraft1.8.8": {
+        title: "Minecraft 1.8.8",
+        link: "Minecraft1.8.8",
+        image: "https://arsholde.sirv.com/Images/minecraft1.8.8.jpeg?w=209&h=177&scale.option=ignorehttps://arsholde.sirv.com/Images/flappybird.jpeg?w=209&h=177&scale.option=ignore",
+        embedLink: "https://eaglercraft.q13x.com"
+    },
+       "flappybird": {
+        title: "Flappy Bird",
+        link: "flappybird",
+        image: "https://arsholde.sirv.com/Images/flappybird.jpeg?w=209&h=177&scale.option=ignore",
+        embedLink: "https://gameshost.io/HTML5GAMES/flappybird/"
+    },
+       "mrbullet": {
+        title: "Mr.Bullet",
+        link: "mrbullet",
+        image: "https://arsholde.sirv.com/Images/mrbullet.jpeg?w=209&h=177&scale.option=ignore",
+        embedLink: "//gameshost.io/HTML5GAMES/mr_bullet/"
+    },
+       "rocketleague": {
+        title: "Rocket League",
+        link: "rocketleague",
+        image: "https://arsholde.sirv.com/Images/rocketleague.jpeg?w=209&h=177&scale.option=ignore",
+        embedLink: "https://g.vseigru.net/10/igra-raketnyj-futbol-derbi/"
+    },
+       "jellytruck": {
+        title: "Jelly Truck",
+        link: "jellytruck",
+        image: "https://arsholde.sirv.com/Images/jellytruck.jpeg?w=209&h=177&scale.option=ignore",
+        embedLink: "https://webglmath.github.io/jelly-truck/"
+    },
+       "penaltykickonline": {
+        title: "Penalty Kick Online",
+        link: "penaltykickonline",
+        image: "https://arsholde.sirv.com/Images/penaltykickonline.jpeg?w=209&h=177&scale.option=ignore",
+        embedLink: "https://rawcdn.githack.com/PenaltyKickOnline/PenaltyKickOnline.github.io/f432955990ac6493d47a17a9e56fbc3e7483713a/index.html"
+    },
+        "bigtowertinysquare": {
+        title: "Big Tower Tiny Square",
+        link: "bigtowertinysquare",
+        image: "https://arsholde.sirv.com/Images/bigtowertinysquare.png?w=209&h=177&scale.option=ignore",
+        embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if3dv@52c352908edb192e5f9da18780ba2cd535af5c1b/ge4q26/btts.xml"
+    },
+          "bigtowertinysquare2": {
+        title: "Big Tower Tiny Square 2",
+        link: "bigtowertinysquare2",
+        image: "https://arsholde.sirv.com/Images/bigtowertinysquare2.png?w=209&h=177&scale.option=ignore",
+        embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://183662057-183305820582754925.preview.editmysite.com/uploads/b/139890129-258428596653956378/files/btts2.xml"
+    },
+          "bigicetowertinysquare": {
+        title: "Big Ice Tower Tiny Square",
+        link: "bigicetowertinysquare",
+        image: "https://arsholde.sirv.com/Images/bigicetowertinysquare.png?w=209&h=177&scale.option=ignore",
+        embedLink: "https://v6p9d9t4.ssl.hwcdn.net/html/673441/index.html?v=1542782130"
+    },
+          "game": {
         title: "game",
         link: "",
         image: "",
