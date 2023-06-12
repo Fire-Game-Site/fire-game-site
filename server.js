@@ -148,7 +148,61 @@ var games = {
         image: "https://arsholde.sirv.com/Images/googlecricket.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://www.google.com/logos/2017/cricket17/cricket17.html"
     },
-     "game": {
+     "googlesnake": {
+        title: "Google Snake",
+        link: "googlesnake",
+        image: "",
+        embedLink: "https://snak.ee/google-snake-new/index.html"
+    },
+        "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },
+        "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },
+        "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },
+        "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },
+        "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },
+        "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },
+        "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },
+        "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },
+        "game": {
         title: "game",
         link: "",
         image: "",
