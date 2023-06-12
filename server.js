@@ -223,7 +223,7 @@ var games = {
        "Minecraft1.8.8": {
         title: "Minecraft 1.8.8",
         link: "Minecraft1.8.8",
-        image: "https://arsholde.sirv.com/Images/minecraft1.8.8.jpeg?w=209&h=177&scale.option=ignorehttps://arsholde.sirv.com/Images/flappybird.jpeg?w=209&h=177&scale.option=ignore",
+        image: "https://arsholde.sirv.com/Images/minecraft1.8.8.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://eaglercraft.q13x.com"
     },
        "flappybird": {
