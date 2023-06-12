@@ -139,20 +139,14 @@ var games = {
      "googlebaseball": {
         title: "Google Doodle Baseball",
         link: "googlebaseball",
-        image: "",
+        image: "https://arsholde.sirv.com/Images/googlebaseball.png?w=209&h=177&scale.option=ignore",
         embedLink: "https://www.google.com/logos/2019/july4th19/r3/july4th19.html"
     },
      "googlecricket": {
         title: "Google Doodle Cricket",
         link: "googlecricket",
-        image: "",
+        image: "https://arsholde.sirv.com/Images/googlecricket.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://www.google.com/logos/2017/cricket17/cricket17.html"
-    },
-     "googlepacman": {
-        title: "Google Doodle Pacman",
-        link: "googlepacman",
-        image: "",
-        embedLink: "//www.google.com/logos/2010/pacman10-hp.html?hl=en&sdoodles=1"
     },
      "game": {
         title: "game",
