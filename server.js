@@ -278,7 +278,7 @@ var games = {
         title: "Super Mario",
         link: "supermario",
         image: "",
-        embedLink: "mario-game/mario.html"
+        embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://395713058-173957204856294731.preview.editmysite.com/uploads/b/139890129-314264279627264120/files/smb.xml"
     },
          "game": {
         title: "game",
