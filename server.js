@@ -274,7 +274,133 @@ var games = {
         image: "https://arsholde.sirv.com/Images/bigicetowertinysquare.png?w=209&h=177&scale.option=ignore",
         embedLink: "https://v6p9d9t4.ssl.hwcdn.net/html/673441/index.html?v=1542782130"
     },
-          "game": {
+          "supermario": {
+        title: "Super Mario",
+        link: "supermario",
+        image: "",
+        embedLink: "mario-game/mario.html"
+    },
+         "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },     "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },     "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },     "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },     "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },     "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },     "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },     "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },     "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },     "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },     "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },     "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },     "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },     "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },     "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },     "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },     "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },     "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },     "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },     "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },     "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },     "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },     "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },     "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: ""
+    },     "game": {
         title: "game",
         link: "",
         image: "",
