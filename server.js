@@ -277,19 +277,19 @@ var games = {
          "bigneontowertinysquare": {
         title: "Big Neon Tower Tiny Square",
         link: "bigneontowertinysquare",
-        image: "",
+        image: "https://arsholde.sirv.com/Images/bigneontowertinysquare.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://v6p9d9t4.ssl.hwcdn.net/html/3818171/Big NEON Tower Itch 1.0/index.html"
     },
       "bigflappytowertinysquare": {
         title: "Big Flappy Tower Tiny Square",
         link: "bigflappytowertinysquare",
-        image: "",
+        image: "https://arsholde.sirv.com/Images/bigflappytowertinysquare.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://game.enjoy4fun.com/bigflappytowertinysquare/v1/index.html?uid=ci4i7dcdj1kthv0nc7b0&sid=1686709173182-e110afb7-78fe-4fun-08c9-f4efe9d173a0&channel-id=3487216655&site-id=site_4&zone-id=44233"
     },
      "supermario": {
         title: "Super Mario",
         link: "supermario",
-        image: "",
+        image: "https://arsholde.sirv.com/Images/supermario.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://395713058-173957204856294731.preview.editmysite.com/uploads/b/139890129-314264279627264120/files/smb.xml"
     },
         "game": {
