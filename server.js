@@ -292,12 +292,13 @@ var games = {
         image: "https://arsholde.sirv.com/Images/supermario.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://395713058-173957204856294731.preview.editmysite.com/uploads/b/139890129-314264279627264120/files/smb.xml"
     },
-        "game": {
-        title: "game",
-        link: "",
+        "stumbleguys": {
+        title: "Stumble Guys",
+        link: "stumbleguys",
         image: "",
-        embedLink: ""
-    },     "game": {
+        embedLink: "https://www.stumbleguys.com/play"
+    },    
+        "game": {
         title: "game",
         link: "",
         image: "",
