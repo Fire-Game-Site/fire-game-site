@@ -304,112 +304,133 @@ var games = {
         image: "https://arsholde.sirv.com/Images/connect4.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "//www.cbc.ca/kidscbc2/content/games/connect_four/index.html"
     },    
+        "cookieclicker": {
+        title: "Cookie Clicker",
+        link: "cookieclicker",
+        image: "",
+        embedLink: ""
+    },   
+        "cookieclicker2": {
+        title: "Cookie Clicker 2",
+        link: "cookieclicker",
+        image: "",
+        embedLink: ""
+    },   
         "game": {
         title: "game",
         link: "",
         image: "",
         embedLink: ""
-    },     "game": {
+    },     
+        "game": {
         title: "game",
         link: "",
         image: "",
         embedLink: ""
-    },     "game": {
+    },    
+        "game": {
         title: "game",
         link: "",
         image: "",
         embedLink: ""
-    },     "game": {
+    },   
+        "game": {
         title: "game",
         link: "",
         image: "",
         embedLink: ""
-    },     "game": {
+    },    
+        "game": {
         title: "game",
         link: "",
         image: "",
         embedLink: ""
-    },     "game": {
+    },   
+        "game": {
         title: "game",
         link: "",
         image: "",
         embedLink: ""
-    },     "game": {
+    },    
+        "game": {
         title: "game",
         link: "",
         image: "",
         embedLink: ""
-    },     "game": {
+    },   
+        "game": {
         title: "game",
         link: "",
         image: "",
         embedLink: ""
-    },     "game": {
+    },     
+        "game": {
         title: "game",
         link: "",
         image: "",
         embedLink: ""
-    },     "game": {
+    },    
+        "game": {
         title: "game",
         link: "",
         image: "",
         embedLink: ""
-    },     "game": {
+    },   
+        "game": {
         title: "game",
         link: "",
         image: "",
         embedLink: ""
-    },     "game": {
+    },   
+        "game": {
         title: "game",
         link: "",
         image: "",
         embedLink: ""
-    },     "game": {
+    },   
+        "game": {
         title: "game",
         link: "",
         image: "",
         embedLink: ""
-    },     "game": {
+    },    
+        "game": {
         title: "game",
         link: "",
         image: "",
         embedLink: ""
-    },     "game": {
+    },   
+        "game": {
         title: "game",
         link: "",
         image: "",
         embedLink: ""
-    },     "game": {
+    },     
+        "game": {
         title: "game",
         link: "",
         image: "",
         embedLink: ""
-    },     "game": {
+    },    
+        "game": {
         title: "game",
         link: "",
         image: "",
         embedLink: ""
-    },     "game": {
+    },  
+        "game": {
         title: "game",
         link: "",
         image: "",
         embedLink: ""
-    },     "game": {
+    },  
+        "game": {
         title: "game",
         link: "",
         image: "",
         embedLink: ""
-    },     "game": {
-        title: "game",
-        link: "",
-        image: "",
-        embedLink: ""
-    },     "game": {
-        title: "game",
-        link: "",
-        image: "",
-        embedLink: ""
-    },     "game": {
+    },   
+        "game": {
         title: "game",
         link: "",
         image: "",
