@@ -295,15 +295,16 @@ var games = {
         "stumbleguys": {
         title: "Stumble Guys",
         link: "stumbleguys",
-        image: "",
+        image: "https://arsholde.sirv.com/Images/stumbleguys.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://www.stumbleguys.com/play"
     },    
+        "connect4": {
+        title: "Connect 4",
+        link: "connect4",
+        image: "https://arsholde.sirv.com/Images/connect4.jpeg?w=209&h=177&scale.option=ignore",
+        embedLink: "//www.cbc.ca/kidscbc2/content/games/connect_four/index.html"
+    },    
         "game": {
-        title: "game",
-        link: "",
-        image: "",
-        embedLink: ""
-    },     "game": {
         title: "game",
         link: "",
         image: "",
