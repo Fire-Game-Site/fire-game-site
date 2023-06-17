@@ -302,13 +302,13 @@ var games = {
         title: "Connect 4",
         link: "connect4",
         image: "https://arsholde.sirv.com/Images/connect4.jpeg?w=209&h=177&scale.option=ignore",
-        embedLink: "//www.cbc.ca/kidscbc2/content/games/connect_four/index.html"
+        embedLink: ""
     },    
         "cookieclicker": {
         title: "Cookie Clicker",
         link: "cookieclicker",
         image: "",
-        embedLink: ""
+        embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/sk1bx/Cookie@9e0084916e9f198ed201bf47e93e6b0f2bdca5fe/cc.xml"
     },   
         "cookieclicker2": {
         title: "Cookie Clicker 2",
@@ -316,9 +316,9 @@ var games = {
         image: "",
         embedLink: ""
     },   
-        "game": {
-        title: "game",
-        link: "",
+        "basketbros": {
+        title: "Basket Bros",
+        link: "basketbros",
         image: "",
         embedLink: ""
     },     
