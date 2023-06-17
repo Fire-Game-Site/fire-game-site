@@ -309,24 +309,18 @@ var games = {
         link: "cookieclicker",
         image: "",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/sk1bx/Cookie@9e0084916e9f198ed201bf47e93e6b0f2bdca5fe/cc.xml"
-    },   
-        "cookieclicker2": {
-        title: "Cookie Clicker 2",
-        link: "cookieclicker",
-        image: "",
-        embedLink: ""
-    },   
+    },    
         "basketbros": {
         title: "Basket Bros",
         link: "basketbros",
         image: "",
-        embedLink: ""
+        embedLink: "https://basketbros.io/cg/"
     },     
-        "game": {
-        title: "game",
-        link: "",
+        "subwaysurfers": {
+        title: "Subway Surfers",
+        link: "subwaysurfers",
         image: "",
-        embedLink: ""
+        embedLink: "/iframe"
     },    
         "game": {
         title: "game",
