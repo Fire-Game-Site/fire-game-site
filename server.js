@@ -320,19 +320,19 @@ var games = {
         title: "Subway Surfers",
         link: "subwaysurfers",
         image: "",
-        embedLink: "/iframe"
+        embedLink: "https://zayaruzostreetorgan.com/uploads/5/5/6/7/5567194/custom_themes/694498548762407962/surfers.html"
     },    
-        "game": {
-        title: "game",
-        link: "",
+        "stickmanhook": {
+        title: "Stickman Hook",
+        link: "stickmanhook",
         image: "",
-        embedLink: ""
+        embedLink: "https://webglmath.github.io/stickmanhook/"
     },   
-        "game": {
-        title: "game",
-        link: "",
+        "ovo": {
+        title: "OvO",
+        link: "ovo",
         image: "",
-        embedLink: ""
+        embedLink: "https://dedragames.com/games/ovo/1.4/"
     },    
         "game": {
         title: "game",
