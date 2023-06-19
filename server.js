@@ -128,7 +128,7 @@ var games = {
         title: "Flap",
         link: "flap",
         image: "https://arsholde.sirv.com/Images/flap.jpeg?w=209&h=177&scale.option=ignore",
-        embedLink: "https://19042.cache.armorgames.com/files/games/flap-19042/index.html?v=1600193528"
+        embedLink: "https://uploads.ungrounded.net/alternate/1433000/1433473_alternate_94186_r5.zip/?NewgroundsAPI_PublisherID=1&NewgroundsAPI_SandboxID=648fdaf28284d&NewgroundsAPI_SessionID=&NewgroundsAPI_UserName=%26lt%3Bdeleted%26gt%3B&NewgroundsAPI_UserID=0&ng_username=%26lt%3Bdeleted%26gt%3B"
     },
      "8ballpool": {
         title: "8 Ball Pool",
