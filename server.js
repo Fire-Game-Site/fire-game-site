@@ -302,36 +302,36 @@ var games = {
         title: "Connect 4",
         link: "connect4",
         image: "https://arsholde.sirv.com/Images/connect4.jpeg?w=209&h=177&scale.option=ignore",
-        embedLink: ""
+        embedLink: "https://bloobio-fourinarow.coolmathgames.com/fourinarow"
     },    
         "cookieclicker": {
         title: "Cookie Clicker",
         link: "cookieclicker",
-        image: "",
+        image: "https://arsholde.sirv.com/Images/cookieclicker.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/sk1bx/Cookie@9e0084916e9f198ed201bf47e93e6b0f2bdca5fe/cc.xml"
     },    
         "basketbros": {
         title: "Basket Bros",
         link: "basketbros",
-        image: "",
+        image: "https://arsholde.sirv.com/Images/basketbros.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://basketbros.io/cg/"
     },     
         "subwaysurfers": {
         title: "Subway Surfers",
         link: "subwaysurfers",
-        image: "",
+        image: "https://arsholde.sirv.com/Images/subwaysurfers.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://zayaruzostreetorgan.com/uploads/5/5/6/7/5567194/custom_themes/694498548762407962/surfers.html"
     },    
         "stickmanhook": {
         title: "Stickman Hook",
         link: "stickmanhook",
-        image: "",
+        image: "https://arsholde.sirv.com/Images/stickmanhook.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://webglmath.github.io/stickmanhook/"
     },   
         "ovo": {
         title: "OvO",
         link: "ovo",
-        image: "",
+        image: "https://arsholde.sirv.com/Images/ovo.png?w=209&h=177&scale.option=ignore",
         embedLink: "https://dedragames.com/games/ovo/1.4/"
     },    
         "game": {
