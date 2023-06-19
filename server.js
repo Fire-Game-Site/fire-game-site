@@ -128,7 +128,7 @@ var games = {
         title: "Flap",
         link: "flap",
         image: "https://arsholde.sirv.com/Images/flap.jpeg?w=209&h=177&scale.option=ignore",
-        embedLink: "https://19042.cache.armorgames.com/files/games/flap-19042/index.html?v=1600193528"
+        embedLink: "https://www.coolmathgames.com/0-flap/play"
     },
      "8ballpool": {
         title: "8 Ball Pool",
