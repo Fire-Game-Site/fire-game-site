@@ -21,7 +21,7 @@ var games = {
         title: "Paper.io 2",
         link: "paper.io-2",
         image: "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/d2708e8aa31df3fe7b211bca36405d6d.png",
-        embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if10dv@bc085da43274dbed133e925931d26accfded2b79/x6j98kl/d8g3s.xml"
+        embedLink: "https://paper-io.com/"
     },  
         "hexanaut.io": {
         title: "Hexanaut.io",
