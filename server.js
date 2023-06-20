@@ -333,9 +333,9 @@ var games = {
         image: "https://arsholde.sirv.com/Images/ovo.png?w=209&h=177&scale.option=ignore",
         embedLink: "https://dedragames.com/games/ovo/1.4/"
     },    
-        "game": {
-        title: "game",
-        link: "",
+        "error": {
+        title: "error",
+        link: "error",
         image: "",
         embedLink: ""
     },   
