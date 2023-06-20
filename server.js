@@ -128,7 +128,7 @@ var games = {
         title: "Flap",
         link: "flap",
         image: "https://arsholde.sirv.com/Images/flap.jpeg?w=209&h=177&scale.option=ignore",
-        embedLink: "https://uploads.ungrounded.net/alternate/1433000/1433473_alternate_94186_r5.zip/?"
+        embedLink: "https://www.newgrounds.com/portal/view/749633"
      "8ballpool": {
         title: "8 Ball Pool",
         link: "8ballpool",
