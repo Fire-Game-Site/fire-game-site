@@ -125,10 +125,11 @@ var games = {
         embedLink: "https://game316009.konggames.com/gamez/0031/6009/live/index.html"
     },
      "flap": {
-        title: "Flap",
-        link: "flap",
-        image: "https://arsholde.sirv.com/Images/flap.jpeg?w=209&h=177&scale.option=ignore",
-        embedLink: "https://files.acticdn.com/278374/30017/index.html?an_game_version=202009241022"
+         title: "Flap",
+         link: "flap",
+         image: "https://arsholde.sirv.com/Images/flap.jpeg?w=209&h=177&scale.option=ignore",
+         embedLink: "https://files.acticdn.com/278374/30017/index.html?an_game_version=202009241022"
+     },
      "8ballpool": {
         title: "8 Ball Pool",
         link: "8ballpool",
