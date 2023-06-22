@@ -128,7 +128,7 @@ var games = {
          title: "Flap",
          link: "flap",
          image: "https://arsholde.sirv.com/Images/flap.jpeg?w=209&h=177&scale.option=ignore",
-         embedLink: "https://rb.gy/rfrdu"
+         embedLink: "https://files.acticdn.com/278374/30017/index.html?an_game_version=202009241022"
      },
      "8ballpool": {
         title: "8 Ball Pool",
