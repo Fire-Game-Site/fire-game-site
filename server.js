@@ -9,7 +9,7 @@ var games = {
         title: "Defly.io (All Games)", // type the title of the game here
         link: "defly.io", // the title but with link friendly, so no spaces or symbols
         image: "https://arsholde.sirv.com/Images/Untitled.jpg?w=209&h=177&scale.option=ignore", // type the link to the cover image here
-        embedLink: "https://html5gameshq.com/iframed/defly" // type the iframe embed link here
+        embedLink: "https://defly.io/indexFamobi.html?fg_domain=play.famobi.com&fg_aid=A-O9JYH&fg_uid=da7010c7-6f03-460c-891d-8737c569603f&fg_pid=4e5f1429-8e41-4902-8f28-f0662edb1836&fg_beat=134&original_ref=https%3A%2F%2Fplay.famobi.com%2Fdefly%2FA-O9JYH" // type the iframe embed link here
     },
     "paper.io-2": {
         title: "Paper.io 2",
