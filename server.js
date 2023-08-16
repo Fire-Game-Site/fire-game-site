@@ -9,7 +9,7 @@ var games = {
         title: "Defly.io (All Games)", // type the title of the game here
         link: "defly.io", // the title but with link friendly, so no spaces or symbols
         image: "https://arsholde.sirv.com/Images/Untitled.jpg?w=209&h=177&scale.option=ignore", // type the link to the cover image here
-        embedLink: "https://defly.io/" // type the iframe embed link here
+        embedLink: "https://html5gameshq.com/iframed/defly" // type the iframe embed link here
     },
     "paper.io-2": {
         title: "Paper.io 2",
