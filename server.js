@@ -88,18 +88,6 @@ var games = {
         image: "https://arsholde.sirv.com/Images/idlebreakout.png?w=209&h=177&scale.option=ignore",
         embedLink: "https://v6p9d9t4.ssl.hwcdn.net/html/1317921/index.html"
     },
-     "polyblicy": {
-        title: "Polyblicy",
-        link: "polyblicy",
-        image: "https://arsholde.sirv.com/Images/polyblicy.jpeg?w=209&h=177&scale.option=ignore",
-        embedLink: "https://www.gaming-style.com/POLYBLICY/Game/index.php"
-    },
-     "chess": {
-        title: "Chess",
-        link: "chess",
-        image: "https://arsholde.sirv.com/Images/chess.jpeg?w=209&h=177&scale.option=ignore",
-        embedLink: "https://games.s3.yandex.net/98056/97gqo1d58zqyyat5ser6l0pnqqxp3f13/index.html"
-    },
      "eggycar": {
         title: "Eggy Car",
         link: "eggycar",
