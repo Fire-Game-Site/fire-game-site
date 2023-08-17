@@ -88,12 +88,6 @@ var games = {
         image: "https://arsholde.sirv.com/Images/idlebreakout.png?w=209&h=177&scale.option=ignore",
         embedLink: "https://v6p9d9t4.ssl.hwcdn.net/html/1317921/index.html"
     },
-     "spacebarclicker": {
-        title: "Spacebar Clicker",
-        link: "spacebarclicker",
-        image: "https://arsholde.sirv.com/Images/spacebar-clicker.png?w=209&h=177&scale.option=ignore",
-        embedLink: "https://js13kgames.com/games/spacebar-clicker/index.html"
-    },
      "polyblicy": {
         title: "Polyblicy",
         link: "polyblicy",
