@@ -100,36 +100,6 @@ var games = {
         image: "https://arsholde.sirv.com/Images/retrobowl.png?w=209&h=177&scale.option=ignore",
         embedLink: "https://game316009.konggames.com/gamez/0031/6009/live/index.html"
     },
-     "flap": {
-         title: "Flap",
-         link: "flap",
-         image: "https://arsholde.sirv.com/Images/flap.jpeg?w=209&h=177&scale.option=ignore",
-         embedLink: "https://files.acticdn.com/278374/30017/index.html?an_game_version=202009241022"
-     },
-     "8ballpool": {
-        title: "8 Ball Pool",
-        link: "8ballpool",
-        image: "https://arsholde.sirv.com/Images/8ballpool.jpeg?w=209&h=177&scale.option=ignore",
-        embedLink: "//ams.cdn.arkadiumhosted.com/assets/global/game/pool-default/?show_game_end=false&locale=en-us&device_type=pc&arena_name=gamedistribution.arkadiumarena.com&game_name=8%20Ball%20Pool&events=game_start,game_end,pause_ready,event_change,abtest_init,reward_start&play_id=LTUyNzg=?show_game_end=false&locale=en-us&device_type=pc&arena_name=gamedistribution.arkadiumarena.com&game_name=8%20Ball%20Pool&events=game_start,game_end,pause_ready,event_change,abtest_init,reward_start&play_id=LTUyNzg="
-    },
-     "googlebaseball": {
-        title: "Google Doodle Baseball",
-        link: "googlebaseball",
-        image: "https://arsholde.sirv.com/Images/googlebaseball.png?w=209&h=177&scale.option=ignore",
-        embedLink: "https://www.google.com/logos/2019/july4th19/r3/july4th19.html"
-    },
-     "googlecricket": {
-        title: "Google Doodle Cricket",
-        link: "googlecricket",
-        image: "https://arsholde.sirv.com/Images/googlecricket.jpeg?w=209&h=177&scale.option=ignore",
-        embedLink: "https://www.google.com/logos/2017/cricket17/cricket17.html"
-    },
-     "googlesnake": {
-        title: "Google Snake",
-        link: "googlesnake",
-        image: "https://arsholde.sirv.com/Images/googlesnake.jpeg?w=209&h=177&scale.option=ignore",
-        embedLink: "https://snak.ee/google-snake-new/index.html"
-    },
         "awesomeplanes": {
         title: "Awesome Planes",
         link: "awesomeplanes",
