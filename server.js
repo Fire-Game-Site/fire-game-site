@@ -122,7 +122,7 @@ var games = {
         title: "Basketball Stars",
         link: "basketballstars",
         image: "https://arsholde.sirv.com/Images/basketballstars.jpeg?w=209&h=177&scale.option=ignore",
-        embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if3dv@66c73577d404dbf17a688cd4ae3198db4ba840d4/zm48hw/bs.xml"
+        embedLink: "https://webglmath.github.io/basketball-stars/"
     },
         "candycrush": {
         title: "Candy Crush",
