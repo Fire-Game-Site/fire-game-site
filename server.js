@@ -124,23 +124,11 @@ var games = {
         image: "https://arsholde.sirv.com/Images/basketballstars.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://webglmath.github.io/basketball-stars/"
     },
-        "candycrush": {
-        title: "Candy Crush",
-        link: "candycrush",
-        image: "https://arsholde.sirv.com/Images/candycrush.jpeg?w=209&h=177&scale.option=ignore",
-        embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://830581635-628405001538672842.preview.editmysite.com/uploads/b/139890129-709153476852373754/files/cc.xml"
-    },
         "wrestlebros": {
         title: "Wrestle Bros",
         link: "wrestlebros",
         image: "https://arsholde.sirv.com/Images/wrestlebros.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://wrestlebros.io/"
-    },
-        "getawayshootout": {
-        title: "Getaway Shootout",
-        link: "getawayshootout",
-        image: "https://arsholde.sirv.com/Images/getawayshootout.jpeg?w=209&h=177&scale.option=ignore",
-        embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/fr6ks8ab/vi9syd1rm@d2542b2b948a265eddaa25f984368f25fafc1447/g64dh6j/Getaway-Shootout.xml"
     },
         "1v1.lol": {
         title: "1v1.lol",
