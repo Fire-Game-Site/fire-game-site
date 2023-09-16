@@ -154,12 +154,6 @@ var games = {
         image: "https://arsholde.sirv.com/Images/jellytruck.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://webglmath.github.io/jelly-truck/"
     },
-       "penaltykickonline": {
-        title: "Penalty Kick Online",
-        link: "penaltykickonline",
-        image: "https://arsholde.sirv.com/Images/penaltykickonline.jpeg?w=209&h=177&scale.option=ignore",
-        embedLink: "https://rawcdn.githack.com/PenaltyKickOnline/PenaltyKickOnline.github.io/f432955990ac6493d47a17a9e56fbc3e7483713a/index.html"
-    },
         "bigtowertinysquare": {
         title: "Big Tower Tiny Square",
         link: "bigtowertinysquare",
@@ -190,30 +184,12 @@ var games = {
         image: "https://arsholde.sirv.com/Images/bigflappytowertinysquare.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://game.enjoy4fun.com/bigflappytowertinysquare/v1/index.html?uid=ci4i7dcdj1kthv0nc7b0&sid=1686709173182-e110afb7-78fe-4fun-08c9-f4efe9d173a0&channel-id=3487216655&site-id=site_4&zone-id=44233"
     },
-     "supermario": {
-        title: "Super Mario",
-        link: "supermario",
-        image: "https://arsholde.sirv.com/Images/supermario.jpeg?w=209&h=177&scale.option=ignore",
-        embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://395713058-173957204856294731.preview.editmysite.com/uploads/b/139890129-314264279627264120/files/smb.xml"
-    },
-        "stumbleguys": {
-        title: "Stumble Guys",
-        link: "stumbleguys",
-        image: "https://arsholde.sirv.com/Images/stumbleguys.jpeg?w=209&h=177&scale.option=ignore",
-        embedLink: "https://www.stumbleguys.com/play"
-    },    
         "connect4": {
         title: "Connect 4",
         link: "connect4",
         image: "https://arsholde.sirv.com/Images/connect4.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://bloobio-fourinarow.coolmathgames.com/fourinarow"
-    },    
-        "cookieclicker": {
-        title: "Cookie Clicker",
-        link: "cookieclicker",
-        image: "https://arsholde.sirv.com/Images/cookieclicker.jpeg?w=209&h=177&scale.option=ignore",
-        embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/sk1bx/Cookie@9e0084916e9f198ed201bf47e93e6b0f2bdca5fe/cc.xml"
-    },    
+    },   
         "basketbros": {
         title: "Basket Bros",
         link: "basketbros",
@@ -238,9 +214,9 @@ var games = {
         image: "https://arsholde.sirv.com/Images/ovo.png?w=209&h=177&scale.option=ignore",
         embedLink: "https://dedragames.com/games/ovo/1.4/"
     },    
-        "error": {
-        title: "error",
-        link: "error",
+        "Coming Soon!": {
+        title: "Coming Soon!",
+        link: "Coming Soon!",
         image: "",
         embedLink: ""
     },   
