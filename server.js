@@ -148,36 +148,6 @@ var games = {
         image: "https://arsholde.sirv.com/Images/worldshardestgame.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fthe-world-s-hardest-game.xml"
     },
-       "Minecraft1.5.2": {
-        title: "Minecraft 1.5.2",
-        link: "Minecraft1.5.2",
-        image: "https://arsholde.sirv.com/Images/minecraft1.5.2.jpeg?w=209&h=177&scale.option=ignore",
-        embedLink: "https://sd592g.github.io/zj684od4lfg/"
-    },
-       "Minecraft1.8.8": {
-        title: "Minecraft 1.8.8",
-        link: "Minecraft1.8.8",
-        image: "https://arsholde.sirv.com/Images/minecraft1.8.8.jpeg?w=209&h=177&scale.option=ignore",
-        embedLink: "https://eaglercraft.q13x.com"
-    },
-       "flappybird": {
-        title: "Flappy Bird",
-        link: "flappybird",
-        image: "https://arsholde.sirv.com/Images/flappybird.jpeg?w=209&h=177&scale.option=ignore",
-        embedLink: "https://gameshost.io/HTML5GAMES/flappybird/"
-    },
-       "mrbullet": {
-        title: "Mr.Bullet",
-        link: "mrbullet",
-        image: "https://arsholde.sirv.com/Images/mrbullet.jpeg?w=209&h=177&scale.option=ignore",
-        embedLink: "//gameshost.io/HTML5GAMES/mr_bullet/"
-    },
-       "rocketleague": {
-        title: "Rocket League",
-        link: "rocketleague",
-        image: "https://arsholde.sirv.com/Images/rocketleague.jpeg?w=209&h=177&scale.option=ignore",
-        embedLink: "https://g.vseigru.net/10/igra-raketnyj-futbol-derbi/"
-    },
        "jellytruck": {
         title: "Jelly Truck",
         link: "jellytruck",
