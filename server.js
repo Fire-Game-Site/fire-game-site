@@ -216,7 +216,7 @@ var games = {
     },    
         "Coming Soon!": {
         title: "Coming Soon!",
-        link: "Coming Soon!",
+        link: "",
         image: "",
         embedLink: ""
     },   
