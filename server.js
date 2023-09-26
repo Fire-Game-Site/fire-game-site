@@ -8,7 +8,7 @@ var games = {
     "defly.io": { // type the link, same as below, of the game here
         title: "Defly.io (All Games)", // type the title of the game here
         link: "defly.io", // the title but with link friendly, so no spaces or symbols
-        image: "", // type the link to the cover image here
+        image: "https://arsholde.sirv.com/Images/Untitled.jpg?w=209&h=177&scale.option=ignore", // type the link to the cover image here
         embedLink: "https://defly.io/", // type the iframe embed link here
         props: { // list out properties here (developer, release date, etc.). it will dynamically change so add whatever properties you want
 	Developer: "Exodragon Games"
