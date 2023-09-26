@@ -11,7 +11,7 @@ var games = {
         image: "https://arsholde.sirv.com/Images/Untitled.jpg?w=209&h=177&scale.option=ignore", // type the link to the cover image here
         embedLink: "https://defly.io/", // type the iframe embed link here
         props: { // list out properties here (developer, release date, etc.). it will dynamically change so add whatever properties you want
-	Developer: Exodragon Games
+	Developer: "Exodragon Games"
         },
         description: "Defly is an exhilarating, fast-paced battle game where you pilot a helicopter in an active warzone. The goal is to fire your projectiles at the enemy hostiles, popping them on a single successful hit. However, to keep the game from lasting more than five seconds, you can build using the spacebar to place down a tower. Make a connected shape with the towers to gain points. You can also gain points by eliminating hostile players. Use points to level up. Level up to gain +’s. Use +’s to give yourself upgraded attributes, including tower health, firing speed, firing range, and player speed. At level twenty you unlock a superpower, which grants you a special perk which is extremely useful in combat situations!" // type description here
     },
