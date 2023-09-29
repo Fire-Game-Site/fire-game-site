@@ -239,7 +239,7 @@ var games = {
         title: "World's Hardest Game",
         link: "worldshardestgame",
         image: "https://arsholde.sirv.com/Images/worldshardestgame.jpeg?w=209&h=177&scale.option=ignore",
-        embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fthe-world-s-hardest-game.xml",
+        embedLink: "/wp-content/uploads/games/worlds-hardest-game/",
         props: {
             Developer: ""
         },
