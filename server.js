@@ -358,7 +358,7 @@ var games = {
     "runbunbunrun": {
         title: "Run Bun Bun Run (Image Pending)",
         link: "runbunbunrun",
-        image: "",
+        image: "blob:chrome-untrusted://media-app/73bb3f2e-131a-4552-9dfb-932da76dfd8e",
         embedLink: "https://play.gx.games/game-wrapper/83cab7c7-98ab-48aa-b032-14c88d60fc46/index.html?game=bdb67378-d6b5-4ee2-8c1c-77b8cd615b8d&track=2290e893-9b87-4c2b-8a92-7f66c5ed64eb&release=ec8eb2aa-f925-4776-98af-47b25c2bb6b6&gamePlayId=6dd54512-f257-4e69-b253-5ccb319d3b9f&coverImage=https://play.gxc.gg/game/bdb67378-d6b5-4ee2-8c1c-77b8cd615b8d/cover/c36c52ba-95c3-4518-a9ba-f58d6c02c737?cfe6f815c7a9257b4ea7f6afd906db7f&source=https://gx.games",
         props: {
             Developer: ""
