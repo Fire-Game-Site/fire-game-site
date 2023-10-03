@@ -22,7 +22,8 @@ var games = {
         image: "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/d2708e8aa31df3fe7b211bca36405d6d.png",
         embedLink: "https://paper-io.com/",
         props: {
-            Developer: "Voodoo"
+            Developer: "Voodoo",
+            "How To Play": ""
         },
         description: "With tons of fun game modes, it is nearly impossible to describe every individual aspect of every Paper.io 2 game mode. That said,  they always follow a generic pattern. Go outside your area to claim more land, however, if you get “cut”, then you are eliminated and are forced to restart. Try to claim the #1 spot."
     },
@@ -32,7 +33,8 @@ var games = {
         image: "https://arsholde.sirv.com/Images/hexanaut.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://hexanaut.coolmathgames.com",
         props: {
-            Developer: "Voodoo"
+            Developer: "Voodoo",
+            "How To Play": ""
         },
         description: "This game functions very similarly to Paper.IO 2. Use your arrow keys to grow your territory. Use totems to boost your power. When you reach 20% of map control, and if you keep it for 3 minutes, you win the game. "
     },
@@ -42,7 +44,8 @@ var games = {
         image: "https://arsholde.sirv.com/Images/images.jpg",
         embedLink: "https://kdata1.com/2020/05/slope/",
         props: {
-            Developer: "Y8"
+            Developer: "Y8",
+            "How To Play": ""
         },
         description: "This simple, physics based game has you rolling a ball down, get this, a slope. As you get farther, your speed increases, DON'T HIT THE RED BLOCKS! This is a very fun and popular game. Try to set a record. "
     },
@@ -52,7 +55,8 @@ var games = {
         image: "https://arsholde.sirv.com/Images/images.jpeg?w=209&scale.option=ignore",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if10dv@cf85de94e37e2fdb071b8ef5c4f09623682e9955/f12ds3/motox3m.xml",
         props: {
-            Developer: "Madpuffers"
+            Developer: "Madpuffers",
+            "How To Play": ""
         },
         description: "This game is an awesome racing game with cool gameplay. Each course is designed to be fun and entertaining, as well as difficult. Definitely give this game a try. "
     },
@@ -63,6 +67,7 @@ var games = {
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://840137492-163049537400263946.preview.editmysite.com/uploads/b/139890129-622598590552046666/files/mx3m2.xml",
         props: {
             Developer: "Madpuffers"
+            "How To Play": ""
         },
         description: "Just like the OG, but a bit harder. Can you beat every level with 3 stars? "
     },
@@ -72,7 +77,8 @@ var games = {
         image: "https://arsholde.sirv.com/Images/mx3m3.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://486017395-735910036185936427.preview.editmysite.com/uploads/b/139890129-378637188943279878/files/mx3m3.xml",
         props: {
-            Developer: "Madpuffers"
+            Developer: "Madpuffers",
+            "How To Play": ""
         },
         description: "Even Harder! Time everything perfectly, or you'll have to start back at the nearest checkpoint."
     },
@@ -82,7 +88,8 @@ var games = {
         image: "https://arsholde.sirv.com/Images/mx3msl.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://318573026-162284027483016384.preview.editmysite.com/uploads/b/139890129-642750312748978757/files/mx3msl.xml",
         props: {
-            Developer: "Madpuffers"
+            Developer: "Madpuffers",
+            "How To Play": ""
         },
         description: "A classic MOTO X3M game but with a halloween theme."
     },
@@ -92,7 +99,8 @@ var games = {
         image: "https://arsholde.sirv.com/Images/mx3mw.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if10dv@30dcfcb302cb76dee9d919a6ff87ee97b63efe7b/ue4d1w/moto-x3m-winter.xml",
         props: {
-            Developer: "Madpuffers"
+            Developer: "Madpuffers",
+            "How To Play": ""
         },
         description: "A classic MOTO X3M game but with a Christmas theme. "
     },
@@ -102,7 +110,8 @@ var games = {
         image: "https://arsholde.sirv.com/Images/mx3mpp.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://649025137-174029463385024710.preview.editmysite.com/uploads/b/139890129-767696982876512205/files/mx3mpp.xml",
         props: {
-            Developer: "Madpuffers"
+            Developer: "Madpuffers",
+            "How To Play": ""
         },
         description: "A classic MOTO X3M game but with a Summer theme. "
     },
@@ -112,7 +121,8 @@ var games = {
         image: "https://arsholde.sirv.com/Images/run1.png?w=209&h=177&scale.option=ignore",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Frun1.xml",
         props: {
-            Developer: "Joseph Cloutier"
+            Developer: "Joseph Cloutier",
+            "How To Play": ""
         },
         description: "This game is simple… You are a figure trying to explore space by traveling through tunnels and moving from level to level!"
     },
@@ -122,7 +132,8 @@ var games = {
         image: "https://arsholde.sirv.com/Images/run2.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Frun2.xml",
         props: {
-            Developer: "Joseph Cloutier"
+            Developer: "Joseph Cloutier",
+            "How To Play": ""
         },
         description: "This game is simple… You are a figure trying to explore space by traveling through tunnels and moving from level to level! But even harder!!!"
     },
@@ -132,7 +143,8 @@ var games = {
         image: "https://arsholde.sirv.com/Images/run3.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://lekug.github.io/tn6pS9dCf37xAhkJv/",
         props: {
-            Developer: "Joseph Cloutier"
+            Developer: "Joseph Cloutier",
+            "How To Play": ""
         },
         description: "This game is simple… You are a figure trying to explore space by traveling through tunnels and moving from level to level! BUT WAY HARDER!!!"
     },
@@ -142,7 +154,8 @@ var games = {
         image: "https://arsholde.sirv.com/Images/idlebreakout.png?w=209&h=177&scale.option=ignore",
         embedLink: "https://v6p9d9t4.ssl.hwcdn.net/html/1317921/index.html",
         props: {
-            Developer: "Kodiqi"
+            Developer: "Kodiqi",
+            "How To Play": ""
         },
         description: "This is a fun game where you have to upgrade your material to get bigger, more and stronger balls to break the breaks to win each round."
     },
@@ -152,7 +165,8 @@ var games = {
         image: "https://arsholde.sirv.com/Images/eggycar.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://493104753-963057148227461038.preview.editmysite.com/uploads/b/139890129-825858355833705451/files/ecf.xml",
         props: {
-            Developer: "Beedo Games"
+            Developer: "Beedo Games",
+            "How To Play": ""
         },
         description: "This is a super fun game where you have to transport the egg on the car’s roof without dropping, to then earn coins and upgrade your car! But if the egg falls your round is over and your distance will reset."
     },
@@ -162,7 +176,8 @@ var games = {
         image: "https://arsholde.sirv.com/Images/retrobowl.png?w=209&h=177&scale.option=ignore",
         embedLink: "https://game316009.konggames.com/gamez/0031/6009/live/index.html",
         props: {
-            Developer: "New Star Games"
+            Developer: "New Star Games",
+            "How To Play": ""
         },
         description: "Retro Bowl is an American football game in retro style where your purpose is to coach your team and win a prize at the end of each season"
     },
@@ -172,7 +187,8 @@ var games = {
         image: "https://arsholde.sirv.com/Images/awesomeplanes.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://games.kidzsearch.com/computer/flashgame_data/ruffleplayer.html?game=awesome-planes-43646",
         props: {
-            Developer: "Big Dino Games"
+            Developer: "Big Dino Games",
+            "How To Play": ""
         },
         description: "Awesome Planes is a game where you have to shoot down enemy planes and win each round to eventually upgrade your plane to the highest and beat the game!"
     },
@@ -182,7 +198,8 @@ var games = {
         image: "https://arsholde.sirv.com/Images/awesometanks.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://638508418-274639104736829364.preview.editmysite.com/uploads/b/139890129-212982790859809719/files/at1.xml",
         props: {
-            Developer: ""
+            Developer: "Big Dino Games",
+            "How To Play": ""
         },
         description: ""
     },
@@ -192,7 +209,8 @@ var games = {
         image: "https://arsholde.sirv.com/Images/awesometanks2.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://37406915-471836402253847146.preview.editmysite.com/uploads/b/139890129-165727670653336700/files/at2.xml",
         props: {
-            Developer: ""
+            Developer: "Big Dino Games",
+            "How To Play": ""
         },
         description: ""
     },
@@ -202,7 +220,8 @@ var games = {
         image: "https://arsholde.sirv.com/Images/basketballstars.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://webglmath.github.io/basketball-stars/",
         props: {
-            Developer: ""
+            Developer: "Madpuffers",
+            "How To Play": ""
         },
         description: ""
     },
@@ -212,7 +231,8 @@ var games = {
         image: "https://arsholde.sirv.com/Images/wrestlebros.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://wrestlebros.io/",
         props: {
-            Developer: ""
+            Developer: "Blue Wizard Digital",
+            "How To Play": ""
         },
         description: ""
     },
@@ -222,7 +242,8 @@ var games = {
         image: "https://arsholde.sirv.com/Images/1v1lol.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/ko1ov/to@1e8a949f89fcf2b110640c41a0705db01405d161/d7uf4.xml",
         props: {
-            Developer: ""
+            Developer: "JustPlay.lol",
+            "How To Play": ""
         },
         description: ""
     },
@@ -232,7 +253,8 @@ var games = {
         image: "https://arsholde.sirv.com/Images/driftboss.jpeg?w=209&scale.option=ignore",
         embedLink: "https://www.mathplayground.com/drift-boss-v3/index.html",
         props: {
-            Developer: ""
+            Developer: "Math Playground",
+            "How To Play": ""
         },
         description: ""
     },
@@ -242,7 +264,8 @@ var games = {
         image: "https://arsholde.sirv.com/Images/worldshardestgame.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "/wp-content/uploads/games/worlds-hardest-game/",
         props: {
-            Developer: ""
+            Developer: "Armor Games",
+            "How To Play": ""
         },
         description: ""
     },
@@ -252,7 +275,8 @@ var games = {
         image: "https://arsholde.sirv.com/Images/jellytruck.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://webglmath.github.io/jelly-truck/",
         props: {
-            Developer: ""
+            Developer: "CoolMathGames",
+            "How To Play": ""
         },
         description: ""
     },
@@ -262,7 +286,8 @@ var games = {
         image: "https://arsholde.sirv.com/Images/bigtowertinysquare.png?w=209&h=177&scale.option=ignore",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if3dv@52c352908edb192e5f9da18780ba2cd535af5c1b/ge4q26/btts.xml",
         props: {
-            Developer: ""
+            Developer: "Evil Objective",
+            "How To Play": ""
         },
         description: ""
     },
@@ -272,7 +297,8 @@ var games = {
         image: "https://arsholde.sirv.com/Images/bigtowertinysquare2.png?w=209&h=177&scale.option=ignore",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://183662057-183305820582754925.preview.editmysite.com/uploads/b/139890129-258428596653956378/files/btts2.xml",
         props: {
-            Developer: ""
+            Developer: "Evil Objective",
+            "How To Play": ""
         },
         description: ""
     },
@@ -282,7 +308,8 @@ var games = {
         image: "https://arsholde.sirv.com/Images/bigicetowertinysquare.png?w=209&h=177&scale.option=ignore",
         embedLink: "https://v6p9d9t4.ssl.hwcdn.net/html/673441/index.html?v=1542782130",
         props: {
-            Developer: ""
+            Developer: "Evil Objective",
+            "How To Play": ""
         },
         description: ""
     },
@@ -292,7 +319,8 @@ var games = {
         image: "https://arsholde.sirv.com/Images/bigneontowertinysquare.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://v6p9d9t4.ssl.hwcdn.net/html/3818171/Big NEON Tower Itch 1.0/index.html",
         props: {
-            Developer: ""
+            Developer: "Evil Objective",
+            "How To Play": ""
         },
         description: ""
     },
@@ -302,7 +330,8 @@ var games = {
         image: "https://arsholde.sirv.com/Images/bigflappytowertinysquare.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://game.enjoy4fun.com/bigflappytowertinysquare/v1/index.html?uid=ci4i7dcdj1kthv0nc7b0&sid=1686709173182-e110afb7-78fe-4fun-08c9-f4efe9d173a0&channel-id=3487216655&site-id=site_4&zone-id=44233",
         props: {
-            Developer: ""
+            Developer: "Evil Objective",
+            "How To Play": ""
         },
         description: ""
     },
@@ -312,7 +341,7 @@ var games = {
         image: "https://arsholde.sirv.com/Images/connect4.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://bloobio-fourinarow.coolmathgames.com/fourinarow",
         props: {
-            Developer: ""
+            "How To Play": ""
         },
         description: ""
     },
@@ -322,7 +351,8 @@ var games = {
         image: "https://arsholde.sirv.com/Images/basketbros.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://basketbros.io/cg/",
         props: {
-            Developer: ""
+            Developer: "Blue Wizard Digital",
+            "How To Play": ""
         },
         description: ""
     },
@@ -332,7 +362,8 @@ var games = {
         image: "https://arsholde.sirv.com/Images/stickmanhook.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://webglmath.github.io/stickmanhook/",
         props: {
-            Developer: ""
+            Developer: "Madbox",
+            "How To Play": ""
         },
         description: ""
     },
@@ -342,7 +373,8 @@ var games = {
         image: "https://arsholde.sirv.com/Images/ovo.png?w=209&h=177&scale.option=ignore",
         embedLink: "https://dedragames.com/games/ovo/1.4/",
         props: {
-            Developer: ""
+            Developer: "Dedra Games",
+            "How To Play": ""
         },
         description: ""
     },
@@ -352,7 +384,8 @@ var games = {
         image: "blob:chrome-untrusted://media-app/73bb3f2e-131a-4552-9dfb-932da76dfd8e",
         embedLink: "https://play.gx.games/game-wrapper/83cab7c7-98ab-48aa-b032-14c88d60fc46/index.html?game=bdb67378-d6b5-4ee2-8c1c-77b8cd615b8d&track=2290e893-9b87-4c2b-8a92-7f66c5ed64eb&release=ec8eb2aa-f925-4776-98af-47b25c2bb6b6&gamePlayId=6dd54512-f257-4e69-b253-5ccb319d3b9f&coverImage=https://play.gxc.gg/game/bdb67378-d6b5-4ee2-8c1c-77b8cd615b8d/cover/c36c52ba-95c3-4518-a9ba-f58d6c02c737?cfe6f815c7a9257b4ea7f6afd906db7f&source=https://gx.games",
         props: {
-            Developer: ""
+            Developer: "GX Games",
+            "How To Play": ""
         },
         description: ""
     },
