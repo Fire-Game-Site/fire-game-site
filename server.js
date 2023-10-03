@@ -326,16 +326,6 @@ var games = {
         },
         description: ""
     },
-    "subwaysurfers": {
-        title: "Subway Surfers",
-        link: "subwaysurfers",
-        image: "https://arsholde.sirv.com/Images/subwaysurfers.jpeg?w=209&h=177&scale.option=ignore",
-        embedLink: "https://zayaruzostreetorgan.com/uploads/5/5/6/7/5567194/custom_themes/694498548762407962/surfers.html",
-        props: {
-            Developer: ""
-        },
-        description: ""
-    },
     "stickmanhook": {
         title: "Stickman Hook",
         link: "stickmanhook",
