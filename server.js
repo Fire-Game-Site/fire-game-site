@@ -12,7 +12,7 @@ var games = {
         embedLink: "https://defly.io/", // type the iframe embed link here
         props: { // list out properties here (developer, release date, etc.). it will dynamically change so add whatever properties you want
             Developer: "Exodragon Games",
-            "How To Play": "test, coming soon!"
+                "How To Play": "test, coming soon!"
         },
         description: "Defly is an exhilarating, fast-paced battle game where you pilot a helicopter in an active warzone. The goal is to fire your projectiles at the enemy hostiles, popping them on a single successful hit. However, to keep the game from lasting more than five seconds, you can build using the spacebar to place down a tower. Make a connected shape with the towers to gain points. You can also gain points by eliminating hostile players. Use points to level up. Level up to gain +’s. Use +’s to give yourself upgraded attributes, including tower health, firing speed, firing range, and player speed. At level twenty you unlock a superpower, which grants you a special perk which is extremely useful in combat situations!" // type description here
     },
@@ -22,8 +22,8 @@ var games = {
         image: "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/d2708e8aa31df3fe7b211bca36405d6d.png",
         embedLink: "https://paper-io.com/",
         props: {
-            Developer: "Voodoo",
-            "How To Play": "test"
+            Developer: "Vodoo",
+                "How To Play": "test"
         },
         description: "With tons of fun game modes, it is nearly impossible to describe every individual aspect of every Paper.io 2 game mode. That said,  they always follow a generic pattern. Go outside your area to claim more land, however, if you get “cut”, then you are eliminated and are forced to restart. Try to claim the #1 spot."
     },
