@@ -6,7 +6,7 @@ const port = 8080
 
 var games = {
     "defly.io": { // type the link, same as below, of the game here
-        title: "Deflyio (All Games)", // type the title of the game here
+        title: "Defly.io (All Games)", // type the title of the game here
         link: "defly.io", // the title but with link friendly, so no spaces or symbols
         image: "https://arsholde.sirv.com/Images/Untitled.jpg?w=209&h=177&scale.option=ignore", // type the link to the cover image here
         embedLink: "https://defly.io/", // type the iframe embed link here
