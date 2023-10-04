@@ -6,7 +6,7 @@ const port = 8080
 
 var games = {
     "defly.io": { // type the link, same as below, of the game here
-        title: "Defly.io (All Games)", // type the title of the game here
+        title: "Deflyio (All Games)", // type the title of the game here
         link: "defly.io", // the title but with link friendly, so no spaces or symbols
         image: "https://arsholde.sirv.com/Images/Untitled.jpg?w=209&h=177&scale.option=ignore", // type the link to the cover image here
         embedLink: "https://defly.io/", // type the iframe embed link here
@@ -22,7 +22,7 @@ var games = {
         image: "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/d2708e8aa31df3fe7b211bca36405d6d.png",
         embedLink: "https://paper-io.com/",
         props: {
-            Developer: "Vodoo",
+            Developer: "Voodoo",
                 "How To Play": "test"
         },
         description: "With tons of fun game modes, it is nearly impossible to describe every individual aspect of every Paper.io 2 game mode. That said,  they always follow a generic pattern. Go outside your area to claim more land, however, if you get “cut”, then you are eliminated and are forced to restart. Try to claim the #1 spot."
