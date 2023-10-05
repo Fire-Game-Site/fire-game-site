@@ -403,6 +403,10 @@ app.get('/', (req, res) => {
     res.render('index', {games: JSON.stringify(games), firebase: process.env.firebase})
 })
 
+app.get('/privacy-policy', (req, res) => {
+    res.render('md', {title: "Privacy Policy"})
+})
+
 app.get('/contact', (req, res) => {
     res.render('contact', {firebase: process.env.firebase})
 })
