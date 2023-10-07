@@ -27,7 +27,7 @@ var games = {
             Controls: "Arrow Keys, WASD, or mouse-move",
             Objective: "Capture the map"
         },
-        description: "With tons of fun game modes, it is nearly impossible to describe every individual aspect of every Paper.io 2 game mode. That said,  they always follow a generic pattern. Go outside your area to claim more land, however, if you get “cut”, then you are eliminated and are forced to restart. Try to claim the #1 spot."
+        description: "A game all about claiming territory and staying alive, Paper.io 2 has the perfect combination of strategy and skill. With plenty of game modes and customization options, this game can cater to all your gaming needs."
     },
     "hexanaut.io": {
         title: "Hexanaut.io",
@@ -39,7 +39,7 @@ var games = {
             Controls: "WASD/mouse-move",
             Objective: "Capture the map"
         },
-        description: "This game functions very similarly to Paper.IO 2. Use your arrow keys to grow your territory. Use totems to boost your power. When you reach 20% of map control, and if you keep it for 3 minutes, you win the game. "
+        description: "HEXANAUT.IO is a territory-claiming skill based game. With strategic capture points to give you a game-winning advantage, there are endless playstyles to be the best. Additionally, the game offers a multitude of customization options, with characters for everyone."
     },
     "slope": {
         title: "Slope",
@@ -51,7 +51,7 @@ var games = {
             Controls: "Arrows/WASD-move",
             Objective: "Get as far as possible"
         },
-        description: "This simple, physics based game has you rolling a ball down, get this, a slope. As you get farther, your speed increases, DON'T HIT THE RED BLOCKS! This is a very fun and popular game. Try to set a record. "
+        description: "This simple, physics based game has you rolling a ball down a slope. As you get farther, your speed increases. There is only one rule: DON'T HIT THE RED BLOCKS! This game will keep you entertained for hours!"
     },
     "motox3m1": {
         title: "Moto X3M 1",
@@ -63,7 +63,7 @@ var games = {
             Controls: "Up-forward, Down-Backwards, Right-front wheel, Left-back wheel",
             Objective: "Get done as fast as possible"
         },
-        description: "This game is an awesome racing game with cool gameplay. Each course is designed to be fun and entertaining, as well as difficult. Definitely give this game a try. "
+        description: "Fast paced and dependent on skill, this motorcycle game offers plenty of obstacles and courses for you to complete, each level with its different challenges. The objective is to make it to the finish line in the least amount of time, deaths costing you."
     },
     "motox3m2": {
         title: "Moto X3M 2",
@@ -75,7 +75,7 @@ var games = {
             Controls: "Up-forward, Down-Backwards, Right-front wheel, Left-back wheel",
             Objective: "Get done as fast as possible"
         },
-        description: "Just like the OG, but a bit harder. Can you beat every level with 3 stars? "
+        description: "The sequel to the original, filled with all new obstacles for you to complete. Race your motorcycle to the finish line in the fastest time possible for the best score!"
     },
     "motox3m3": {
         title: "Moto X3M 3",
@@ -87,7 +87,7 @@ var games = {
             Controls: "Up-forward, Down-Backwards, Right-front wheel, Left-back wheel",
             Objective: "Get done as fast as possible"
         },
-        description: "Even Harder! Time everything perfectly, or you'll have to start back at the nearest checkpoint."
+        description: "The third installment in the MOTO X3M series, offering even more challenging courses to play through and beat. Remember, faster the better!"
     },
     "motox3m-spookyland": {
         title: "Moto X3M Spooky Land",
@@ -99,7 +99,7 @@ var games = {
             Controls: "Up-forward, Down-Backwards, Right-front wheel, Left-back wheel",
             Objective: "Get done as fast as possible"
         },
-        description: "A classic MOTO X3M game but with a halloween theme."
+        description: "With creepy obstacles and scary challenges, this version of MOTO X3M will keep you on the edge of your seat! Race to the end of the creepy course in the fastest time possible!"
     },
     "motox3m-winter": {
         title: "Moto X3M Winter",
@@ -111,7 +111,7 @@ var games = {
             Controls: "Up-forward, Down-Backwards, Right-front wheel, Left-back wheel",
             Objective: "Get done as fast as possible"
         },
-        description: "A classic MOTO X3M game but with a Christmas theme. "
+        description: "Feeling festive? Race through this Christmas themed land in as little time as possible!"
     },
     "motox3m-poolparty": {
         title: "Moto X3M Pool Party",
@@ -123,7 +123,7 @@ var games = {
             Controls: "Up-forward, Down-Backwards, Right-front wheel, Left-back wheel",
             Objective: "Get done as fast as possible"
         },
-        description: "A classic MOTO X3M game but with a Summer theme. "
+        description: "Cool off and enjoy summer with MOTO X3M Pool Party! With a chill summer vibe and plenty of new obstacles, this is the perfect way to beat the heat!"
     },
     "run1": {
         title: "Run 1",
@@ -135,7 +135,7 @@ var games = {
             Controls: "Up arrow/W-jump, Left and right arrow/A and D-left and right",
             Objective: "Don’t die!"
         },
-        description: "This game is simple… You are a figure trying to explore space by traveling through tunnels and moving from level to level!"
+        description: "A new take on platformer games that really tests your reaction time and skill, make it through the end of the tunnel without taking a trip into space! Remember, with no gravity, you can run on all sides of the tunnel!"
     },
     "run2": {
         title: "Run 2",
@@ -147,7 +147,7 @@ var games = {
             Controls: "Up arrow/W-jump, Left and right arrow/A and D-left and right",
             Objective: "Don’t die!"
         },
-        description: "This game is simple… You are a figure trying to explore space by traveling through tunnels and moving from level to level! But even harder!!!"
+        description: "The sequel to Run 1, with plenty of new levels and challenges for you to complete. Not challenging enough? Use the all new level creator and make your own for you and your friends to beat! Make it through the end of the tunnel without falling into the void of space! Remember, with no gravity, you can run on all sides of the tunnel!"
     },
     "run3": {
         title: "Run 3",
@@ -159,7 +159,7 @@ var games = {
             Controls: "Up arrow/W-jump, Left and right arrow/A and D-left and right",
             Objective: "Don’t die!"
         },
-        description: "This game is simple… You are a figure trying to explore space by traveling through tunnels and moving from level to level! BUT WAY HARDER!!!"
+        description: "The third and newest installment to the Run game series, with tons of new levels and hidden tunnels to complete. With a multitude of characters to unlock and play as with different abilities, any playstyle is supported! Run and jump to the end of the tunnel without falling into the abyss of space! Remember, with no gravity, you can run on all sides of the tunnel!"
     },
     "idlebreakout": {
         title: "Idle Breakout",
@@ -171,7 +171,7 @@ var games = {
             Controls: "Left click-EVERYTHING",
             Objective: "Break all the blocks"
         },
-        description: "This is a fun game where you have to upgrade your material to get bigger, more and stronger balls to break the breaks to win each round."
+        description: "A classic twist on the original game, where in order to complete the level, you have to destroy all the bricks that get increasingly stronger. Buy balls that bounce around and help you destroy those breaks, each with special attributes and abilities."
     },
     "eggycar": {
         title: "Eggy Car",
@@ -183,7 +183,7 @@ var games = {
             Controls: "Right arrow/D-forward, Left arrow/A-backwards",
             Objective: "Survive as long as possible without dying"
         },
-        description: "This is a super fun game where you have to transport the egg on the car’s roof without dropping, to then earn coins and upgrade your car! But if the egg falls your round is over and your distance will reset."
+        description: "Drive as far as you can without crashing your egg! Collect coins along the way to unlock other vehicles and challenge your friends to beat your score!"
     },
     "retrobowl": {
         title: "Retro Bowl",
@@ -195,7 +195,7 @@ var games = {
             Controls: "Left-right arrows- dive, =Mouse- throw, click running back, Up-down-move character up & down",
             Objective: "Win the Retro Bowl!"
         },
-        description: "Retro Bowl is an American football game in retro style where your purpose is to coach your team and win a prize at the end of each season"
+        description: "Retro Bowl is an American football game in retro style where your purpose is to coach your team to victory each season. What will you do as the ultimate coach? Spend coaching credits to upgrade your stadium, and other things!"
     },
     "awesomeplanes": {
         title: "Awesome Planes",
@@ -207,7 +207,7 @@ var games = {
             Controls: "Arrow keys-move, Click-fire missles",
             Objective: "Coming Soon!"
         },
-        description: "Awesome Planes is a game where you have to shoot down enemy planes and win each round to eventually upgrade your plane to the highest and beat the game!"
+        description: "A high speed plane battle game where the objective is to clear the level of all enemy planes! Spend earned cash to buy new weapons and upgrades to help you progress through the increasingly difficult levels!"
     },
     "awesometanks": {
         title: "Awesome Tanks",
@@ -219,7 +219,7 @@ var games = {
             Controls: "Arrow keys/WASD-move, Click-fire, Mouse-Aim",
             Objective: "Coming Soon!"
         },
-        description: ""
+        description: "Fight in battles against enemy tanks and destroy all enemies to beat the increasingly difficult levels! Spend earned cash on new weapons and upgrades to help you beat the game!"
     },
     "awesometanks2": {
         title: "Awesome Tanks 2",
@@ -231,7 +231,7 @@ var games = {
             Controls: "Arrow keys/WASD-move, Click-fire, Mouse-Aim",
             Objective: "Coming Soon!"
         },
-        description: ""
+        description: "The second game in the Awesome Tanks series, with all new levels and weapons for you to try out! Clear each level of all enemies and spend the cash you earn to upgrade your tank into the ultimate destruction machine!"
     },
     "basketballstars": {
         title: "Basketball Stars",
@@ -243,7 +243,7 @@ var games = {
             Controls: "Coming Soon!",
             Objective: "Coming Soon!"
         },
-        description: ""
+        description: "A 2d 1v1 or 2v2 basketball game, where your goal is to win the championship game! Pick a team and shoot your way to victory!"
     },
     "wrestlebros": {
         title: "Wrestle Bros",
@@ -255,7 +255,7 @@ var games = {
             Controls: "W-Jump, A & S-move, Space-attack",
             Objective: "Win the Match"
         },
-        description: ""
+        description: "Fight your way to victory in this fast paced, 2d wrestling game! Choose from a wide range of characters and unleash all shorts of crazy moves to demolish your opponent."
     },
     "1v1.lol": {
         title: "1v1.lol",
@@ -267,7 +267,7 @@ var games = {
             Controls: "Adjustable in settings",
             Objective: "Win!"
         },
-        description: ""
+        description: "Shoot and build your way to victory! Requires a lot of skill and aim and has many different game modes to keep you entertained! Play with strangers or up to 8 friends online!"
     },
     "driftboss": {
         title: "Drift Boss",
@@ -279,7 +279,7 @@ var games = {
             Controls: "Spacebar-turn",
             Objective: "Get as far as possible."
         },
-        description: ""
+        description: "Drift Boss is an incredibly fun game where you have to drift your way through the path and not fall off! The longer you stay on, the more points you earn!. Use coins you collect to activate power ups to increase your score!"
     },
     "worldshardestgame": {
         title: "World's Hardest Game",
@@ -291,7 +291,7 @@ var games = {
             Controls": "WASD-move",
             Objective: "Get to the end without dying."
         },
-        description: ""
+        description: "A simple yet infuriating game where the goal is to get to the end of the level after collecting all the coins. Watch out for the blue squares and circles that will make you start the level over and lose your coins!"
     },
     "jellytruck": {
         title: "Jelly Truck",
@@ -303,7 +303,7 @@ var games = {
             Controls: "Up arrow-move right, Down arrow-move left, Right arrow-lean right, Left arrow-lean left",
             Objective: "Reach the end"
         },
-        description: ""
+        description: "Drive a truck made of jelly to the finish line! With wonky graphics and kooky physics, you’ll have a blast playing Jelly Truck!"
     },
     "bigtowertinysquare": {
         title: "Big Tower Tiny Square",
@@ -315,7 +315,7 @@ var games = {
             Controls: "WASD-Move, Spacebar-jump",
             Objective: "Save the pineapple"
         },
-        description: ""
+        description: "Jump and climb your way up the tower to rescue your friend Pineapple! Each game in this saga gives your square special abilities that will aid you in your journey!"
     },
     "bigtowertinysquare2": {
         title: "Big Tower Tiny Square 2",
@@ -327,7 +327,7 @@ var games = {
             Controls: "WASD-Move, Spacebar-jump",
             Objective: "Save the pineapple"
         },
-        description: ""
+        description: "Jump and climb your way up the tower to rescue your friend Pineapple! Each game in this saga gives your square special abilities that will aid you in your journey!"
     },
     "bigicetowertinysquare": {
         title: "Big Ice Tower Tiny Square",
@@ -339,7 +339,7 @@ var games = {
             Controls: "WASD-Move, Spacebar-jump",
             Objective: "Save the pineapple"
         },
-        description: ""
+        description: "Jump and climb your way up the tower to rescue your friend Pineapple! Each game in this saga gives your square special abilities that will aid you in your journey!"
     }, 
     "bigneontowertinysquare": {
         title: "Big Neon Tower Tiny Square",
@@ -351,7 +351,7 @@ var games = {
             Controls: "WASD-Move, Spacebar-jump",
             Objective: "Save the pineapple"
         },
-        description: ""
+        description: "Jump and climb your way up the tower to rescue your friend Pineapple! Each game in this saga gives your square special abilities that will aid you in your journey!"
     },
     "bigflappytowertinysquare": {
         title: "Big Flappy Tower Tiny Square",
@@ -363,7 +363,7 @@ var games = {
             Controls: "WASD-Move, Spacebar-jump",
             Objective: "Save the pineapple"
         },
-        description: ""
+        description: "Jump and climb your way up the tower to rescue your friend Pineapple! Each game in this saga gives your square special abilities that will aid you in your journey!"
     },
     "connect4": {
         title: "Connect 4",
@@ -374,7 +374,7 @@ var games = {
             Controls: "Left click-everything",
             Objective: "Get 4 pieces in a row!"
         },
-        description: ""
+        description: "A classic connect 4 game digitized! Get 4 of your colored pieces in a row in any direction to win!"
     },
     "basketbros": {
         title: "Basket Bros",
@@ -386,7 +386,7 @@ var games = {
             Controls: "WASD (+G)-Move (and shoot), Arrow keys (+L)- Move (and shoot)",
             Objective: "Win!"
         },
-        description: ""
+        description: "BasketBros is a fast-paced basketball game with online and offline gameplay. Choose a basketballer, customize your style, and compete in singleplayer and multiplayer games. Throw down some sick dunks and win the game to earn upgrades and unlockables."
     },
     "stickmanhook": {
         title: "Stickman Hook",
@@ -398,7 +398,7 @@ var games = {
             Controls: "Spacebar/click-grab nearest grapple point",
             Objective: "Coming Soon!"
         },
-        description: ""
+        description: "Grapple on to grapple points and swing your way through the level to reach the finish line without falling!"
     },
     "ovo": {
         title: "OvO",
@@ -410,7 +410,7 @@ var games = {
             Controls: "Arrow keys/WASD-Move",
             Objective: "Finish the course fast"
         },
-        description: ""
+        description: "Run, jump and dive your way through the course in the least amount of time possible."
     },
     "runbunbunrun": {
         title: "Run Bun Bun Run (ImagePending)",
@@ -422,7 +422,7 @@ var games = {
             Controls: "A/Left Arrow- Jump left, D/Right Arrow-Jump Right",
             Objective: "Coming Soon!"
         },
-        description: ""
+        description: "A game all about reaction time and hand-eye coordination, get your bunny up as high as you can without falling down into the lava!"
     },
 
 
