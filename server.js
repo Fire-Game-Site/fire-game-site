@@ -12,7 +12,8 @@ var games = {
         embedLink: "https://defly.io/", // type the iframe embed link here
         props: { // list out properties here (developer, release date, etc.). it will dynamically change so add whatever properties you want
             Developer: "Exodragon Games",
-            "How To Play": "test, coming soon!"
+            "How To Play": "Arrow keys-move, Spacebar-place tower, Left click-shoot, E-Superpower",
+            Objective: "Capture the map and eliminate all opponents"
         },
         description: "Defly is an exhilarating, fast-paced battle game where you pilot a helicopter in an active warzone. The goal is to fire your projectiles at the enemy hostiles, popping them on a single successful hit. However, to keep the game from lasting more than five seconds, you can build using the spacebar to place down a tower. Make a connected shape with the towers to gain points. You can also gain points by eliminating hostile players. Use points to level up. Level up to gain +’s. Use +’s to give yourself upgraded attributes, including tower health, firing speed, firing range, and player speed. At level twenty you unlock a superpower, which grants you a special perk which is extremely useful in combat situations!" // type description here
     },
@@ -23,7 +24,8 @@ var games = {
         embedLink: "https://paper-io.com/",
         props: {
             Developer: "Voodoo",
-                "How To Play": "test"
+            Controls: "Arrow Keys, WASD, or mouse-move",
+            Objective: "Capture the map"
         },
         description: "With tons of fun game modes, it is nearly impossible to describe every individual aspect of every Paper.io 2 game mode. That said,  they always follow a generic pattern. Go outside your area to claim more land, however, if you get “cut”, then you are eliminated and are forced to restart. Try to claim the #1 spot."
     },
@@ -34,7 +36,8 @@ var games = {
         embedLink: "https://hexanaut.coolmathgames.com",
         props: {
             Developer: "Voodoo",
-            "How To Play": ""
+            Controls: "WASD/mouse-move",
+            Objective: "Capture the map"
         },
         description: "This game functions very similarly to Paper.IO 2. Use your arrow keys to grow your territory. Use totems to boost your power. When you reach 20% of map control, and if you keep it for 3 minutes, you win the game. "
     },
@@ -45,7 +48,8 @@ var games = {
         embedLink: "https://kdata1.com/2020/05/slope/",
         props: {
             Developer: "Y8",
-            "How To Play": ""
+            Controls: "Arrows/WASD-move",
+            Objective: "Get as far as possible"
         },
         description: "This simple, physics based game has you rolling a ball down, get this, a slope. As you get farther, your speed increases, DON'T HIT THE RED BLOCKS! This is a very fun and popular game. Try to set a record. "
     },
@@ -56,7 +60,8 @@ var games = {
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if10dv@cf85de94e37e2fdb071b8ef5c4f09623682e9955/f12ds3/motox3m.xml",
         props: {
             Developer: "Madpuffers",
-            "How To Play": ""
+            Controls: "Up-forward, Down-Backwards, Right-front wheel, Left-back wheel",
+            Objective: "Get done as fast as possible"
         },
         description: "This game is an awesome racing game with cool gameplay. Each course is designed to be fun and entertaining, as well as difficult. Definitely give this game a try. "
     },
@@ -67,7 +72,8 @@ var games = {
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://840137492-163049537400263946.preview.editmysite.com/uploads/b/139890129-622598590552046666/files/mx3m2.xml",
         props: {
             Developer: "Madpuffers",
-            "How To Play": ""
+            Controls: "Up-forward, Down-Backwards, Right-front wheel, Left-back wheel",
+            Objective: "Get done as fast as possible"
         },
         description: "Just like the OG, but a bit harder. Can you beat every level with 3 stars? "
     },
@@ -78,7 +84,8 @@ var games = {
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://486017395-735910036185936427.preview.editmysite.com/uploads/b/139890129-378637188943279878/files/mx3m3.xml",
         props: {
             Developer: "Madpuffers",
-            "How To Play": ""
+            Controls: "Up-forward, Down-Backwards, Right-front wheel, Left-back wheel",
+            Objective: "Get done as fast as possible"
         },
         description: "Even Harder! Time everything perfectly, or you'll have to start back at the nearest checkpoint."
     },
@@ -89,7 +96,8 @@ var games = {
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://318573026-162284027483016384.preview.editmysite.com/uploads/b/139890129-642750312748978757/files/mx3msl.xml",
         props: {
             Developer: "Madpuffers",
-            "How To Play": ""
+            Controls: "Up-forward, Down-Backwards, Right-front wheel, Left-back wheel",
+            Objective: "Get done as fast as possible"
         },
         description: "A classic MOTO X3M game but with a halloween theme."
     },
@@ -100,7 +108,8 @@ var games = {
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if10dv@30dcfcb302cb76dee9d919a6ff87ee97b63efe7b/ue4d1w/moto-x3m-winter.xml",
         props: {
             Developer: "Madpuffers",
-            "How To Play": ""
+            Controls: "Up-forward, Down-Backwards, Right-front wheel, Left-back wheel",
+            Objective: "Get done as fast as possible"
         },
         description: "A classic MOTO X3M game but with a Christmas theme. "
     },
@@ -111,7 +120,8 @@ var games = {
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://649025137-174029463385024710.preview.editmysite.com/uploads/b/139890129-767696982876512205/files/mx3mpp.xml",
         props: {
             Developer: "Madpuffers",
-            "How To Play": ""
+            Controls: "Up-forward, Down-Backwards, Right-front wheel, Left-back wheel",
+            Objective: "Get done as fast as possible"
         },
         description: "A classic MOTO X3M game but with a Summer theme. "
     },
@@ -122,7 +132,8 @@ var games = {
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Frun1.xml",
         props: {
             Developer: "Joseph Cloutier",
-            "How To Play": ""
+            Controls: "Up arrow/W-jump, Left and right arrow/A and D-left and right",
+            Objective: "Don’t die!"
         },
         description: "This game is simple… You are a figure trying to explore space by traveling through tunnels and moving from level to level!"
     },
@@ -133,7 +144,8 @@ var games = {
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Frun2.xml",
         props: {
             Developer: "Joseph Cloutier",
-            "How To Play": ""
+            Controls: "Up arrow/W-jump, Left and right arrow/A and D-left and right",
+            Objective: "Don’t die!"
         },
         description: "This game is simple… You are a figure trying to explore space by traveling through tunnels and moving from level to level! But even harder!!!"
     },
@@ -144,7 +156,8 @@ var games = {
         embedLink: "https://lekug.github.io/tn6pS9dCf37xAhkJv/",
         props: {
             Developer: "Joseph Cloutier",
-            "How To Play": ""
+            Controls: "Up arrow/W-jump, Left and right arrow/A and D-left and right",
+            Objective: "Don’t die!"
         },
         description: "This game is simple… You are a figure trying to explore space by traveling through tunnels and moving from level to level! BUT WAY HARDER!!!"
     },
@@ -155,7 +168,8 @@ var games = {
         embedLink: "https://v6p9d9t4.ssl.hwcdn.net/html/1317921/index.html",
         props: {
             Developer: "Kodiqi",
-            "How To Play": ""
+            Controls: "Left click-EVERYTHING",
+            Objective: "Break all the blocks"
         },
         description: "This is a fun game where you have to upgrade your material to get bigger, more and stronger balls to break the breaks to win each round."
     },
@@ -166,7 +180,8 @@ var games = {
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://493104753-963057148227461038.preview.editmysite.com/uploads/b/139890129-825858355833705451/files/ecf.xml",
         props: {
             Developer: "Beedo Games",
-            "How To Play": ""
+            Controls: "Right arrow/D-forward, Left arrow/A-backwards",
+            Objective: "Survive as long as possible without dying"
         },
         description: "This is a super fun game where you have to transport the egg on the car’s roof without dropping, to then earn coins and upgrade your car! But if the egg falls your round is over and your distance will reset."
     },
@@ -177,7 +192,8 @@ var games = {
         embedLink: "https://game316009.konggames.com/gamez/0031/6009/live/index.html",
         props: {
             Developer: "New Star Games",
-            "How To Play": ""
+            Controls: "Left-right arrows- dive, =Mouse- throw, click running back, Up-down-move character up & down",
+            Objective: "Win the Retro Bowl!"
         },
         description: "Retro Bowl is an American football game in retro style where your purpose is to coach your team and win a prize at the end of each season"
     },
@@ -188,7 +204,8 @@ var games = {
         embedLink: "https://games.kidzsearch.com/computer/flashgame_data/ruffleplayer.html?game=awesome-planes-43646",
         props: {
             Developer: "Big Dino Games",
-            "How To Play": ""
+            Controls: "Arrow keys-move, Click-fire missles",
+            Objective: "Coming Soon!"
         },
         description: "Awesome Planes is a game where you have to shoot down enemy planes and win each round to eventually upgrade your plane to the highest and beat the game!"
     },
@@ -199,7 +216,8 @@ var games = {
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://638508418-274639104736829364.preview.editmysite.com/uploads/b/139890129-212982790859809719/files/at1.xml",
         props: {
             Developer: "Big Dino Games",
-            "How To Play": ""
+            Controls: "Arrow keys/WASD-move, Click-fire, Mouse-Aim",
+            Objective: "Coming Soon!"
         },
         description: ""
     },
@@ -210,7 +228,8 @@ var games = {
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://37406915-471836402253847146.preview.editmysite.com/uploads/b/139890129-165727670653336700/files/at2.xml",
         props: {
             Developer: "Big Dino Games",
-            "How To Play": ""
+            Controls: "Arrow keys/WASD-move, Click-fire, Mouse-Aim",
+            Objective: "Coming Soon!"
         },
         description: ""
     },
@@ -221,7 +240,8 @@ var games = {
         embedLink: "https://webglmath.github.io/basketball-stars/",
         props: {
             Developer: "Madpuffers",
-            "How To Play": ""
+            Controls: "Coming Soon!",
+            Objective: "Coming Soon!"
         },
         description: ""
     },
@@ -232,7 +252,8 @@ var games = {
         embedLink: "https://wrestlebros.io/",
         props: {
             Developer: "Blue Wizard Digital",
-            "How To Play": ""
+            Controls: "W-Jump, A & S-move, Space-attack",
+            Objective: "Win the Match"
         },
         description: ""
     },
@@ -243,7 +264,8 @@ var games = {
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/ko1ov/to@1e8a949f89fcf2b110640c41a0705db01405d161/d7uf4.xml",
         props: {
             Developer: "JustPlay.lol",
-            "How To Play": ""
+            Controls: "Adjustable in settings",
+            Objective: "Win!"
         },
         description: ""
     },
@@ -254,7 +276,8 @@ var games = {
         embedLink: "https://www.mathplayground.com/drift-boss-v3/index.html",
         props: {
             Developer: "Math Playground",
-            "How To Play": ""
+            Controls: "Spacebar-turn",
+            Objective: "Get as far as possible."
         },
         description: ""
     },
@@ -265,7 +288,8 @@ var games = {
         embedLink: "/wp-content/uploads/games/worlds-hardest-game/",
         props: {
             Developer: "Armor Games",
-            "How To Play": ""
+            Controls": "WASD-move",
+            Objective: "Get to the end without dying."
         },
         description: ""
     },
@@ -276,7 +300,8 @@ var games = {
         embedLink: "https://webglmath.github.io/jelly-truck/",
         props: {
             Developer: "CoolMathGames",
-            "How To Play": ""
+            Controls: "Up arrow-move right, Down arrow-move left, Right arrow-lean right, Left arrow-lean left",
+            Objective: "Reach the end"
         },
         description: ""
     },
@@ -287,7 +312,8 @@ var games = {
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if3dv@52c352908edb192e5f9da18780ba2cd535af5c1b/ge4q26/btts.xml",
         props: {
             Developer: "Evil Objective",
-            "How To Play": ""
+            Controls: "WASD-Move, Spacebar-jump",
+            Objective: "Save the pineapple"
         },
         description: ""
     },
@@ -298,7 +324,8 @@ var games = {
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://183662057-183305820582754925.preview.editmysite.com/uploads/b/139890129-258428596653956378/files/btts2.xml",
         props: {
             Developer: "Evil Objective",
-            "How To Play": ""
+            Controls: "WASD-Move, Spacebar-jump",
+            Objective: "Save the pineapple"
         },
         description: ""
     },
@@ -309,7 +336,8 @@ var games = {
         embedLink: "https://v6p9d9t4.ssl.hwcdn.net/html/673441/index.html?v=1542782130",
         props: {
             Developer: "Evil Objective",
-            "How To Play": ""
+            Controls: "WASD-Move, Spacebar-jump",
+            Objective: "Save the pineapple"
         },
         description: ""
     }, 
@@ -320,7 +348,8 @@ var games = {
         embedLink: "https://v6p9d9t4.ssl.hwcdn.net/html/3818171/Big NEON Tower Itch 1.0/index.html",
         props: {
             Developer: "Evil Objective",
-            "How To Play": ""
+            Controls: "WASD-Move, Spacebar-jump",
+            Objective: "Save the pineapple"
         },
         description: ""
     },
@@ -331,7 +360,8 @@ var games = {
         embedLink: "https://game.enjoy4fun.com/bigflappytowertinysquare/v1/index.html?uid=ci4i7dcdj1kthv0nc7b0&sid=1686709173182-e110afb7-78fe-4fun-08c9-f4efe9d173a0&channel-id=3487216655&site-id=site_4&zone-id=44233",
         props: {
             Developer: "Evil Objective",
-            "How To Play": ""
+            Controls: "WASD-Move, Spacebar-jump",
+            Objective: "Save the pineapple"
         },
         description: ""
     },
@@ -341,7 +371,8 @@ var games = {
         image: "https://arsholde.sirv.com/Images/connect4.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://bloobio-fourinarow.coolmathgames.com/fourinarow",
         props: {
-            "How To Play": ""
+            Controls: "Left click-everything",
+            Objective: "Get 4 pieces in a row!"
         },
         description: ""
     },
@@ -352,7 +383,8 @@ var games = {
         embedLink: "https://basketbros.io/cg/",
         props: {
             Developer: "Blue Wizard Digital",
-            "How To Play": ""
+            Controls: "WASD (+G)-Move (and shoot), Arrow keys (+L)- Move (and shoot)",
+            Objective: "Win!"
         },
         description: ""
     },
@@ -363,7 +395,8 @@ var games = {
         embedLink: "https://webglmath.github.io/stickmanhook/",
         props: {
             Developer: "Madbox",
-            "How To Play": ""
+            Controls: "Spacebar/click-grab nearest grapple point",
+            Objective: "Coming Soon!"
         },
         description: ""
     },
@@ -374,7 +407,8 @@ var games = {
         embedLink: "https://dedragames.com/games/ovo/1.4/",
         props: {
             Developer: "Dedra Games",
-            "How To Play": ""
+            Controls: "Arrow keys/WASD-Move",
+            Objective: "Finish the course fast"
         },
         description: ""
     },
@@ -385,7 +419,8 @@ var games = {
         embedLink: "https://play.gx.games/game-wrapper/83cab7c7-98ab-48aa-b032-14c88d60fc46/index.html?game=bdb67378-d6b5-4ee2-8c1c-77b8cd615b8d&track=2290e893-9b87-4c2b-8a92-7f66c5ed64eb&release=ec8eb2aa-f925-4776-98af-47b25c2bb6b6&gamePlayId=6dd54512-f257-4e69-b253-5ccb319d3b9f&coverImage=https://play.gxc.gg/game/bdb67378-d6b5-4ee2-8c1c-77b8cd615b8d/cover/c36c52ba-95c3-4518-a9ba-f58d6c02c737?cfe6f815c7a9257b4ea7f6afd906db7f&source=https://gx.games",
         props: {
             Developer: "GX Games",
-            "How To Play": ""
+            Controls: "A/Left Arrow- Jump left, D/Right Arrow-Jump Right",
+            Objective: "Coming Soon!"
         },
         description: ""
     },
