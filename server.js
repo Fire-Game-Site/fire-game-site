@@ -288,7 +288,7 @@ var games = {
         embedLink: "/wp-content/uploads/games/worlds-hardest-game/",
         props: {
             Developer: "Armor Games",
-            Controls": "WASD-move",
+            Controls: "WASD-move",
             Objective: "Get to the end without dying."
         },
         description: "A simple yet infuriating game where the goal is to get to the end of the level after collecting all the coins. Watch out for the blue squares and circles that will make you start the level over and lose your coins!"
