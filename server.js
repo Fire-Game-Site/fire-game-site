@@ -428,7 +428,7 @@ var games = {
         title: "NO",
         link: "NO",
         image: "",
-        embedLink: "https://github.com/Fire-Game-Site/fire-game-site/blob/master/server.js",
+        embedLink: "https://github.com/",
         props: {
             Developer: "n",
 	        Controls: "n",
