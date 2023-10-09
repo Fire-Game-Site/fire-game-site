@@ -424,17 +424,15 @@ var games = {
         },
         description: "A game all about reaction time and hand-eye coordination, get your bunny up as high as you can without falling down into the lava!"
     },
-     "NO": {
-        title: "NO",
-        link: "NO",
+     "studentmetasite": {
+        title: "Student Meta Site",
+        link: "studentmetasite",
         image: "",
-        embedLink: "https://github.com/",
+        embedLink: "https://sites.google.com/view/finalnews/home?authuser=0",
         props: {
-            Developer: "n",
-	        Controls: "n",
-            Objective: "n"
+            Developer: "Shane S.",
         },
-        description: "n"
+        description: "Check out this really fun site!"
     },
 
 
