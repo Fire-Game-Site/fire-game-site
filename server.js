@@ -431,6 +431,7 @@ var games = {
         embedLink: "https://sites.google.com/view/finalnews/home?authuser=0",
         props: {
             Developer: "Shane S.",
+            Link: "https://sites.google.com/view/finalnews/news/the-school-times-is-back?authuser=0"
         },
         description: "Check out this really fun site!"
     },
