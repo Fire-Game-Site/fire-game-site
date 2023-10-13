@@ -285,7 +285,7 @@ var games = {
         title: "World's Hardest Game",
         link: "worldshardestgame",
         image: "https://arsholde.sirv.com/Images/worldshardestgame.jpeg?w=209&h=177&scale.option=ignore",
-        embedLink: "/wp-content/uploads/games/worlds-hardest-game/",
+        embedLink: "https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fthe-world-s-hardest-game.xml",
         props: {
             Developer: "Armor Games",
             Controls: "WASD-move",
