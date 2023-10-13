@@ -57,7 +57,7 @@ var games = {
         title: "Moto X3M 1",
         link: "motox3m1",
         image: "https://arsholde.sirv.com/Images/images.jpeg?w=209&scale.option=ignore",
-        embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/r3tq6l1/to9d2if10dv@cf85de94e37e2fdb071b8ef5c4f09623682e9955/f12ds3/motox3m.xml",
+        embedLink: "https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/bobydob/JSEngine@99563e3bf6eb25323e3bd5af20dcd9a261b97991/build/m3m/m3m.xml",
         props: {
             Developer: "Madpuffers",
             Controls: "Up-forward, Down-Backwards, Right-front wheel, Left-back wheel",
