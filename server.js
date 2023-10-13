@@ -435,6 +435,20 @@ var games = {
         },
         description: "Check out this really fun site!"
     },
+     "chess": {
+        title: "Chess(Image Pending)",
+        link: "chess",
+        image: "",
+        embedLink: "mobile_chess/index.html",
+        props: {
+            Developer: "Math Playground",
+	        Controls: "",
+            Objective: ""
+        },
+        description: ""
+    },
+
+    
 
 
 
