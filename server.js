@@ -439,7 +439,7 @@ var games = {
         title: "Chess(Image Pending)",
         link: "chess",
         image: "",
-        embedLink: "mobile_chess/index.html",
+        embedLink: "//www.chess.com/emboard?id=11128701",
         props: {
             Developer: "Math Playground",
 	        Controls: "",
