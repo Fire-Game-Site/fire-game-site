@@ -439,7 +439,7 @@ var games = {
         title: "Chess(Image Pending)",
         link: "chess",
         image: "",
-        embedLink: "//www.chess.com/emboard?id=11128701",
+        embedLink: "https://share.chessbase.com/SharedGames/game/?p=2pM/jkZ9f9jCDyowOHQtgD1ZPXJmtMiFTgwzHQ/oASXgXVQkYMybQVeIc0vjKb0z",
         props: {
             Developer: "Math Playground",
 	        Controls: "",
