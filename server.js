@@ -451,9 +451,7 @@ var games = {
         title: "Big Sites",
         link: "bigsites",
         image: "https://arsholde.sirv.com/Big%20news.png?w=209&h=177&scale.option=ignore",
-        embedLink: "https://ci3.googleusercontent.com/mail-img-att/AM67uIMoT-4DX84Toe8Fn5PDgIWv1U3zSbi1IdFcMJwwLD6BDVUpsd5OEd0K75rt1A2YI3XG2cP1BzNPhf-LnzuUMenbKF9yNAsOdpWe-KNayCGiWD1qQAQfRukH6kS5FoDu01avNRnts1efdbWfa9uPIa4dipvYd7KuZ3ZXWnas8YIzuq3XXHaD9C9m0J-_zAFO2lUnam1CYChiCz__5r_Gscg_3bEQxwz4aQVMfX-IwRvq7NRlm1f86NEBv23KchB-9_PAd9DgwvqXT8bQsJbCbGPw5TWCu5NbwATpK9a2TXbbDVKpifucdaG81bb9MpzPqRkfqpfHYYK7xzl9RHxL09RTYyY2pPkf4ZMSQFPyepNE553g9jW6GsjxOZBewwbSc0BBRdkuL5eht6nZXHwCVvVChhxUwmxlgCH18-b0iUQ85gNpbhT56SbQSabLoedvM59Lzc4JKj-_qssZmxzBJeu4x88cGOFacChv-YuXIvajAdRYa8LksQqiLOCxi_j6P-EDeg6nIhp4FlmtyK0tl5tqWMZppB_V-yP7-rRU1cc3LzJuzoou3_ysCpD99lKh_secLUZnh7vHmvtxcB52O5T7znTxVWK7lnODNuPP_Vz5fR88_C4Gff99rcIUYKM8abkTGKd9IogMHvz3CXQIovFEV4A4IQVpoXxezBzYdti6Q9Ewn2J7LyFW2tCtPDNUWHDCMU0uLvA566KYfxi4d3WCY_H1vunPhCOqYlnrML7D3o2UAWsAwizfyhgpqQgFpuOMfHmVnrQvhFiLBbp8yLi0ZUZmRQMO45oRp0zmNFCwD34xaJPqRD7PiuYkfl4lkef4PNF7UoGVbhohd_NoV74O3Ts1kgcTiP6HrwbVRbBwi5fPrAGFbjYOHVpEypKIFW1Q3qHyxVVv_LDV94OHPAMrUApUuCMe1CpTauzmbeifikSsT8LFjIh7LbeVTliprB37H0hMh4oniPTNx2paxa-8PUFRdGVRo7Tx-VFeiqmX1_td5TBq3JbytFGriLjRk4ILcxFQhYC1jWG9yylbajwnivdbuWSdaut7wIO9w1OBqdlGZ76WlyrSHWhlrk6V-OVF9h0dKWtS5fSNeXd93W2PyxFIyy5Ab-TDxZ0J6gWtHCmH3k-r2nyZ9EhbtQ=s0-l75-ft",
-        props: {
-            Developer: "Anthony C.",
+        embedLink: "https://arsholde.sirv.com/Big%20news.png",
 	link: "https://sites.google.com/view/biggestsite/home?authuser=0"
     },
 	 description: "BIG News is back and stronger than ever! (picture above is not the current site) Check out the BIG things happening world wide and all of our BIG features. We are the BIGGEST and best news!"      
