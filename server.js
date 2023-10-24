@@ -452,9 +452,11 @@ var games = {
         link: "bigsites",
         image: "https://arsholde.sirv.com/Big%20news.png?w=209&h=177&scale.option=ignore",
         embedLink: "https://arsholde.sirv.com/Big%20news.png",
-	link: "https://sites.google.com/view/biggestsite/home?authuser=0"
-    },
-	 description: "BIG News is back and stronger than ever! (picture above is not the current site) Check out the BIG things happening world wide and all of our BIG features. We are the BIGGEST and best news!"      
+	props: {
+            Developer: "Anthony C.",
+            link: "https://sites.google.com/view/biggestsite/home?authuser=0"
+        },
+	 description: "BIG News is back and stronger than ever! (picture above is not the current site) Check out the BIG things happening world wide and all of our BIG features. We are the BIGGEST and best news!" 
       },
 
 
