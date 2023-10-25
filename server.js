@@ -261,7 +261,7 @@ var games = {
         title: "1v1.lol",
         link: "1v1.lol",
         image: "https://arsholde.sirv.com/Images/1v1lol.jpeg?w=209&h=177&scale.option=ignore",
-        embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/ko1ov/to@1e8a949f89fcf2b110640c41a0705db01405d161/d7uf4.xml",
+        embedLink: "https://1v1.lol/",
         props: {
             Developer: "JustPlay.lol",
             Controls: "Adjustable in settings",
