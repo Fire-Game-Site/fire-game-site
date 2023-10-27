@@ -293,6 +293,18 @@ var games = {
         },
         description: "A simple yet infuriating game where the goal is to get to the end of the level after collecting all the coins. Watch out for the blue squares and circles that will make you start the level over and lose your coins!"
     },
+	"worldshardestgame2": {
+        title: "Worlds Hardest Game 2 (Image Pending)",
+        link: "worldshardestgame2",
+        image: "",
+        embedLink: "/games/swf-games/the-worlds-hardest-game-2/the-worlds-hardest-game-2.swf",
+        props: {
+            Developer: "",
+	Controls: "",
+            Objective: ""
+        },
+        description: ""
+    },
     "jellytruck": {
         title: "Jelly Truck",
         link: "jellytruck",
@@ -469,6 +481,107 @@ var games = {
         },
         description: ""
     },
+	"snowrider": {
+        title: "Snow Rider 3D (Image Pending)",
+        link: "snowrider",
+        image: "",
+        embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/sk1bx/89574567@71f165531792ae450fe0a522a52ba4e827344de2/sr3d.xml",
+        props: {
+            Developer: "",
+	Controls: "",
+            Objective: ""
+        },
+        description: ""
+    },
+	"deathrun": {
+        title: "Death Run 3D (Image Pending)",
+        link: "deathrun",
+        image: "",
+        embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/sk1bx/version@93f7f60b0f054c956ca9b6622f2daeeeb450632c/death_run.xml",
+        props: {
+            Developer: "",
+	Controls: "",
+            Objective: ""
+        },
+        description: ""
+    },
+	"impossiblegame": {
+        title: "The Impossible Game (Image Pending)",
+        link: "impossiblegame",
+        image: "",
+        embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fthe-impossible-game.xml",
+        props: {
+            Developer: "",
+	Controls: "",
+            Objective: ""
+        },
+        description: ""
+    },
+	"geometrydash": {
+        title: "Geometry Dash (Image Pending)",
+        link: "geometrydash",
+        image: "",
+        embedLink: "https://geometrydashlite.co/game/geometry-dash-lite/",
+        props: {
+            Developer: "",
+	Controls: "",
+            Objective: ""
+        },
+        description: ""
+    },
+	"game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: "",
+        props: {
+            Developer: "",
+	Controls: “”,
+            Objective: ""
+        },
+        description: ""
+    },
+	"game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: "",
+        props: {
+            Developer: "",
+	Controls: “”,
+            Objective: ""
+        },
+        description: ""
+    },
+	"game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: "",
+        props: {
+            Developer: "",
+	Controls: “”,
+            Objective: ""
+        },
+        description: ""
+    },
+	"game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: "",
+        props: {
+            Developer: "",
+	Controls: “”,
+            Objective: ""
+        },
+        description: ""
+    },
+
+
+
+
+
 
 
 
