@@ -536,7 +536,7 @@ var games = {
         embedLink: "",
         props: {
             Developer: "",
-	Controls: “”,
+	Controls: "",
             Objective: ""
         },
         description: ""
@@ -548,7 +548,7 @@ var games = {
         embedLink: "",
         props: {
             Developer: "",
-	Controls: “”,
+	Controls: "",
             Objective: ""
         },
         description: ""
@@ -560,7 +560,7 @@ var games = {
         embedLink: "",
         props: {
             Developer: "",
-	Controls: “”,
+	Controls: "",
             Objective: ""
         },
         description: ""
@@ -572,7 +572,7 @@ var games = {
         embedLink: "",
         props: {
             Developer: "",
-	Controls: “”,
+	Controls: "",
             Objective: ""
         },
         description: ""
