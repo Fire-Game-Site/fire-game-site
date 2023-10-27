@@ -329,18 +329,6 @@ var games = {
         },
         description: "Jump and climb your way up the tower to rescue your friend Pineapple! Each game in this saga gives your square special abilities that will aid you in your journey!"
     },
-    "bigtowertinysquare2": {
-        title: "Big Tower Tiny Square 2",
-        link: "bigtowertinysquare2",
-        image: "https://arsholde.sirv.com/Images/bigtowertinysquare2.png?w=209&h=177&scale.option=ignore",
-        embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://183662057-183305820582754925.preview.editmysite.com/uploads/b/139890129-258428596653956378/files/btts2.xml",
-        props: {
-            Developer: "Evil Objective",
-            Controls: "WASD-Move, Spacebar-jump",
-            Objective: "Save the pineapple"
-        },
-        description: "Jump and climb your way up the tower to rescue your friend Pineapple! Each game in this saga gives your square special abilities that will aid you in your journey!"
-    },
     "bigicetowertinysquare": {
         title: "Big Ice Tower Tiny Square",
         link: "bigicetowertinysquare",
@@ -370,6 +358,18 @@ var games = {
         link: "bigflappytowertinysquare",
         image: "https://arsholde.sirv.com/Images/bigflappytowertinysquare.jpeg?w=209&h=177&scale.option=ignore",
         embedLink: "https://game.enjoy4fun.com/bigflappytowertinysquare/v1/index.html?uid=ci4i7dcdj1kthv0nc7b0&sid=1686709173182-e110afb7-78fe-4fun-08c9-f4efe9d173a0&channel-id=3487216655&site-id=site_4&zone-id=44233",
+        props: {
+            Developer: "Evil Objective",
+            Controls: "WASD-Move, Spacebar-jump",
+            Objective: "Save the pineapple"
+        },
+        description: "Jump and climb your way up the tower to rescue your friend Pineapple! Each game in this saga gives your square special abilities that will aid you in your journey!"
+    },
+    "bigtowertinysquare2": {
+        title: "Big Tower Tiny Square 2",
+        link: "bigtowertinysquare2",
+        image: "https://arsholde.sirv.com/Images/bigtowertinysquare2.png?w=209&h=177&scale.option=ignore",
+        embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://183662057-183305820582754925.preview.editmysite.com/uploads/b/139890129-258428596653956378/files/btts2.xml",
         props: {
             Developer: "Evil Objective",
             Controls: "WASD-Move, Spacebar-jump",
