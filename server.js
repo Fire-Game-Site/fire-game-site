@@ -458,6 +458,17 @@ var games = {
         },
 	 description: "BIG News is back and stronger than ever! (picture above is not the current site) Check out the BIG things happening world wide and all of our BIG features. We are the BIGGEST and best news!" 
       },
+	"wordle": {
+        title: "Wordle (Image Pending)",
+        link: "wordle",
+        image: "",
+        embedLink: "https://wordlegame.org/",
+        props: {
+            Developer: "wordlegame.org",
+            Objective: ""
+        },
+        description: ""
+    },
 
 
 
