@@ -297,7 +297,7 @@ var games = {
         title: "Worlds Hardest Game 2 (Image Pending)",
         link: "worldshardestgame2",
         image: "",
-        embedLink: "/games/swf-games/the-worlds-hardest-game-2/the-worlds-hardest-game-2.swf",
+        embedLink: "https://cdn.jsdelivr.net/gh/classroom-google-p/ruff@main/ruffle.js",
         props: {
             Developer: "",
 	Controls: "",
