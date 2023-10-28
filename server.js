@@ -297,7 +297,7 @@ var games = {
         title: "Worlds Hardest Game 2 (Image Pending)",
         link: "worldshardestgame2",
         image: "",
-        embedLink: "https://cdn.jsdelivr.net/gh/classroom-google-p/ruff@main/ruffle.js",
+        embedLink: "https://webglmath.github.io/worlds-hardest-game-2/",
         props: {
             Developer: "",
 	Controls: "",
