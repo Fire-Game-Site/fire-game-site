@@ -18,7 +18,7 @@ var games = {
         description: "Defly is an exhilarating, fast-paced battle game where you pilot a helicopter in an active warzone. The goal is to fire your projectiles at the enemy hostiles, popping them on a single successful hit. However, to keep the game from lasting more than five seconds, you can build using the spacebar to place down a tower. Make a connected shape with the towers to gain points. You can also gain points by eliminating hostile players. Use points to level up. Level up to gain +’s. Use +’s to give yourself upgraded attributes, including tower health, firing speed, firing range, and player speed. At level twenty you unlock a superpower, which grants you a special perk which is extremely useful in combat situations!" // type description here
     },
     "paper.io-2": {
-        title: "Paper.io2",
+        title: "Paper.io 2",
         link: "paper.io-2",
         image: "https://img.poki.com/cdn-cgi/image/quality=78,width=600,height=600,fit=cover,f=auto/d2708e8aa31df3fe7b211bca36405d6d.png",
         embedLink: "https://paper-io.com/",
