@@ -15,11 +15,7 @@
     <script>
         // Sample data to search within (replace with your own data)
         const data = [
-            "Item 1",
-            "Item 2",
-            "Item 3",
-            "Item 4",
-            "Item 5",
+            "slope"
         ];
 
         const searchInput = document.getElementById("search-input");
