@@ -45,8 +45,14 @@
         // Event listener for input changes
         searchInput.addEventListener("input", function () {
             const query = searchInput.value;
-            performSearch(query);
+            if (query === "") {
+                searchResults.innerHTML = ""; // Clear the search results
+            } else {
+                performSearch(query);
+            }
         });
     </script>
 </body>
+</html>
+
 </html>
