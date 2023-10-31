@@ -602,6 +602,10 @@ app.get('/', (req, res) => {
     res.render('index', {games: JSON.stringify(games), firebase: process.env.firebase})
 })
 
+app.get('/ads.txt', (req, res) => {
+    res.send('google.com, pub-2261681163241464, DIRECT, f08c47fec0942fa0')
+})
+
 app.get('/privacy-policy', (req, res) => {
     res.render('md', {title: "Privacy Policy"})
 })
