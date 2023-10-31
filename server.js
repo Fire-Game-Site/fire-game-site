@@ -4,6 +4,11 @@ const mustache = require('mustache-express');
 const app = express()
 const port = 8080
 
+var announcement = { // both support html, so if you want something like a link use <a> or if you want a newline use <br />
+    title: "New Games",
+    description: "In our most recent update, we have added games including:<br /><ul><li><a href='/runbunbunrun'>Run Bun Bun Run</a></li><li><a href='/chess'>Chess</a></li><li><a href='/wordle'>Wordle</a></li><li><a href='/snowrider'>Snow Rider 3D</a></li><li><a href='/deathrun'>Death Run 3D</a></li><li><a href='/impossiblegame'>The Impossible Game</a></li><li><a href='/geometrydash'>Geometry Dash</a></li></ul>"
+}
+
 var games = {
     "defly.io": { // type the link, same as below, of the game here
         title: "Defly.io (All Games)", // type the title of the game here
@@ -599,7 +604,7 @@ app.set('view engine', 'mustache');
 app.set('views', __dirname);
 
 app.get('/', (req, res) => {
-    res.render('index', {games: JSON.stringify(games), firebase: process.env.firebase})
+    res.render('index', {games: JSON.stringify(games), firebase: process.env.firebase, title: announcement.title, desc: announcement.description})
 })
 
 app.get('/ads.txt', (req, res) => {
