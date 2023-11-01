@@ -534,54 +534,6 @@ var games = {
         },
         description: ""
     },
-	"game": {
-        title: "game",
-        link: "",
-        image: "",
-        embedLink: "",
-        props: {
-            Developer: "",
-	Controls: "",
-            Objective: ""
-        },
-        description: ""
-    },
-	"game": {
-        title: "game",
-        link: "",
-        image: "",
-        embedLink: "",
-        props: {
-            Developer: "",
-	Controls: "",
-            Objective: ""
-        },
-        description: ""
-    },
-	"game": {
-        title: "game",
-        link: "",
-        image: "",
-        embedLink: "",
-        props: {
-            Developer: "",
-	Controls: "",
-            Objective: ""
-        },
-        description: ""
-    },
-	"game": {
-        title: "game",
-        link: "",
-        image: "",
-        embedLink: "",
-        props: {
-            Developer: "",
-	Controls: "",
-            Objective: ""
-        },
-        description: ""
-    },
 
 
 
