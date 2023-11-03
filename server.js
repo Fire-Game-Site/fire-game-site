@@ -583,7 +583,7 @@ app.get('/:game', (req, res) => {
         }
         if (!!games[req.params.game]['description']) {
             var descBool = `<div style="width: 100%; height: 3px; border-radius: 1.5px; background: #FFFFFF;" ></div>`
-            var desc = `<p style="width: 100%; color: #FFFFFF; font-family: Poppins, system-ui; font-size: 20px; font-weight: 500;">${games[req.params.game]['description']}</p>`
+            var desc = `<p style="width: 100%; color: #FFFFFF; font-family: Poppins, system-ui; font-size: 20px; font-weight: 500; text-align: center;">${games[req.params.game]['description']}</p>`
         }
         res.render('game', {title: games[req.params.game]['title'], embed: games[req.params.game]['embedLink'], firebase: process.env.firebase, propsBool: propsBool, props: props, descBool: descBool, desc: desc})
     } else {
