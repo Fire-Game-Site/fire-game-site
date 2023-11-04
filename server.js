@@ -2,7 +2,7 @@ const express = require("express")
 const path = require("path")
 const mustache = require('mustache-express');
 const app = express()
-const port = 8080
+const port = 10000
 
 var announcement = { // both support html, so if you want something like a link use <a> or if you want a newline use <br />
     title: "Annnouncements",
