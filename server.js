@@ -534,21 +534,6 @@ var games = {
         },
         description: ""
     },
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
 }
 
 app.engine('mustache', mustache());
@@ -561,6 +546,14 @@ app.get('/', (req, res) => {
 
 app.get('/ads.txt', (req, res) => {
     res.send('google.com, pub-2261681163241464, DIRECT, f08c47fec0942fa0')
+})
+
+app.get('/sitemap.txt', (req, res) => {
+    let sitemap = 'https://firegamesite.com/\nhttps://firegamesite.com/ads.txt\nhttps://firegamesite.com/privacy-policy\nhttps://firegamesite.com/contact\n'
+    for (const i in games) {
+        sitemap += `https://firegamesite.com/${i}\n`
+    }
+    res.send(sitemap)
 })
 
 app.get('/privacy-policy', (req, res) => {
