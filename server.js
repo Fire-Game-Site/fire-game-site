@@ -498,18 +498,6 @@ var games = {
         },
         description: ""
     },
-	"deathrun": {
-        title: "Death Run 3D (Image Pending)",
-        link: "deathrun",
-        image: "",
-        embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/sk1bx/version@93f7f60b0f054c956ca9b6622f2daeeeb450632c/death_run.xml",
-        props: {
-            Developer: "",
-	Controls: "",
-            Objective: ""
-        },
-        description: ""
-    },
 	"impossiblegame": {
         title: "The Impossible Game (Image Pending)",
         link: "impossiblegame",
