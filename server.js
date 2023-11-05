@@ -10,7 +10,7 @@ var announcement = { // both support html, so if you want something like a link 
 }
 
 var games = {
-  "ytchannel": {  // type the link, same as below, of the game here
+  	"ytchannel": {  // type the link, same as below, of the game here
         title: "The Fire Games Official Youtube Channel", // type the title of the game here
         link: "ytchannel", // the title but with link friendly, so no spaces or symbols
         image: "https://arsholde.sirv.com/logo.jpg?w=209&h=176&scale.option=ignore", // type the link to the cover image here
