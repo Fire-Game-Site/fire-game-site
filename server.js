@@ -6,7 +6,7 @@ const port = 10000
 
 var announcement = { // both support html, so if you want something like a link use <a> or if you want a newline use <br />
     title: "Annnouncements",
-    description: "We now have an announcement board! On this, we will post when new games are added as well as updates to our site. Stay tuned! <br />In our most recent update, we have added games including:<br /><ul><li><a href='/runbunbunrun'>Run Bun Bun Run</a></li><li><a href='/chess'>Chess</a></li><li><a href='/wordle'>Wordle</a></li><li><a href='/snowrider'>Snow Rider 3D</a></li><li><a href='/deathrun'>Death Run 3D</a></li><li><a href='/impossiblegame'>The Impossible Game</a></li><li><a href='/geometrydash'>Geometry Dash</a></li></ul>"
+    description: "We now have an announcement board! On this, we will post when new games are added as well as updates to our site. Stay tuned! <br />November 5, 2023: Unfortunately, the game, Death Run 3D, has been removed from the Fire Game Site. This is due to numerous user complains as well as technical difficulties. We hope that we can bring this game back in the future! <br />In our most recent update, we have added games including:<br /><ul><li><a href='/runbunbunrun'>Run Bun Bun Run</a></li><li><a href='/chess'>Chess</a></li><li><a href='/wordle'>Wordle</a></li><li><a href='/snowrider'>Snow Rider 3D</a></li><li><a href='/impossiblegame'>The Impossible Game</a></li><li><a href='/geometrydash'>Geometry Dash</a></li></ul>"
 }
 
 var games = {
