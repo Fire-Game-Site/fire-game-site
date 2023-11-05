@@ -6,7 +6,7 @@ const port = 10000
 
 var announcement = { // both support html, so if you want something like a link use <a> or if you want a newline use <br />
     title: "Annnouncements",
-    description: "Make sure to SUBSCRIBE to our youtobe channel! (It's the first box) <br />  <br />November 5, 2023: Unfortunately, the game, Death Run 3D, has been removed from the Fire Game Site. This is due to numerous user complains as well as technical difficulties. We hope that we can bring this game back in the future! <br />  <br />In our most recent update, we have added games including:<br /><ul><li><a href='/runbunbunrun'>Run Bun Bun Run</a></li><li><a href='/chess'>Chess</a></li><li><a href='/wordle'>Wordle</a></li><li><a href='/snowrider'>Snow Rider 3D</a></li><li><a href='/impossiblegame'>The Impossible Game</a></li><li><a href='/geometrydash'>Geometry Dash</a></li></ul>"
+    description: "Make sure to SUBSCRIBE to our <a href='https://youtube.com/@firegames52123?si=tdwqa6Hx4Emqtfbb'>Youtube Channel!</a> <br />  <br />November 5, 2023: Unfortunately, the game, Death Run 3D, has been removed from the Fire Game Site. This is due to numerous user complains as well as technical difficulties. We hope that we can bring this game back in the future! <br />  <br />In our most recent update, we have added games including:<br /><ul><li><a href='/runbunbunrun'>Run Bun Bun Run</a></li><li><a href='/chess'>Chess</a></li><li><a href='/wordle'>Wordle</a></li><li><a href='/snowrider'>Snow Rider 3D</a></li><li><a href='/impossiblegame'>The Impossible Game</a></li><li><a href='/geometrydash'>Geometry Dash</a></li></ul>"
 }
 
 var games = {
@@ -17,7 +17,7 @@ var games = {
         embedLink: "https://youtube.com/@firegames52123?si=tdwqa6Hx4Emqtfbb", // type the iframe embed link here
         props: { // list out properties here (developer, release date, etc.). it will dynamically change so add whatever properties you want
             Subscribe: "For gameplay videos and promotional content!",
-            Link: "https://youtube.com/@firegames52123?si=tdwqa6Hx4Emqtfbb"
+            Link: "<a href='https://youtube.com/@firegames52123?si=tdwqa6Hx4Emqtfbb'>Subscribe to our Youtube Channel HERE</a>"
         },
         "defly.io": {  // type the link, same as below, of the game here
             title: "Defly.io (All Games)", // type the title of the game here
@@ -457,7 +457,7 @@ var games = {
             embedLink: "https://sites.google.com/view/finalnews/home?authuser=0",
             props: {
                 Developer: "Shane S.",
-                Link: "https://sites.google.com/view/finalnews/news/the-school-times-is-back?authuser=0"
+                Link: "<a href='https://sites.google.com/view/finalnews/news/the-school-times-is-back?authuser=0'>View the Student Meta Site HERE</a>"
             },
             description: "Check out this really fun site!"
         },
@@ -480,7 +480,7 @@ var games = {
             embedLink: "https://arsholde.sirv.com/Big%20news.png",
             props: {
                 Developer: "Anthony C.",
-                link: "https://sites.google.com/view/biggestsite/home?authuser=0"
+                link: "<a href='https://sites.google.com/view/biggestsite/home?authuser=0'>View BIG Sites HERE</a>"
             },
             description: "BIG News is back and stronger than ever! (picture above is not the current site) Check out the BIG things happening world wide and all of our BIG features. We are the BIGGEST and best news!"
         },
