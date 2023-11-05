@@ -10,7 +10,16 @@ var announcement = { // both support html, so if you want something like a link 
 }
 
 var games = {
-    "defly.io": {  // type the link, same as below, of the game here
+  "ytchannel": {  // type the link, same as below, of the game here
+        title: "The Fire Games Official Youtube Channel", // type the title of the game here
+        link: "ytchannel", // the title but with link friendly, so no spaces or symbols
+        image: "https://arsholde.sirv.com/logo.jpg?w=209&h=176&scale.option=ignore", // type the link to the cover image here
+        embedLink: "https://youtube.com/@firegames52123?si=tdwqa6Hx4Emqtfbb", // type the iframe embed link here
+        props: { // list out properties here (developer, release date, etc.). it will dynamically change so add whatever properties you want
+            Subscribe: "For gameplay videos and promotional content!",
+	    Link: "https://youtube.com/@firegames52123?si=tdwqa6Hx4Emqtfbb"
+   },
+	"defly.io": {  // type the link, same as below, of the game here
         title: "Defly.io (All Games)", // type the title of the game here
         link: "defly.io", // the title but with link friendly, so no spaces or symbols
         image: "https://arsholde.sirv.com/Images/Untitled.jpg?w=209&h=177&scale.option=ignore", // type the link to the cover image here
