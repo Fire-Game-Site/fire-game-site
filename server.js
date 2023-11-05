@@ -1,12 +1,15 @@
 const express = require("express")
 const path = require("path")
-const mustache = require('mustache-express');
+const mustache = require('mustache-express')
+const algolia = require('algoliasearch')
 const app = express()
 const port = 10000
+const aClient = algolia(process.env.algolia1, process.env.algolia2)
+const aIndex = aClient.initIndex('gameList')
 
 var announcement = { // both support html, so if you want something like a link use <a> or if you want a newline use <br />
     title: "Annnouncements",
-    description: "Make sure to SUBSCRIBE to our <a href='https://youtube.com/@firegames52123?si=tdwqa6Hx4Emqtfbb'>Youtube Channel!</a> <br />  <br />November 5, 2023: Unfortunately, the game, Death Run 3D, has been removed from the Fire Game Site. This is due to numerous user complains as well as technical difficulties. We hope that we can bring this game back in the future! <br />  <br />In our most recent update, we have added games including:<br /><ul><li><a href='/runbunbunrun'>Run Bun Bun Run</a></li><li><a href='/chess'>Chess</a></li><li><a href='/wordle'>Wordle</a></li><li><a href='/snowrider'>Snow Rider 3D</a></li><li><a href='/impossiblegame'>The Impossible Game</a></li><li><a href='/geometrydash'>Geometry Dash</a></li></ul>"
+    description: "Make sure to SUBSCRIBE to our <a href='https://youtube.com/@firegames52123?si=tdwqa6Hx4Emqtfbb'>YouTube Channel!</a> <br />  <br />November 5, 2023: Unfortunately, the game, Death Run 3D, has been removed from the Fire Game Site. This is due to numerous user complains as well as technical difficulties. We hope that we can bring this game back in the future! <br />  <br />In our most recent update, we have added games including:<br /><ul><li><a href='/runbunbunrun'>Run Bun Bun Run</a></li><li><a href='/chess'>Chess</a></li><li><a href='/wordle'>Wordle</a></li><li><a href='/snowrider'>Snow Rider 3D</a></li><li><a href='/impossiblegame'>The Impossible Game</a></li><li><a href='/geometrydash'>Geometry Dash</a></li></ul>"
 }
 
 var games = {
@@ -533,6 +536,8 @@ var games = {
         description: ""
     },
 }
+
+aIndex.saveObjects(games, {autoGenerateObjectIDIfNotExist: true}).catch((err) => {console.log(err);});
 
 app.engine('mustache', mustache());
 app.set('view engine', 'mustache');
