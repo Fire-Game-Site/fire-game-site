@@ -1,11 +1,8 @@
 const express = require("express")
 const path = require("path")
 const mustache = require('mustache-express')
-const algolia = require('algoliasearch')
 const app = express()
 const port = 10000
-const aClient = algolia(process.env.algolia1, process.env.algolia2)
-const aIndex = aClient.initIndex('gameList')
 
 var announcement = { // both support html, so if you want something like a link use <a> or if you want a newline use <br />
     title: "Annnouncements",
@@ -537,7 +534,7 @@ var games = {
     },
 }
 
-aIndex.saveObjects(Array(games), {autoGenerateObjectIDIfNotExist: true}).catch((err) => {console.log(err);});
+console.log(`PLACE THIS IN ALGOLIA:\n${JSON.stringify(games)}`)
 
 app.engine('mustache', mustache());
 app.set('view engine', 'mustache');
