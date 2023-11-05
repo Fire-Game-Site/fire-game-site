@@ -537,7 +537,7 @@ var games = {
     },
 }
 
-aIndex.saveObjects(games, {autoGenerateObjectIDIfNotExist: true}).catch((err) => {console.log(err);});
+aIndex.saveObjects(Array(games), {autoGenerateObjectIDIfNotExist: true}).catch((err) => {console.log(err);});
 
 app.engine('mustache', mustache());
 app.set('view engine', 'mustache');
