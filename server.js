@@ -534,8 +534,6 @@ var games = {
     },
 }
 
-console.log(`PLACE THIS IN ALGOLIA:\n${JSON.stringify(games)}`)
-
 app.engine('mustache', mustache());
 app.set('view engine', 'mustache');
 app.set('views', __dirname);
