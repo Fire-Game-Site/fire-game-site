@@ -13,8 +13,8 @@ var games = {
     "ytchannel": {  // type the link, same as below, of the game here
 	    title: "The Fire Games Official Youtube Channel", // type the title of the game here
 	    link: "ytchannel", // the title but with link friendly, so no spaces or symbols
-	    image: "https://arsholde.sirv.com/logo.jpg?w=209&h=176&scale.option=ignore", // type the link to the cover image here
-	    embedLink: "https://youtube.com/@firegames52123?si=tdwqa6Hx4Emqtfbb", // type the iframe embed link here
+	    image: "https://arsholde.sirv.com/logo.jpg", // type the link to the cover image here
+	    embedLink: "https://arsholde.sirv.com/Screenshot%202023-11-05%2011.07.57%20PM.png?w=1300&h=650", // type the iframe embed link here
 	    props: { // list out properties here (developer, release date, etc.). it will dynamically change so add whatever properties you want
 		    Subscribe: "For gameplay videos and promotional content!",
 		    Link: "<a href='https://youtube.com/@firegames52123?si=tdwqa6Hx4Emqtfbb'>Subscribe to our Youtube Channel HERE</a>"
