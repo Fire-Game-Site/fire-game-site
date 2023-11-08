@@ -532,6 +532,15 @@ var games = {
         },
         description: ""
     },
+    "2048": {
+        title: "2048 (Image Pending)",
+        link: "2048",
+        image: "",
+        embedLink: "https://play.famobi.com/2048/A1000-10A",
+        props: {
+            Developer: "",
+            Controls: "",
+            Objective: ""
 }
 
 app.engine('mustache', mustache());
