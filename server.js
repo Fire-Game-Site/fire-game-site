@@ -541,6 +541,9 @@ var games = {
             Developer: "",
             Controls: "",
             Objective: ""
+        },
+        description: ""
+    },
 }
 
 app.engine('mustache', mustache());
