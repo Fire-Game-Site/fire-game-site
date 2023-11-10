@@ -25,6 +25,7 @@
 <main>
     <iframe src="{{{ embed }}}" style="border: none"></iframe>
     <div style="display: flex; width: 100%; padding: 10px; box-sizing: border-box; flex-direction: column; align-items: flex-start; gap: 10px; border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.15); background: #262626; margin-top: 25px">
+        <button id="fullscreen" style="position: absolute; background: none; border: none; font-family: Poppins, system-ui; color: #FFFFFF; font-size: 24px; line-height: 32px; text-decoration: underline; overflow: visible">Fullscreen</button>
         <p style="width: 100%; color: #FFFFFF; text-align: center; font-family: Poppins, system-ui; font-size: 40px; font-weight: 500;">{{ title }}</p>
         {{{ propsBool }}}
         {{{ props }}}
@@ -112,11 +113,21 @@
     }
 </style>
 <script>
+
     var iframe = document.querySelector('iframe');
     var width = iframe.offsetWidth;
     var height = iframe.offsetHeight;
     iframe.style.aspectRatio = width / height;
     iframe.style.width = '100%'
+
+    document.querySelector('#fullscreen').addEventListener('click', e => {
+        var win = window.open()
+        win.document.body.style = 'margin: 0; height: 100vh;'
+        var iframe = win.document.createElement('iframe')
+        iframe.style = 'border: none; width: 100%; height: 100%; margin: 0;'
+        iframe.src = '{{{ embed }}}'
+        win.document.body.appendChild(iframe)
+    })
 </script>
 <script type="module">
     // Import the functions you need from the SDKs you need
