@@ -544,6 +544,18 @@ var games = {
         },
         description: ""
     },
+    "game": {
+        title: "game",
+        link: "",
+        image: "",
+        embedLink: "",
+        props: {
+            Developer: "",
+	Controls: “”,
+            Objective: ""
+        },
+        description: ""
+    },
 }
 
 app.engine('mustache', mustache());
