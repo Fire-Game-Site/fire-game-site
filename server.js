@@ -551,7 +551,7 @@ var games = {
         embedLink: "",
         props: {
             Developer: "",
-	Controls: “”,
+	Controls: "",
             Objective: ""
         },
         description: ""
