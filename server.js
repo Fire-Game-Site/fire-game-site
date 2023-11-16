@@ -551,7 +551,7 @@ const client = new MeiliSearch({
     host: 'http://localhost:7700',
     apiKey: 'aSampleMasterKey'
 })
-client.index('games').addDocuments(games, { primaryKey: 'link' })
+client.index('games').addDocuments(games, { primaryKey: 'title' })
     .then(res => console.log(res))
 let check = false
 while (!check) {
