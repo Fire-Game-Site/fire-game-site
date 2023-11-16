@@ -602,5 +602,11 @@ app.get('/:game', (req, res) => {
     }
 })
 
+app.get('/search/:query', (req, res) => {
+	client.index('games').search(req.params.query).then(returns => {
+		res.render('search', {query: req.params.query, games: returns})
+	})
+})
+
 app.listen(port)
 console.log("Server started at http://localhost:" + port)

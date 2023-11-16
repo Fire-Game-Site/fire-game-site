@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fire Game Site</title>
+    <link rel="icon" type="image/x-icon" href="https://github.com/Fire-Game-Site/fire-game-site/blob/master/icon.png?raw=true">
+</head>
+<body>
+<nav>
+    <p id="title">Fire Game Site</p>
+    <div id="navigation-container">
+        <div id="buttons-container">
+            <button class="nav-button" onclick="location.href = '/'">Games</button>
+            <button class="nav-button" onclick="location.href = '/contact'">Contact</button>
+        </div>
+        <!--            <div id="search-bar">-->
+        <!--                <fgs-search />-->
+        <!--            </div>-->
+    </div>
+</nav>
+<main>
+    <div style="display: flex; width: 100%; padding: 25px 100px; box-sizing: border-box; justify-content: center; align-items: center; gap: 10px">
+        <div style="display: flex; width: 100%; padding: 15px 25px; box-sizing: border-box; flex-direction: column; justify-content: center; align-items: flex-start; gap: 10px; border-radius: 30px; border: 2px solid #FF0000; background: #464646;">
+            <p style="color: #FFFFFF; text-align: left; font-family: Poppins, system-ui; font-size: 24px; font-weight: 700;">Search Results for: {{{ query }}}</p>
+        </div>
+    </div>
+    <fgs-gamearray />
+</main>
+<footer style="display: flex; width: 100%; height: 100px; padding: 10px; box-sizing: border-box; justify-content: center; align-items: center; gap: 10px; position: page; bottom: 0; background: rgba(255, 255, 255, 0.10); color: #FFFFFF; text-align: center; font-family: Poppins, system-ui; font-size: 15px; font-weight: 500;">
+    <p>Copyright &copy 2023</p>
+    <div style="width: 10px; height: 10px; border-radius: 5px; background: #FFFFFF;"></div>
+    <p>For more information about games, consult their information below the game</p>
+    <div style="width: 10px; height: 10px; border-radius: 5px; background: #FFFFFF;"></div>
+    <a href="/privacy-policy" style="color: #FFFFFF">View our Privacy Policy here</a>
+</footer>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+    nav {
+        width: 100%;
+        height: 50px;
+        background: linear-gradient(89.96deg, #FF0000 0%, #000000 100%);
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 15px;
+        gap: 50px;
+    }
+
+    #title {
+        height: 100%;
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 50px;
+        color: #FFFFFF;
+    }
+
+    #buttons-container {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        gap: 10px;
+        height: 40px;
+        background: #464646;
+        border: 1px solid #5F5F5F;
+        border-radius: 30px;
+    }
+
+    .nav-button {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        gap: 10px;
+        height: 25px;
+        background: #888888;
+        border: 1px solid #ACACAC;
+        border-radius: 15px;
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    #gameArray {
+        box-sizing: border-box;
+        padding: 50px 100px;
+        width: 100%;
+    }
+
+    .game {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        gap: 10px;
+        width: 230px;
+        height: 230px;
+        background: rgba(255, 255, 255, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        border-radius: 20px;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .gamePic {
+        width: 100%;
+        height: 100%;
+        background: #FFFFFF;
+        border-radius: 20px;
+        background-size: contain;
+    }
+
+    .gameTitle {
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background: #000;
+    }
+
+    a, li, ul {
+        color: #FFFFFF !important;
+        font-family: Poppins, system-ui;
+        font-size: inherit;
+    }
+
+    ul {
+        position: relative;
+        left: 20px;
+    }
+</style>
+<script>
+    var games = {{{ games }}};
+
+    window.customElements.define(
+            "fgs-gamearray",
+            class gameArray extends HTMLElement {
+                constructor() {
+                    super();
+                }
+
+                render() {
+                    this.innerHTML = `
+                <div id="gameArray" style="display: grid; width: 100%; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); grid-auto-rows: 250px;"></div>
+            `
+                    for (const i in games) {
+                        var game = document.createElement('div')
+                        game.className = "game"
+                        game.setAttribute('onclick', `location.href += '${games[i]['link']}'`)
+                        var pic = document.createElement('div')
+                        pic.className = "gamePic"
+                        pic.style.backgroundImage = `url(${games[i]['image']})`
+                        var title = document.createElement('p')
+                        title.innerText = games[i]['title']
+                        title.className = "gameTitle"
+                        game.appendChild(pic)
+                        game.appendChild(title)
+                        document.getElementById("gameArray").appendChild(game)
+                    }
+                }
+
+                connectedCallback() {
+                    if (!this.rendered) {
+                        this.render()
+                        this.rendered = true
+                    }
+                }
+            }
+    )
+</script>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+        apiKey: "{{{firebase}}}",
+        authDomain: "fire-game-site.firebaseapp.com",
+        projectId: "fire-game-site",
+        storageBucket: "fire-game-site.appspot.com",
+        messagingSenderId: "426518622424",
+        appId: "1:426518622424:web:acd327432592a1ace1e7ad",
+        measurementId: "G-7M4MZKJPG7"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+</script>
+</body>
+</html>
