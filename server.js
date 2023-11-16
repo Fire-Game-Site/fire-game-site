@@ -554,6 +554,8 @@ const client = new MeiliSearch({
 client.index('games').addDocuments(games, { primaryKey: 'link' })
     .then(res => console.log(res))
 
+client.index('games').getDocuments().then(res => console.log(res))
+
 app.engine('mustache', mustache());
 app.set('view engine', 'mustache');
 app.set('views', __dirname);
