@@ -571,9 +571,9 @@ app.get('/ads.txt', (req, res) => {
 })
 
 app.get('/sitemap.txt', (req, res) => {
-    let sitemap = 'https://firegamesite.com/\nhttps://firegamesite.com/privacy-policy\nhttps://firegamesite.com/contact\nhttps://www.firegamesite.com/\nhttps://www.firegamesite.com/privacy-policy\nhttps://www.firegamesite.com/contact\n'
+    let sitemap = 'https://firegamesite.com/\nhttps://firegamesite.com/privacy-policy\nhttps://firegamesite.com/contact\n'
     for (const i in games) {
-        sitemap += `https://firegamesite.com/${i}\nhttps://www.firegamesite.com/${i}\n`
+        sitemap += `https://firegamesite.com/${i}\n`
     }
     res.send(sitemap)
 })
