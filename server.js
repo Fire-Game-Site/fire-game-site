@@ -1,6 +1,7 @@
 const express = require("express")
 const path = require("path")
 const mustache = require('mustache-express')
+const { MeiliSearch } = require('meilisearch')
 const app = express()
 const port = 10000
 
@@ -545,6 +546,13 @@ var games = {
         description: ""
     },
 }
+
+const client = new MeiliSearch({
+    host: 'http://localhost:7700',
+    apiKey: 'aSampleMasterKey'
+})
+client.index('games').addDocuments(games, { primaryKey: 'link' })
+    .then(res => console.log(res))
 
 app.engine('mustache', mustache());
 app.set('view engine', 'mustache');
