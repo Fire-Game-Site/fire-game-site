@@ -552,14 +552,11 @@ const client = new MeiliSearch({
     apiKey: 'aSampleMasterKey'
 })
 client.index('games').addDocuments(games, { primaryKey: 'title' })
-    .then(res => console.log(res))
-let check = false
-while (!check) {
-    if (client.getTask(0).status !== "enqueued") {
-        check = true
-        console.log(`---FINISHED UPLOADING GAME LIST---${client.getTask(0).status}---`)
-    }
-}
+    .then(res => {
+        console.log(res)
+        client.index('games').getDocuments()
+            .then(res => console.log(res))
+    })
 
 app.engine('mustache', mustache());
 app.set('view engine', 'mustache');
