@@ -547,16 +547,17 @@ var games = {
     },
 }
 
+let searchGames = {}
+for (const [key, value] in games) {
+    searchGames[key] = value.title
+}
+
 const client = new MeiliSearch({
     host: 'http://localhost:7700',
     apiKey: 'aSampleMasterKey'
 })
-client.index('games').addDocuments(games, { primaryKey: 'title' })
-    .then(res => {
-        console.log(res)
-        client.index('games').getDocuments()
-            .then(res => console.log(res, games))
-    })
+client.index('games').addDocuments(searchGames, { primaryKey: 'title' })
+    .then(res => console.log(res))
 
 app.engine('mustache', mustache());
 app.set('view engine', 'mustache');
