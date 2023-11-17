@@ -555,7 +555,7 @@ client.index('games').addDocuments(games, { primaryKey: 'title' })
     .then(res => {
         console.log(res)
         client.index('games').getDocuments()
-            .then(res => console.log(res))
+            .then(res => console.log(res, games))
     })
 
 app.engine('mustache', mustache());
