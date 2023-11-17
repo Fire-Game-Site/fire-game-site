@@ -557,7 +557,7 @@ let check = false
 while (!check) {
     if (client.getTask(0).status !== "enqueued") {
         check = true
-        console.log("---FINISHED UPLOADING GAME LIST---")
+        console.log(`---FINISHED UPLOADING GAME LIST---${client.getTask(0).status}---`)
     }
 }
 
