@@ -569,6 +569,21 @@ var games = {
         },
         description: ""
     },
+	 "raftwars": {
+        title: "Raft Wars (Image Pending)",
+        link: "raftwars",
+        image: "",
+        embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fraft-wars.xml",
+        props: {
+            Developer: "",
+	Controls: "",
+            Objective: ""
+        },
+        description: ""
+    },
+
+
+
 }
 
 let searchGames = {}
