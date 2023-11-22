@@ -7,7 +7,7 @@ const port = 10000
 
 var announcement = { // both support html, so if you want something like a link use <a> or if you want a newline use <br />
     title: "Anouncements",
-    description: "Make sure to SUBSCRIBE to our <a href='https://youtube.com/@firegames52123?si=tdwqa6Hx4Emqtfbb'>YouTube Channel!</a> <br />  <br />November 20, 2023: A fullscreen feature has been added! Make sure to check it out! <br />We are aware of an ongoing issue involving sizing of ads on game pages. We are currently looking into solutions and we are sorry for any inconvenience this may cause you. <br />  <br />New Games:<br /><ul><li><a href='/wordle'>Wordle</a></li><li><a href='/snowrider'>Snow Rider 3D</a></li><li><a href='/impossiblegame'>The Impossible Game</a></li><li><a href='/geometrydash'>Geometry Dash</a></li><li><a href='/99balls'>99 Balls</a></li><li><a href='/raftwars'>Raft Wars</a></li></ul>"
+    description: "Make sure to SUBSCRIBE to our <a href='https://youtube.com/@firegames52123?si=tdwqa6Hx4Emqtfbb'>YouTube Channel!</a> <br />  <br />November 20, 2023: A fullscreen feature has been added! Make sure to check it out! <br />We are aware of an ongoing issue involving sizing of ads on game pages. We are currently looking into solutions and we are sorry for any inconvenience this may cause you. <br />  <br />New Games:<br /><ul><li><a href='/snowrider'>Snow Rider 3D</a></li><li><a href='/impossiblegame'>The Impossible Game</a></li><li><a href='/geometrydash'>Geometry Dash</a></li><li><a href='/99balls'>99 Balls</a></li><li><a href='/raftwars'>Raft Wars</a></li><li><a href='/fnaf'>FNAF</a></li></ul>"
 }
 
 var games = {
@@ -557,23 +557,23 @@ var games = {
         },
         description: ""
     },
-    "2048": {
-        title: "2048 (Image Pending)",
-        link: "2048",
-        image: "",
-        embedLink: "https://play.famobi.com/2048/A1000-10A",
-        props: {
-            Developer: "",
-            Controls: "",
-            Objective: ""
-        },
-        description: ""
-    },
 	 "raftwars": {
         title: "Raft Wars (Image Pending)",
         link: "raftwars",
         image: "",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fraft-wars.xml",
+        props: {
+            Developer: "",
+	Controls: "",
+            Objective: ""
+        },
+        description: ""
+    },
+	 "fnaf": {
+        title: "FNAF (Image Pending",
+        link: "fnaf",
+        image: "",
+        embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Ffive-nights-at-freddy-s.xml",
         props: {
             Developer: "",
 	Controls: "",
