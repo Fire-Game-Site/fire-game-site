@@ -545,6 +545,18 @@ var games = {
         },
         description: ""
     },
+     "99balls": {
+        title: "99 Balls (Image Pending)",
+        link: "99balls",
+        image: "",
+        embedLink: "https://play.famobi.com/99-balls/A-SILVERGAMES",
+        props: {
+            Developer: "BUYHTML5",
+	Controls: "Click and drag mouse to aim, release to shoot",
+            Objective: "Survive as long as possible"
+        },
+        description: ""
+    },
 }
 
 let searchGames = {}
