@@ -569,6 +569,18 @@ var games = {
         },
         description: ""
     },
+	"raftwars2": {
+        title: "Raft Wars 2 (Image Pending)",
+        link: "raftwars2",
+        image: "",
+        embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fraft-wars-2.xml",
+        props: {
+            Developer: "",
+	Controls: "",
+            Objective: ""
+        },
+        description: ""
+    },
 	 "fnaf": {
         title: "FNAF (Image Pending",
         link: "fnaf",
