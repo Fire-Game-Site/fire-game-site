@@ -582,10 +582,22 @@ var games = {
         description: ""
     },
 	 "fnaf": {
-        title: "FNAF (Image Pending",
+        title: "FNAF (Image Pending)",
         link: "fnaf",
         image: "",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Ffive-nights-at-freddy-s.xml",
+        props: {
+            Developer: "",
+	Controls: "",
+            Objective: ""
+        },
+        description: ""
+    },
+	"mrmine": {
+        title: "Mr Mine (Image Pending)",
+        link: "mrmine",
+        image: "",
+        embedLink: "https://mrmine.com/game/?nocache=1696018196",
         props: {
             Developer: "",
 	Controls: "",
