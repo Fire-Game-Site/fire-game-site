@@ -607,7 +607,7 @@ var games = {
     },
 	"madalinstuntcars2": {
         title: "Madalin Stunt Cars 2 (Image Pending)",
-        link: "madalinstuntcars",
+        link: "madalinstuntcars2",
         image: "",
         embedLink: "",
         props: {
