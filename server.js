@@ -7,7 +7,7 @@ const port = 10000
 
 var announcement = { // both support html, so if you want something like a link use <a> or if you want a newline use <br />
     title: "Anouncements",
-    description: "Make sure to SUBSCRIBE to our <a href='https://youtube.com/@firegames52123?si=tdwqa6Hx4Emqtfbb'>YouTube Channel!</a> <br />  <br />November 20, 2023: A fullscreen feature has been added! Make sure to check it out! <br />We are aware of an ongoing issue involving sizing of ads on game pages. We are currently looking into solutions and we are sorry for any inconvenience this may cause you. <br />  <br />New Games:<br /><ul><li><a href='/geometrydash'>Geometry Dash</a></li><li><a href='/99balls'>99 Balls</a></li><li><a href='/raftwars'>Raft Wars</a></li><li><a href='/raftwars2'>Raft Wars 2</a></li><li><a href='/fnaf'>FNAF</a></li><li><a href='/mrmine'>Mr Mine</a></li></ul>"
+    description: "Make sure to SUBSCRIBE to our <a href='https://youtube.com/@firegames52123?si=tdwqa6Hx4Emqtfbb'>YouTube Channel!</a> <br />  <br />November 20, 2023: A fullscreen feature has been added! Make sure to check it out! <br />We are aware of an ongoing issue involving sizing of ads on game pages. We are currently looking into solutions and we are sorry for any inconvenience this may cause you. <br />  <br />New Games:<br /><ul><li><a href='/madalinstuntcars2'>Madalin Stunt Cars 2</a></li><li><a href='/99balls'>99 Balls</a></li><li><a href='/raftwars'>Raft Wars</a></li><li><a href='/raftwars2'>Raft Wars 2</a></li><li><a href='/fnaf'>FNAF</a></li><li><a href='/mrmine'>Mr Mine</a></li></ul>"
 }
 
 var games = {
@@ -605,9 +605,18 @@ var games = {
         },
         description: ""
     },
-
-
-
+	"madalinstuntcars2": {
+        title: "Madalin Stunt Cars 2 (Image Pending)",
+        link: "madalinstuntcars",
+        image: "",
+        embedLink: "",
+        props: {
+            Developer: "",
+	Controls: "WASD- Move, C-Camera, T-Top view, B- Rear-view mirror, M-Menu level, Space-Break, Ctrl+G-Auto/manual gear, PgUp/PgDown-Gear shift, R-Reset car, H-Police Lights",
+            Objective: "Drive around and pull off the sickest stunts!"
+        },
+        description: "Take a joy ride in your favorite sports car and do some crazy tricks while having a great time!"
+    },
 }
 
 let searchGames = {}
