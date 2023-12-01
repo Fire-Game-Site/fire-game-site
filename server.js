@@ -609,7 +609,7 @@ var games = {
         title: "Madalin Stunt Cars 2 (Image Pending)",
         link: "madalinstuntcars2",
         image: "",
-        embedLink: "",
+        embedLink: "https://www.madalingames.com/madalingames/wp-content/uploads/games/webgl/M/MSC2-files/021/MSC2-WEBGL/index.html",
         props: {
             Developer: "",
 	Controls: "WASD- Move, C-Camera, T-Top view, B- Rear-view mirror, M-Menu level, Space-Break, Ctrl+G-Auto/manual gear, PgUp/PgDown-Gear shift, R-Reset car, H-Police Lights",
