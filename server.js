@@ -7,7 +7,7 @@ const port = 10000
 
 var announcement = { // both support html, so if you want something like a link use <a> or if you want a newline use <br />
     title: "Anouncements",
-    description: "Make sure to SUBSCRIBE to our <a href='https://youtube.com/@firegames52123?si=tdwqa6Hx4Emqtfbb'>YouTube Channel!</a> <br />  <br />November 20, 2023: A fullscreen feature has been added! Make sure to check it out! <br />We are aware of an ongoing issue involving sizing of ads on game pages. We are currently looking into solutions and we are sorry for any inconvenience this may cause you. <br />  <br />New Games:<br /><ul><li><a href='/madalinstuntcars2'>Madalin Stunt Cars 2</a></li><li><a href='/99balls'>99 Balls</a></li><li><a href='/raftwars'>Raft Wars</a></li><li><a href='/raftwars2'>Raft Wars 2</a></li><li><a href='/fnaf'>FNAF</a></li><li><a href='/mrmine'>Mr Mine</a></li></ul>"
+    description: "Make sure to SUBSCRIBE to our <a href='https://youtube.com/@firegames52123?si=tdwqa6Hx4Emqtfbb'>YouTube Channel!</a> <br />  <br />November 20, 2023: A fullscreen feature has been added! Make sure to check it out! <br />We are aware of an ongoing issue involving sizing of ads on game pages. We are currently looking into solutions and we are sorry for any inconvenience this may cause you. <br />  <br />New Games:<br /><ul><li><a href='/madalinstuntcars2'>Madalin Stunt Cars 2</a></li><li><a href='/tetris'>Tetris</a></li><li><a href='/raftwars'>Raft Wars</a></li><li><a href='/raftwars2'>Raft Wars 2</a></li><li><a href='/fnaf'>FNAF</a></li><li><a href='/mrmine'>Mr Mine</a></li></ul>"
 }
 
 var games = {
@@ -617,6 +617,19 @@ var games = {
         },
         description: "Take a joy ride in your favorite sports car and do some crazy tricks while having a great time!"
     },
+	"tetris": {
+        title: "Tetris",
+        link: "tetris",
+        image: "",
+        embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Ftetris.xml",
+        props: {
+            Developer: "WAFLASH",
+	Controls: "",
+            Objective: ""
+        },
+        description: ""
+    },
+
 }
 
 let searchGames = {}
