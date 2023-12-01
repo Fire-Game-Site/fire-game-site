@@ -618,7 +618,7 @@ var games = {
         description: "Take a joy ride in your favorite sports car and do some crazy tricks while having a great time!"
     },
 	"tetris": {
-        title: "Tetris",
+        title: "Tetris (Image Pending)",
         link: "tetris",
         image: "",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Ftetris.xml",
