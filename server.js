@@ -629,6 +629,19 @@ var games = {
         },
         description: ""
     },
+	  "penaltykickonline": {
+        title: "Penalty Kick Online",
+        link: "penaltykickonline",
+        image: "",
+        embedLink: "https://rawcdn.githack.com/PenaltyKickOnline/PenaltyKickOnline.github.io/f432955990ac6493d47a17a9e56fbc3e7483713a/index.html",
+        props: {
+            Developer: "",
+	Controls: "",
+            Objective: ""
+        },
+        description: ""
+    },
+
 
 }
 
