@@ -642,6 +642,10 @@ var games = {
     },
 }
 
+app.engine('mustache', mustache());
+app.set('view engine', 'mustache');
+app.set('views', __dirname);
+
 app.get('/', (req, res) => {
     res.render('index', {games: JSON.stringify(games), firebase: process.env.firebase, title: announcement.title, desc: announcement.description})
 })
