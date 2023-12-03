@@ -1,7 +1,6 @@
 const express = require("express")
 const path = require("path")
 const mustache = require('mustache-express')
-const { MeiliSearch } = require('meilisearch')
 const app = express()
 const port = 10000
 
@@ -545,121 +544,103 @@ var games = {
         },
         description: ""
     },
-     "99balls": {
+    "99balls": {
         title: "99 Balls (Image Pending)",
         link: "99balls",
         image: "",
         embedLink: "https://play.famobi.com/99-balls/A-SILVERGAMES",
         props: {
             Developer: "BUYHTML5",
-	Controls: "Click and drag mouse to aim, release to shoot",
+            Controls: "Click and drag mouse to aim, release to shoot",
             Objective: "Survive as long as possible"
         },
         description: ""
     },
-	 "raftwars": {
+    "raftwars": {
         title: "Raft Wars (Image Pending)",
         link: "raftwars",
         image: "",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fraft-wars.xml",
         props: {
             Developer: "",
-	Controls: "",
+            Controls: "",
             Objective: ""
         },
         description: ""
     },
-	"raftwars2": {
+    "raftwars2": {
         title: "Raft Wars 2 (Image Pending)",
         link: "raftwars2",
         image: "",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Fraft-wars-2.xml",
         props: {
             Developer: "",
-	Controls: "",
+            Controls: "",
             Objective: ""
         },
         description: ""
     },
-	 "fnaf": {
+    "fnaf": {
         title: "FNAF (Image Pending)",
         link: "fnaf",
         image: "",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Ffive-nights-at-freddy-s.xml",
         props: {
             Developer: "",
-	Controls: "",
+            Controls: "",
             Objective: ""
         },
         description: ""
     },
-	"mrmine": {
+    "mrmine": {
         title: "Mr Mine (Image Pending)",
         link: "mrmine",
         image: "",
         embedLink: "https://mrmine.com/game/?nocache=1696018196",
         props: {
             Developer: "",
-	Controls: "",
+            Controls: "",
             Objective: ""
         },
         description: ""
     },
-	"madalinstuntcars2": {
+    "madalinstuntcars2": {
         title: "Madalin Stunt Cars 2 (Image Pending)",
         link: "madalinstuntcars2",
         image: "",
         embedLink: "https://www.madalingames.com/madalingames/wp-content/uploads/games/webgl/M/MSC2-files/021/MSC2-WEBGL/index.html",
         props: {
             Developer: "",
-	Controls: "WASD- Move, C-Camera, T-Top view, B- Rear-view mirror, M-Menu level, Space-Break, Ctrl+G-Auto/manual gear, PgUp/PgDown-Gear shift, R-Reset car, H-Police Lights",
+            Controls: "WASD- Move, C-Camera, T-Top view, B- Rear-view mirror, M-Menu level, Space-Break, Ctrl+G-Auto/manual gear, PgUp/PgDown-Gear shift, R-Reset car, H-Police Lights",
             Objective: "Drive around and pull off the sickest stunts!"
         },
         description: "Take a joy ride in your favorite sports car and do some crazy tricks while having a great time!"
     },
-	"tetris": {
+    "tetris": {
         title: "Tetris (Image Pending)",
         link: "tetris",
         image: "",
         embedLink: "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Ftetris.xml",
         props: {
             Developer: "WAFLASH",
-	Controls: "",
+            Controls: "",
             Objective: ""
         },
         description: ""
     },
-	  "penaltykickonline": {
+    "penaltykickonline": {
         title: "Penalty Kick Online (Penalty Kick Online)",
         link: "penaltykickonline",
         image: "",
         embedLink: "https://rawcdn.githack.com/PenaltyKickOnline/PenaltyKickOnline.github.io/f432955990ac6493d47a17a9e56fbc3e7483713a/index.html",
         props: {
             Developer: "",
-	Controls: "",
+            Controls: "",
             Objective: ""
         },
         description: ""
     },
-
-
 }
-
-let searchGames = {}
-for (const [key, value] in games) {
-    searchGames[key] = value.title
-}
-
-const client = new MeiliSearch({
-    host: 'http://localhost:7700',
-    apiKey: 'aSampleMasterKey'
-})
-client.index('games').addDocuments(searchGames, { primaryKey: 'title' })
-    .then(res => console.log(res))
-
-app.engine('mustache', mustache());
-app.set('view engine', 'mustache');
-app.set('views', __dirname);
 
 app.get('/', (req, res) => {
     res.render('index', {games: JSON.stringify(games), firebase: process.env.firebase, title: announcement.title, desc: announcement.description})
@@ -706,10 +687,7 @@ app.get('/:game', (req, res) => {
 })
 
 app.get('/search/:query', (req, res) => {
-	client.index('games').search(req.params.query).then(returns => {
-        console.log(returns)
-		res.render('search', {query: req.params.query, games: returns.hits})
-	})
+    // TODO: ADD SEARCH SYSTEM
 })
 
 app.listen(port)
