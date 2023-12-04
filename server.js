@@ -651,8 +651,6 @@ lunr.Pipeline.registerFunction(wildcardGenerator, 'wildcardGen')
 const idx = lunr(function () {
     this.ref('id')
     this.field('name')
-    this.field('text')
-    this.field('developer')
 
     for (const i in games) {
         this.add({id: i, name: games[i].title, text: games[i].description, developer: games[i].props.Developer})
