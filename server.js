@@ -3,6 +3,7 @@ const path = require("path")
 const mustache = require('mustache-express')
 const app = express()
 const port = 10000
+const lunr = require("lunr")
 
 var announcement = { // both support html, so if you want something like a link use <a> or if you want a newline use <br />
     title: "Anouncements",
@@ -642,6 +643,24 @@ var games = {
     },
 }
 
+// index lunr
+var wildcardGenerator = function (token) {
+    return new lunr.Token(`*${token.str}*`);
+};
+lunr.Pipeline.registerFunction(wildcardGenerator, 'wildcardGen')
+const idx = lunr(function () {
+    this.ref('id')
+    this.field('name')
+    this.field('text')
+    this.field('developer')
+
+    for (const i in games) {
+        this.add({id: i, name: games[i].title, text: games[i].description, developer: games[i].props.Developer})
+    }
+
+    this.pipeline.add(wildcardGenerator)
+})
+
 app.engine('mustache', mustache());
 app.set('view engine', 'mustache');
 app.set('views', __dirname);
@@ -691,7 +710,13 @@ app.get('/:game', (req, res) => {
 })
 
 app.get('/search/:query', (req, res) => {
-    // TODO: ADD SEARCH SYSTEM
+    var results = idx.search(req.params.query.split(' ').map(word => `*${word}*`).join(' '))
+    var toReturn = {}
+    for (const result of results) {
+        const game = games[result.ref]
+        toReturn[result.ref] = game
+    }
+    res.render('search', {query: req.params.query, games: JSON.stringify(toReturn)})
 })
 
 app.listen(port)
