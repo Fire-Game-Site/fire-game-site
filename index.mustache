@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fire Game Site</title>
     <link rel="icon" type="image/x-icon" href="https://github.com/Fire-Game-Site/fire-game-site/blob/master/icon.png?raw=true">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" as="font" crossorigin>
     <meta name="description" content="The best unblocked game site">
 </head>
 <body>
@@ -23,7 +24,7 @@
             </div>
         </div>
     </nav>
-    <main>
+    <main style="min-height: 2250px;">
         <div style="display: flex; width: 100%; padding: 25px 100px; box-sizing: border-box; justify-content: center; align-items: center; gap: 10px">
             <div style="display: flex; width: 100%; padding: 15px 25px; box-sizing: border-box; flex-direction: column; justify-content: center; align-items: flex-start; gap: 10px; border-radius: 30px; border: 2px solid #FF0000; background: #464646;">
                 <p style="color: #FFFFFF; text-align: left; font-family: Poppins, system-ui; font-size: 24px; font-weight: 700;">{{{title}}}</p>
@@ -41,7 +42,6 @@
     </footer>
 
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins');
 
         nav {
             width: 100%;
@@ -176,7 +176,7 @@
 
                 render() {
                     this.innerHTML = `
-                <div id="gameArray" style="display: grid; width: 100%; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); grid-auto-rows: 250px;"></div>
+                <div id="gameArray" style="display: grid; width: 100%; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); grid-auto-rows: 250px; min-height: 2250px; margin-bottom: 100px;"></div>
             `
                     for (const i in games) {
                         var game = document.createElement('div')
