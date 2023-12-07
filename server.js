@@ -5,6 +5,7 @@ const app = express()
 const port = 10000
 const lunr = require("lunr")
 const games = require("./games.json")
+const res = require("express/lib/response");
 
 var announcement = { // both support html, so if you want something like a link use <a> or if you want a newline use <br />
     title: "Anouncements",
@@ -45,6 +46,10 @@ app.get('/sitemap.txt', (req, res) => {
         sitemap += `https://firegamesite.com/${i}\n`
     }
     res.send(sitemap)
+})
+
+app.get('/robots.txt', (req, res) => {
+    res.send('');
 })
 
 app.get('/privacy-policy', (req, res) => {
