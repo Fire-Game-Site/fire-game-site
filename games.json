@@ -451,17 +451,6 @@
 		},
 		"description": "A game all about reaction time and hand-eye coordination, get your bunny up as high as you can without falling down into the lava!"
 	},
-	"studentmetasite": {
-		"title": "Student Meta Site",
-		"link": "studentmetasite",
-		"image": "",
-		"embedLink": "https://sites.google.com/view/finalnews/home?authuser=0",
-		"props": {
-			"Developer": "Shane S.",
-			"Link": "<a href='https://sites.google.com/view/finalnews/news/the-school-times-is-back?authuser=0'>View the Student Meta Site HERE</a>"
-		},
-		"description": "Check out this really fun site!"
-	},
 	"chess": {
 		"title": "Chess(Image Pending)",
 		"link": "chess",
