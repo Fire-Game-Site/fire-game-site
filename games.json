@@ -605,5 +605,16 @@
 			"Objective": ""
 		},
 		"description": ""
-	}
+	},
+	"oregontrail": {
+		"title": "Oregon Trail (Image Pending)",
+		"link": "oregontrail",
+		"image": "",
+		"embedLink": "https://archive.org/embed/msdos_Oregon_Trail_The_1990",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
 }
