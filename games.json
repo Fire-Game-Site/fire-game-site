@@ -605,17 +605,5 @@
 			"Objective": ""
 		},
 		"description": ""
-	},
-	"oregontrail": {
-		"title": "Oregon Trail Game",
-		"link": "oregontrail",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/oregontrail.jpg?w=208&h=208",
-		"embedLink": "https://swordslasher.com/dosbox/?soft=OREGON",
-		"props": {
-			"Developer": "",
-			"Controls": "",
-			"Objective": ""
-		},
-		"description": ""
 	}
 }
