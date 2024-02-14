@@ -9,7 +9,7 @@ const res = require("express/lib/response");
 
 var announcement = { // both support html, so if you want something like a link use <a> or if you want a newline use <br />
     title: "Anouncements - NEW UNBLOCKED ALTERNATE LINK",
-    description: "If your school has this website blocked: go to the new alternate link: <a href='flamingsite.vercel.app'>flamingsite.vercel.app</a><br />This new site has a system to keep the tab open even when closed by GoGuardian and shows as Schoology in GoGuardian while not open."
+    description: "If your school has this website blocked: go to the new alternate link: <a href='https://flamingsite.vercel.app'>flamingsite.vercel.app</a><br />This new site has a system to keep the tab open even when closed by GoGuardian and shows as Schoology in GoGuardian while not open."
 }
 
 // index lunr
