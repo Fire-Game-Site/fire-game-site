@@ -40,7 +40,7 @@ app.set('view engine', 'mustache');
 app.set('views', __dirname);
 
 app.get('/', (req, res) => {
-    res.render('index', {games: JSON.stringify(games), firebase: process.env.firebase, title: announcement.title, desc: announcement.description, impShow: impAnn.show, impTitle: impAnn.title, impDesc: impAnn.desc, components: fs.readFileSync(`${__dirname}\\components.js`, 'utf8')})
+    res.render('index', {games: JSON.stringify(games), firebase: process.env.firebase, title: announcement.title, desc: announcement.description, impShow: impAnn.show, impTitle: impAnn.title, impDesc: impAnn.desc, components: fs.readFileSync(`${__dirname}/components.js`, 'utf8')})
 })
 
 app.get('/ads.txt', (req, res) => {
@@ -81,7 +81,7 @@ app.get('/:game', (req, res) => {
             var descBool = `<div style="width: 100%; height: 3px; border-radius: 1.5px; background: #FFFFFF;" ></div>`
             var desc = games[req.params.game]['description']
         }
-        res.render('game', {title: games[req.params.game]['title'], embed: games[req.params.game]['embedLink'], firebase: process.env.firebase, propsBool: propsBool, props: props, descBool: descBool, desc: desc})
+        res.render('game', {title: games[req.params.game]['title'], embed: games[req.params.game]['embedLink'], firebase: process.env.firebase, propsBool: propsBool, props: props, descBool: descBool, desc: desc, impShow: impAnn.show, impTitle: impAnn.title, impDesc: impAnn.desc, components: fs.readFileSync(`${__dirname}/components.js`, 'utf8')})
     } else {
         res.render('404', {link: req.params.game, firebase: process.env.firebase})
     }
@@ -94,7 +94,7 @@ app.get('/search/:query', (req, res) => {
         const game = games[result.ref]
         toReturn[result.ref] = game
     }
-    res.render('search', {query: req.params.query, games: JSON.stringify(toReturn)})
+    res.render('search', {query: req.params.query, games: JSON.stringify(toReturn), impShow: impAnn.show, impTitle: impAnn.title, impDesc: impAnn.desc, components: fs.readFileSync(`${__dirname}/components.js`, 'utf8')})
 })
 
 app.listen(port)
