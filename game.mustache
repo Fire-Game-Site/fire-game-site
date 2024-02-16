@@ -10,6 +10,7 @@
     <meta name="description" content="{{{ desc }}}">
 </head>
 <body>
+<fgs-popup show="{{{impShow}}}" title="{{{impTitle}}}" desc="{{{impDesc}}}"></fgs-popup>
 <nav>
     <p id="title" onclick="location.href = '/'">Fire Game Site</p>
     <div id="navigation-container" style="display: flex; align-items: center; gap: 10px">
@@ -201,6 +202,9 @@
     // Initialize Firebase
     const app = initializeApp(firebaseConfig);
     const analytics = getAnalytics(app);
+</script>
+<script>
+        {{{components}}}
 </script>
 </body>
 </html>

@@ -6,10 +6,17 @@ const port = 10000
 const lunr = require("lunr")
 const games = require("./games.json")
 const res = require("express/lib/response");
+const fs = require("fs")
 
 var announcement = { // both support html, so if you want something like a link use <a> or if you want a newline use <br />
     title: "Anouncements - NEW ALTERNATE LINK",
-    description: "If this website is blocked: go to the new alternate link: <a href='https://flamingsite.vercel.app'>flamingsite.vercel.app</a>"
+    description: "If this website is blocked, go to the new alternate link: <a href='https://flamingsite.vercel.app'>flamingsite.vercel.app</a>"
+}
+
+var impAnn = {
+    show: 'false',
+    title: 'Important Announcement',
+    desc: 'Important Description'
 }
 
 // index lunr
@@ -33,7 +40,7 @@ app.set('view engine', 'mustache');
 app.set('views', __dirname);
 
 app.get('/', (req, res) => {
-    res.render('index', {games: JSON.stringify(games), firebase: process.env.firebase, title: announcement.title, desc: announcement.description})
+    res.render('index', {games: JSON.stringify(games), firebase: process.env.firebase, title: announcement.title, desc: announcement.description, impShow: impAnn.show, impTitle: impAnn.title, impDesc: impAnn.desc, components: fs.readFileSync(`${__dirname}\\components.js`, 'utf8')})
 })
 
 app.get('/ads.txt', (req, res) => {
