@@ -14,9 +14,9 @@ var announcement = { // both support html, so if you want something like a link 
 }
 
 var impAnn = {
-    show: 'false',
-    title: 'Important Announcement',
-    desc: 'Important Description'
+    show: 'true',
+    title: 'Important - VOTE FOR THE NEW SITE NAME',
+    desc: 'Fire Game Site is making a new site for use with AI models. We wanted your opinions on what to name the new website. Vote <a href="https://strawpoll.com/eJnvvKW8knv">HERE</a>'
 }
 
 // index lunr
