@@ -605,5 +605,18 @@
 			"Objective": ""
 		},
 		"description": ""
+	},
+	"slowroads": {
+		"title": "Slow Roads",
+		"link": "slowroads",
+		"image": "",
+		"embedLink": "https://slowroads.io",
+		"props": {
+			"Developer": "Anslo",
+			"Controls": "WASD-Move, SPACE-Break, All Controls Listed In Game",
+			"Objective": "Drive and Chill"
+		},
+		"description": "Drive on a tranqil road infinitly."
 	}
+
 }
