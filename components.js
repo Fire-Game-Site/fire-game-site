@@ -10,7 +10,7 @@ window.customElements.define(
 			this.title = this.getAttribute('title')
 			this.desc = this.getAttribute('desc')
 
-			if (!(document.cookie == 'viewed=true') && this.show === 'true') {
+			if (!(document.cookie.includes('viewed=true')) && this.show === 'true') {
 				this.style.position = 'absolute'
 				this.style.width = '100%'
 				this.style.height = '100%'
