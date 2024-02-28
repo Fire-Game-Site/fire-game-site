@@ -618,18 +618,6 @@
 		},
 		"description": "Drive on a tranqil road infinitly."
 	},
-	"agar.io": {
-		"title": "Agar.io",
-		"link": "agar.io",
-		"image": "",
-		"embedLink": "https://agar.io/#ffa",
-		"props": {
-			"Developer": "Matheus Valadares",
-			"Controls": "Mouse Drag-Move, SPACE-Spilt In Two, W-Eject Mass",
-			"Objective": "Become the Biggest Cell"
-		},
-		"description": " Eat Mass and Other Cells in a Battle to Become the Biggest Sell"
-	},
 	"infinitecraft": {
 		"title": "Infinite Craft",
 		"link": "infinitecraft",
