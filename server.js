@@ -9,7 +9,7 @@ const res = require("express/lib/response");
 const fs = require("fs")
 
 var announcement = { // both support html, so if you want something like a link use <a> or if you want a newline use <br />
-    title: "Anouncements - NEW ALTERNATE LINK",
+    title: "Anouncements - NEW ALTERNATE LINK.",
     description: `If this website is blocked, go to the new alternate link: <a href='https://flamingsite.vercel.app'>flamingsite.vercel.app</a>` `NOTE: IF YOU CLICK A BUTTON OR GAME AND NOTHING HAPPENS, GIVE THE SITE A BIT TO LOAD`
 }
 
