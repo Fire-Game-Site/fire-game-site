@@ -10,7 +10,7 @@ const fs = require("fs")
 
 var announcement = { // both support html, so if you want something like a link use <a> or if you want a newline use <br />
     title: "Anouncements - NEW ALTERNATE LINK.",
-    description: `If this website is blocked, go to the new alternate link: <a href='https://flamingsite.vercel.app'>flamingsite.vercel.app</a><br />NOTE: IF YOU CLICK A BUTTON OR GAME AND NOTHING HAPPENS, GIVE THE SITE A BIT TO LOAD`
+    description: `If this website is blocked, go to the new alternate link: <a href='https://flamingsite.vercel.app'>flamingsite.vercel.app</a><br />NOTE: IF YOU CLICK A BUTTON OR GAME AND NOTHING HAPPENS, GIVE THE SITE A BIT TO LOAD <br />March 1, 2024: We are aware of the many reports or broken games; we are currently in the process of repairing the games.`
 }
 
 var impAnn = {
