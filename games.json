@@ -641,18 +641,6 @@
 			"Objective": ""
 		},
 		"description": ""
-	},
-	"fortnitegg": {
-		"title": "Fortnite.gg",
-		"link": "fortnitegg",
-		"image": "",
-		"embedLink": "https://fortnite.gg",
-		"props": {
-			"Developer": "",
-			"Controls": "",
-			"Objective": ""
-		},
-		"description": ""
 	}
 
 }
