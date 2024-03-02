@@ -629,5 +629,18 @@
 			"Objective": "Create and Discover all of the Elements"
 		},
 		"description": "An Infinite Sandbox Game All About Creating and Discovering"
+	},
+	"factoryidle": {
+		"title": "Factory Idle",
+		"link": "factoryidle",
+		"image": "",
+		"embedLink": "https://factoryidle.com",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
 	}
+
 }
