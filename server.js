@@ -16,7 +16,7 @@ var announcement = { // both support html, so if you want something like a link 
 var impAnn = {
     show: 'true',
     title: 'Important - VOTE FOR THE NEW SITE NAME',
-    desc: `Fire Game Site is making a new site for use with AI models. We wanted your opinions on what to name the new website. Vote <a href='https://strawpoll.com/eJnvvKW8knv?target=_blank'>HERE</a>`
+    desc: `Fire Game Site is making a new site for use with AI models. We wanted your opinions on what to name the new website. Vote <a href='https://strawpoll.com/eJnvvKW8knv?target=_blank'>HERE</a><br />If the site shows an error, right-click the link and choose open in new tab or hold control while clicking the link. This especially applies to those using the alternate link.`
 }
 
 // index lunr
