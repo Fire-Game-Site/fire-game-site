@@ -196,9 +196,7 @@
 <script>
 
     var iframe = document.querySelector('iframe');
-    var width = iframe.offsetWidth;
-    var height = iframe.offsetHeight;
-    iframe.style.aspectRatio = width / height;
+    iframe.style.aspectRatio = "16 / 9";
     iframe.style.width = '100%'
 
     document.querySelector('#fullscreen').addEventListener('click', e => {
