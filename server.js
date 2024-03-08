@@ -10,7 +10,7 @@ const fs = require("fs")
 
 var announcement = { // both support html, so if you want something like a link use <a> or if you want a newline use <br />
     title: "Anouncements - NEW ALTERNATE LINK",
-    description: `If this website is blocked, go to the new alternate links: <a href='https://flamingsite.vercel.app'>flamingsite.vercel.app</a> or <a href='https://flamingsite.github.io'>flamingsite.github.io</a><br />NOTE: IF YOU CLICK A BUTTON OR GAME AND NOTHING HAPPENS, GIVE THE SITE A BIT TO LOAD <br /> <br />March 7, 2024: Multiple Games on the Site Have Been Repaired. Please reach out to us if there are any other broken games.`
+    description: `If this website is blocked, go to the new alternate links: <a href='https://flamingsite.vercel.app'>flamingsite.vercel.app</a> or <a href='https://flamingsite.github.io'>flamingsite.github.io</a><br />NOTE: IF YOU CLICK A BUTTON OR GAME AND NOTHING HAPPENS, GIVE THE SITE A BIT TO LOAD<br /> <br />The Fire Game Site is currently developing a new AI model for the website. We would like your opinion on the name of the site. Here is the <a href='https://strawpoll.com/eJnvvKW8knv'>Link</a> (Make sure to right click and open this in a new tab. Otherwise, it won't work.) <br /> <br />March 8,2024: We have removed the faulty pop up from our site. We also added Deadshot.io after many requests. <br /> <br />March 7, 2024: Multiple Games on the Site Have Been Repaired. Please reach out to us if there are any other broken games.`
 }
 
 var impAnn = {
