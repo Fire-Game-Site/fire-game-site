@@ -641,6 +641,19 @@
 			"Objective": ""
 		},
 		"description": ""
+	},
+	"deadshot": {
+		"title": "Deadshot.io",
+		"link": "deadshot",
+		"image": "",
+		"embedLink": "https://deadshot.io/",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
 	}
+
 
 }
