@@ -653,6 +653,18 @@
 			"Objective": ""
 		},
 		"description": ""
+	},
+	"drivemad": {
+		"title": "Drive Mad",
+		"link": "drivemad",
+		"image": "",
+		"embedLink": "https://drivemad.me/iframe/index.html",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
 	}
 
 
