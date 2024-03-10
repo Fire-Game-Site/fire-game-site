@@ -65,12 +65,6 @@
             color: var(--md-sys-color-on-surface);
         }
 
-        #gameArray {
-            box-sizing: border-box;
-            padding: 50px 100px;
-            width: 100%;
-        }
-
         .game {
             box-sizing: border-box;
             display: flex;
@@ -142,9 +136,7 @@
                 }
 
                 render() {
-                    this.innerHTML = `
-                <div id="gameArray" style="display: grid; width: 100%; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); grid-auto-rows: auto; min-height: 2250px; gap: 30px"></div>
-            `
+					this.style = 'display: flex; flex-wrap: wrap; min-height: 2250px; gap: 30px; padding: 25px 0 5px; margin: auto; justify-content: space-between'
                     for (const i in games) {
                         var game = document.createElement('div')
                         game.className = "game"
@@ -157,7 +149,7 @@
                         title.className = "gameTitle"
                         game.appendChild(pic)
                         game.appendChild(title)
-                        document.getElementById("gameArray").appendChild(game)
+                        this.appendChild(game)
                     }
                 }
 
