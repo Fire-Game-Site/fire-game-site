@@ -59,7 +59,7 @@
                 (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
         </div>
-        <iframe src="{{{ embed }}}" style="border: none; border-radius: 12px; width: 100%"></iframe>
+        <iframe src="{{{ embed }}}" style="border: none; border-radius: 12px; width: 100%; aspect-ratio: 16 / 9"></iframe>
         <div style="width: 300px; height: 100%;">
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2261681163241464"
                     crossorigin="anonymous"></script>
@@ -165,11 +165,6 @@
     }
 </style>
 <script>
-
-    var iframe = document.querySelector('iframe');
-    iframe.style.aspectRatio = "16 / 9";
-    iframe.style.width = '100%'
-
     document.querySelector('#fullscreen').addEventListener('click', e => {
         var win = window.open()
         win.document.body.style = 'margin: 0; height: 100vh;'
