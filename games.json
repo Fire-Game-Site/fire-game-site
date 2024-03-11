@@ -689,11 +689,11 @@
 		},
 		"description": "Classic Game of Poker"
 	},
-	"eaglercraft152": {
-		"title": "Eaglercraft 1.5.2",
-		"link": "eaglercraft152",
+	"eaglercraft188": {
+		"title": "Eaglercraft 1.8.8",
+		"link": "eaglercraft188",
 		"image": "",
-		"embedLink": "https://ubg100.github.io/games/eaglercraft/index.html",
+		"embedLink": "https://eaglercraft.q13x.com/",
 		"props": {
 			"Developer": "",
 			"Controls": "",
