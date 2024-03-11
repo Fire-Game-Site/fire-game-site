@@ -665,7 +665,42 @@
 			"Objective": ""
 		},
 		"description": ""
+	},
+	"blackjack": {
+		"title": "Black Jack",
+		"link": "blackjack",
+		"image": "",
+		"embedLink": "https://freegames.org/games/blackjack/v1/",
+		"props": {
+			"Developer": "N/A",
+			"Controls": "Mouse Click",
+			"Objective": "Get as Close to 21 with your Cards as You can Without Going Over"
+		},
+		"description": "The Classic Card Game of Blackjack"
+	},
+	"poker": {
+		"title": "Poker",
+		"link": "poker",
+		"image": "",
+		"embedLink": "https://www.pokernow.club/start-game",
+		"props": {
+			"Developer": "Samuel Simões",
+			"Controls": "Mouse Click",
+			"Objective": "Win the Pot by Having the Highest Poker Hand or by Making a Bet that No Other Player Calls"
+		},
+		"description": "Classic Game of Poker Online with Your Friends"
+	},
+	"game": {
+		"title": "Game",
+		"link": "game",
+		"image": "",
+		"embedLink": "",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
 	}
-
 
 }
