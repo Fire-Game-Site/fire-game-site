@@ -689,11 +689,11 @@
 		},
 		"description": "Classic Game of Poker Online with Your Friends"
 	},
-	"solitare": {
-		"title": "Solitare",
-		"link": "solitare",
+	"eaglercraft152": {
+		"title": "Eaglercraft 1.5.2",
+		"link": "eaglercraft152",
 		"image": "",
-		"embedLink": "https://worldofsolitaire.com/",
+		"embedLink": "https://ubg100.github.io/games/eaglercraft/index.html",
 		"props": {
 			"Developer": "",
 			"Controls": "",
