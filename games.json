@@ -672,7 +672,6 @@
 		"image": "",
 		"embedLink": "https://freegames.org/games/blackjack/v1/",
 		"props": {
-			"Developer": "N/A",
 			"Controls": "Mouse Click",
 			"Objective": "Get as Close to 21 with your Cards as You can Without Going Over"
 		},
@@ -690,11 +689,11 @@
 		},
 		"description": "Classic Game of Poker Online with Your Friends"
 	},
-	"game": {
-		"title": "Game",
-		"link": "game",
+	"solitare": {
+		"title": "Solitare",
+		"link": "solitare",
 		"image": "",
-		"embedLink": "",
+		"embedLink": "https://worldofsolitaire.com/",
 		"props": {
 			"Developer": "",
 			"Controls": "",
