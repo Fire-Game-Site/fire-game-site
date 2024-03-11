@@ -3,30 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page not found | Fire Game Site</title>
+    <title>Contact | Fire Game Site</title>
     <link rel="icon" type="image/x-icon" href="https://github.com/Fire-Game-Site/fire-game-site/blob/master/icon.png?raw=true">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto+Flex" as="style" type="text/css" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Flex">
     <meta name="description" content="Contact Fire Game Site">
 </head>
 <body>
 <nav>
     <p id="title" onclick="location.href = '/'">Fire Game Site</p>
-    <div id="navigation-container" style="display: flex; align-items: center; gap: 10px">
-        <div id="buttons-container">
-            <button class="nav-button" onclick="location.href = '/'">Games</button>
-            <button class="nav-button" onclick="location.href = '/contact'">Contact</button>
-        </div>
-        <div style="display: flex; padding: 8px 10px 8px 10px; align-items: flex-start; gap: 10px; box-sizing: border-box; border-radius: 30px; border: 1px solid #5F5F5F; background: #464646; height: 40px;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                <path d="M15.9766 14.4716H15.1866L14.9066 14.2016C16.1066 12.8016 16.7266 10.8916 16.3866 8.86157C15.9166 6.08157 13.5966 3.86157 10.7966 3.52157C6.56658 3.00157 3.00658 6.56157 3.52658 10.7916C3.86658 13.5916 6.08658 15.9116 8.86658 16.3816C10.8966 16.7216 12.8066 16.1016 14.2066 14.9016L14.4766 15.1816V15.9716L18.7266 20.2216C19.1366 20.6316 19.8066 20.6316 20.2166 20.2216C20.6266 19.8116 20.6266 19.1416 20.2166 18.7316L15.9766 14.4716ZM9.97658 14.4716C7.48658 14.4716 5.47658 12.4616 5.47658 9.97157C5.47658 7.48157 7.48658 5.47157 9.97658 5.47157C12.4666 5.47157 14.4766 7.48157 14.4766 9.97157C14.4766 12.4616 12.4666 14.4716 9.97658 14.4716Z" fill="white"/>
+    <div style="display: flex; padding: 8px 10px 8px 10px; align-items: flex-start; gap: 10px; box-sizing: border-box; border-radius: 28px; background: var(--md-sys-color-surface-container-high); height: 56px; width: 100%;">
+        <div style="display: flex; width: 38px; height: 38px; align-items: center; justify-content: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: var(--md-sys-color-on-surface)">
+                <path d="M15.9766 14.4716H15.1866L14.9066 14.2016C16.1066 12.8016 16.7266 10.8916 16.3866 8.86157C15.9166 6.08157 13.5966 3.86157 10.7966 3.52157C6.56658 3.00157 3.00658 6.56157 3.52658 10.7916C3.86658 13.5916 6.08658 15.9116 8.86658 16.3816C10.8966 16.7216 12.8066 16.1016 14.2066 14.9016L14.4766 15.1816V15.9716L18.7266 20.2216C19.1366 20.6316 19.8066 20.6316 20.2166 20.2216C20.6266 19.8116 20.6266 19.1416 20.2166 18.7316L15.9766 14.4716ZM9.97658 14.4716C7.48658 14.4716 5.47658 12.4616 5.47658 9.97157C5.47658 7.48157 7.48658 5.47157 9.97658 5.47157C12.4666 5.47157 14.4766 7.48157 14.4766 9.97157C14.4766 12.4616 12.4666 14.4716 9.97658 14.4716Z" />
             </svg>
-            <input type="text" placeholder="Search for games" onchange="location.href = `/search/${this.value}`" style="color: #FFFFFF; font-family: Poppins, system-ui; font-size: 15px; font-weight: 500; height: 100%; width: 100%; box-sizing: border-box; border: none; background: none;" />
         </div>
+        <input type="text" placeholder="Search for games" onchange="location.href = `/search/${this.value}`" style="color: var(--md-sys-color-on-surface); font-family: 'Roboto Flex', system-ui; font-size: 16px; line-height: 24px; font-weight: 400; height: 100%; width: 100% !important; border: none; background: none;" />
     </div>
+    <button class="nav-button" onclick="location.href = '/'" style="border: none; background: none;">
+        <svg xmlns="http://www.w3.org/2000/svg" style="fill: var(--md-sys-color-on-surface-variant)" height="36" viewBox="0 -960 960 960" width="36"><path d="M147-200q-38 0-59.5-25.5T72-296l48-335q8-53 49.5-91t94.5-38h433q53 0 94.5 38t49.5 91l47 335q6 45-15.5 70.5T813-200q-23 0-39-7.5T747-226L643-330H317L213-226q-11 11-27 18.5t-39 7.5Zm18-64 126-126h378l126 126q5 5 18 9 9 0 13.5-9t2.5-18l-48-339q-5-35-29.5-57T697-700H263q-30 0-54.5 22T179-621l-48 339q-2 9 2.5 18t13.5 9q7 0 18-9Zm535-176q16 0 28-12t12-28q0-16-12-28t-28-12q-16 0-28 12t-12 28q0 16 12 28t28 12Zm-85-130q16 0 28-12t12-28q0-16-12-28t-28-12q-16 0-28 12t-12 28q0 16 12 28t28 12Zm-135 92Zm-180-42v50q0 10.833 7.116 17.917 7.117 7.083 18 7.083Q336-445 343-452.083q7-7.084 7-17.917v-50h50q10.833 0 17.917-7.116 7.083-7.117 7.083-18Q425-556 417.917-563q-7.084-7-17.917-7h-50v-50q0-10.833-7.116-17.917-7.117-7.083-18-7.083Q314-645 307-637.917q-7 7.084-7 17.917v50h-50q-10.833 0-17.917 7.116-7.083 7.117-7.083 18Q225-534 232.083-527q7.084 7 17.917 7h50Z"/></svg>
+    </button>
+    <button class="nav-button" onclick="location.href = '/contact'" style="border: none; background: none;">
+        <svg xmlns="http://www.w3.org/2000/svg" style="fill: var(--md-sys-color-on-surface-variant)" height="36" viewBox="0 -960 960 960" width="36"><path d="M505-190h-40q-143 0-244-101T120-535q0-143 101.5-244T467-880q71 0 131.5 25.5T704-783q45 46 70.5 108.5T800-538q0 131-68 245T557-108q-7 5-15 5t-15-3q-7-3-11.5-9.5T510-130l-5-60Zm60 2q82-69 128.5-162.5T740-538q0-124-77.5-203T467-820q-120 0-203.5 83.5T180-535q0 118 83.5 201.5T465-250h100v62Zm-98-115q16 0 27-11t11-27q0-16-11-27t-27-11q-16 0-27 11t-11 27q0 16 11 27t27 11Zm-97-331q10 4 19.5 0t16.5-13q9-13 24.5-20.5T469-675q26 0 44.5 14t18.5 39q0 19-10.5 38.5T485-538q-23 23-33.5 40.5T441-466q0 11 6.5 19t17.5 8q11 0 18.5-7t9.5-18q3-11 11.5-24t25.5-30q29-29 41-53.5t12-50.5q0-47-33-75t-81-28q-29 0-60.5 13.5T362-670q-6 11-4 21.5t12 14.5Zm90 130Z"/></svg>
+    </button>
 </nav>
-<main>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdUhTuXJBs4ztn6ThT79WVf_VuMV7owkp8magO2beRaBuKn4w/viewform?embedded=true" style="border: none"></iframe>
+<main style="align-content: center; background: var(--md-sys-color-background); margin: 0 25px 25px; border-radius: 12px; padding: 18px 24px; height: 70vh;">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdUhTuXJBs4ztn6ThT79WVf_VuMV7owkp8magO2beRaBuKn4w/viewform?embedded=true" style="border: none; width: 100%; height: 100%;"></iframe>
 </main>
-<footer style="display: flex; width: 100%; height: 100px; padding: 10px; box-sizing: border-box; justify-content: center; align-items: center; gap: 10px; position: page; bottom: 0; background: rgba(255, 255, 255, 0.10); color: #FFFFFF; text-align: center; font-family: Poppins, system-ui; font-size: 15px; font-weight: 500;">
+<footer style="display: flex; width: 100%; height: 100px; padding: 10px; box-sizing: border-box; justify-content: center; align-items: center; gap: 10px; bottom: 0; color: #FFFFFF; text-align: center; font-family: 'Roboto Flex', system-ui; font-size: 15px; font-weight: 500;">
     <p>Copyright &copy 2024</p>
     <div style="width: 10px; height: 10px; border-radius: 5px; background: #FFFFFF;"></div>
     <p>For more information about games, consult their information below the game</p>
@@ -35,70 +39,34 @@
 </footer>
 
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Poppins');
+    :root,:host{--md-sys-color-background:#131313;--md-sys-color-on-background:#e2e2e2;--md-sys-color-surface:#131313;--md-sys-color-surface-dim:#131313;--md-sys-color-surface-bright:#393939;--md-sys-color-surface-container-lowest:#0e0e0e;--md-sys-color-surface-container-low:#1b1b1b;--md-sys-color-surface-container:#1f1f1f;--md-sys-color-surface-container-high:#2a2a2a;--md-sys-color-surface-container-highest:#353535;--md-sys-color-on-surface:#e2e2e2;--md-sys-color-surface-variant:#4c4546;--md-sys-color-on-surface-variant:#cfc4c5;--md-sys-color-inverse-surface:#e2e2e2;--md-sys-color-inverse-on-surface:#303030;--md-sys-color-outline:#988e90;--md-sys-color-outline-variant:#4c4546;--md-sys-color-shadow:#000000;--md-sys-color-scrim:#000000;--md-sys-color-surface-tint:#c6c6c6;--md-sys-color-primary:#c6c6c6;--md-sys-color-on-primary:#303030;--md-sys-color-primary-container:#000000;--md-sys-color-on-primary-container:#969696;--md-sys-color-inverse-primary:#5e5e5e;--md-sys-color-secondary:#c6c6c6;--md-sys-color-on-secondary:#303030;--md-sys-color-secondary-container:#3d3d3d;--md-sys-color-on-secondary-container:#d1d1d1;--md-sys-color-tertiary:#c6c6c6;--md-sys-color-on-tertiary:#303030;--md-sys-color-tertiary-container:#000000;--md-sys-color-on-tertiary-container:#969696;--md-sys-color-error:#ffb4ab;--md-sys-color-on-error:#690005;--md-sys-color-error-container:#93000a;--md-sys-color-on-error-container:#ffdad6;}
 
     nav {
         width: 100%;
-        height: 50px;
-        background: linear-gradient(89.96deg, #FF0000 0%, #000000 100%);
         box-sizing: border-box;
         display: flex;
         flex-direction: row;
         align-items: center;
-        padding-left: 15px;
-        gap: 50px;
+        padding: 20px 25px 28px 25px;
+        gap: 24px;
     }
 
-    #title, #text {
-        height: 100%;
-        font-family: 'Poppins';
-        font-weight: 500;
-        font-size: 25px;
-        line-height: 50px;
-        color: #FFFFFF;
-    }
-
-    #buttons-container {
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 10px;
-        gap: 10px;
-        height: 40px;
-        background: #464646;
-        border: 1px solid #5F5F5F;
-        border-radius: 30px;
-    }
-
-    .nav-button {
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 10px;
-        gap: 10px;
-        height: 25px;
-        background: #888888;
-        border: 1px solid #ACACAC;
-        border-radius: 15px;
-        font-family: 'Poppins';
-        font-weight: 500;
-        font-size: 15px;
-        line-height: 22px;
-        text-align: center;
-        color: #FFFFFF;
-        text-shadow: 1px 2px 4px #000;
+    #title {
+        min-width: 185px;
+        height: 36px;
+        font-family: 'Roboto Flex';
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 36px;
+        color: var(--md-sys-color-on-surface);
     }
 
     input::placeholder {
-        color: #FFFFFF;
+        color: var(--md-sys-color-on-surface-variant);
     }
 
     main {
-        padding: 50px;
+        padding: 15px;
     }
 
     * {
@@ -107,15 +75,10 @@
     }
 
     body {
-        background: #000;
+        background: var(--md-sys-color-inverse-on-surface);
     }
 </style>
 <script>
-    var iframe = document.querySelector('iframe');
-    var width = iframe.offsetWidth;
-    var height = iframe.offsetHeight;
-    iframe.style.aspectRatio = width / height;
-    iframe.style.width = '100%'
 </script>
 <script type="module">
     // Import the functions you need from the SDKs you need

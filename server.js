@@ -9,14 +9,8 @@ const res = require("express/lib/response");
 const fs = require("fs")
 
 var announcement = { // both support html, so if you want something like a link use <a> or if you want a newline use <br />
-    title: "Anouncements - NEW ALTERNATE LINK",
-    description: `If this website is blocked, go to the new alternate links: <a href='https://flamingsite.vercel.app'>flamingsite.vercel.app</a> or <a href='https://flamingsite.github.io'>flamingsite.github.io</a><br />NOTE: IF YOU CLICK A BUTTON OR GAME AND NOTHING HAPPENS, GIVE THE SITE A BIT TO LOAD<br /> <br />The Fire Game Site is currently developing a new AI model for the website. We would like your opinion on the name of the site. Here is the <a href='https://strawpoll.com/eJnvvKW8knv'>Link</a> (Make sure to right click and open this in a new tab. Otherwise, it won't work.)<br /> <br />March 10, 2024: We have added Drive Mad, multiple card games, and Eaglercraft as per many requests.<br /> <br />March 8, 2024: We have removed the faulty pop up from our site. We also added Deadshot.io after many requests. <br /> <br />March 7, 2024: Multiple Games on the Site Have Been Repaired. Please reach out to us if there are any other broken games.`
-}
-
-var impAnn = {
-    show: 'true',
-    title: 'Important - VOTE FOR THE NEW SITE NAME',
-    desc: `Fire Game Site is making a new site for use with AI models. We wanted your opinions on what to name the new website. Vote <a href='https://strawpoll.com/eJnvvKW8knv?target=_blank'>HERE</a><br />If the site shows an error, right-click the link and choose open in new tab or hold control while clicking the link. This especially applies to those using the alternate link.`
+    title: "Anouncements - MASSIVE UI UPDATE",
+    description: `Oue team has been hard at work to deliver the best experience to you. Our most recent update has the most changes to the code that any update has ever had on this site, ever. Everything has been updated to fit Google's much more modern Material Design Guidelines (also known Material M3 or Material You). The red is gone from the site for now, but may make a surprise return sometime in the near future. We hope you enjoy the new UI, and if you have any issues at all, click the contact button in the top right and fill out the form with information on your issue or request.<br /><br />NOTE: IF YOU CLICK A BUTTON OR GAME AND NOTHING HAPPENS, GIVE THE SITE A BIT TO LOAD<br />`
 }
 
 // index lunr
@@ -40,7 +34,7 @@ app.set('view engine', 'mustache');
 app.set('views', __dirname);
 
 app.get('/', (req, res) => {
-    res.render('index', {games: JSON.stringify(games), firebase: process.env.firebase, title: announcement.title, desc: announcement.description, impShow: impAnn.show, impTitle: impAnn.title, impDesc: impAnn.desc, components: fs.readFileSync(`${__dirname}/components.js`, 'utf8')})
+    res.render('index', {games: JSON.stringify(games), firebase: process.env.firebase, title: announcement.title, desc: announcement.description})
 })
 
 app.get('/ads.txt', (req, res) => {
@@ -70,18 +64,18 @@ app.get('/contact', (req, res) => {
 app.get('/:game', (req, res) => {
     if (req.params.game in games) {
         if (!!games[req.params.game]['props']) {
-            var propsBool = `<div style="width: 100%; height: 3px; border-radius: 1.5px; background: #FFFFFF;" ></div>`
+            var propsBool = `<div style="width: 100%; height: 1px; border-radius: 1.5px; background: var(--md-sys-color-outline-variant);" ></div>`
             let propsList = ``
             for (const i in games[req.params.game]['props']) {
-                propsList += `<p style="padding: 10px; box-sizing: border-box; color: #FFFFFF; text-align: center; font-family: Poppins, system-ui; font-size: 20px; font-weight: 600;">${i}: ${games[req.params.game]['props'][i]}</p>`
+                propsList += `<p style="padding: 10px; box-sizing: border-box; color: var(--md-sys-color-on-surface-variant); text-align: center; font-family: 'Roboto Flex', system-ui; font-size: 16px; font-weight: 400; letter-spacing: 0.5px;">${i}: ${games[req.params.game]['props'][i]}</p>`
             }
             var props = `<div style="display: flex; padding: 10px; justify-content: center; align-items: center; align-content: center; gap: 15px; box-sizing: border-box; width: 100%; flex-wrap: wrap;">${propsList}</div>`
         }
         if (!!games[req.params.game]['description']) {
-            var descBool = `<div style="width: 100%; height: 3px; border-radius: 1.5px; background: #FFFFFF;" ></div>`
+            var descBool = `<div style="width: 100%; height: 1px; border-radius: 1.5px; background: var(--md-sys-color-outline-variant);" ></div>`
             var desc = games[req.params.game]['description']
         }
-        res.render('game', {title: games[req.params.game]['title'], embed: games[req.params.game]['embedLink'], firebase: process.env.firebase, propsBool: propsBool, props: props, descBool: descBool, desc: desc, impShow: impAnn.show, impTitle: impAnn.title, impDesc: impAnn.desc, components: fs.readFileSync(`${__dirname}/components.js`, 'utf8')})
+        res.render('game', {title: games[req.params.game]['title'], embed: games[req.params.game]['embedLink'], firebase: process.env.firebase, propsBool: propsBool, props: props, descBool: descBool, desc: desc})
     } else {
         res.render('404', {link: req.params.game, firebase: process.env.firebase})
     }
@@ -94,7 +88,7 @@ app.get('/search/:query', (req, res) => {
         const game = games[result.ref]
         toReturn[result.ref] = game
     }
-    res.render('search', {query: req.params.query, games: JSON.stringify(toReturn), impShow: impAnn.show, impTitle: impAnn.title, impDesc: impAnn.desc, components: fs.readFileSync(`${__dirname}/components.js`, 'utf8')})
+    res.render('search', {query: req.params.query, games: JSON.stringify(toReturn)})
 })
 
 app.listen(port)
