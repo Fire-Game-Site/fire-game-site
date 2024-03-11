@@ -13,12 +13,6 @@ var announcement = { // both support html, so if you want something like a link 
     description: `If this website is blocked, go to the new alternate links: <a href='https://flamingsite.vercel.app'>flamingsite.vercel.app</a> or <a href='https://flamingsite.github.io'>flamingsite.github.io</a><br />NOTE: IF YOU CLICK A BUTTON OR GAME AND NOTHING HAPPENS, GIVE THE SITE A BIT TO LOAD<br /> <br />The Fire Game Site is currently developing a new AI model for the website. We would like your opinion on the name of the site. Here is the <a href='https://strawpoll.com/eJnvvKW8knv'>Link</a> (Make sure to right click and open this in a new tab. Otherwise, it won't work.) <br /> <br />March 8,2024: We have removed the faulty pop up from our site. We also added Deadshot.io after many requests. <br /> <br />March 7, 2024: Multiple Games on the Site Have Been Repaired. Please reach out to us if there are any other broken games.`
 }
 
-var impAnn = {
-    show: 'true',
-    title: 'Important - VOTE FOR THE NEW SITE NAME',
-    desc: `Fire Game Site is making a new site for use with AI models. We wanted your opinions on what to name the new website. Vote <a href='https://strawpoll.com/eJnvvKW8knv?target=_blank'>HERE</a><br />If the site shows an error, right-click the link and choose open in new tab or hold control while clicking the link. This especially applies to those using the alternate link.`
-}
-
 // index lunr
 var wildcardGenerator = function (token) {
     return new lunr.Token(`*${token.str}*`);
@@ -40,7 +34,7 @@ app.set('view engine', 'mustache');
 app.set('views', __dirname);
 
 app.get('/', (req, res) => {
-    res.render('index', {games: JSON.stringify(games), firebase: process.env.firebase, title: announcement.title, desc: announcement.description, impShow: impAnn.show, impTitle: impAnn.title, impDesc: impAnn.desc, components: fs.readFileSync(`${__dirname}/components.js`, 'utf8')})
+    res.render('index', {games: JSON.stringify(games), firebase: process.env.firebase, title: announcement.title, desc: announcement.description})
 })
 
 app.get('/ads.txt', (req, res) => {
@@ -81,7 +75,7 @@ app.get('/:game', (req, res) => {
             var descBool = `<div style="width: 100%; height: 1px; border-radius: 1.5px; background: var(--md-sys-color-outline-variant);" ></div>`
             var desc = games[req.params.game]['description']
         }
-        res.render('game', {title: games[req.params.game]['title'], embed: games[req.params.game]['embedLink'], firebase: process.env.firebase, propsBool: propsBool, props: props, descBool: descBool, desc: desc, impShow: impAnn.show, impTitle: impAnn.title, impDesc: impAnn.desc, components: fs.readFileSync(`${__dirname}/components.js`, 'utf8')})
+        res.render('game', {title: games[req.params.game]['title'], embed: games[req.params.game]['embedLink'], firebase: process.env.firebase, propsBool: propsBool, props: props, descBool: descBool, desc: desc})
     } else {
         res.render('404', {link: req.params.game, firebase: process.env.firebase})
     }
@@ -94,7 +88,7 @@ app.get('/search/:query', (req, res) => {
         const game = games[result.ref]
         toReturn[result.ref] = game
     }
-    res.render('search', {query: req.params.query, games: JSON.stringify(toReturn), impShow: impAnn.show, impTitle: impAnn.title, impDesc: impAnn.desc, components: fs.readFileSync(`${__dirname}/components.js`, 'utf8')})
+    res.render('search', {query: req.params.query, games: JSON.stringify(toReturn)})
 })
 
 app.listen(port)
