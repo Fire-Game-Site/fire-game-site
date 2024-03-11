@@ -653,7 +653,53 @@
 			"Objective": ""
 		},
 		"description": ""
+	},
+	"drivemad": {
+		"title": "Drive Mad",
+		"link": "drivemad",
+		"image": "",
+		"embedLink": "https://drivemad.me/iframe/index.html",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"blackjack": {
+		"title": "Black Jack",
+		"link": "blackjack",
+		"image": "",
+		"embedLink": "https://freegames.org/games/blackjack/v1/",
+		"props": {
+			"Controls": "Mouse Click",
+			"Objective": "Get as Close to 21 with your Cards as You can Without Going Over"
+		},
+		"description": "The Classic Card Game of Blackjack"
+	},
+	"poker": {
+		"title": "Poker",
+		"link": "poker",
+		"image": "",
+		"embedLink": "https://html5.gamedistribution.com/rvvASMiM/f07403fb3a4e4278944d0b540a6de3ff/index.html?gdpr-targeting=0&gdpr-tracking=0&gdpr-third-party=0&euConsent=undefined&gd_sdk_referrer_url=https%3A%2F%2Fwww.funnygames.org%2Fgame%2Fpoker_world_offline_poker.html&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL3d3dy5mdW5ueWdhbWVzLm9yZy9nYW1lL3Bva2VyX3dvcmxkX29mZmxpbmVfcG9rZXIuaHRtbCIsInBhcmVudERvbWFpbiI6ImZ1bm55Z2FtZXMub3JnIiwidG9wRG9tYWluIjoiZnVubnlnYW1lcy5vcmciLCJoYXNJbXByZXNzaW9uIjpmYWxzZSwibG9hZGVyRW5hYmxlZCI6dHJ1ZSwiaG9zdCI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidmVyc2lvbiI6IjEuNS4xNyJ9",
+		"props": {
+			"Developer": "Governer of Poker",
+			"Controls": "Mouse Click",
+			"Objective": "Win the Pot by Having the Highest Poker Hand or by Making a Bet that No Other Player Calls and Gain Fame In the"
+		},
+		"description": "Classic Game of Poker"
+	},
+	"eaglercraft188": {
+		"title": "Eaglercraft 1.8.8",
+		"link": "eaglercraft188",
+		"image": "",
+		"embedLink": "https://eaglercraft.net/",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
 	}
-
 
 }
