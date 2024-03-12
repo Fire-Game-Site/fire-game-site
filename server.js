@@ -10,7 +10,7 @@ const fs = require("fs")
 
 var announcement = { // both support html, so if you want something like a link use <a> or if you want a newline use <br />
     title: "Anouncements - MASSIVE UI UPDATE",
-    description: `Our team has been hard at work to deliver the best experience to you. Our most recent update has the most changes to the code that any update has ever had on this site, ever. Everything has been updated to fit Google's much more modern Material Design Guidelines (also known Material M3 or Material You). The red is gone from the site for now, but may make a surprise return sometime in the near future. We hope you enjoy the new UI, and if you have any issues at all, click the contact button in the top right and fill out the form with information on your issue or request.<br /><br />NOTE: IF YOU CLICK A BUTTON OR GAME AND NOTHING HAPPENS, GIVE THE SITE A BIT TO LOAD<br />`
+    description: `Our team has been hard at work to deliver the best experience to you. Our most recent update has the most changes to the code that any update has ever had on this site, ever. Everything has been updated to fit Google's much more modern Material Design Guidelines (also known Material M3 or Material You). The red is gone from the site for now, but may make a surprise return sometime in the near future. We hope you enjoy the new UI, and if you have any issues at all, click the contact button in the top right and fill out the form with information on your issue or request.<br /><br />NOTE: IF YOU CLICK A BUTTON OR GAME AND NOTHING HAPPENS, GIVE THE SITE A BIT TO LOAD<br /> <br />March 12, 2024: Added Yeezle to the site.`
 }
 
 // index lunr
