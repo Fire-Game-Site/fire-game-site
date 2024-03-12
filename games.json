@@ -700,6 +700,18 @@
 			"Objective": ""
 		},
 		"description": ""
+	},
+	"yeezle": {
+		"title": "Yeezle",
+		"link": "yeezle",
+		"image": "",
+		"embedLink": "https://yeezle.xyz/",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
 	}
 
 }
