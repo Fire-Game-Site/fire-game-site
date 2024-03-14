@@ -712,6 +712,30 @@
 			"Objective": ""
 		},
 		"description": ""
+	},
+	"ninjaio": {
+		"title": "Ninja.io",
+		"link": "ninjaio",
+		"image": "",
+		"embedLink": "https://ninja.io/",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"highwaytraffic": {
+		"title": "Highway Traffic",
+		"link": "highwaytraffic",
+		"image": "",
+		"embedLink": "//html5.gamedistribution.com/rvvASMiM/7c151f5e29eb40a591edfe1823e1d0ea/index.html?gd_sdk_referrer_url=https%3A%2F%2Fwww.pacogames.com%2Fdriving%2Fhighway-traffic&gdpr-tracking=1&gdpr-targeting=1&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL3d3dy5wYWNvZ2FtZXMuY29tL2RyaXZpbmcvaGlnaHdheS10cmFmZmljIiwicGFyZW50RG9tYWluIjoicGFjb2dhbWVzLmNvbSIsInRvcERvbWFpbiI6InBhY29nYW1lcy5jb20iLCJoYXNJbXByZXNzaW9uIjp0cnVlLCJsb2FkZXJFbmFibGVkIjp0cnVlLCJob3N0IjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJ2ZXJzaW9uIjoiMS41LjE3In0%253D",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
 	}
 
 }
