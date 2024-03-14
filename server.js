@@ -57,6 +57,10 @@ app.get('/privacy-policy', (req, res) => {
     res.render('md', {title: "Privacy Policy"})
 })
 
+app.get('/alternates', (req, res) => {
+    res.render('alternates', {title: "Alternate Pages"})
+})
+
 app.get('/contact', (req, res) => {
     res.render('contact', {firebase: process.env.firebase})
 })
