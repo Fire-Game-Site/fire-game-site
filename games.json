@@ -737,18 +737,6 @@
 		},
 		"description": ""
 	},
-	"geofs": {
-		"title": "GeoFS Flight Sim",
-		"link": "geofs",
-		"image": "",
-		"embedLink": "https://www.geo-fs.com/geofs.php",
-		"props": {
-			"Developer": "",
-			"Controls": "",
-			"Objective": ""
-		},
-		"description": ""
-	},
 	"monkeymart": {
 		"title": "Monkey Mart",
 		"link": "monkeymart",
