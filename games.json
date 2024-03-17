@@ -760,6 +760,19 @@
 			"Objective": ""
 		},
 		"description": ""
+	},
+	"savestickman": {
+		"title": "Save Stickman",
+		"link": "savestickman",
+		"image": "",
+		"embedLink": "https://game.enjoy4fun.com/drawandsavestickman/v2/index.html?channel-id=default&site-id=site_4&zone-id=44233",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
 	}
+
 
 }
