@@ -736,6 +736,43 @@
 			"Objective": ""
 		},
 		"description": ""
+	},
+	"monkeymart": {
+		"title": "Monkey Mart",
+		"link": "monkeymart",
+		"image": "",
+		"embedLink": "https://monkey-mart.io/iframe/index.html",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"smashkarts": {
+		"title": "Smash Karts",
+		"link": "smashkarts",
+		"image": "",
+		"embedLink": "https://geometrykarts.com/",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"logisticsinc": {
+		"title": "Logistics Inc.",
+		"link": "logisticsinc",
+		"image": "",
+		"embedLink": "https://game310544.konggames.com/gamez/0031/0544/live/index.html?kongregate_user_id=0&kongregate_game_auth_token=84983c60f7daadc1cb8698621f802c0d9f9a3c3c295c810748fb048115c186ec&random=119021503.9722573",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
 	}
+
 
 }
