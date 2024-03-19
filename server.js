@@ -79,7 +79,15 @@ app.get('/:game', (req, res) => {
             var descBool = `<div style="width: 100%; height: 1px; border-radius: 1.5px; background: var(--md-sys-color-outline-variant);" ></div>`
             var desc = games[req.params.game]['description']
         }
-        res.render('game', {title: games[req.params.game]['title'], embed: games[req.params.game]['embedLink'], firebase: process.env.firebase, propsBool: propsBool, props: props, descBool: descBool, desc: desc})
+        res.render('game', {title: games[req.params.game]['title'], embed: games[req.params.game]['embedLink'], url: req.params.game, firebase: process.env.firebase, propsBool: propsBool, props: props, descBool: descBool, desc: desc})
+    } else {
+        res.render('404', {link: req.params.game, firebase: process.env.firebase})
+    }
+})
+
+app.get('/fs/:game', (req, res) => {
+    if (req.params.game in games) {
+        res.render('embed', {embed: games[req.params.game]['embedLink']})
     } else {
         res.render('404', {link: req.params.game, firebase: process.env.firebase})
     }
