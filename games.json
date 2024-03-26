@@ -772,7 +772,20 @@
 			"Objective": ""
 		},
 		"description": ""
+	},
+	"fortnitetrack": {
+		"title": "Fortnite Tracker",
+		"link": "fortnitetrack",
+		"image": "",
+		"embedLink": "https://fortnitetracker.com",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
 	}
+
 
 
 }
