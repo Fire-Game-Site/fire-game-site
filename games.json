@@ -820,6 +820,29 @@
 			"Objective": ""
 		},
 		"description": ""
+	},
+	"2048": {
+		"title": "2048",
+		"link": "2048",
+		"image": "",
+		"embedLink": "https://ovolve.github.io/2048-AI/",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
 	}
-
+	"asmallworldcup": {
+		"title": "A Small World Cup",
+		"link": "asmallworldcup",
+		"image": "",
+		"embedLink": "https://html-classic.itch.zone/html/1643267/index.html?v=1574335048",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	}
 }
