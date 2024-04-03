@@ -821,9 +821,9 @@
 		},
 		"description": ""
 	},
-	"2048": {
-		"title": "ts2048",
-		"link": "2048",
+	"ts2048": {
+		"title": "2048",
+		"link": "ts2048",
 		"image": "",
 		"embedLink": "https://ovolve.github.io/2048-AI/",
 		"props": {
