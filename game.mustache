@@ -170,6 +170,11 @@
 <script>
     document.querySelector('#fullscreen').addEventListener('click', e => {
         var win = window.open()
+        var script = win.document.createElement('script')
+        script.async = true
+        script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2261681163241464'
+        script.crossOrigin = 'anonymous'
+        win.document.head.appendChild(script)
         win.document.body.style = 'margin: 0; height: 100vh;'
         var iframe = win.document.createElement('iframe')
         iframe.style = 'border: none; width: 100%; height: 100%; margin: 0;'
