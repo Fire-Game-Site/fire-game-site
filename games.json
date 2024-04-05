@@ -44,6 +44,7 @@
 			"Controls": "Arrow Keys, WASD, or mouse-move",
 			"Objective": "Capture the map"
 		},
+		"fs": true,
 		"description": "A game all about claiming territory and staying alive, Paper.io 2 has the perfect combination of strategy and skill. With plenty of game modes and customization options, this game can cater to all your gaming needs."
 	},
 	"hexanaut.io": {
@@ -68,6 +69,7 @@
 			"Controls": "Arrows/WASD-move",
 			"Objective": "Get as far as possible"
 		},
+		"fs": true,
 		"description": "This simple, physics based game has you rolling a ball down a slope. As you get farther, your speed increases. There is only one rule: DON'T HIT THE RED BLOCKS! This game will keep you entertained for hours!"
 	},
 	"motox3m1": {
@@ -152,6 +154,7 @@
 			"Controls": "Up arrow/W-jump, Left and right arrow/A and D-left and right",
 			"Objective": "Don’t die!"
 		},
+		"fs": true,
 		"description": "A new take on platformer games that really tests your reaction time and skill, make it through the end of the tunnel without taking a trip into space! Remember, with no gravity, you can run on all sides of the tunnel!"
 	},
 	"run2": {
@@ -164,6 +167,7 @@
 			"Controls": "Up arrow/W-jump, Left and right arrow/A and D-left and right",
 			"Objective": "Don’t die!"
 		},
+		"fs": true,
 		"description": "The sequel to Run 1, with plenty of new levels and challenges for you to complete. Not challenging enough? Use the all new level creator and make your own for you and your friends to beat! Make it through the end of the tunnel without falling into the void of space! Remember, with no gravity, you can run on all sides of the tunnel!"
 	},
 	"run3": {
@@ -200,6 +204,7 @@
 			"Controls": "Right arrow/D-forward, Left arrow/A-backwards",
 			"Objective": "Survive as long as possible without dying"
 		},
+		"fs": true,
 		"description": "Drive as far as you can without crashing your egg! Collect coins along the way to unlock other vehicles and challenge your friends to beat your score!"
 	},
 	"retrobowl": {
@@ -296,6 +301,7 @@
 			"Controls": "Spacebar-turn",
 			"Objective": "Get as far as possible."
 		},
+		"fs": true,
 		"description": "Drift Boss is an incredibly fun game where you have to drift your way through the path and not fall off! The longer you stay on, the more points you earn!. Use coins you collect to activate power ups to increase your score!"
 	},
 	"worldshardestgame": {
@@ -308,6 +314,7 @@
 			"Controls": "WASD-move",
 			"Objective": "Get to the end without dying."
 		},
+		"fs": true,
 		"description": "A simple yet infuriating game where the goal is to get to the end of the level after collecting all the coins. Watch out for the blue squares and circles that will make you start the level over and lose your coins!"
 	},
 	"worldshardestgame2": {
@@ -320,6 +327,7 @@
 			"Controls": "",
 			"Objective": ""
 		},
+		"fs": true,
 		"description": ""
 	},
 	"jellytruck": {
@@ -332,6 +340,7 @@
 			"Controls": "Up arrow-move right, Down arrow-move left, Right arrow-lean right, Left arrow-lean left",
 			"Objective": "Reach the end"
 		},
+		"fs": true,
 		"description": "Drive a truck made of jelly to the finish line! With wonky graphics and kooky physics, you’ll have a blast playing Jelly Truck!"
 	},
 	"bigtowertinysquare": {
@@ -403,6 +412,7 @@
 			"Controls": "Left click-everything",
 			"Objective": "Get 4 pieces in a row!"
 		},
+		"fs": true,
 		"description": "A classic connect 4 game digitized! Get 4 of your colored pieces in a row in any direction to win!"
 	},
 	"basketbros": {
@@ -427,6 +437,7 @@
 			"Controls": "Spacebar/click-grab nearest grapple point",
 			"Objective": "Coming Soon!"
 		},
+		"fs": true,
 		"description": "Grapple on to grapple points and swing your way through the level to reach the finish line without falling!"
 	},
 	"ovo": {
@@ -439,6 +450,7 @@
 			"Controls": "Arrow keys/WASD-Move",
 			"Objective": "Finish the course fast"
 		},
+		"fs": true,
 		"description": "Run, jump and dive your way through the course in the least amount of time possible."
 	},
 	"runbunbunrun": {
@@ -498,6 +510,7 @@
 			"Controls": "",
 			"Objective": ""
 		},
+		"fs": true,
 		"description": ""
 	},
 	"geometrydash": {
@@ -582,6 +595,7 @@
 			"Controls": "",
 			"Objective": ""
 		},
+		"fs": true,
 		"description": ""
 	},
 	"penaltykickonline": {
@@ -654,6 +668,7 @@
 			"Controls": "",
 			"Objective": ""
 		},
+		"fs": true,
 		"description": ""
 	},
 	"blackjack": {
@@ -701,6 +716,7 @@
 			"Controls": "",
 			"Objective": ""
 		},
+		"fs": true,
 		"description": ""
 	},
 	"ninjaio": {
@@ -737,6 +753,7 @@
 			"Controls": "",
 			"Objective": ""
 		},
+		"fs": true,
 		"description": ""
 	},
 	"smashkarts": {
@@ -797,6 +814,7 @@
 			"Controls": "",
 			"Objective": ""
 		},
+		"fs": true,
 		"description": ""
 	},
 	"flap": {
