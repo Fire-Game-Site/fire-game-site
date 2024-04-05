@@ -9,8 +9,8 @@ const res = require("express/lib/response");
 const fs = require("fs")
 
 var announcement = { // both support html, so if you want something like a link use <a> or if you want a newline use <br />
-    title: "Anouncements - MASSIVE UI UPDATE",
-    description: `Our team has been hard at work to deliver the best experience to you. Our most recent update has the most changes to the code that any update has ever had on this site, ever. Everything has been updated to fit Google's much more modern Material Design Guidelines (also known Material M3 or Material You). The red is gone from the site for now, but may make a surprise return sometime in the near future. We hope you enjoy the new UI, and if you have any issues at all, click the contact button in the top right and fill out the form with information on your issue or request.<br /><br />NOTE: IF YOU CLICK A BUTTON OR GAME AND NOTHING HAPPENS, GIVE THE SITE A BIT TO LOAD<br /> <br />March 29, 2024: Removed FNAF as it was broken and had very low demand. Added Subway Surfers, which has many different maps in it. Also added Sausage Flip. <br /> <br />March 26, 2024: Added a highly requested Fortnite Tracker. We also fixed the Worlds Hardest Game. <br /> <br />March 19, 2024: Fixed Idle Breakout Bug; added Logistics Inc.`
+    title: "Announcements - MASSIVE UI UPDATE",
+    description: `Our team has been hard at work to deliver the best experience to you. Our most recent update has the most changes to the code that any update has ever had on this site, ever. Everything has been updated to fit Google's much more modern Material Design Guidelines (also known Material M3 or Material You). The red is gone from the site for now, but may make a surprise return sometime in the near future. We hope you enjoy the new UI, and if you have any issues at all, click the contact button in the top right and fill out the form with information on your issue or request.<br /><br />NOTE: IF YOU CLICK A BUTTON OR GAME AND NOTHING HAPPENS, GIVE THE SITE A BIT TO LOAD<br /> <br />March 29, 2024: Removed FNAF as it was broken and had very low demand. Added Subway Surfers, which has many different maps in it. Also added Sausage Flip. <br /> <br />March 26, 2024: Added a highly requested Fortnite Tracker. We also fixed the World's Hardest Game. <br /> <br />March 19, 2024: Fixed Idle Breakout Bug; added Logistics Inc.`
 }
 
 // index lunr
@@ -79,7 +79,7 @@ app.get('/:game', (req, res) => {
             var descBool = `<div style="width: 100%; height: 1px; border-radius: 1.5px; background: var(--md-sys-color-outline-variant);" ></div>`
             var desc = games[req.params.game]['description']
         }
-        if (!!games[req.params.game]['fs']) {
+        if (!games[req.params.game]['fs']) {
             var fsBool = '<button id="fullscreen" style="position: absolute; background: var(--md-sys-color-primary); border-radius: 20px; border: none; font-family: \'Roboto Flex\', system-ui; color: var(--md-sys-color-on-primary); font-size: 14px; line-height: 20px; overflow: visible; box-sizing: border-box; height: 40px; font-weight: 500; letter-spacing: 0.1px; padding: 0 24px;">Fullscreen</button>'
         }
         res.render('game', {title: games[req.params.game]['title'], embed: games[req.params.game]['embedLink'], url: req.params.game, firebase: process.env.firebase, propsBool: propsBool, props: props, descBool: descBool, desc: desc, fs: fsBool})
