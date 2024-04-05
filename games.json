@@ -7,7 +7,8 @@
 		"props": {
 			"Subscribe": "For gameplay videos and promotional content!",
 			"Link": "<a href='https://youtube.com/@firegames52123?si=tdwqa6Hx4Emqtfbb'>Subscribe to our Youtube Channel HERE</a>"
-		}
+		},
+		"fs": true
 	},
 	"bigsites": {
 		"title": "Big Sites",
@@ -18,6 +19,7 @@
 			"Developer": "Anthony C.",
 			"link": "<a href='https://sites.google.com/view/biggestsite/home?authuser=0'>View BIG Sites HERE</a>"
 		},
+		"fs": true,
 		"description": "BIG News is back and stronger than ever! (picture above is not the current site) Check out the BIG things happening world wide and all of our BIG features. We are the BIGGEST and best news!"
 	},
 	"defly.io": {
