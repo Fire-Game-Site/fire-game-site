@@ -29,13 +29,15 @@
 </div>
 <iframe src="{{{ embed }}}" style="border: none; width: 100%; height: 100%; margin: 0;"></iframe>
 <script>
-    document.querySelectorAll('ins.adsbygoogle:not(.dont-block)').forEach(i => {
-		console.log(i)
-        i.style = 'display: none !important;'
-    })
-    document.querySelectorAll('vli').forEach(i => {
-        console.log(i)
-        i.style = 'display: none !important;'
+    window.onload(() => {
+        document.querySelectorAll('ins.adsbygoogle:not(.dont-block)').forEach(i => {
+            console.log(i)
+            i.style = 'display: none !important;'
+        })
+        document.querySelectorAll('vli').forEach(i => {
+            console.log(i)
+            i.style = 'display: none !important;'
+        })
     })
 </script>
 </body>
