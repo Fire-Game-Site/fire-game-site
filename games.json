@@ -816,18 +816,6 @@
 		"fs": true,
 		"description": ""
 	},
-	"flap": {
-		"title": "Flap",
-		"link": "flap",
-		"image": "",
-		"embedLink": "https://itch.io/embed-upload/2018286?color=ffc2a1",
-		"props": {
-			"Developer": "",
-			"Controls": "",
-			"Objective": ""
-		},
-		"description": ""
-	},
 	"rocketsoccerderby": {
 		"title": "Rocket Soccer Derby",
 		"link": "rocketsoccerderby",
