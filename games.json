@@ -851,5 +851,17 @@
 			"Objective": ""
 		},
 		"description": ""
+	},
+	"r6": {
+		"title": "Tom Clancy's Rainbow Six Siege (Arcade Version)",
+		"link": "r6",
+		"image": "",
+		"embedLink": "https://gamesfrog.com/games/n64/tom-clancys-rainbow-six/iframe/",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
 	}
 }
