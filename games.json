@@ -863,5 +863,65 @@
 			"Objective": ""
 		},
 		"description": ""
+	},
+	"penaltyshoot1": {
+		"title": "Penalty Shooters 1",
+		"link": "penaltyshoot1",
+		"image": "",
+		"embedLink": "https://games.builds.gamepix.com/20067/6640642152118353920/index.html?api=2&sid=40165&utm_source=direct&referer=undefined&utm_medium=publisherV2&gd_sdk_referrer_url=https%3A%2F%2Fwww.funnygames.org%2Fgame%2Fpenalty_shooters_1.html&lang=en&namespace=penalty-shooters",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"penaltyshoot2": {
+		"title": "Penalty Shooters 2",
+		"link": "penaltyshoot2",
+		"image": "",
+		"embedLink": "https://html5.gamedistribution.com/571b9df027e449f78e3869ba19658754/?gd_sdk_referrer_url=https://penaltyshooters2.com",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"quake": {
+		"title": "Quake",
+		"link": "quake",
+		"image": "",
+		"embedLink": "https://www.netquake.io",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"multitaskair": {
+		"title": "Multitask Air",
+		"link": "multitaskair",
+		"image": "",
+		"embedLink": "https://html-classic.itch.zone/html/4996445/Multi Task Web/index.html",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"adanceoffireandice": {
+		"title": "A Dance Of Fire and Ice",
+		"link": "adanceoffireandice",
+		"image": "",
+		"embedLink": "https://html5-games.io/game/a-dance-of-fire-and-ice/",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
 	}
 }
