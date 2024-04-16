@@ -543,11 +543,11 @@
 		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/raftwars.jpg?w=208&h=208",
 		"embedLink": "https://just-fall.github.io/j77/raft-wars",
 		"props": {
-			"Developer": "",
-			"Controls": "",
-			"Objective": ""
+			"Developer": "Martijn Kunst",
+			"Controls": "MOUSE-Aim and Shoot",
+			"Objective": "Defeat all enemies"
 		},
-		"description": ""
+		"description": "You and your little brother Simon escalate some trouble at the pool into world-wide turn based warfare! Take down all the enemies and earn gold to buy upgrades to help you progress in the increasingly difficult levels."
 	},
 	"raftwars2": {
 		"title": "Raft Wars 2",
@@ -555,11 +555,11 @@
 		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/raftwars2.jpg?w=208&h=208",
 		"embedLink": "https://webglmath.github.io/raft-wars-2/",
 		"props": {
-			"Developer": "",
-			"Controls": "",
-			"Objective": ""
+			"Developer": "Martijn Kunst",
+			"Controls": "MOUSE-Aim and Shoot",
+			"Objective": "Defeat all enemies"
 		},
-		"description": ""
+		"description": "You and your little brother Simon escalate some trouble at the pool into world-wide turn based warfare! Take down all the enemies and earn gold to buy upgrades to help you progress in the increasingly difficult levels."
 	},
 	"mrmine": {
 		"title": "Mr Mine",
@@ -567,11 +567,11 @@
 		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/mrmine.jpg?w=208&h=208",
 		"embedLink": "https://mrmine.com/game/?nocache=1696018196",
 		"props": {
-			"Developer": "",
-			"Controls": "",
-			"Objective": ""
+			"Developer": "Playsaurus",
+			"Controls": "MOUSE",
+			"Objective": "Dig down as far as you can and become rich!"
 		},
-		"description": ""
+		"description": "Manage your very own mine and dig through planets! Become filthy rich and buy better miners and drills to make your mine even better!"
 	},
 	"madalinstuntcars2": {
 		"title": "Madalin Stunt Cars 2",
@@ -579,7 +579,7 @@
 		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/madalinstunt.jpg?w=208&h=208",
 		"embedLink": "https://www.madalingames.com/madalingames/wp-content/uploads/games/webgl/M/MSC2-files/021/MSC2-WEBGL/index.html",
 		"props": {
-			"Developer": "",
+			"Developer": "Madalin Stanciu",
 			"Controls": "WASD- Move, C-Camera, T-Top view, B- Rear-view mirror, M-Menu level, Space-Break, Ctrl+G-Auto/manual gear, PgUp/PgDown-Gear shift, R-Reset car, H-Police Lights",
 			"Objective": "Drive around and pull off the sickest stunts!"
 		},
@@ -592,11 +592,11 @@
 		"embedLink": "https://www.freetetris.org/resources/project-freetetrisorg/game/game-F642B867FEF5C7C3/target-desktop/if_game_html5.php?p=d&cbidg=F642B867FEF5C7C3",
 		"props": {
 			"Developer": "WAFLASH",
-			"Controls": "",
-			"Objective": ""
+			"Controls": "CUSTOMIZABLE",
+			"Objective": "Score the most points!"
 		},
 		"fs": true,
-		"description": ""
+		"description": "The classic game of tetris all about clearing rows of blocks to score points! Completly fill up a row to clear it!"
 	},
 	"penaltykickonline": {
 		"title": "Penalty Kick Online",
