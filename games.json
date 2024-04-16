@@ -927,5 +927,17 @@
 		},
 		"fs": true,
 		"description": ""
+	},
+	"yohoho.io": {
+		"title": "YoHoHo.io",
+		"link": "yohoho.io",
+		"image": "",
+		"embedLink": "https://yohoho.io",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
 	}
 }
