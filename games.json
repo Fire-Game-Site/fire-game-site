@@ -323,12 +323,12 @@
 		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/worldshardestgame2.jpg?w=208&h=208",
 		"embedLink": "https://webglmath.github.io/worlds-hardest-game-2/",
 		"props": {
-			"Developer": "",
-			"Controls": "",
-			"Objective": ""
+			"Developer": "Armor Games",
+			"Controls": "WASD-Move",
+			"Objective": "Get to the end without dying"
 		},
 		"fs": true,
-		"description": ""
+		"description": "A simple yet infuriating game where the goal is to get to the end of the level after collecting all the coins. Watch out for the blue squares and circles that will make you start the level over and lose your coins!"
 	},
 	"jellytruck": {
 		"title": "Jelly Truck",
@@ -435,7 +435,7 @@
 		"props": {
 			"Developer": "Madbox",
 			"Controls": "Spacebar/click-grab nearest grapple point",
-			"Objective": "Coming Soon!"
+			"Objective": "Swimg your way to the finish line."
 		},
 		"fs": true,
 		"description": "Grapple on to grapple points and swing your way through the level to reach the finish line without falling!"
@@ -461,7 +461,7 @@
 		"props": {
 			"Developer": "GX Games",
 			"Controls": "A/Left Arrow- Jump left, D/Right Arrow-Jump Right",
-			"Objective": "Coming Soon!"
+			"Objective": "Get as high up as you can without falling!"
 		},
 		"description": "A game all about reaction time and hand-eye coordination, get your bunny up as high as you can without falling down into the lava!"
 	},
@@ -472,10 +472,10 @@
 		"embedLink": "https://playpager.com/embed/chess/index.html",
 		"props": {
 			"Developer": "Math Playground",
-			"Controls": "",
-			"Objective": ""
+			"Controls": "Mouse Click",
+			"Objective": "Take your opponent's king!"
 		},
-		"description": ""
+		"description": "A classic game of chess all about strategy and being one step ahead of your oppenent! Checkmate!"
 	},
 	"wordle": {
 		"title": "Wordle",
@@ -484,9 +484,9 @@
 		"embedLink": "https://wordlegame.org/",
 		"props": {
 			"Developer": "wordlegame.org",
-			"Objective": ""
+			"Objective": "Guess the word!"
 		},
-		"description": ""
+		"description": "Guess the word given in 5 guesses with letter hints!"
 	},
 	"snowrider": {
 		"title": "Snow Rider 3D",
@@ -494,11 +494,11 @@
 		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/snowrider.jpg?w=208&h=208",
 		"embedLink": "https://snow-rider-3d.github.io/s77/snow-rider-3d/",
 		"props": {
-			"Developer": "",
-			"Controls": "",
-			"Objective": ""
+			"Developer": "TapPlay",
+			"Controls": "WASD or ARROW KEYS-Move",
+			"Objective": "Sled as far as you can!"
 		},
-		"description": ""
+		"description": "It's Christmas all year around! Sled down the mountain as far as you can without hitting any obstacles all while collecting presents to buy new sleds! Merry Christmas!!"
 	},
 	"impossiblegame": {
 		"title": "The Impossible Game",
@@ -506,12 +506,12 @@
 		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/impossiblegame.jpg?w=208&h=208",
 		"embedLink": "https://www.gamenora.com/upload/games/swf/The%20Impossible%20Game/",
 		"props": {
-			"Developer": "",
-			"Controls": "",
-			"Objective": ""
+			"Developer": "Fluke Games",
+			"Controls": "SPACE or MOUSE CLick-Jump",
+			"Objective": "Beat the level without dying!"
 		},
 		"fs": true,
-		"description": ""
+		"description": "Jump through a course of spikes and pits without dying!"
 	},
 	"geometrydash": {
 		"title": "Geometry Dash",
@@ -519,11 +519,11 @@
 		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/geodash.jpg?w=208&h=208",
 		"embedLink": "https://geometrydashlite.co/game/geometry-dash-lite/",
 		"props": {
-			"Developer": "",
-			"Controls": "",
-			"Objective": ""
+			"Developer": "geometrydashlite.co",
+			"Controls": "SPACE or MOUSE CLICK-Jump",
+			"Objective": "Beat the level and enjoy the music!"
 		},
-		"description": ""
+		"description": "An obstacle course filled with spikes and gaps synced to music! Use the beat to time your jumps!"
 	},
 	"99balls": {
 		"title": "99 Balls",
@@ -535,7 +535,7 @@
 			"Controls": "Click and drag mouse to aim, release to shoot",
 			"Objective": "Survive as long as possible"
 		},
-		"description": ""
+		"description": "Shoot balls to break the bricks before they reach the ground! Pick up more balls to shoot more and get a high score!"
 	},
 	"raftwars": {
 		"title": "Raft Wars",
