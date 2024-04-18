@@ -9,8 +9,8 @@ const res = require("express/lib/response");
 const fs = require("fs")
 
 var announcement = { // both support html, so if you want something like a link use <a> or if you want a newline use <br />
-    title: "Announcements - MASSIVE UI UPDATE",
-    description: `Our team has been hard at work to deliver the best experience to you. Our most recent update has the most changes to the code that any update has ever had on this site, ever. Everything has been updated to fit Google's much more modern Material Design Guidelines (also known Material M3 or Material You). The red is gone from the site for now, but may make a surprise return sometime in the near future. We hope you enjoy the new UI, and if you have any issues at all, click the contact button in the top right and fill out the form with information on your issue or request.<br /><br />NOTE: IF YOU CLICK A BUTTON OR GAME AND NOTHING HAPPENS, GIVE THE SITE A BIT TO LOAD<br />NOTE: OUR TEAM IS CURRENTLY HARD AT WORK TO DESIGN BRAND MEW THUMBNAILS FOR NEW GAMES<br /> <br />April 12, 2024: Added an arcade version of Tom Clancy's Rainbow 6 Siege. Let us know if there are any bugs with it.<br /> <br />April 9, 2024: Fixed fullscreen ad bug<br /> <br />March 29, 2024: Removed FNAF as it was broken and had very low demand. Added Subway Surfers, which has many different maps in it. Also added Sausage Flip.`
+    title: "Announcements - MEET THE TEAM",
+    description: `Our team works very hard to keep this website at it's best, and it's time you meet them. We have added a new page to the site that includes each member of the team as well as their role and a description of them. We are still waiting on 5 members to submit what they would like to be shown, so at the moment, there is only one member listed. Visit the page <a href="/team">HERE</a>.<br /><br />NOTE: IF YOU CLICK A BUTTON OR GAME AND NOTHING HAPPENS, GIVE THE SITE A BIT TO LOAD<br />NOTE: OUR TEAM IS CURRENTLY HARD AT WORK TO DESIGN BRAND MEW THUMBNAILS FOR NEW GAMES<br /> <br />April 12, 2024: Added an arcade version of Tom Clancy's Rainbow 6 Siege. Let us know if there are any bugs with it.<br /> <br />April 9, 2024: Fixed fullscreen ad bug<br /> <br />March 29, 2024: Removed FNAF as it was broken and had very low demand. Added Subway Surfers, which has many different maps in it. Also added Sausage Flip.`
 }
 
 // index lunr
@@ -63,6 +63,10 @@ app.get('/alternates', (req, res) => {
 
 app.get('/contact', (req, res) => {
     res.render('contact', {firebase: process.env.firebase})
+})
+
+app.get('/team', (req, res) => {
+    res.render('team', {firebase: process.env.firebase})
 })
 
 app.get('/:game', (req, res) => {
