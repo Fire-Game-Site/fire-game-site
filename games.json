@@ -975,5 +975,65 @@
 			"Objective": ""
 		},
 		"description": ""
+	},
+	"worldle": {
+		"title": "Worldle",
+		"link": "worldle",
+		"image": "",
+		"embedLink": "https://worldle.teuteuf.fr",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"statele": {
+		"title": "Statele",
+		"link": "statele",
+		"image": "",
+		"embedLink": "https://statele.teuteuf.fr",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"connections": {
+		"title": "Connections Unlimited",
+		"link": "connections",
+		"image": "",
+		"embedLink": "https://connectionsunlimited.io/game/connectionsunlimited/",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"spellingbee": {
+		"title": "Spelling Bee",
+		"link": "spellingbee",
+		"image": "",
+		"embedLink": "https://spellbee.org/unlimited?id=gaeforv",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"sudoku": {
+		"title": "Sudoku",
+		"link": "sudoku",
+		"image": "",
+		"embedLink": "https://www.proprofsgames.com/html5_games.php?script_path=sudoku_e/js/sudoku_e.js",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
 	}
 }
