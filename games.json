@@ -595,6 +595,7 @@
 			"Controls": "CUSTOMIZABLE",
 			"Objective": "Score the most points!"
 		},
+		"fs": true,
 		"description": "The classic game of tetris all about clearing rows of blocks to score points! Completly fill up a row to clear it!"
 	},
 	"penaltykickonline": {
@@ -985,6 +986,7 @@
 			"Controls": "",
 			"Objective": ""
 		},
+		"fs": true,
 		"description": ""
 	},
 	"statele": {
@@ -997,6 +999,7 @@
 			"Controls": "",
 			"Objective": ""
 		},
+		"fs": true,
 		"description": ""
 	},
 	"connections": {
@@ -1009,6 +1012,7 @@
 			"Controls": "",
 			"Objective": ""
 		},
+		"fs": true,
 		"description": ""
 	},
 	"spellingbee": {
@@ -1033,6 +1037,7 @@
 			"Controls": "",
 			"Objective": ""
 		},
+		"fs": true,
 		"description": ""
 	}
 }
