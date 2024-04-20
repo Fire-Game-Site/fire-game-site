@@ -110,5 +110,9 @@ app.get('/search/:query', (req, res) => {
     res.render('search', {query: req.params.query, games: JSON.stringify(toReturn)})
 })
 
+app.get('/assets/:img', (req, res) => {
+    res.sendFile(`./assets/${req.params.img}`)
+})
+
 app.listen(port)
 console.log("Server started at http://localhost:" + port)
