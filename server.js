@@ -112,7 +112,7 @@ app.get('/search/:query', (req, res) => {
 
 app.get('/assets/:img', (req, res) => {
     res.setHeader('Content-Type', 'image/jpeg')
-    res.sendFile(__dirname + `\\assets\\${req.params.img}`)
+    res.sendFile(__dirname + `/assets/${req.params.img}`)
 })
 
 app.listen(port)
