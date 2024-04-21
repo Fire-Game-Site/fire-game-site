@@ -940,18 +940,6 @@
 		},
 		"description": ""
 	},
-	"diep.io": {
-		"title": "Diep.io",
-		"link": "diep.io",
-		"image": "",
-		"embedLink": "https://diep.io",
-		"props": {
-			"Developer": "",
-			"Controls": "",
-			"Objective": ""
-		},
-		"description": ""
-	},
 	"supermariobros": {
 		"title": "Super Mario Bros",
 		"link": "supermariobros",
