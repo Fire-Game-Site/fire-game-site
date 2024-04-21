@@ -9,7 +9,7 @@ const res = require("express/lib/response");
 const fs = require("fs")
 
 var announcement = { // both support html, so if you want something like a link use <a> or if you want a newline use <br />
-    title: "Announcements - MEET THE TEM",
+    title: "Announcements - MEET THE TEAM",
     description: `Our team works very hard to keep this website at it's best, and it's time you meet them. We have added a new page to the site that includes each member of the team as well as their role and a description of them. We are still waiting on a few employees to submit what they would like to be shown. Visit the page <a href="/team">HERE</a>.<br /><br />NOTE: IF YOU CLICK A BUTTON OR GAME AND NOTHING HAPPENS, GIVE THE SITE A BIT TO LOAD<br /> <br />NOTE: OUR TEAM IS CURRENTLY HARD AT WORK TO DESIGN BRAND MEW THUMBNAILS FOR NEW GAMES<br /> <br />NOTE: IF YOU WANT TO VISIT OUR CONTACT PAGE, MEET THE TEAM PAGE, OR OUR SPECIAL ANNOUNCEMENTS, CLICK THE ICONS ON THE TOP RIGHT CORNER<br /> <br />April 19, 2024: Added a bunch of games including Worldle, Statele, Connections Unlimited, Spelling Bee, and Sudoku. If you have any suggestions on what we should add, contact us by clicking the "question mark" button at the top right corner.`
 }
 
