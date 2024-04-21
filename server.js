@@ -121,7 +121,7 @@ app.get('/thumbnails/:img', (req, res) => {
 })
 
 app.get('/iframe pics/:img', (req, res) => {
-    res.setHeader('Content-Type', 'embedlink/jpeg')
+    res.setHeader('Content-Type', 'embedLink/jpeg')
     res.sendFile(__dirname + `/iframe pics/${req.params.img}`)
 })
 
