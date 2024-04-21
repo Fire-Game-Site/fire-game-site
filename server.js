@@ -120,5 +120,10 @@ app.get('/thumbnails/:img', (req, res) => {
     res.sendFile(__dirname + `/thumbnails/${req.params.img}`)
 })
 
+app.get('/iframe pics/:img', (req, res) => {
+    res.setHeader('Content-Type', 'embedlink/jpeg')
+    res.sendFile(__dirname + `/iframe pics/${req.params.img}`)
+})
+
 app.listen(port)
 console.log("Server started at http://localhost:" + port)
