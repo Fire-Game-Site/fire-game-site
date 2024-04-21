@@ -1,8 +1,8 @@
 {
 	"ytchannel": {
-		"title": "The Fire Games Official Youtube Channel",
+		"title": "The Fire Games Official Youtube Channel GMW",
 		"link": "ytchannel",
-		"image": "https://firegamesite.com/assets/Fire Games Logo.jpg",
+		"image": "https://firegamesite.com/thumbnails/firegameslogo.jpg",
 		"embedLink": "https://firegamesite.com/iframe pics/firegamesyt.jpg",
 		"props": {
 			"Subscribe": "For gameplay videos and promotional content!",
@@ -13,7 +13,7 @@
 	"bigsites": {
 		"title": "Big Sites",
 		"link": "bigsites",
-		"image": "https://firegamesite.com/assets/Big news.jpg",
+		"image": "https://firegamesite.com/thumbnails/bignews.jpg",
 		"embedLink": "https://firegamesite.com/iframe pics/Big news.jpg",
 		"props": {
 			"Developer": "Anthony C.",
