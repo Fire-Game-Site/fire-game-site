@@ -1,9 +1,9 @@
 {
 	"ytchannel": {
-		"title": "The Fire Games Official Youtube Channel",
+		"title": "The Fire Games Official Youtube Channel GMW",
 		"link": "ytchannel",
 		"image": "https://arsholde.sirv.com/logo.jpg?w=208&h=208",
-		"embedLink": "https://firegamesite.com/thumbnails/firegamesyt.png",
+		"embedLink": "https://firegamesite.com/thumbnails/firegamesyt.jpg",
 		"props": {
 			"Subscribe": "For gameplay videos and promotional content!",
 			"Link": "<a href='https://youtube.com/@firegames52123?si=tdwqa6Hx4Emqtfbb'>Subscribe to our Youtube Channel HERE</a>"
@@ -11,10 +11,10 @@
 		"fs": true
 	},
 	"bigsites": {
-		"title": "Big Sites",
+		"title": "Big Sites GMW",
 		"link": "bigsites",
 		"image": "https://arsholde.sirv.com/Big%20news.png?w=208&h=208&scale.option=ignore",
-		"embedLink": "https://firegamesite.com/thumbnails/Big news.png",
+		"embedLink": "https://firegamesite.com/thumbnails/Big news.jpg",
 		"props": {
 			"Developer": "Anthony C.",
 			"link": "<a href='https://sites.google.com/view/biggestsite/home?authuser=0'>View BIG Sites HERE</a>"
