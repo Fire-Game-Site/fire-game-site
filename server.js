@@ -115,5 +115,10 @@ app.get('/assets/:img', (req, res) => {
     res.sendFile(__dirname + `/assets/${req.params.img}`)
 })
 
+app.get('/thumbnails/:img', (req, res) => {
+    res.setHeader('Content-Type', 'image/jpeg')
+    res.sendFile(__dirname + `/thumbnails/${req.params.img}`)
+})
+
 app.listen(port)
 console.log("Server started at http://localhost:" + port)
