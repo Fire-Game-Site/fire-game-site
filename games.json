@@ -1,6 +1,6 @@
 {
 	"ytchannel": {
-		"title": "The Fire Games Official Youtube Channel GMW",
+		"title": "The Fire Games Official Youtube Channel",
 		"link": "ytchannel",
 		"image": "https://arsholde.sirv.com/logo.jpg?w=208&h=208",
 		"embedLink": "https://firegamesite.com/iframe pics/firegamesyt.jpg",
@@ -11,7 +11,7 @@
 		"fs": true
 	},
 	"bigsites": {
-		"title": "Big Sites GMW",
+		"title": "Big Sites",
 		"link": "bigsites",
 		"image": "https://arsholde.sirv.com/Big%20news.png?w=208&h=208&scale.option=ignore",
 		"embedLink": "https://firegamesite.com/iframe pics/Big news.jpg",
