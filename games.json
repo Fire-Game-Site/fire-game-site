@@ -3,7 +3,7 @@
 		"title": "The Fire Games Official Youtube Channel",
 		"link": "ytchannel",
 		"image": "https://firegamesite.com/thumbnails/firegameslogo.jpg",
-		"embedLink": "https://firegamesite.com/iframe pics/firegamesyt.jpg",
+		"embedLink": "https://firegamesite.com/assets/firegamesyt.jpg",
 		"props": {
 			"Subscribe": "For gameplay videos and promotional content!",
 			"Link": "<a href='https://youtube.com/@firegames52123?si=tdwqa6Hx4Emqtfbb'>Subscribe to our Youtube Channel HERE</a>"
@@ -14,7 +14,7 @@
 		"title": "Big Sites",
 		"link": "bigsites",
 		"image": "https://firegamesite.com/thumbnails/bignews.jpg",
-		"embedLink": "https://firegamesite.com/iframe pics/Big news.jpg",
+		"embedLink": "https://firegamesite.com/assets/bignews.jpg",
 		"props": {
 			"Developer": "Anthony C.",
 			"link": "<a href='https://sites.google.com/view/biggestsite/home?authuser=0'>View BIG Sites HERE</a>"
