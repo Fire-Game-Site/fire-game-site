@@ -185,7 +185,7 @@
 	"idlebreakout": {
 		"title": "Idle Breakout",
 		"link": "idlebreakout",
-		"image": "https://firegamesite.com/thumbnails/",
+		"image": "https://firegamesite.com/thumbnails/idlebreakout.jpg",
 		"embedLink": "https://idle-breakout.github.io/games/idle-breakout/index.html",
 		"props": {
 			"Developer": "Kodiqi",
@@ -197,7 +197,7 @@
 	"eggycar": {
 		"title": "Eggy Car",
 		"link": "eggycar",
-		"image": "https://firegamesite.com/thumbnails/",
+		"image": "https://firegamesite.com/thumbnails/eggycar.jpg",
 		"embedLink": "https://webglmath.github.io/eggy-car/",
 		"props": {
 			"Developer": "Beedo Games",
@@ -210,7 +210,7 @@
 	"retrobowl": {
 		"title": "Retro Bowl",
 		"link": "retrobowl",
-		"image": "https://firegamesite.com/thumbnails/",
+		"image": "https://firegamesite.com/thumbnails/retrobowl.jpg",
 		"embedLink": "https://game316009.konggames.com/gamez/0031/6009/live/index.html",
 		"props": {
 			"Developer": "New Star Games",
@@ -222,7 +222,7 @@
 	"awesomeplanes": {
 		"title": "Awesome Planes",
 		"link": "awesomeplanes",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/aweplanes.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/aweplanes.jpg",
 		"embedLink": "https://games.kidzsearch.com/computer/flashgame_data/ruffleplayer.html?game=awesome-planes-43646",
 		"props": {
 			"Developer": "Big Dino Games",
@@ -234,7 +234,7 @@
 	"awesometanks": {
 		"title": "Awesome Tanks",
 		"link": "awesometanks",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/awetanks.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/awetanks.jpg",
 		"embedLink": "https://coolubg.github.io/coolubg-list/awesome-tanks/",
 		"props": {
 			"Developer": "Big Dino Games",
@@ -246,7 +246,7 @@
 	"awesometanks2": {
 		"title": "Awesome Tanks 2",
 		"link": "awesometanks2",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/awetanks2.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/awetanks2.jpg",
 		"embedLink": "https://coolubg.github.io/coolubg-list/awesome-tanks-2/",
 		"props": {
 			"Developer": "Big Dino Games",
@@ -258,7 +258,7 @@
 	"basketballstars": {
 		"title": "Basketball Stars",
 		"link": "basketballstars",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/basketballstars.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/basketballstars.jpg",
 		"embedLink": "https://webglmath.github.io/basketball-stars/",
 		"props": {
 			"Developer": "Madpuffers",
@@ -270,7 +270,7 @@
 	"wrestlebros": {
 		"title": "Wrestle Bros",
 		"link": "wrestlebros",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/wrestlebros.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/wrestlebros.jpg",
 		"embedLink": "https://wrestlebros.io/",
 		"props": {
 			"Developer": "Blue Wizard Digital",
@@ -282,7 +282,7 @@
 	"1v1.lol": {
 		"title": "1v1.lol",
 		"link": "1v1.lol",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/1v1lol.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/1v1lol.jpg",
 		"embedLink": "https://book-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/mind4ur/debugactions@57aba9c568b75b8aaddbcad0a05f8c26f57b344b/package/1v1old.xml&container=ig",
 		"props": {
 			"Developer": "JustPlay.lol",
@@ -294,7 +294,7 @@
 	"driftboss": {
 		"title": "Drift Boss",
 		"link": "driftboss",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/driftboss.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/driftboss.jpg",
 		"embedLink": "https://www.mathplayground.com/drift-boss-v3/index.html",
 		"props": {
 			"Developer": "Math Playground",
@@ -307,7 +307,7 @@
 	"worldshardestgame": {
 		"title": "World's Hardest Game",
 		"link": "worldshardestgame",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/worldshardestgame.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/worldshardestgame.jpg",
 		"embedLink": "https://ubg98.github.io/WorldsHardestGame/",
 		"props": {
 			"Developer": "Armor Games",
@@ -320,7 +320,7 @@
 	"worldshardestgame2": {
 		"title": "Worlds Hardest Game 2",
 		"link": "worldshardestgame2",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/worldshardestgame2.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/worldshardestgame2.jpg",
 		"embedLink": "https://webglmath.github.io/worlds-hardest-game-2/",
 		"props": {
 			"Developer": "Armor Games",
@@ -333,7 +333,7 @@
 	"jellytruck": {
 		"title": "Jelly Truck",
 		"link": "jellytruck",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/jellytruck.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/jellytruck.jpg",
 		"embedLink": "https://webglmath.github.io/jelly-truck/",
 		"props": {
 			"Developer": "CoolMathGames",
@@ -346,7 +346,7 @@
 	"bigtowertinysquare": {
 		"title": "Big Tower Tiny Square",
 		"link": "bigtowertinysquare",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/bigtower.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/bigtower.jpg",
 		"embedLink": "https://adfree3kh0.github.io/projects/btts/index.html",
 		"props": {
 			"Developer": "Evil Objective",
@@ -358,7 +358,7 @@
 	"bigicetowertinysquare": {
 		"title": "Big Ice Tower Tiny Square",
 		"link": "bigicetowertinysquare",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/bigicetower.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/bigicetower.jpg",
 		"embedLink": "https://files.acticdn.com/278374/23864/index.html",
 		"props": {
 			"Developer": "Evil Objective",
