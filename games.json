@@ -613,7 +613,7 @@
 	"slowroads": {
 		"title": "Slow Roads",
 		"link": "slowroads",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/",
 		"embedLink": "https://slowroads.io",
 		"props": {
 			"Developer": "Anslo",
@@ -625,7 +625,7 @@
 	"infinitecraft": {
 		"title": "Infinite Craft",
 		"link": "infinitecraft",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/",
 		"embedLink": "https://neal.fun/infinite-craft/",
 		"props": {
 			"Developer": "Neal Agarwal",
@@ -637,7 +637,7 @@
 	"factoryidle": {
 		"title": "Factory Idle",
 		"link": "factoryidle",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/",
 		"embedLink": "https://factoryidle.com",
 		"props": {
 			"Developer": "",
@@ -649,7 +649,7 @@
 	"deadshot": {
 		"title": "Deadshot.io",
 		"link": "deadshot",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/",
 		"embedLink": "https://deadshot.io/",
 		"props": {
 			"Developer": "",
@@ -661,7 +661,7 @@
 	"drivemad": {
 		"title": "Drive Mad",
 		"link": "drivemad",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/",
 		"embedLink": "https://drivemad.me/iframe/index.html",
 		"props": {
 			"Developer": "",
@@ -674,7 +674,7 @@
 	"blackjack": {
 		"title": "Black Jack",
 		"link": "blackjack",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/",
 		"embedLink": "https://freegames.org/games/blackjack/v1/",
 		"props": {
 			"Controls": "Mouse Click",
@@ -685,7 +685,7 @@
 	"poker": {
 		"title": "Poker",
 		"link": "poker",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/",
 		"embedLink": "https://html5.gamedistribution.com/rvvASMiM/f07403fb3a4e4278944d0b540a6de3ff/index.html?gdpr-targeting=0&gdpr-tracking=0&gdpr-third-party=0&euConsent=undefined&gd_sdk_referrer_url=https%3A%2F%2Fwww.funnygames.org%2Fgame%2Fpoker_world_offline_poker.html&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL3d3dy5mdW5ueWdhbWVzLm9yZy9nYW1lL3Bva2VyX3dvcmxkX29mZmxpbmVfcG9rZXIuaHRtbCIsInBhcmVudERvbWFpbiI6ImZ1bm55Z2FtZXMub3JnIiwidG9wRG9tYWluIjoiZnVubnlnYW1lcy5vcmciLCJoYXNJbXByZXNzaW9uIjpmYWxzZSwibG9hZGVyRW5hYmxlZCI6dHJ1ZSwiaG9zdCI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidmVyc2lvbiI6IjEuNS4xNyJ9",
 		"props": {
 			"Developer": "Governer of Poker",
@@ -697,7 +697,7 @@
 	"eaglercraft188": {
 		"title": "Eaglercraft 1.8.8",
 		"link": "eaglercraft188",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/",
 		"embedLink": "https://eaglercraft.net/",
 		"props": {
 			"NOTE": "THIS GAME TAKES LONGER TO LOAD. PLEASE BE PATIENT.",
@@ -710,7 +710,7 @@
 	"yeezle": {
 		"title": "Yeezle",
 		"link": "yeezle",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/",
 		"embedLink": "https://yeezle.xyz/",
 		"props": {
 			"Developer": "",
@@ -723,7 +723,7 @@
 	"ninjaio": {
 		"title": "Ninja.io",
 		"link": "ninjaio",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/",
 		"embedLink": "https://ninja.io/",
 		"props": {
 			"Developer": "",
@@ -735,7 +735,7 @@
 	"highwaytraffic": {
 		"title": "Highway Traffic",
 		"link": "highwaytraffic",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/",
 		"embedLink": "//html5.gamedistribution.com/rvvASMiM/7c151f5e29eb40a591edfe1823e1d0ea/index.html?gd_sdk_referrer_url=https%3A%2F%2Fwww.pacogames.com%2Fdriving%2Fhighway-traffic&gdpr-tracking=1&gdpr-targeting=1&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL3d3dy5wYWNvZ2FtZXMuY29tL2RyaXZpbmcvaGlnaHdheS10cmFmZmljIiwicGFyZW50RG9tYWluIjoicGFjb2dhbWVzLmNvbSIsInRvcERvbWFpbiI6InBhY29nYW1lcy5jb20iLCJoYXNJbXByZXNzaW9uIjp0cnVlLCJsb2FkZXJFbmFibGVkIjp0cnVlLCJob3N0IjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJ2ZXJzaW9uIjoiMS41LjE3In0%253D",
 		"props": {
 			"Developer": "",
@@ -747,7 +747,7 @@
 	"monkeymart": {
 		"title": "Monkey Mart",
 		"link": "monkeymart",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/",
 		"embedLink": "https://monkey-mart.io/iframe/index.html",
 		"props": {
 			"Developer": "",
@@ -759,7 +759,7 @@
 	"smashkarts": {
 		"title": "Smash Karts",
 		"link": "smashkarts",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/",
 		"embedLink": "https://geometrykarts.com/",
 		"props": {
 			"Developer": "",
@@ -771,7 +771,7 @@
 	"logisticsinc": {
 		"title": "Logistics Inc.",
 		"link": "logisticsinc",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/",
 		"embedLink": "https://game310544.konggames.com/gamez/0031/0544/live/index.html?kongregate_user_id=0&kongregate_game_auth_token=84983c60f7daadc1cb8698621f802c0d9f9a3c3c295c810748fb048115c186ec&random=119021503.9722573",
 		"props": {
 			"Developer": "",
@@ -783,7 +783,7 @@
 	"fortnitetrack": {
 		"title": "Fortnite Tracker",
 		"link": "fortnitetrack",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/",
 		"embedLink": "https://fortnitetracker.com",
 		"props": {
 			"Developer": "",
@@ -795,7 +795,7 @@
 	"subsurferscompile": {
 		"title": "Subway Surfers (Many Versions)",
 		"link": "subsurferscompile",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/",
 		"embedLink": "https://subway-surfers.org/world-tour/",
 		"props": {
 			"Developer": "",
@@ -807,7 +807,7 @@
 	"sausageflip": {
 		"title": "Sausage Flip",
 		"link": "sausageflip",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/",
 		"embedLink": "https://just-fall.github.io/j0/sausage-flip/",
 		"props": {
 			"Developer": "",
@@ -820,7 +820,7 @@
 	"rocketsoccerderby": {
 		"title": "Rocket Soccer Derby",
 		"link": "rocketsoccerderby",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/",
 		"embedLink": "https://just-fall.github.io/j0/rocket-soccer-derby",
 		"props": {
 			"Developer": "",
@@ -832,7 +832,7 @@
 	"ts2048": {
 		"title": "2048",
 		"link": "ts2048",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/",
 		"embedLink": "https://ovolve.github.io/2048-AI/",
 		"props": {
 			"Developer": "",
@@ -844,7 +844,7 @@
 	"asmallworldcup": {
 		"title": "A Small World Cup",
 		"link": "asmallworldcup",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/",
 		"embedLink": "https://html-classic.itch.zone/html/1643267/index.html?v=1574335048",
 		"props": {
 			"Developer": "",
@@ -856,7 +856,7 @@
 	"r6": {
 		"title": "Tom Clancy's Rainbow Six Siege (Arcade Version)",
 		"link": "r6",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/",
 		"embedLink": "https://gamesfrog.com/games/n64/tom-clancys-rainbow-six/iframe/",
 		"props": {
 			"Developer": "",
@@ -868,7 +868,7 @@
 	"penaltyshoot1": {
 		"title": "Penalty Shooters 1",
 		"link": "penaltyshoot1",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/",
 		"embedLink": "https://games.builds.gamepix.com/20067/6640642152118353920/index.html?api=2&sid=40165&utm_source=direct&referer=undefined&utm_medium=publisherV2&gd_sdk_referrer_url=https%3A%2F%2Fwww.funnygames.org%2Fgame%2Fpenalty_shooters_1.html&lang=en&namespace=penalty-shooters",
 		"props": {
 			"Developer": "",
@@ -881,7 +881,7 @@
 	"penaltyshoot2": {
 		"title": "Penalty Shooters 2",
 		"link": "penaltyshoot2",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/",
 		"embedLink": "https://html5.gamedistribution.com/571b9df027e449f78e3869ba19658754/?gd_sdk_referrer_url=https://penaltyshooters2.com",
 		"props": {
 			"Developer": "",
@@ -894,7 +894,7 @@
 	"quake": {
 		"title": "Quake",
 		"link": "quake",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/",
 		"embedLink": "https://www.netquake.io",
 		"props": {
 			"Developer": "",
@@ -906,7 +906,7 @@
 	"multitaskair": {
 		"title": "Multitask Air",
 		"link": "multitaskair",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/",
 		"embedLink": "https://html-classic.itch.zone/html/4996445/Multi Task Web/index.html",
 		"props": {
 			"Developer": "",
@@ -918,7 +918,7 @@
 	"adanceoffireandice": {
 		"title": "A Dance Of Fire and Ice",
 		"link": "adanceoffireandice",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/",
 		"embedLink": "https://html5-games.io/game/a-dance-of-fire-and-ice/",
 		"props": {
 			"Developer": "",
@@ -931,7 +931,7 @@
 	"yohoho.io": {
 		"title": "YoHoHo.io",
 		"link": "yohoho.io",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/",
 		"embedLink": "https://yohoho.io",
 		"props": {
 			"Developer": "",
@@ -943,7 +943,7 @@
 	"supermariobros": {
 		"title": "Super Mario Bros",
 		"link": "supermariobros",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/",
 		"embedLink": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://57264959-967300405472742195.preview.editmysite.com/uploads/b/11886820-385538800742658772/files/smb.xml&container=ig",
 		"props": {
 			"Developer": "",
@@ -955,7 +955,7 @@
 	"sm64": {
 		"title": "Super Mario 64",
 		"link": "sm64",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/",
 		"embedLink": "https://sm64-embed.glitch.me/start.html",
 		"props": {
 			"Developer": "",
@@ -967,7 +967,7 @@
 	"worldle": {
 		"title": "Worldle",
 		"link": "worldle",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/",
 		"embedLink": "https://worldle.teuteuf.fr",
 		"props": {
 			"Developer": "",
@@ -980,7 +980,7 @@
 	"statele": {
 		"title": "Statele",
 		"link": "statele",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/",
 		"embedLink": "https://statele.teuteuf.fr",
 		"props": {
 			"Developer": "",
@@ -993,7 +993,7 @@
 	"connections": {
 		"title": "Connections Unlimited",
 		"link": "connections",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/",
 		"embedLink": "https://connectionsunlimited.io/game/connectionsunlimited/",
 		"props": {
 			"Developer": "",
@@ -1006,7 +1006,7 @@
 	"spellingbee": {
 		"title": "Spelling Bee",
 		"link": "spellingbee",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/",
 		"embedLink": "https://spellbee.org/unlimited?id=gaeforv",
 		"props": {
 			"Developer": "",
@@ -1018,7 +1018,7 @@
 	"sudoku": {
 		"title": "Sudoku",
 		"link": "sudoku",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/",
 		"embedLink": "https://www.proprofsgames.com/html5_games.php?script_path=sudoku_e/js/sudoku_e.js",
 		"props": {
 			"Developer": "",
