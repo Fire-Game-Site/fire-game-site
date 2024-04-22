@@ -1027,5 +1027,29 @@
 		},
 		"fs": true,
 		"description": ""
+	},
+	"googlefued": {
+		"title": "Google Fued",
+		"link": "googlefued",
+		"image": "",
+		"embedLink": "https://games-site.github.io/projects/google-feud/index.html",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"pokemonshowdown": {
+		"title": "Pokemon Showdown",
+		"link": "pokemonshowdown",
+		"image": "",
+		"embedLink": "https://play.pokemonshowdown.com",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
 	}
 }
