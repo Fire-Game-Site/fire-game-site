@@ -1038,6 +1038,7 @@
 			"Controls": "",
 			"Objective": ""
 		},
+		"fs": true,
 		"description": ""
 	},
 	"pokemonshowdown": {
