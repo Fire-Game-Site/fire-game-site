@@ -1028,9 +1028,9 @@
 		"fs": true,
 		"description": ""
 	},
-	"googlefued": {
-		"title": "Google Fued",
-		"link": "googlefued",
+	"googlefeud": {
+		"title": "Google Feud",
+		"link": "googlefeud",
 		"image": "",
 		"embedLink": "https://games-site.github.io/projects/google-feud/index.html",
 		"props": {
