@@ -707,12 +707,13 @@
 		},
 		"description": ""
 	},
-	"game": {
-		"title": "Game",
-		"link": "game",
-		"image": "",
+	"eaglercraft152": {
+		"title": "Eaglercraft 1.5.2",
+		"link": "eaglercraft152",
+		"image": "https://firegamesite.com/thumbnails/eaglercraft152.jpg",
 		"embedLink": "https://eaglercraft.com/mc/1.5.2/",
 		"props": {
+			"NOTE": "THIS GAME TAKES LONGER TO LOAD. PLEASE BE PATIENT.",
 			"Developer": "",
 			"Controls": "",
 			"Objective": ""
@@ -1043,7 +1044,7 @@
 	"googlefeud": {
 		"title": "Google Feud",
 		"link": "googlefeud",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/googlefeud.jpg",
 		"embedLink": "https://games-site.github.io/projects/google-feud/index.html",
 		"props": {
 			"Developer": "",
@@ -1056,7 +1057,7 @@
 	"pokemonshowdown": {
 		"title": "Pokemon Showdown",
 		"link": "pokemonshowdown",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/pokemonshowdown.jpg",
 		"embedLink": "https://play.pokemonshowdown.com",
 		"props": {
 			"Developer": "",
