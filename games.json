@@ -1065,5 +1065,17 @@
 			"Objective": ""
 		},
 		"description": ""
-	}
+	},
+	"game": {
+		"title": "Game",
+		"link": "game",
+		"image": "",
+		"embedLink": "https://waffleunlimited.com/waffle-unlimited.embed",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
 }
