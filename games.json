@@ -1067,9 +1067,9 @@
 		},
 		"description": ""
 	},
-	"game": {
-		"title": "Game",
-		"link": "game",
+	"waffle": {
+		"title": "Waffle Unlimited",
+		"link": "waffle",
 		"image": "",
 		"embedLink": "https://waffleunlimited.com/waffle-unlimited.embed",
 		"props": {
