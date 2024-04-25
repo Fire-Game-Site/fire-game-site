@@ -36,12 +36,8 @@
             <svg xmlns="http://www.w3.org/2000/svg" style="fill: var(--md-sys-color-on-surface-variant)" height="24" viewBox="0 -960 960 960" width="24"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h240q17 0 28.5 11.5T480-800q0 17-11.5 28.5T440-760H200v560h560v-240q0-17 11.5-28.5T800-480q17 0 28.5 11.5T840-440v240q0 33-23.5 56.5T760-120H200Zm560-584L416-360q-11 11-28 11t-28-11q-11-11-11-28t11-28l344-344H600q-17 0-28.5-11.5T560-800q0-17 11.5-28.5T600-840h200q17 0 28.5 11.5T840-800v200q0 17-11.5 28.5T800-560q-17 0-28.5-11.5T760-600v-104Z"/></svg>
         </button>
     </nav>
-    <main style="min-height: 2250px; background: var(--md-sys-color-background); margin: 0 25px 25px; border-radius: 12px; padding: 18px 24px">
-        <div style="display: flex; width: 100%; padding: 15px 25px; box-sizing: border-box; flex-direction: column; justify-content: center; align-items: flex-start; gap: 10px; border-radius: 12px; border: 1px solid var(--md-sys-color-outline-variant); background: var(--md-sys-color-surface-container)">
-            <p style="color: #FFFFFF; text-align: left; font-family: 'Roboto Flex', system-ui; font-size: 32px; font-weight: 400; line-height: 40px;">{{{title}}}</p>
-            <p style="color: #FFFFFF; text-align: left; font-family: 'Roboto Flex', system-ui; font-size: 14px; font-weight: 400; line-height: 20px; letter-spacing: 0.25px">{{{desc}}}</p>
-        </div>
-        <fgs-gamearray />
+    <main style="background: var(--md-sys-color-background); margin: 0 25px 25px; border-radius: 12px; padding: 18px 24px">
+        <fgs-logs />
     </main>
     <footer style="display: flex; width: 100%; height: 100px; padding: 10px; box-sizing: border-box; justify-content: center; align-items: center; gap: 10px; bottom: 0; color: #FFFFFF; text-align: center; font-family: 'Roboto Flex', system-ui; font-size: 15px; font-weight: 500;">
         <p>Copyright &copy 2024</p>
@@ -74,40 +70,9 @@
             color: var(--md-sys-color-on-surface);
         }
 
-        .game {
-            box-sizing: border-box;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 230px;
-            background: var(--md-sys-color-surface-container);
-            border-radius: 12px;
-            justify-self: center;
-            align-self: center;
-            filter: drop-shadow(1px 1px 1px var(--md-sys-color-shadow));
-        }
-
-        .gamePic {
-            width: 100%;
-            height: 100%;
-            background: #FFFFFF;
-            border-radius: 12px 12px 0 0;
-            background-size: contain;
-            aspect-ratio: 1 / 1;
-        }
-
-        .gameTitle {
+        .logTitle, .logDate, .logDesc {
             font-family: 'Roboto Flex';
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 24px;
-            display: flex;
-            align-items: center;
-            text-align: center;
-            color: #FFFFFF;
-            padding: 8px 16px;
-            letter-spacing: 0.15px;
+            color: var(--md-sys-color-on-background);
         }
 
         input::placeholder {
@@ -135,30 +100,50 @@
         }
     </style>
     <script>
-        var games = {{{ games }}};
+        var updates = {{{ updates }}};
 
         window.customElements.define(
-            "fgs-gamearray",
-            class gameArray extends HTMLElement {
+            "fgs-logs",
+            class logArray extends HTMLElement {
                 constructor() {
                     super();
                 }
 
                 render() {
-					this.style = 'display: flex; flex-wrap: wrap; min-height: 2250px; gap: 30px; padding: 25px 0 5px; margin: auto; justify-content: space-between'
-                    for (const i in games) {
-                        var game = document.createElement('div')
-                        game.className = "game"
-                        game.setAttribute('onclick', `location.href += '${games[i]['link']}'`)
-                        var pic = document.createElement('div')
-                        pic.className = "gamePic"
-                        pic.style.backgroundImage = `url(${games[i]['image']})`
-                        var title = document.createElement('p')
-                        title.innerText = games[i]['title']
-                        title.className = "gameTitle"
-                        game.appendChild(pic)
-                        game.appendChild(title)
-                        this.appendChild(game)
+					this.style = 'display: flex; flex-direction: column; gap: 50px; padding: 5px 0; margin: auto; justify-content: space-between; width: 100%'
+                    for (const i in updates) {
+                        var update = document.createElement('div')
+                        update.className = "update"
+
+                        var title = document.createElement('h1')
+                        title.className = "logTitle"
+                        title.innerText = i
+                        update.appendChild(title)
+
+                        var date = document.createElement('h3')
+                        date.innerText = updates[i]['date']
+                        date.className = "logDate"
+                        update.appendChild(date)
+
+                        update.appendChild(document.createElement('br'))
+
+                        var desc = document.createElement('p')
+                        desc.innerText = `${updates[i]['contents']['description']}\n\nChanges:`
+                        desc.className = "logDesc"
+                        update.appendChild(desc)
+
+                        var changes = updates[i]['contents']['changes']
+                        var list = document.createElement('ul')
+                        list.className = "logList"
+                        for (let j = 0; j < changes.length; j++) {
+                            var item = document.createElement('li')
+                            item.innerText = changes[j]
+                            item.className = "logListItem"
+                            list.appendChild(item)
+                        }
+						update.appendChild(list)
+
+                        this.appendChild(update)
                     }
                 }
 

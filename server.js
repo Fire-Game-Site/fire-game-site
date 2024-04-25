@@ -5,12 +5,13 @@ const app = express()
 const port = 10000
 const lunr = require("lunr")
 const games = require("./games.json")
+const updates = require("./updates.json")
 const res = require("express/lib/response");
 const fs = require("fs")
 
 var announcement = { // both support html, so if you want something like a link use <a> or if you want a newline use <br />
-    title: "Announcements - MEET THE TEAM AND NEW THUMBNAILS",
-    description: `Our team works very hard to keep this website at it's best, and it's time you meet them. We have added a new page to the site that includes each member of the team as well as their role and a description of them. We are still waiting on a few employees to submit what they would like to be shown. Visit the page <a href="/team">HERE</a>.<br />Many of you have noticed the lack of thumbnails on our newer games. Well, we are pleased to tell you that the absence of thumbnails is no more. We have hired a dedicated thumbnail designer to efficiently create thumbnails for all of our new games. Check the "Meet The Team" page for N/A to learn more. We really hope that you like them!<br /><br />NOTE: IF YOU CLICK A BUTTON OR GAME AND NOTHING HAPPENS, GIVE THE SITE A BIT TO LOAD<br /> <br />NOTE: IF YOU WANT TO VISIT OUR CONTACT PAGE, MEET THE TEAM PAGE, OR OUR SPECIAL ANNOUNCEMENTS, CLICK THE ICONS ON THE TOP RIGHT CORNER<br /> <br />April 25, 2024: Added Waffle Unlimited<br /> <br />April 22, 2024: Added Google Feud and Pokemon Showdown<br /> <br />April 21, 2024: Added a lot of brand new thumbnails (see above). We also changed the hosting of all of our site's thumbnails. They are now hosted on the Fire Game Site instead of a 3rd party service. If there are any bugs or issues with the new thumbnails, be sure to contact us so we can resolve the problem.`
+    title: "Announcements - NEW UPDATE LOG",
+    description: `We try to push the most updates possible for our users, and there is so many that it can get hard to keep track of. The announcements will always have the newest update, but they are not as detailed as we would like and there is no way to see past updates. We have added a new update log page with all new updates that are brought to the site. The page can be visited <a href="/updates">HERE</a>.<br /><br />NOTE: IF YOU CLICK A BUTTON OR GAME AND NOTHING HAPPENS, GIVE THE SITE A BIT TO LOAD<br /> <br />NOTE: IF YOU WANT TO VISIT OUR CONTACT PAGE, MEET THE TEAM PAGE, OR OUR SPECIAL ANNOUNCEMENTS, CLICK THE ICONS ON THE TOP RIGHT CORNER<br /> <br />April 25, 2024: Added Waffle Unlimited<br /> <br />April 22, 2024: Added Google Feud and Pokemon Showdown<br /> <br />April 21, 2024: Added a lot of brand new thumbnails (see above). We also changed the hosting of all of our site's thumbnails. They are now hosted on the Fire Game Site instead of a 3rd party service. If there are any bugs or issues with the new thumbnails, be sure to contact us so we can resolve the problem.`
 }
 
 // index lunr
@@ -35,6 +36,10 @@ app.set('views', __dirname);
 
 app.get('/', (req, res) => {
     res.render('index', {games: JSON.stringify(games), firebase: process.env.firebase, title: announcement.title, desc: announcement.description})
+})
+
+app.get('/updates', (req, res) => {
+    res.render('updates', {updates: JSON.stringify(updates), firebase: process.env.firebase})
 })
 
 app.get('/ads.txt', (req, res) => {
