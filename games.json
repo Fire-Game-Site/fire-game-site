@@ -2,28 +2,30 @@
 	"ytchannel": {
 		"title": "The Fire Games Official Youtube Channel",
 		"link": "ytchannel",
-		"image": "https://arsholde.sirv.com/logo.jpg?w=208&h=208",
-		"embedLink": "https://arsholde.sirv.com/Screenshot%202023-11-05%2011.07.57%20PM.png?w=1300&h=650",
+		"image": "https://firegamesite.com/thumbnails/firegameslogo.jpg",
+		"embedLink": "https://firegamesite.com/assets/firegamesyt.jpg",
 		"props": {
 			"Subscribe": "For gameplay videos and promotional content!",
 			"Link": "<a href='https://youtube.com/@firegames52123?si=tdwqa6Hx4Emqtfbb'>Subscribe to our Youtube Channel HERE</a>"
-		}
+		},
+		"fs": true
 	},
 	"bigsites": {
 		"title": "Big Sites",
 		"link": "bigsites",
-		"image": "https://arsholde.sirv.com/Big%20news.png?w=208&h=208&scale.option=ignore",
-		"embedLink": "https://arsholde.sirv.com/Big%20news.png",
+		"image": "https://firegamesite.com/thumbnails/bignews.jpg",
+		"embedLink": "https://firegamesite.com/assets/bignews.jpg",
 		"props": {
 			"Developer": "Anthony C.",
 			"link": "<a href='https://sites.google.com/view/biggestsite/home?authuser=0'>View BIG Sites HERE</a>"
 		},
+		"fs": true,
 		"description": "BIG News is back and stronger than ever! (picture above is not the current site) Check out the BIG things happening world wide and all of our BIG features. We are the BIGGEST and best news!"
 	},
 	"defly.io": {
 		"title": "Defly.io (All Games)",
 		"link": "defly.io",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/deflyio.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/deflyio.jpg",
 		"embedLink": "https://defly.io/",
 		"props": {
 			"Developer": "Exodragon Games",
@@ -35,19 +37,20 @@
 	"paper.io-2": {
 		"title": "Paper.io 2",
 		"link": "paper.io-2",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/paperio.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/paperio.jpg",
 		"embedLink": "https://paper-io.com/",
 		"props": {
 			"Developer": "Voodoo",
 			"Controls": "Arrow Keys, WASD, or mouse-move",
 			"Objective": "Capture the map"
 		},
+		"fs": true,
 		"description": "A game all about claiming territory and staying alive, Paper.io 2 has the perfect combination of strategy and skill. With plenty of game modes and customization options, this game can cater to all your gaming needs."
 	},
 	"hexanaut.io": {
 		"title": "Hexanaut.io",
 		"link": "hexanaut.io",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/hexanaut.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/hexanaut.jpg",
 		"embedLink": "https://hexanaut.coolmathgames.com",
 		"props": {
 			"Developer": "Voodoo",
@@ -59,19 +62,20 @@
 	"slope": {
 		"title": "Slope",
 		"link": "slope",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/slope.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/slope.jpg",
 		"embedLink": "https://kdata1.com/2020/05/slope/",
 		"props": {
 			"Developer": "Y8",
 			"Controls": "Arrows/WASD-move",
 			"Objective": "Get as far as possible"
 		},
+		"fs": true,
 		"description": "This simple, physics based game has you rolling a ball down a slope. As you get farther, your speed increases. There is only one rule: DON'T HIT THE RED BLOCKS! This game will keep you entertained for hours!"
 	},
 	"motox3m1": {
 		"title": "Moto X3M 1",
 		"link": "motox3m1",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/moto1.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/moto1.jpg",
 		"embedLink": "https://tbg95.github.io/moto-x3m/game.html",
 		"props": {
 			"Developer": "Madpuffers",
@@ -83,7 +87,7 @@
 	"motox3m2": {
 		"title": "Moto X3M 2",
 		"link": "motox3m2",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/moto2.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/moto2.jpg",
 		"embedLink": "https://tbg95.github.io/motox3m-2/game.html",
 		"props": {
 			"Developer": "Madpuffers",
@@ -95,7 +99,7 @@
 	"motox3m3": {
 		"title": "Moto X3M 3",
 		"link": "motox3m3",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/moto3.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/moto3.jpg",
 		"embedLink": "https://tbg95.github.io/motox3m-3/game.html",
 		"props": {
 			"Developer": "Madpuffers",
@@ -107,7 +111,7 @@
 	"motox3m-spookyland": {
 		"title": "Moto X3M Spooky Land",
 		"link": "motox3m-spookyland",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/motospooky.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/motospooky.jpg",
 		"embedLink": "https://tbg95.github.io/moto-x3m-spooky-land/game.html",
 		"props": {
 			"Developer": "Madpuffers",
@@ -119,7 +123,7 @@
 	"motox3m-winter": {
 		"title": "Moto X3M Winter",
 		"link": "motox3m-winter",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/motowinter.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/motowinter.jpg",
 		"embedLink": "https://tbg95.github.io/moto-x3m-4-winter/game.html",
 		"props": {
 			"Developer": "Madpuffers",
@@ -131,7 +135,7 @@
 	"motox3m-poolparty": {
 		"title": "Moto X3M Pool Party",
 		"link": "motox3m-poolparty",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/motopool.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/motopool.jpg",
 		"embedLink": "https://tbg95.github.io/moto-x3m-5-pool-party/game.html",
 		"props": {
 			"Developer": "Madpuffers",
@@ -143,31 +147,33 @@
 	"run1": {
 		"title": "Run 1",
 		"link": "run1",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/Run1.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/Run1.jpg",
 		"embedLink": "https://run1.onl/run/",
 		"props": {
 			"Developer": "Joseph Cloutier",
 			"Controls": "Up arrow/W-jump, Left and right arrow/A and D-left and right",
 			"Objective": "Don’t die!"
 		},
+		"fs": true,
 		"description": "A new take on platformer games that really tests your reaction time and skill, make it through the end of the tunnel without taking a trip into space! Remember, with no gravity, you can run on all sides of the tunnel!"
 	},
 	"run2": {
 		"title": "Run 2",
 		"link": "run2",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/Run2.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/Run2.jpg",
 		"embedLink": "https://run1.onl/run2/",
 		"props": {
 			"Developer": "Joseph Cloutier",
 			"Controls": "Up arrow/W-jump, Left and right arrow/A and D-left and right",
 			"Objective": "Don’t die!"
 		},
+		"fs": true,
 		"description": "The sequel to Run 1, with plenty of new levels and challenges for you to complete. Not challenging enough? Use the all new level creator and make your own for you and your friends to beat! Make it through the end of the tunnel without falling into the void of space! Remember, with no gravity, you can run on all sides of the tunnel!"
 	},
 	"run3": {
 		"title": "Run 3",
 		"link": "run3",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/Run3.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/Run3.jpg",
 		"embedLink": "https://lekug.github.io/tn6pS9dCf37xAhkJv/",
 		"props": {
 			"Developer": "Joseph Cloutier",
@@ -179,8 +185,8 @@
 	"idlebreakout": {
 		"title": "Idle Breakout",
 		"link": "idlebreakout",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/idlebreakout.jpg?w=208&h=208",
-		"embedLink": "https://html-classic.itch.zone/html/9150519/index.html",
+		"image": "https://firegamesite.com/thumbnails/idlebreakout.jpg",
+		"embedLink": "https://idle-breakout.github.io/games/idle-breakout/index.html",
 		"props": {
 			"Developer": "Kodiqi",
 			"Controls": "Left click-EVERYTHING",
@@ -191,19 +197,20 @@
 	"eggycar": {
 		"title": "Eggy Car",
 		"link": "eggycar",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/eggycar.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/eggycar.jpg",
 		"embedLink": "https://webglmath.github.io/eggy-car/",
 		"props": {
 			"Developer": "Beedo Games",
 			"Controls": "Right arrow/D-forward, Left arrow/A-backwards",
 			"Objective": "Survive as long as possible without dying"
 		},
+		"fs": true,
 		"description": "Drive as far as you can without crashing your egg! Collect coins along the way to unlock other vehicles and challenge your friends to beat your score!"
 	},
 	"retrobowl": {
 		"title": "Retro Bowl",
 		"link": "retrobowl",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/retrobowl.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/retrobowl.jpg",
 		"embedLink": "https://game316009.konggames.com/gamez/0031/6009/live/index.html",
 		"props": {
 			"Developer": "New Star Games",
@@ -215,7 +222,7 @@
 	"awesomeplanes": {
 		"title": "Awesome Planes",
 		"link": "awesomeplanes",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/aweplanes.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/aweplanes.jpg",
 		"embedLink": "https://games.kidzsearch.com/computer/flashgame_data/ruffleplayer.html?game=awesome-planes-43646",
 		"props": {
 			"Developer": "Big Dino Games",
@@ -227,7 +234,7 @@
 	"awesometanks": {
 		"title": "Awesome Tanks",
 		"link": "awesometanks",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/awetanks.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/awetanks.jpg",
 		"embedLink": "https://coolubg.github.io/coolubg-list/awesome-tanks/",
 		"props": {
 			"Developer": "Big Dino Games",
@@ -239,7 +246,7 @@
 	"awesometanks2": {
 		"title": "Awesome Tanks 2",
 		"link": "awesometanks2",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/awetanks2.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/awetanks2.jpg",
 		"embedLink": "https://coolubg.github.io/coolubg-list/awesome-tanks-2/",
 		"props": {
 			"Developer": "Big Dino Games",
@@ -251,7 +258,7 @@
 	"basketballstars": {
 		"title": "Basketball Stars",
 		"link": "basketballstars",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/basketballstars.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/basketballstars.jpg",
 		"embedLink": "https://webglmath.github.io/basketball-stars/",
 		"props": {
 			"Developer": "Madpuffers",
@@ -263,7 +270,7 @@
 	"wrestlebros": {
 		"title": "Wrestle Bros",
 		"link": "wrestlebros",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/wrestlebros.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/wrestlebros.jpg",
 		"embedLink": "https://wrestlebros.io/",
 		"props": {
 			"Developer": "Blue Wizard Digital",
@@ -275,7 +282,7 @@
 	"1v1.lol": {
 		"title": "1v1.lol",
 		"link": "1v1.lol",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/1v1lol.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/1v1lol.jpg",
 		"embedLink": "https://book-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/mind4ur/debugactions@57aba9c568b75b8aaddbcad0a05f8c26f57b344b/package/1v1old.xml&container=ig",
 		"props": {
 			"Developer": "JustPlay.lol",
@@ -287,55 +294,59 @@
 	"driftboss": {
 		"title": "Drift Boss",
 		"link": "driftboss",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/driftboss.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/driftboss.jpg",
 		"embedLink": "https://www.mathplayground.com/drift-boss-v3/index.html",
 		"props": {
 			"Developer": "Math Playground",
 			"Controls": "Spacebar-turn",
 			"Objective": "Get as far as possible."
 		},
+		"fs": true,
 		"description": "Drift Boss is an incredibly fun game where you have to drift your way through the path and not fall off! The longer you stay on, the more points you earn!. Use coins you collect to activate power ups to increase your score!"
 	},
 	"worldshardestgame": {
 		"title": "World's Hardest Game",
 		"link": "worldshardestgame",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/worldshardestgame.jpg?w=208&h=208",
-		"embedLink": "https://watchdocumentaries.com/wp-content/uploads/games/worlds-hardest-game/",
+		"image": "https://firegamesite.com/thumbnails/worldshardestgame.jpg",
+		"embedLink": "https://ubg98.github.io/WorldsHardestGame/",
 		"props": {
 			"Developer": "Armor Games",
 			"Controls": "WASD-move",
 			"Objective": "Get to the end without dying."
 		},
+		"fs": true,
 		"description": "A simple yet infuriating game where the goal is to get to the end of the level after collecting all the coins. Watch out for the blue squares and circles that will make you start the level over and lose your coins!"
 	},
 	"worldshardestgame2": {
 		"title": "Worlds Hardest Game 2",
 		"link": "worldshardestgame2",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/worldshardestgame2.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/worldshardestgame2.jpg",
 		"embedLink": "https://webglmath.github.io/worlds-hardest-game-2/",
 		"props": {
-			"Developer": "",
-			"Controls": "",
-			"Objective": ""
+			"Developer": "Armor Games",
+			"Controls": "WASD-Move",
+			"Objective": "Get to the end without dying"
 		},
-		"description": ""
+		"fs": true,
+		"description": "A simple yet infuriating game where the goal is to get to the end of the level after collecting all the coins. Watch out for the blue squares and circles that will make you start the level over and lose your coins!"
 	},
 	"jellytruck": {
 		"title": "Jelly Truck",
 		"link": "jellytruck",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/jellytruck.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/jellytruck.jpg",
 		"embedLink": "https://webglmath.github.io/jelly-truck/",
 		"props": {
 			"Developer": "CoolMathGames",
 			"Controls": "Up arrow-move right, Down arrow-move left, Right arrow-lean right, Left arrow-lean left",
 			"Objective": "Reach the end"
 		},
+		"fs": true,
 		"description": "Drive a truck made of jelly to the finish line! With wonky graphics and kooky physics, you’ll have a blast playing Jelly Truck!"
 	},
 	"bigtowertinysquare": {
 		"title": "Big Tower Tiny Square",
 		"link": "bigtowertinysquare",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/bigtower.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/bigtower.jpg",
 		"embedLink": "https://adfree3kh0.github.io/projects/btts/index.html",
 		"props": {
 			"Developer": "Evil Objective",
@@ -347,7 +358,7 @@
 	"bigicetowertinysquare": {
 		"title": "Big Ice Tower Tiny Square",
 		"link": "bigicetowertinysquare",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/bigicetower.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/bigicetower.jpg",
 		"embedLink": "https://files.acticdn.com/278374/23864/index.html",
 		"props": {
 			"Developer": "Evil Objective",
@@ -359,7 +370,7 @@
 	"bigneontowertinysquare": {
 		"title": "Big Neon Tower Tiny Square",
 		"link": "bigneontowertinysquare",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/bigneontower.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/bigneontower.jpg",
 		"embedLink": "https://rb.gy/h5129n",
 		"props": {
 			"Developer": "Evil Objective",
@@ -371,7 +382,7 @@
 	"bigflappytowertinysquare": {
 		"title": "Big Flappy Tower Tiny Square",
 		"link": "bigflappytowertinysquare",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/bigflaptower.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/bigflaptower.jpg",
 		"embedLink": "https://game.enjoy4fun.com/bigflappytowertinysquare/v1/index.html?uid=ci4i7dcdj1kthv0nc7b0&sid=1686709173182-e110afb7-78fe-4fun-08c9-f4efe9d173a0&channel-id=3487216655&site-id=site_4&zone-id=44233",
 		"props": {
 			"Developer": "Evil Objective",
@@ -383,7 +394,7 @@
 	"bigtowertinysquare2": {
 		"title": "Big Tower Tiny Square 2",
 		"link": "bigtowertinysquare2",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/bigtower2.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/bigtower2.jpg",
 		"embedLink": "https://kdata1.com/2023/09/5435345/bbtower/",
 		"props": {
 			"Developer": "Evil Objective",
@@ -395,20 +406,22 @@
 	"connect4": {
 		"title": "Connect 4",
 		"link": "connect4",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/connect4.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/connect4.jpg",
 		"embedLink": "https://bloobio-fourinarow.coolmathgames.com/fourinarow",
 		"props": {
 			"Controls": "Left click-everything",
 			"Objective": "Get 4 pieces in a row!"
 		},
+		"fs": true,
 		"description": "A classic connect 4 game digitized! Get 4 of your colored pieces in a row in any direction to win!"
 	},
 	"basketbros": {
 		"title": "Basket Bros",
 		"link": "basketbros",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/basketbros.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/basketbros.jpg",
 		"embedLink": "https://basketbros.io/cg/",
 		"props": {
+			"NOTE": "THIS GAME TENDS TO NOT WORK, PLEASE DO NOT CONTACT US ABOUT IT AS WE ARE WORKING ON A FIX",
 			"Developer": "Blue Wizard Digital",
 			"Controls": "WASD (+G)-Move (and shoot), Arrow keys (+L)- Move (and shoot)",
 			"Objective": "Win!"
@@ -418,165 +431,156 @@
 	"stickmanhook": {
 		"title": "Stickman Hook",
 		"link": "stickmanhook",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/stickmanhook.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/stickmanhook.jpg",
 		"embedLink": "https://webglmath.github.io/stickmanhook/",
 		"props": {
 			"Developer": "Madbox",
 			"Controls": "Spacebar/click-grab nearest grapple point",
-			"Objective": "Coming Soon!"
+			"Objective": "Swimg your way to the finish line."
 		},
+		"fs": true,
 		"description": "Grapple on to grapple points and swing your way through the level to reach the finish line without falling!"
 	},
 	"ovo": {
 		"title": "OvO",
 		"link": "ovo",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/ovo.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/ovo.jpg",
 		"embedLink": "https://www.greatmathgame.com/game/play/1/ovo/index.html",
 		"props": {
 			"Developer": "Dedra Games",
 			"Controls": "Arrow keys/WASD-Move",
 			"Objective": "Finish the course fast"
 		},
+		"fs": true,
 		"description": "Run, jump and dive your way through the course in the least amount of time possible."
 	},
 	"runbunbunrun": {
 		"title": "Run Bun Bun Run",
 		"link": "runbunbunrun",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/runbunbunrun.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/runbunbunrun.jpg",
 		"embedLink": "https://play.gx.games/game-wrapper/83cab7c7-98ab-48aa-b032-14c88d60fc46/index.html?game=bdb67378-d6b5-4ee2-8c1c-77b8cd615b8d&track=2290e893-9b87-4c2b-8a92-7f66c5ed64eb&release=ec8eb2aa-f925-4776-98af-47b25c2bb6b6&gamePlayId=6dd54512-f257-4e69-b253-5ccb319d3b9f&coverImage=https://play.gxc.gg/game/bdb67378-d6b5-4ee2-8c1c-77b8cd615b8d/cover/c36c52ba-95c3-4518-a9ba-f58d6c02c737?cfe6f815c7a9257b4ea7f6afd906db7f&source=https://gx.games",
 		"props": {
 			"Developer": "GX Games",
 			"Controls": "A/Left Arrow- Jump left, D/Right Arrow-Jump Right",
-			"Objective": "Coming Soon!"
+			"Objective": "Get as high up as you can without falling!"
 		},
 		"description": "A game all about reaction time and hand-eye coordination, get your bunny up as high as you can without falling down into the lava!"
 	},
 	"chess": {
 		"title": "Chess",
 		"link": "chess",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/chess.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/chess.jpg",
 		"embedLink": "https://playpager.com/embed/chess/index.html",
 		"props": {
 			"Developer": "Math Playground",
-			"Controls": "",
-			"Objective": ""
+			"Controls": "Mouse Click",
+			"Objective": "Take your opponent's king!"
 		},
-		"description": ""
+		"description": "A classic game of chess all about strategy and being one step ahead of your oppenent! Checkmate!"
 	},
 	"wordle": {
 		"title": "Wordle",
 		"link": "wordle",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/wordle.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/wordle.jpg",
 		"embedLink": "https://wordlegame.org/",
 		"props": {
 			"Developer": "wordlegame.org",
-			"Objective": ""
+			"Objective": "Guess the word!"
 		},
-		"description": ""
+		"description": "Guess the word given in 5 guesses with letter hints!"
 	},
 	"snowrider": {
 		"title": "Snow Rider 3D",
 		"link": "snowrider",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/snowrider.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/snowrider.jpg",
 		"embedLink": "https://snow-rider-3d.github.io/s77/snow-rider-3d/",
 		"props": {
-			"Developer": "",
-			"Controls": "",
-			"Objective": ""
+			"Developer": "TapPlay",
+			"Controls": "WASD or ARROW KEYS-Move",
+			"Objective": "Sled as far as you can!"
 		},
-		"description": ""
+		"description": "It's Christmas all year around! Sled down the mountain as far as you can without hitting any obstacles all while collecting presents to buy new sleds! Merry Christmas!!"
 	},
 	"impossiblegame": {
 		"title": "The Impossible Game",
 		"link": "impossiblegame",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/impossiblegame.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/impossiblegame.jpg",
 		"embedLink": "https://www.gamenora.com/upload/games/swf/The%20Impossible%20Game/",
 		"props": {
-			"Developer": "",
-			"Controls": "",
-			"Objective": ""
+			"Developer": "Fluke Games",
+			"Controls": "SPACE or MOUSE CLick-Jump",
+			"Objective": "Beat the level without dying!"
 		},
-		"description": ""
+		"fs": true,
+		"description": "Jump through a course of spikes and pits without dying!"
 	},
 	"geometrydash": {
 		"title": "Geometry Dash",
 		"link": "geometrydash",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/geodash.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/geodash.jpg",
 		"embedLink": "https://geometrydashlite.co/game/geometry-dash-lite/",
 		"props": {
-			"Developer": "",
-			"Controls": "",
-			"Objective": ""
+			"Developer": "geometrydashlite.co",
+			"Controls": "SPACE or MOUSE CLICK-Jump",
+			"Objective": "Beat the level and enjoy the music!"
 		},
-		"description": ""
+		"description": "An obstacle course filled with spikes and gaps synced to music! Use the beat to time your jumps!"
 	},
 	"99balls": {
 		"title": "99 Balls",
 		"link": "99balls",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/99balls.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/99balls.jpg",
 		"embedLink": "https://play.famobi.com/99-balls/A-SILVERGAMES",
 		"props": {
 			"Developer": "BUYHTML5",
 			"Controls": "Click and drag mouse to aim, release to shoot",
 			"Objective": "Survive as long as possible"
 		},
-		"description": ""
+		"description": "Shoot balls to break the bricks before they reach the ground! Pick up more balls to shoot more and get a high score!"
 	},
 	"raftwars": {
 		"title": "Raft Wars",
 		"link": "raftwars",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/raftwars.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/raftwars.jpg",
 		"embedLink": "https://just-fall.github.io/j77/raft-wars",
 		"props": {
-			"Developer": "",
-			"Controls": "",
-			"Objective": ""
+			"Developer": "Martijn Kunst",
+			"Controls": "MOUSE-Aim and Shoot",
+			"Objective": "Defeat all enemies"
 		},
-		"description": ""
+		"description": "You and your little brother Simon escalate some trouble at the pool into world-wide turn based warfare! Take down all the enemies and earn gold to buy upgrades to help you progress in the increasingly difficult levels."
 	},
 	"raftwars2": {
 		"title": "Raft Wars 2",
 		"link": "raftwars2",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/raftwars2.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/raftwars2.jpg",
 		"embedLink": "https://webglmath.github.io/raft-wars-2/",
 		"props": {
-			"Developer": "",
-			"Controls": "",
-			"Objective": ""
+			"Developer": "Martijn Kunst",
+			"Controls": "MOUSE-Aim and Shoot",
+			"Objective": "Defeat all enemies"
 		},
-		"description": ""
-	},
-	"fnaf": {
-		"title": "FNAF",
-		"link": "fnaf",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/fnaf.jpg?w=208&h=208",
-		"embedLink": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2Ffive-nights-at-freddy-s.xml",
-		"props": {
-			"Developer": "",
-			"Controls": "",
-			"Objective": ""
-		},
-		"description": ""
+		"description": "You and your little brother Simon escalate some trouble at the pool into world-wide turn based warfare! Take down all the enemies and earn gold to buy upgrades to help you progress in the increasingly difficult levels."
 	},
 	"mrmine": {
 		"title": "Mr Mine",
 		"link": "mrmine",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/mrmine.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/mrmine.jpg",
 		"embedLink": "https://mrmine.com/game/?nocache=1696018196",
 		"props": {
-			"Developer": "",
-			"Controls": "",
-			"Objective": ""
+			"Developer": "Playsaurus",
+			"Controls": "MOUSE",
+			"Objective": "Dig down as far as you can and become rich!"
 		},
-		"description": ""
+		"description": "Manage your very own mine and dig through planets! Become filthy rich and buy better miners and drills to make your mine even better!"
 	},
 	"madalinstuntcars2": {
 		"title": "Madalin Stunt Cars 2",
 		"link": "madalinstuntcars2",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/madalinstunt.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/madalinstunt.jpg",
 		"embedLink": "https://www.madalingames.com/madalingames/wp-content/uploads/games/webgl/M/MSC2-files/021/MSC2-WEBGL/index.html",
 		"props": {
-			"Developer": "",
+			"Developer": "Madalin Stanciu",
 			"Controls": "WASD- Move, C-Camera, T-Top view, B- Rear-view mirror, M-Menu level, Space-Break, Ctrl+G-Auto/manual gear, PgUp/PgDown-Gear shift, R-Reset car, H-Police Lights",
 			"Objective": "Drive around and pull off the sickest stunts!"
 		},
@@ -585,19 +589,20 @@
 	"tetris": {
 		"title": "Tetris",
 		"link": "tetris",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/tetris.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/tetris.jpg",
 		"embedLink": "https://www.freetetris.org/resources/project-freetetrisorg/game/game-F642B867FEF5C7C3/target-desktop/if_game_html5.php?p=d&cbidg=F642B867FEF5C7C3",
 		"props": {
 			"Developer": "WAFLASH",
-			"Controls": "",
-			"Objective": ""
+			"Controls": "CUSTOMIZABLE",
+			"Objective": "Score the most points!"
 		},
-		"description": ""
+		"fs": true,
+		"description": "The classic game of tetris all about clearing rows of blocks to score points! Completly fill up a row to clear it!"
 	},
 	"penaltykickonline": {
 		"title": "Penalty Kick Online",
 		"link": "penaltykickonline",
-		"image": "https://arsholde.sirv.com/New%20%20Copywrite%20Free%20Thumbnails/Fire%20Game%20Site%20Images/penaltykick.jpg?w=208&h=208",
+		"image": "https://firegamesite.com/thumbnails/penaltykick.jpg",
 		"embedLink": "https://penaltykickonline.com/game/penalty-kick-online/",
 		"props": {
 			"Developer": "",
@@ -609,7 +614,7 @@
 	"slowroads": {
 		"title": "Slow Roads",
 		"link": "slowroads",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/slowroads.jpg",
 		"embedLink": "https://slowroads.io",
 		"props": {
 			"Developer": "Anslo",
@@ -621,8 +626,8 @@
 	"infinitecraft": {
 		"title": "Infinite Craft",
 		"link": "infinitecraft",
-		"image": "",
-		"embedLink": "https://neal.fun/infinite-craft/",
+		"image": "https://firegamesite.com/thumbnails/infinitecraft.jpg",
+		"embedLink": "https://firegamesite.com/assets/gameunavailable.jpg",
 		"props": {
 			"Developer": "Neal Agarwal",
 			"Controls": "Mouse Click and Drag- Move Elements",
@@ -633,7 +638,7 @@
 	"factoryidle": {
 		"title": "Factory Idle",
 		"link": "factoryidle",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/factoryidle.jpg",
 		"embedLink": "https://factoryidle.com",
 		"props": {
 			"Developer": "",
@@ -645,7 +650,7 @@
 	"deadshot": {
 		"title": "Deadshot.io",
 		"link": "deadshot",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/deadshot.jpg",
 		"embedLink": "https://deadshot.io/",
 		"props": {
 			"Developer": "",
@@ -657,19 +662,20 @@
 	"drivemad": {
 		"title": "Drive Mad",
 		"link": "drivemad",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/drivemad.jpg",
 		"embedLink": "https://drivemad.me/iframe/index.html",
 		"props": {
 			"Developer": "",
 			"Controls": "",
 			"Objective": ""
 		},
+		"fs": true,
 		"description": ""
 	},
 	"blackjack": {
 		"title": "Black Jack",
 		"link": "blackjack",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/blackjack.jpg",
 		"embedLink": "https://freegames.org/games/blackjack/v1/",
 		"props": {
 			"Controls": "Mouse Click",
@@ -680,7 +686,7 @@
 	"poker": {
 		"title": "Poker",
 		"link": "poker",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/poker.jpg",
 		"embedLink": "https://html5.gamedistribution.com/rvvASMiM/f07403fb3a4e4278944d0b540a6de3ff/index.html?gdpr-targeting=0&gdpr-tracking=0&gdpr-third-party=0&euConsent=undefined&gd_sdk_referrer_url=https%3A%2F%2Fwww.funnygames.org%2Fgame%2Fpoker_world_offline_poker.html&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL3d3dy5mdW5ueWdhbWVzLm9yZy9nYW1lL3Bva2VyX3dvcmxkX29mZmxpbmVfcG9rZXIuaHRtbCIsInBhcmVudERvbWFpbiI6ImZ1bm55Z2FtZXMub3JnIiwidG9wRG9tYWluIjoiZnVubnlnYW1lcy5vcmciLCJoYXNJbXByZXNzaW9uIjpmYWxzZSwibG9hZGVyRW5hYmxlZCI6dHJ1ZSwiaG9zdCI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidmVyc2lvbiI6IjEuNS4xNyJ9",
 		"props": {
 			"Developer": "Governer of Poker",
@@ -692,8 +698,417 @@
 	"eaglercraft188": {
 		"title": "Eaglercraft 1.8.8",
 		"link": "eaglercraft188",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/eaglercraft.jpg",
 		"embedLink": "https://eaglercraft.net/",
+		"props": {
+			"NOTE": "THIS GAME TAKES LONGER TO LOAD. PLEASE BE PATIENT.",
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"eaglercraft152": {
+		"title": "Eaglercraft 1.5.2",
+		"link": "eaglercraft152",
+		"image": "https://firegamesite.com/thumbnails/eaglercraft152.jpg",
+		"embedLink": "https://eaglercraft.com/mc/1.5.2/",
+		"props": {
+			"NOTE": "THIS GAME TAKES LONGER TO LOAD. PLEASE BE PATIENT.",
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"yeezle": {
+		"title": "Yeezle",
+		"link": "yeezle",
+		"image": "https://firegamesite.com/thumbnails/yeezle.jpg",
+		"embedLink": "https://yeezle.xyz/",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"fs": true,
+		"description": ""
+	},
+	"ninjaio": {
+		"title": "Ninja.io",
+		"link": "ninjaio",
+		"image": "https://firegamesite.com/thumbnails/ninjaio.jpg",
+		"embedLink": "https://ninja.io/",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"highwaytraffic": {
+		"title": "Highway Traffic",
+		"link": "highwaytraffic",
+		"image": "https://firegamesite.com/thumbnails/highwaytraffic.jpg",
+		"embedLink": "//html5.gamedistribution.com/rvvASMiM/7c151f5e29eb40a591edfe1823e1d0ea/index.html?gd_sdk_referrer_url=https%3A%2F%2Fwww.pacogames.com%2Fdriving%2Fhighway-traffic&gdpr-tracking=1&gdpr-targeting=1&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL3d3dy5wYWNvZ2FtZXMuY29tL2RyaXZpbmcvaGlnaHdheS10cmFmZmljIiwicGFyZW50RG9tYWluIjoicGFjb2dhbWVzLmNvbSIsInRvcERvbWFpbiI6InBhY29nYW1lcy5jb20iLCJoYXNJbXByZXNzaW9uIjp0cnVlLCJsb2FkZXJFbmFibGVkIjp0cnVlLCJob3N0IjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJ2ZXJzaW9uIjoiMS41LjE3In0%253D",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"monkeymart": {
+		"title": "Monkey Mart",
+		"link": "monkeymart",
+		"image": "https://firegamesite.com/thumbnails/monkeymart.jpg",
+		"embedLink": "https://monkey-mart.io/iframe/index.html",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"smashkarts": {
+		"title": "Smash Karts",
+		"link": "smashkarts",
+		"image": "https://firegamesite.com/thumbnails/smashkarts.jpg",
+		"embedLink": "https://geometrykarts.com/",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"logisticsinc": {
+		"title": "Logistics Inc.",
+		"link": "logisticsinc",
+		"image": "https://firegamesite.com/thumbnails/logisticsinc.jpg",
+		"embedLink": "https://game310544.konggames.com/gamez/0031/0544/live/index.html?kongregate_user_id=0&kongregate_game_auth_token=84983c60f7daadc1cb8698621f802c0d9f9a3c3c295c810748fb048115c186ec&random=119021503.9722573",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"fortnitetrack": {
+		"title": "Fortnite Tracker",
+		"link": "fortnitetrack",
+		"image": "https://firegamesite.com/thumbnails/fortnitetracker.jpg",
+		"embedLink": "https://fortnitetracker.com",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"subsurferscompile": {
+		"title": "Subway Surfers (Many Versions)",
+		"link": "subsurferscompile",
+		"image": "https://firegamesite.com/thumbnails/subsurfers.jpg",
+		"embedLink": "https://subway-surfers.org/world-tour/",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"sausageflip": {
+		"title": "Sausage Flip",
+		"link": "sausageflip",
+		"image": "https://firegamesite.com/thumbnails/sausageflip.jpg",
+		"embedLink": "https://just-fall.github.io/j0/sausage-flip/",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"fs": true,
+		"description": ""
+	},
+	"rocketsoccerderby": {
+		"title": "Rocket Soccer Derby",
+		"link": "rocketsoccerderby",
+		"image": "https://firegamesite.com/thumbnails/rocksoccerderby.jpg",
+		"embedLink": "https://just-fall.github.io/j0/rocket-soccer-derby",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"ts2048": {
+		"title": "2048",
+		"link": "ts2048",
+		"image": "https://firegamesite.com/thumbnails/2048.jpg",
+		"embedLink": "https://ovolve.github.io/2048-AI/",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"asmallworldcup": {
+		"title": "A Small World Cup",
+		"link": "asmallworldcup",
+		"image": "https://firegamesite.com/thumbnails/smallworldcup.jpg",
+		"embedLink": "https://html-classic.itch.zone/html/1643267/index.html?v=1574335048",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"r6": {
+		"title": "Tom Clancy's Rainbow Six Siege (Arcade Version)",
+		"link": "r6",
+		"image": "https://firegamesite.com/thumbnails/r6.jpg",
+		"embedLink": "https://gamesfrog.com/games/n64/tom-clancys-rainbow-six/iframe/",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"penaltyshoot1": {
+		"title": "Penalty Shooters 1",
+		"link": "penaltyshoot1",
+		"image": "https://firegamesite.com/thumbnails/penalshooters1.jpg",
+		"embedLink": "https://games.builds.gamepix.com/20067/6640642152118353920/index.html?api=2&sid=40165&utm_source=direct&referer=undefined&utm_medium=publisherV2&gd_sdk_referrer_url=https%3A%2F%2Fwww.funnygames.org%2Fgame%2Fpenalty_shooters_1.html&lang=en&namespace=penalty-shooters",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"fs": true,
+		"description": ""
+	},
+	"penaltyshoot2": {
+		"title": "Penalty Shooters 2",
+		"link": "penaltyshoot2",
+		"image": "https://firegamesite.com/thumbnails/penalshooters2.jpg",
+		"embedLink": "https://html5.gamedistribution.com/571b9df027e449f78e3869ba19658754/?gd_sdk_referrer_url=https://penaltyshooters2.com",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"fs": true,
+		"description": ""
+	},
+	"quake": {
+		"title": "Quake",
+		"link": "quake",
+		"image": "https://firegamesite.com/thumbnails/quake.jpg",
+		"embedLink": "https://www.netquake.io",
+		"props": {
+			"pak1 File For Multiplayer": "<a href='https://drive.google.com/file/d/16eieNt-pQw0xQGB2oZJb2bRFhT7qTQbW/view?usp=sharing'>HERE</a> (Right Click and Open in a New Tab",
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"multitaskair": {
+		"title": "Multitask Air",
+		"link": "multitaskair",
+		"image": "https://firegamesite.com/thumbnails/multitaskair.jpg",
+		"embedLink": "https://html-classic.itch.zone/html/4996445/Multi Task Web/index.html",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"adanceoffireandice": {
+		"title": "A Dance Of Fire and Ice",
+		"link": "adanceoffireandice",
+		"image": "https://firegamesite.com/thumbnails/dancefireice.jpg",
+		"embedLink": "https://html5-games.io/game/a-dance-of-fire-and-ice/",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"fs": true,
+		"description": ""
+	},
+	"yohoho.io": {
+		"title": "YoHoHo.io",
+		"link": "yohoho.io",
+		"image": "https://firegamesite.com/thumbnails/yohoho.jpg",
+		"embedLink": "https://yohoho.io",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"supermariobros": {
+		"title": "Super Mario Bros",
+		"link": "supermariobros",
+		"image": "https://firegamesite.com/thumbnails/mariobros.jpg",
+		"embedLink": "https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://57264959-967300405472742195.preview.editmysite.com/uploads/b/11886820-385538800742658772/files/smb.xml&container=ig",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"sm64": {
+		"title": "Super Mario 64",
+		"link": "sm64",
+		"image": "https://firegamesite.com/thumbnails/mario64.jpg",
+		"embedLink": "https://sm64-embed.glitch.me/start.html",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"worldle": {
+		"title": "Worldle",
+		"link": "worldle",
+		"image": "https://firegamesite.com/thumbnails/worldle.jpg",
+		"embedLink": "https://worldle.teuteuf.fr",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"fs": true,
+		"description": ""
+	},
+	"statele": {
+		"title": "Statele",
+		"link": "statele",
+		"image": "https://firegamesite.com/thumbnails/statele.jpg",
+		"embedLink": "https://statele.teuteuf.fr",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"fs": true,
+		"description": ""
+	},
+	"connections": {
+		"title": "Connections Unlimited",
+		"link": "connections",
+		"image": "https://firegamesite.com/thumbnails/connectionsunlimited.jpg",
+		"embedLink": "https://connectionsunlimited.io/game/connectionsunlimited/",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"fs": true,
+		"description": ""
+	},
+	"spellingbee": {
+		"title": "Spelling Bee",
+		"link": "spellingbee",
+		"image": "https://firegamesite.com/thumbnails/spellingbee.jpg",
+		"embedLink": "https://spellbee.org/unlimited?id=gaeforv",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"sudoku": {
+		"title": "Sudoku",
+		"link": "sudoku",
+		"image": "https://firegamesite.com/thumbnails/sudoku.jpg",
+		"embedLink": "https://www.proprofsgames.com/html5_games.php?script_path=sudoku_e/js/sudoku_e.js",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"fs": true,
+		"description": ""
+	},
+	"googlefeud": {
+		"title": "Google Feud",
+		"link": "googlefeud",
+		"image": "https://firegamesite.com/thumbnails/googlefeud.jpg",
+		"embedLink": "https://games-site.github.io/projects/google-feud/index.html",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"fs": true,
+		"description": ""
+	},
+	"pokemonshowdown": {
+		"title": "Pokemon Showdown",
+		"link": "pokemonshowdown",
+		"image": "https://firegamesite.com/thumbnails/pokemonshowdown.jpg",
+		"embedLink": "https://play.pokemonshowdown.com",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"waffle": {
+		"title": "Waffle Unlimited",
+		"link": "waffle",
+		"image": "https://firegamesite.com/thumbnails/waffleunlimited.jpg",
+		"embedLink": "https://waffleunlimited.com/waffle-unlimited.embed",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"cityguessr": {
+		"title": "Cityguessr",
+		"link": "cityguessr",
+		"image": "https://firegamesite.com/thumbnails/cityguessr.jpg",
+		"embedLink": "https://virtualvacation.us/guess",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+ 	"fngeoguessr": {
+		"title": "Fortnite Geoguessr",
+		"link": "fngeoguessr",
+		"image": "https://firegamesite.com/assets/thumbnailunavailable.jpg",
+		"embedLink": "https://firegamesite.com/assets/gameunavailable.jpg",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"burritobison": {
+		"title": "Burrito Bison",
+		"link": "burritobison",
+		"image": "https://firegamesite.com/assets/thumbnailunavailable.jpg",
+		"embedLink": "https://tybsi.com/games/burrito-bison-launcha-libre/",
 		"props": {
 			"Developer": "",
 			"Controls": "",
@@ -701,5 +1116,4 @@
 		},
 		"description": ""
 	}
-
 }

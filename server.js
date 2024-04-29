@@ -5,12 +5,13 @@ const app = express()
 const port = 10000
 const lunr = require("lunr")
 const games = require("./games.json")
+const updates = require("./updates.json")
 const res = require("express/lib/response");
 const fs = require("fs")
 
 var announcement = { // both support html, so if you want something like a link use <a> or if you want a newline use <br />
-    title: "Anouncements - MASSIVE UI UPDATE",
-    description: `Oue team has been hard at work to deliver the best experience to you. Our most recent update has the most changes to the code that any update has ever had on this site, ever. Everything has been updated to fit Google's much more modern Material Design Guidelines (also known Material M3 or Material You). The red is gone from the site for now, but may make a surprise return sometime in the near future. We hope you enjoy the new UI, and if you have any issues at all, click the contact button in the top right and fill out the form with information on your issue or request.<br /><br />NOTE: IF YOU CLICK A BUTTON OR GAME AND NOTHING HAPPENS, GIVE THE SITE A BIT TO LOAD<br />`
+    title: "Announcements - NEW UPDATE LOG",
+    description: `We try to push the most updates possible for our users, and there is so many that it can get hard to keep track of. The announcements will always have the newest update, but they are not as detailed as we would like and there is no way to see past updates. We have added a new update log page with all new updates that are brought to the site. The page can be visited <a href="/updates">HERE</a>.<br /><br />NOTE: IF YOU CLICK A BUTTON OR GAME AND NOTHING HAPPENS, GIVE THE SITE A BIT TO LOAD<br /> <br />NOTE: IF YOU WANT TO VISIT OUR CONTACT PAGE, MEET THE TEAM PAGE, OR OUR SPECIAL ANNOUNCEMENTS, CLICK THE ICONS ON THE TOP RIGHT CORNER<br /> <br />NOTE: BASKET BROS IS DOES NOT WORK AT TIMES, PLEASE DO NOT CONTACT US ABOUT THIS MATTER<br /> <br />April 25, 2024: Added Waffle Unlimited<br /> <br />April 22, 2024: Added Google Feud and Pokemon Showdown<br /> <br />April 21, 2024: Added a lot of brand new thumbnails (see above). We also changed the hosting of all of our site's thumbnails. They are now hosted on the Fire Game Site instead of a 3rd party service. If there are any bugs or issues with the new thumbnails, be sure to contact us so we can resolve the problem.`
 }
 
 // index lunr
@@ -37,6 +38,10 @@ app.get('/', (req, res) => {
     res.render('index', {games: JSON.stringify(games), firebase: process.env.firebase, title: announcement.title, desc: announcement.description})
 })
 
+app.get('/updates', (req, res) => {
+    res.render('updates', {updates: JSON.stringify(updates), firebase: process.env.firebase})
+})
+
 app.get('/ads.txt', (req, res) => {
     res.send('google.com, pub-2261681163241464, DIRECT, f08c47fec0942fa0')
 })
@@ -57,8 +62,16 @@ app.get('/privacy-policy', (req, res) => {
     res.render('md', {title: "Privacy Policy"})
 })
 
+app.get('/alternates', (req, res) => {
+    res.render('alternates', {title: "Alternate Pages"})
+})
+
 app.get('/contact', (req, res) => {
     res.render('contact', {firebase: process.env.firebase})
+})
+
+app.get('/team', (req, res) => {
+    res.render('team', {firebase: process.env.firebase})
 })
 
 app.get('/:game', (req, res) => {
@@ -75,7 +88,18 @@ app.get('/:game', (req, res) => {
             var descBool = `<div style="width: 100%; height: 1px; border-radius: 1.5px; background: var(--md-sys-color-outline-variant);" ></div>`
             var desc = games[req.params.game]['description']
         }
-        res.render('game', {title: games[req.params.game]['title'], embed: games[req.params.game]['embedLink'], firebase: process.env.firebase, propsBool: propsBool, props: props, descBool: descBool, desc: desc})
+        if (!games[req.params.game]['fs']) {
+            var fsBool = '<button id="fullscreen" style="position: absolute; background: var(--md-sys-color-primary); border-radius: 20px; border: none; font-family: \'Roboto Flex\', system-ui; color: var(--md-sys-color-on-primary); font-size: 14px; line-height: 20px; overflow: visible; box-sizing: border-box; height: 40px; font-weight: 500; letter-spacing: 0.1px; padding: 0 24px;">Fullscreen</button>'
+        }
+        res.render('game', {title: games[req.params.game]['title'], embed: games[req.params.game]['embedLink'], url: req.params.game, firebase: process.env.firebase, propsBool: propsBool, props: props, descBool: descBool, desc: desc, fs: fsBool})
+    } else {
+        res.render('404', {link: req.params.game, firebase: process.env.firebase})
+    }
+})
+
+app.get('/fs/:game', (req, res) => {
+    if (req.params.game in games) {
+        res.render('embed', {embed: games[req.params.game]['embedLink']})
     } else {
         res.render('404', {link: req.params.game, firebase: process.env.firebase})
     }
@@ -89,6 +113,16 @@ app.get('/search/:query', (req, res) => {
         toReturn[result.ref] = game
     }
     res.render('search', {query: req.params.query, games: JSON.stringify(toReturn)})
+})
+
+app.get('/assets/:img', (req, res) => {
+    res.setHeader('Content-Type', 'image/jpeg')
+    res.sendFile(__dirname + `/assets/${req.params.img}`)
+})
+
+app.get('/thumbnails/:img', (req, res) => {
+    res.setHeader('Content-Type', 'image/jpeg')
+    res.sendFile(__dirname + `/thumbnails/${req.params.img}`)
 })
 
 app.listen(port)
