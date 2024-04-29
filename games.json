@@ -421,6 +421,7 @@
 		"image": "https://firegamesite.com/thumbnails/basketbros.jpg",
 		"embedLink": "https://basketbros.io/cg/",
 		"props": {
+			"NOTE": "THIS GAME TENDS TO NOT WORK, PLEASE DO NOT CONTACT US ABOUT IT AS WE ARE WORKING ON A FIX",
 			"Developer": "Blue Wizard Digital",
 			"Controls": "WASD (+G)-Move (and shoot), Arrow keys (+L)- Move (and shoot)",
 			"Objective": "Win!"
@@ -626,7 +627,7 @@
 		"title": "Infinite Craft",
 		"link": "infinitecraft",
 		"image": "https://firegamesite.com/thumbnails/infinitecraft.jpg",
-		"embedLink": "https://neal.fun/infinite-craft/",
+		"embedLink": "https://firegamesite.com/assets/gameunavailable.jpg",
 		"props": {
 			"Developer": "Neal Agarwal",
 			"Controls": "Mouse Click and Drag- Move Elements",
@@ -1070,7 +1071,7 @@
 	"waffle": {
 		"title": "Waffle Unlimited",
 		"link": "waffle",
-		"image": "https://firegamesite.com/assets/thumbnailunavailable.jpg",
+		"image": "https://firegamesite.com/thumbnails/waffleunlimited",
 		"embedLink": "https://waffleunlimited.com/waffle-unlimited.embed",
 		"props": {
 			"Developer": "",
@@ -1082,7 +1083,7 @@
 	"cityguessr": {
 		"title": "Cityguessr",
 		"link": "cityguessr",
-		"image": "https://firegamesite.com/assets/thumbnailunavailable.jpg",
+		"image": "https://firegamesite.com/thumbnails/cityguessr",
 		"embedLink": "https://virtualvacation.us/guess",
 		"props": {
 			"Developer": "",
@@ -1095,7 +1096,7 @@
 		"title": "Fortnite Geoguessr",
 		"link": "fngeoguessr",
 		"image": "https://firegamesite.com/assets/thumbnailunavailable.jpg",
-		"embedLink": "https://lostgamer.io/fortnite",
+		"embedLink": "https://firegamesite.com/assets/gameunavailable.jpg",
 		"props": {
 			"Developer": "",
 			"Controls": "",
@@ -1103,10 +1104,10 @@
 		},
 		"description": ""
 	},
-	"game": {
-		"title": "Game",
-		"link": "game",
-		"image": "",
+	"burritobison": {
+		"title": "Burrito Bison",
+		"link": "burritobison",
+		"image": "https://firegamesite.com/assets/thumbnailunavailable.jpg",
 		"embedLink": "https://tybsi.com/games/burrito-bison-launcha-libre/",
 		"props": {
 			"Developer": "",
