@@ -1071,7 +1071,7 @@
 	"waffle": {
 		"title": "Waffle Unlimited",
 		"link": "waffle",
-		"image": "https://firegamesite.com/thumbnails/waffleunlimited",
+		"image": "https://firegamesite.com/thumbnails/waffleunlimited.jpg",
 		"embedLink": "https://waffleunlimited.com/waffle-unlimited.embed",
 		"props": {
 			"Developer": "",
@@ -1083,7 +1083,7 @@
 	"cityguessr": {
 		"title": "Cityguessr",
 		"link": "cityguessr",
-		"image": "https://firegamesite.com/thumbnails/cityguessr",
+		"image": "https://firegamesite.com/thumbnails/cityguessr.jpg",
 		"embedLink": "https://virtualvacation.us/guess",
 		"props": {
 			"Developer": "",
