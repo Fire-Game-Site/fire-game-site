@@ -1079,11 +1079,11 @@
 		},
 		"description": ""
 	},
-	"geoguessr": {
-		"title": "Geoguessr",
-		"link": "geoguessr",
+	"cityguessr": {
+		"title": "Cityguessr",
+		"link": "cityguessr",
 		"image": "https://firegamesite.com/assets/thumbnailunavailable.jpg",
-		"embedLink": "https://openguessr.netlify.app",
+		"embedLink": "https://virtualvacation.us/guess",
 		"props": {
 			"Developer": "",
 			"Controls": "",
@@ -1091,7 +1091,7 @@
 		},
 		"description": ""
 	},
- "fngeoguessr": {
+ 	"fngeoguessr": {
 		"title": "Fortnite Geoguessr",
 		"link": "fngeoguessr",
 		"image": "https://firegamesite.com/assets/thumbnailunavailable.jpg",
