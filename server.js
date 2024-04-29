@@ -38,6 +38,10 @@ app.get('/', (req, res) => {
     res.render('index', {games: JSON.stringify(games), firebase: process.env.firebase, title: announcement.title, desc: announcement.description})
 })
 
+app.get('/apps', (req, res) => {
+    res.render('apps', {games: JSON.stringify(games), firebase: process.env.firebase, title: announcement.title, desc: announcement.description})
+})
+
 app.get('/updates', (req, res) => {
     res.render('updates', {updates: JSON.stringify(updates), firebase: process.env.firebase})
 })
