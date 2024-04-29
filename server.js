@@ -40,7 +40,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/apps', (req, res) => {
-    res.render('apps', {apps: JSON.stringify(games), firebase: process.env.firebase, title: announcement.title, desc: announcement.description})
+    res.render('apps', {apps: JSON.stringify(apps), firebase: process.env.firebase, title: announcement.title, desc: announcement.description})
 })
 
 app.get('/updates', (req, res) => {
