@@ -6,6 +6,7 @@ const port = 10000
 const lunr = require("lunr")
 const games = require("./games.json")
 const updates = require("./updates.json")
+const apps = require("./apps.json")
 const res = require("express/lib/response");
 const fs = require("fs")
 
@@ -96,6 +97,29 @@ app.get('/:game', (req, res) => {
             var fsBool = '<button id="fullscreen" style="position: absolute; background: var(--md-sys-color-primary); border-radius: 20px; border: none; font-family: \'Roboto Flex\', system-ui; color: var(--md-sys-color-on-primary); font-size: 14px; line-height: 20px; overflow: visible; box-sizing: border-box; height: 40px; font-weight: 500; letter-spacing: 0.1px; padding: 0 24px;">Fullscreen</button>'
         }
         res.render('game', {title: games[req.params.game]['title'], embed: games[req.params.game]['embedLink'], url: req.params.game, firebase: process.env.firebase, propsBool: propsBool, props: props, descBool: descBool, desc: desc, fs: fsBool})
+    } else {
+        res.render('404', {link: req.params.game, firebase: process.env.firebase})
+    }
+})
+
+app.get('/app/:game', (req, res) => {
+    if (req.params.game in apps) {
+        if (!!apps[req.params.game]['props']) {
+            var propsBool = `<div style="width: 100%; height: 1px; border-radius: 1.5px; background: var(--md-sys-color-outline-variant);" ></div>`
+            let propsList = ``
+            for (const i in apps[req.params.game]['props']) {
+                propsList += `<p style="padding: 10px; box-sizing: border-box; color: var(--md-sys-color-on-surface-variant); text-align: center; font-family: 'Roboto Flex', system-ui; font-size: 16px; font-weight: 400; letter-spacing: 0.5px;">${i}: ${apps[req.params.game]['props'][i]}</p>`
+            }
+            var props = `<div style="display: flex; padding: 10px; justify-content: center; align-items: center; align-content: center; gap: 15px; box-sizing: border-box; width: 100%; flex-wrap: wrap;">${propsList}</div>`
+        }
+        if (!!apps[req.params.game]['description']) {
+            var descBool = `<div style="width: 100%; height: 1px; border-radius: 1.5px; background: var(--md-sys-color-outline-variant);" ></div>`
+            var desc = apps[req.params.game]['description']
+        }
+        if (!apps[req.params.game]['fs']) {
+            var fsBool = '<button id="fullscreen" style="position: absolute; background: var(--md-sys-color-primary); border-radius: 20px; border: none; font-family: \'Roboto Flex\', system-ui; color: var(--md-sys-color-on-primary); font-size: 14px; line-height: 20px; overflow: visible; box-sizing: border-box; height: 40px; font-weight: 500; letter-spacing: 0.1px; padding: 0 24px;">Fullscreen</button>'
+        }
+        res.render('game', {title: apps[req.params.game]['title'], embed: apps[req.params.game]['embedLink'], url: req.params.game, firebase: process.env.firebase, propsBool: propsBool, props: props, descBool: descBool, desc: desc, fs: fsBool})
     } else {
         res.render('404', {link: req.params.game, firebase: process.env.firebase})
     }
