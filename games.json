@@ -1102,5 +1102,17 @@
 			"Objective": ""
 		},
 		"description": ""
-	}
+	},
+	"game": {
+		"title": "Game",
+		"link": "game",
+		"image": "",
+		"embedLink": "https://tybsi.com/games/burrito-bison-launcha-libre/",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
 }
