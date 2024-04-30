@@ -421,6 +421,7 @@
 		"image": "https://firegamesite.com/thumbnails/basketbros.jpg",
 		"embedLink": "https://basketbros.io/cg/",
 		"props": {
+			"NOTE": "THIS GAME TENDS TO NOT WORK, PLEASE DO NOT CONTACT US ABOUT IT AS WE ARE WORKING ON A FIX",
 			"Developer": "Blue Wizard Digital",
 			"Controls": "WASD (+G)-Move (and shoot), Arrow keys (+L)- Move (and shoot)",
 			"Objective": "Win!"
@@ -626,7 +627,7 @@
 		"title": "Infinite Craft",
 		"link": "infinitecraft",
 		"image": "https://firegamesite.com/thumbnails/infinitecraft.jpg",
-		"embedLink": "https://neal.fun/infinite-craft/",
+		"embedLink": "https://firegamesite.com/assets/gameunavailable.jpg",
 		"props": {
 			"Developer": "Neal Agarwal",
 			"Controls": "Mouse Click and Drag- Move Elements",
@@ -910,7 +911,7 @@
 		"image": "https://firegamesite.com/thumbnails/quake.jpg",
 		"embedLink": "https://www.netquake.io",
 		"props": {
-			"pak1 File For Multiplayer": "<a href='https://drive.google.com/file/d/16eieNt-pQw0xQGB2oZJb2bRFhT7qTQbW/view?usp=drive_link'>HERE</a>",
+			"pak1 File For Multiplayer": "<a href='https://drive.google.com/file/d/16eieNt-pQw0xQGB2oZJb2bRFhT7qTQbW/view?usp=sharing'>HERE</a> (Right Click and Open in a New Tab",
 			"Developer": "",
 			"Controls": "",
 			"Objective": ""
@@ -1070,8 +1071,44 @@
 	"waffle": {
 		"title": "Waffle Unlimited",
 		"link": "waffle",
-		"image": "",
+		"image": "https://firegamesite.com/thumbnails/waffleunlimited.jpg",
 		"embedLink": "https://waffleunlimited.com/waffle-unlimited.embed",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"cityguessr": {
+		"title": "Cityguessr",
+		"link": "cityguessr",
+		"image": "https://firegamesite.com/thumbnails/cityguessr.jpg",
+		"embedLink": "https://virtualvacation.us/guess",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+ 	"fngeoguessr": {
+		"title": "Fortnite Geoguessr",
+		"link": "fngeoguessr",
+		"image": "https://firegamesite.com/assets/thumbnailunavailable.jpg",
+		"embedLink": "https://firegamesite.com/assets/gameunavailable.jpg",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"burritobison": {
+		"title": "Burrito Bison",
+		"link": "burritobison",
+		"image": "https://firegamesite.com/assets/thumbnailunavailable.jpg",
+		"embedLink": "https://tybsi.com/games/burrito-bison-launcha-libre/",
 		"props": {
 			"Developer": "",
 			"Controls": "",
