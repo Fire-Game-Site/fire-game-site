@@ -148,11 +148,11 @@
                 }
 
                 render() {
-					this.style = 'display: flex; flex-wrap: wrap; min-height: 2250px; gap: 30px; padding: 25px 0 5px; margin: auto; justify-content: space-between'
+					this.style = 'display: flex; flex-wrap: wrap; gap: 30px; padding: 25px 0 5px; margin: auto; justify-content: space-between'
                     for (const i in games) {
                         var game = document.createElement('div')
                         game.className = "game"
-                        game.setAttribute('onclick', `location.href += '${games[i]['link']}'`)
+                        game.setAttribute('onclick', `location.href = '/app/${games[i]['link']}'`)
                         var pic = document.createElement('div')
                         pic.className = "gamePic"
                         pic.style.backgroundImage = `url(${games[i]['image']})`
