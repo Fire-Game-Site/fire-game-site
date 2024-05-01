@@ -50,43 +50,7 @@
 		"title": "Weather",
 		"link": "weather",
 		"image": "",
-		"embedLink": "https://weather.com",
-		"props": {
-			"Developer": "",
-			"Controls": "",
-			"Objective": ""
-		},
-		"description": ""
-	},
-	"applemusic": {
-		"title": "Apple Music",
-		"link": "applemusic",
-		"image": "",
-		"embedLink": "https://music.apple.com/us/browse",
-		"props": {
-			"Developer": "",
-			"Controls": "",
-			"Objective": ""
-		},
-		"description": ""
-	},
-	"spotify": {
-		"title": "Spotify",
-		"link": "spotify",
-		"image": "",
-		"embedLink": "https://open.spotify.com",
-		"props": {
-			"Developer": "",
-			"Controls": "",
-			"Objective": ""
-		},
-		"description": ""
-	},
-	"twitch": {
-		"title": "Twitch",
-		"link": "twitch",
-		"image": "",
-		"embedLink": "https://www.twitch.tv",
+		"embedLink": "https://www.accuweather.com",
 		"props": {
 			"Developer": "",
 			"Controls": "",
