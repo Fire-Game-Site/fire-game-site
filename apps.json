@@ -57,5 +57,53 @@
 			"Objective": ""
 		},
 		"description": ""
-	}
+	},
+	"wifispeed": {
+		"title": "Wifi Speed Test",
+		"link": "wifispeed",
+		"image": "",
+		"embedLink": "https://www.speedtest.net",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"amazon": {
+		"title": "Amazon",
+		"link": "amazon",
+		"image": "",
+		"embedLink": "https://www.amazon.com",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"target": {
+		"title": "Target",
+		"link": "target",
+		"image": "",
+		"embedLink": "https://www.target.com",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"chatgpt": {
+		"title": "ChatGPT",
+		"link": "chatgpt",
+		"image": "",
+		"embedLink": "https://chat.openai.com",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
 }
