@@ -2,7 +2,7 @@
 	"fgscom": {
 		"title": "firegamesite.com",
 		"link": "fgscom",
-		"image": "",
+		"image": "https://firegamesite.com/assets/thumbnailunavailable.jpg",
 		"embedLink": "https://firegamesite.com",
 		"props": {
 			"Developer": "",
@@ -37,7 +37,7 @@
 	"geogebra": {
 		"title": "Geogebra",
 		"link": "geogebra",
-		"image": "",
+		"image": "https://firegamesite.com/assets/thumbnailunavailable.jpg",
 		"embedLink": "https://www.geogebra.org/classic?lang=en",
 		"props": {
 			"Developer": "",
@@ -49,7 +49,7 @@
 	"weather": {
 		"title": "Weather",
 		"link": "weather",
-		"image": "",
+		"image": "https://firegamesite.com/assets/thumbnailunavailable.jpg",
 		"embedLink": "https://www.accuweather.com",
 		"props": {
 			"Developer": "",
