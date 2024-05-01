@@ -1091,29 +1091,5 @@
 			"Objective": ""
 		},
 		"description": ""
-	},
- 	"fngeoguessr": {
-		"title": "Fortnite Geoguessr",
-		"link": "fngeoguessr",
-		"image": "https://firegamesite.com/assets/thumbnailunavailable.jpg",
-		"embedLink": "https://firegamesite.com/assets/gameunavailable.jpg",
-		"props": {
-			"Developer": "",
-			"Controls": "",
-			"Objective": ""
-		},
-		"description": ""
-	},
-	"burritobison": {
-		"title": "Burrito Bison",
-		"link": "burritobison",
-		"image": "https://firegamesite.com/assets/thumbnailunavailable.jpg",
-		"embedLink": "https://tybsi.com/games/burrito-bison-launcha-libre/",
-		"props": {
-			"Developer": "",
-			"Controls": "",
-			"Objective": ""
-		},
-		"description": ""
 	}
 }
