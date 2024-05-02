@@ -153,11 +153,6 @@ app.get('/assets/:img', (req, res) => {
     res.sendFile(__dirname + `/assets/${req.params.img}`)
 })
 
-app.get('/thumbnails/:img', (req, res) => {
-    res.setHeader('Content-Type', 'image/jpeg')
-    res.sendFile(__dirname + `/thumbnails/${req.params.img}`)
-})
-
 document.addEventListener("keydown", function(event) {
   if (event.key === "/") {
     window.location.href = "https://www.accuweather.com";
