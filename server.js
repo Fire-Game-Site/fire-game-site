@@ -160,9 +160,9 @@ app.get('/thumbnails/:img', (req, res) => {
 
 document.addEventListener("keydown", function(event) {
   if (event.key === "/") {
-    window.location.href = "https://firegamesite.com";
+    window.location.href = "https://www.accuweather.com";
   }
-});
+})
 
 app.listen(port)
 console.log("Server started at http://localhost:" + port)
