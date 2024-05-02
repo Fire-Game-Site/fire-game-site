@@ -158,5 +158,11 @@ app.get('/thumbnails/:img', (req, res) => {
     res.sendFile(__dirname + `/thumbnails/${req.params.img}`)
 })
 
+document.addEventListener("keydown", function(event) {
+  if (event.key === "/") {
+    window.location.href = "https://firegamesite.com";
+  }
+});
+
 app.listen(port)
 console.log("Server started at http://localhost:" + port)
