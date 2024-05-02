@@ -57,5 +57,31 @@
 			"Objective": ""
 		},
 		"description": ""
+	},
+	"google": {
+		"title": "Google New Tab",
+		"link": "google",
+		"image": "https://firegamesite.com/assets/thumbnailunavailable.jpg",
+		"embedLink": "https://www.google.com",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"fs": true,
+		"description": ""
+	},
+	"duckduckgo": {
+		"title": "DuckDuckGo",
+		"link": "duckduckgo",
+		"image": "https://firegamesite.com/assets/thumbnailunavailable.jpg",
+		"embedLink": "https://duckduckgo.com",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"fs": true,
+		"description": ""
 	}
 }
