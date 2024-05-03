@@ -1095,7 +1095,7 @@
 	"burritobison": {
 		"title": "Burrito Bison: Launcha Libre",
 		"link": "burritobison",
-		"image": "",
+		"image": "https://firegamesite.com/assets/thumbnailunavailable.jpg",
 		"embedLink": "https://planetalpha.pages.dev/burrito_bison/?kongregate=1&kongregate_user_id=0&kongregate_username=Guest&kongregate_game_auth_token=undefinedd",
 		"props": {
 			"Developer": "",
