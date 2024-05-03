@@ -24,14 +24,12 @@
 		}
 	},
 	"Update v1.0.0": {
-		"date": "May 25, 2023",
+		"date": "June 8, 2023",
 		"type": "major",
 		"contents": {
-			"description": "Add a new system for a log of all updates pushed to the site",
+			"description": "Changed Fire Game Site to be hosted on Github instead of Google Sites",
 			"changes": [
-				"Add update log page",
-				"Create first update in update log page",
-				"Add update log link button to nav bar on all pages"
+				"firegamesite.com link will no longer link to google sites. It will link to our own site"
 			]
 		}
 	}
