@@ -1,6 +1,30 @@
 {
+ "New Update Log": {
+		"date": "April 25, 2024",
+		"type": "major",
+		"contents": {
+			"description": "Add a new system for a log of all updates pushed to the site",
+			"changes": [
+				"Add update log page",
+				"Create first update in update log page",
+				"Add update log link button to nav bar on all pages"
+			]
+		}
+	},
 	"New Update Log": {
 		"date": "April 25, 2024",
+		"type": "major",
+		"contents": {
+			"description": "Add a new system for a log of all updates pushed to the site",
+			"changes": [
+				"Add update log page",
+				"Create first update in update log page",
+				"Add update log link button to nav bar on all pages"
+			]
+		}
+	},
+	"Update v1.0.0": {
+		"date": "May 25, 2023",
 		"type": "major",
 		"contents": {
 			"description": "Add a new system for a log of all updates pushed to the site",
