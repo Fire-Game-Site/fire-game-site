@@ -23,6 +23,18 @@
 			]
 		}
 	},
+	 "New Update Log": {
+		"date": "April 25, 2024",
+		"type": "major",
+		"contents": {
+			"description": "Add a new system for a log of all updates pushed to the site",
+			"changes": [
+				"Add update log page",
+				"Create first update in update log page",
+				"Add update log link button to nav bar on all pages"
+			]
+		}
+	},
 	"Update v1.0.0": {
 		"date": "June 8, 2023",
 		"type": "major",
@@ -30,6 +42,26 @@
 			"description": "Changed Fire Game Site to be hosted on Github instead of Google Sites",
 			"changes": [
 				"firegamesite.com link will no longer link to google sites. It will link to our own site"
+			]
+		}
+	},
+	 "Update vBETA 2.0.0": {
+		"date": "May 24, 2023",
+		"type": "major",
+		"contents": {
+			"description": "Changed domain to "firegamesite.com"",
+			"changes": [
+				"No longer using generic google sites domain, now using "firegamesite.com""
+			]
+		}
+	},
+	 "Update vBETA 1.0.0": {
+		"date": "May 9, 2023",
+		"type": "major",
+		"contents": {
+			"description": "BIRTH OF THE FIRE GAME SITE!",
+			"changes": [
+				"Created basic Google Sites interface"
 			]
 		}
 	}
