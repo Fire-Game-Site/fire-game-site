@@ -1,28 +1,4 @@
 {
- "New Update Log": {
-		"date": "April 25, 2024",
-		"type": "major",
-		"contents": {
-			"description": "Add a new system for a log of all updates pushed to the site",
-			"changes": [
-				"Add update log page",
-				"Create first update in update log page",
-				"Add update log link button to nav bar on all pages"
-			]
-		}
-	},
-	"New Update Log": {
-		"date": "April 25, 2024",
-		"type": "major",
-		"contents": {
-			"description": "Add a new system for a log of all updates pushed to the site",
-			"changes": [
-				"Add update log page",
-				"Create first update in update log page",
-				"Add update log link button to nav bar on all pages"
-			]
-		}
-	},
 	 "New Update Log": {
 		"date": "April 25, 2024",
 		"type": "major",
@@ -49,9 +25,9 @@
 		"date": "May 24, 2023",
 		"type": "major",
 		"contents": {
-			"description": "Changed domain to "firegamesite.com"",
+			"description": "Changed domain to firegamesite.com",
 			"changes": [
-				"No longer using generic google sites domain, now using "firegamesite.com""
+				"No longer using generic google sites domain, now using firegamesite.com"
 			]
 		}
 	},
