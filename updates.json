@@ -11,6 +11,17 @@
 			]
 		}
 	},
+	 "Update v2.0.0": {
+		"date": "March 25, 2024",
+		"type": "major",
+		"contents": {
+			"description": "Revamped our site's UI",
+			"changes": [
+				"Created a brand new UI that aligns with Google's Material Design (M3)",
+				"Red color has been removed for the time being but may return in the future",
+			]
+		}
+	},
 	"Update v1.0.0": {
 		"date": "June 8, 2023",
 		"type": "major",
