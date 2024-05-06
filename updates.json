@@ -38,7 +38,7 @@
 			"description": "Revamped our site's UI",
 			"changes": [
 				"Created a brand new UI that aligns with Google's Material Design (M3)",
-				"Red color has been removed for the time being but may return in the future",
+				"Red color has been removed for the time being but may return in the future"
 			]
 		}
 	},
