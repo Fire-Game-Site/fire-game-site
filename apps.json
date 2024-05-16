@@ -57,5 +57,17 @@
 			"Objective": ""
 		},
 		"description": ""
+	},
+	"snap": {
+		"title": "Snapchat",
+		"link": "snap",
+		"image": "https://firegamesite.com/assets/thumbnailunavailable.jpg",
+		"embedLink": "https://web.snapchat.com",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
 	}
 }
