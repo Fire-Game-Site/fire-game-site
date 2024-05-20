@@ -26,7 +26,7 @@
 		"title": "Defly.io (All Games)",
 		"link": "defly.io",
 		"image": "https://firegamesite.com/thumbnails/deflyio.jpg",
-		"embedLink": "https://defly.io/",
+		"embedLink": "https://defly.io",
 		"props": {
 			"Developer": "Exodragon Games",
 			"Controls": "Arrow keys-move, Spacebar-place tower, Left click-shoot, E-Superpower",
@@ -1092,23 +1092,11 @@
 		},
 		"description": ""
 	},
- 	"fngeoguessr": {
-		"title": "Fortnite Geoguessr",
-		"link": "fngeoguessr",
-		"image": "https://firegamesite.com/assets/thumbnailunavailable.jpg",
-		"embedLink": "https://firegamesite.com/assets/gameunavailable.jpg",
-		"props": {
-			"Developer": "",
-			"Controls": "",
-			"Objective": ""
-		},
-		"description": ""
-	},
 	"burritobison": {
-		"title": "Burrito Bison",
+		"title": "Burrito Bison: Launcha Libre",
 		"link": "burritobison",
 		"image": "https://firegamesite.com/assets/thumbnailunavailable.jpg",
-		"embedLink": "https://tybsi.com/games/burrito-bison-launcha-libre/",
+		"embedLink": "https://planetalpha.pages.dev/burrito_bison/?kongregate=1&kongregate_user_id=0&kongregate_username=Guest&kongregate_game_auth_token=undefinedd",
 		"props": {
 			"Developer": "",
 			"Controls": "",

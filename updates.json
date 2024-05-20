@@ -1,13 +1,74 @@
 {
-	"New Update Log": {
-		"date": "April 25, 2024",
-		"type": "major",
+	"Update v2.3.0": {
+		"date": "April 30, 2024",
+		"type": "minor",
 		"contents": {
-			"description": "Add a new system for a log of all updates pushed to the site",
+			"description": "New page for apps",
+			"changes": [
+				"Added a new button on the top bar that brings you to a new page that has different non-game apps on it."
+			]
+		}
+	}, 
+	"Update v2.2.0": {
+		"date": "April 25, 2024",
+		"type": "minor",
+		"contents": {
+			"description": "New Update Log",
 			"changes": [
 				"Add update log page",
 				"Create first update in update log page",
 				"Add update log link button to nav bar on all pages"
+			]
+		}
+	},
+	"Update v2.1.0": {
+		"date": "April 18, 2024",
+		"type": "minor",
+		"contents": {
+			"description": "Added a Meet the Team page",
+			"changes": [
+				"Added a new button to the top bar that brings you to a new page that lists our employees and their bio"
+			]
+		}
+	},
+	"Update v2.0.0": {
+		"date": "March 10, 2024",
+		"type": "major",
+		"contents": {
+			"description": "Revamped our site's UI",
+			"changes": [
+				"Created a brand new UI that aligns with Google's Material Design (M3)",
+				"Red color has been removed for the time being but may return in the future"
+			]
+		}
+	},
+	"Update v1.0.0": {
+		"date": "June 8, 2023",
+		"type": "major",
+		"contents": {
+			"description": "Changed Fire Game Site to be hosted on Github instead of Google Sites",
+			"changes": [
+				"firegamesite.com link will no longer link to google sites. It will link to our own site"
+			]
+		}
+	},
+	 "Update vBETA 2.0.0": {
+		"date": "May 24, 2023",
+		"type": "major",
+		"contents": {
+			"description": "Changed domain to firegamesite.com",
+			"changes": [
+				"No longer using generic google sites domain, now using firegamesite.com"
+			]
+		}
+	},
+	 "Update vBETA 1.0.0": {
+		"date": "May 9, 2023",
+		"type": "major",
+		"contents": {
+			"description": "BIRTH OF THE FIRE GAME SITE!",
+			"changes": [
+				"Created basic Google Sites interface"
 			]
 		}
 	}

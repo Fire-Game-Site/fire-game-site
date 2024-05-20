@@ -1,4 +1,16 @@
 {
+	"fgscom": {
+		"title": "firegamesite.com",
+		"link": "fgscom",
+		"image": "https://firegamesite.com/assets/thumbnailunavailable.jpg",
+		"embedLink": "https://firegamesite.com",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
 	"ytchannel": {
 		"title": "The Fire Games Official Youtube Channel",
 		"link": "ytchannel",
@@ -21,5 +33,41 @@
 		},
 		"fs": true,
 		"description": "BIG News is back and stronger than ever! (picture above is not the current site) Check out the BIG things happening world wide and all of our BIG features. We are the BIGGEST and best news!"
-  }
+  },
+	"geogebra": {
+		"title": "Geogebra",
+		"link": "geogebra",
+		"image": "https://firegamesite.com/assets/thumbnailunavailable.jpg",
+		"embedLink": "https://www.geogebra.org/classic?lang=en",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"weather": {
+		"title": "Weather",
+		"link": "weather",
+		"image": "https://firegamesite.com/assets/thumbnailunavailable.jpg",
+		"embedLink": "https://www.accuweather.com",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	},
+	"snap": {
+		"title": "Snapchat",
+		"link": "snap",
+		"image": "https://firegamesite.com/assets/thumbnailunavailable.jpg",
+		"embedLink": "https://web.snapchat.com",
+		"props": {
+			"Developer": "",
+			"Controls": "",
+			"Objective": ""
+		},
+		"description": ""
+	}
 }
