@@ -1,0 +1,40 @@
+---
+import Layout from "../layouts/layout.astro"
+import updates from '../../public/updates.json'
+import Card from '../../node_modules/astro-material-design/components/containment/card.astro'
+import Divider from '../../node_modules/astro-material-design/components/containment/divider.astro'
+
+type Updates = {
+	name: string,
+	date: string,
+	type: string,
+	contents: {
+		description: string,
+		changes: string[]
+	}
+}
+
+let updateList: Array<Updates> = []
+for (const i in updates) {
+	(updates as {[propName: string]: any})[i].name = i
+	updateList.push((updates as {[propName: string]: any})[i])
+}
+---
+
+<Layout title="Updates" page="3" style="display: flex; flex-direction: column; gap: 16px;">
+	{updateList.map(i => <Card type="outlined" style="width: 100%;">
+		<p class="md-typescale-headline-small">{i.name}</p>
+		<p class="md-typescale-title-small">{i.date}</p>
+		<Divider style="margin: 8px 0;" />
+		<p class="md-typescale-body-small">{i.contents.description}</p>
+		<ul style="margin-left: 24px;">
+			{i.contents.changes.map((j: any) => <li><p class="md-typescale-body-small">{j}</p></li>)}
+		</ul>
+	</Card>)}
+</Layout>
+
+<style>
+	li::marker {
+		color: var(--md-color-on-surface)
+	}
+</style>

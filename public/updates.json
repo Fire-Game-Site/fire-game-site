@@ -8,7 +8,7 @@
 				"Added a new button on the top bar that brings you to a new page that has different non-game apps on it."
 			]
 		}
-	}, 
+	},
 	"Update v2.2.0": {
 		"date": "April 25, 2024",
 		"type": "minor",
@@ -52,7 +52,7 @@
 			]
 		}
 	},
-	 "Update vBETA 2.0.0": {
+	"Update vBETA 2.0.0": {
 		"date": "May 24, 2023",
 		"type": "major",
 		"contents": {
@@ -62,7 +62,7 @@
 			]
 		}
 	},
-	 "Update vBETA 1.0.0": {
+	"Update vBETA 1.0.0": {
 		"date": "May 9, 2023",
 		"type": "major",
 		"contents": {

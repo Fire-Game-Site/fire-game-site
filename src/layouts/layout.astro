@@ -1,0 +1,61 @@
+---
+import Styles from '../../node_modules/astro-material-design/components/styles.astro'
+import NavRail from '../../node_modules/astro-material-design/components/navigation/navigation-rail.astro'
+export const pages: any = [
+	['Games', 'videogame_asset', 'window.location.href = "/"'],
+	['Apps', 'apps', 'window.location.href = "/apps"'],
+	['Contact', 'contact_support', 'window.location.href = "/contact"'],
+    ['Updates', 'update', 'window.location.href = "/updates"']
+]
+
+const json: any = []
+
+for (const x in pages as object) {
+	json.push(pages[x])
+}
+
+interface Props {
+	title: string | boolean,
+	page?: string,
+	style?: string
+}
+
+const { title, page, style } = Astro.props
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {title === true ? <title>Fire Game Site</title> : <title>{title} | Fire Game Site</title>}
+    <link rel="icon" type="image/x-icon" href="/assets/icon.png">
+</head>
+<body>
+<NavRail json={JSON.stringify(json)} selected={page} style="background: var(--md-color-surface-container-low); position: fixed;"></NavRail>
+
+<div class="md-shape-corner-medium" style={"width: calc(100% - 96px); min-height: 100%; margin: 16px 16px 16px 80px; padding: 16px; box-sizing: border-box; position: relative; background: var(--md-color-surface-container-lowest);" + style}>
+    <slot />
+</div>
+
+<Styles hex="#FF0000" dark />
+<style is:global>
+    body, html {
+        background: var(--md-color-surface-container-low);
+        width: 100%;
+        height: calc(100% - 16px);
+    }
+
+    p {
+        color: var(--md-color-on-surface)
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+</style>
+</body>
+</html>
