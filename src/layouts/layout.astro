@@ -1,6 +1,9 @@
 ---
 import Styles from '../../node_modules/astro-material-design/components/styles.astro'
 import NavRail from '../../node_modules/astro-material-design/components/navigation/navigation-rail.astro'
+import TopBar from '../../node_modules/astro-material-design/components/navigation/top-bar.astro'
+import IconButton from '../../node_modules/astro-material-design/components/actions/icon-button.astro'
+import Search from '../../node_modules/astro-material-design/components/navigation/search-bar.astro'
 export const pages: any = [
 	['Games', 'videogame_asset', 'window.location.href = "/"'],
 	['Apps', 'apps', 'window.location.href = "/apps"'],
@@ -34,11 +37,22 @@ const { title, page, style } = Astro.props
     <link rel="icon" type="image/x-icon" href="/assets/icon.png">
 </head>
 <body>
-<NavRail json={JSON.stringify(json)} selected={page} style="background: var(--md-color-surface-container-low); position: fixed;"></NavRail>
+<NavRail json={JSON.stringify(json)} selected={page} style="background: var(--md-color-surface-container-low); position: fixed; z-index: 1"></NavRail>
+<TopBar id="topbar" title={title === true ? 'Fire Game Site' : `${title} | Fire Game Site`} type="small" style="background: var(--md-color-surface-container-low); margin-left: 80px;">
+    {((title !== true && page !== "1") || title === "Apps") && <IconButton slot="leading" color="var(--md-color-on-surface)" onclick="window.location.href = '/'">arrow_back</IconButton>}
+    {(title !== "Apps" && page === "1") && <IconButton slot="leading" color="var(--md-color-on-surface)" onclick="window.location.href = '/apps'">arrow_back</IconButton>}
+    <Search placeholder="Search for games" style="height: 45px" name="searchbar"></Search>
+</TopBar>
 
-<div class="md-shape-corner-medium" style={"width: calc(100% - 96px); min-height: 100%; margin: 16px 16px 16px 80px; padding: 16px; box-sizing: border-box; position: relative; background: var(--md-color-surface-container-lowest);" + style}>
+<div class="md-shape-corner-medium" style={"width: calc(100% - 96px); min-height: calc(100% - 48px); margin: 0 16px 16px 80px; padding: 16px; box-sizing: border-box; position: relative; background: var(--md-color-surface-container-lowest);" + style}>
     <slot />
 </div>
+
+<script>
+    document.querySelector('#searchbar')!.addEventListener('change', (e) => {
+        window.location.href = `/search/${e.target!.value}`
+    })
+</script>
 
 <Styles hex="#FF0000" dark />
 <style is:global>
@@ -50,6 +64,10 @@ const { title, page, style } = Astro.props
 
     p {
         color: var(--md-color-on-surface)
+    }
+
+    #topbar::after {
+        display: none;
     }
 
     * {

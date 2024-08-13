@@ -1,0 +1,33 @@
+---
+import fuse from 'fuse.js'
+import games from '../../../public/games.json'
+import Layout from "../../layouts/layout.astro"
+import Card from '../../../node_modules/astro-material-design/components/containment/card.astro'
+export const prerender = false
+const { query } = Astro.params
+
+let list: any[] = []
+for (const i in games) {
+	list.push((games as {[propName: string]: any})[i])
+}
+
+const idx = new fuse(list, {
+	keys: [
+		"title",
+		"link",
+		"props.developer",
+		"description"
+	]
+})
+
+const gameList = idx.search(query!)
+---
+
+<Layout title={`Search results for: ${query}`} page="0" style="display: flex; flex-direction: column; gap: 16px;">
+    <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: start; flex-wrap: wrap; gap: 16px;">
+		{gameList.map((i: any) => <a href={`/game/${i.item.link}`} style="text-decoration: none"><Card style="width: 230px;">
+            <img src={`../${i.item.image}`} style="width: 100%; aspect-ratio: 1" class="md-shape-corner-small" />
+            <p class="md-typescale-label-large" style="text-align: center; text-decoration: none;">{i.item.title}</p>
+        </Card></a>)}
+    </div>
+</Layout>
