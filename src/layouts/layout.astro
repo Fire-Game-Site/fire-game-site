@@ -50,7 +50,7 @@ const { title, page, style } = Astro.props
 
 <script>
     document.querySelector('#searchbar')!.addEventListener('change', (e) => {
-        window.location.href = `/search/${e.target!.value}`
+        window.location.href = `/search/${(e.target as HTMLInputElement).value}`
     })
 </script>
 
