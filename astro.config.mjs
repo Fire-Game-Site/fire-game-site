@@ -7,5 +7,8 @@ export default defineConfig({
   output: "hybrid",
   adapter: node({
     mode: "standalone"
-  })
+  }),
+  server: {
+    port: 8080
+  }
 });
