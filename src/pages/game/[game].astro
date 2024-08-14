@@ -37,7 +37,7 @@ for (const i in info.props) {
 <Layout title={info.title} page="0" style="display: flex; flex-direction: column; gap: 16px;">
     <iframe src={info.embedLink} style="border: none; border-radius: 12px; width: 100%; aspect-ratio: 16 / 9" />
 	<Card type="outlined" style="width: 100%; box-sizing: border-box; position: relative;">
-		{!info.fs && <Button type="elevated" style="position: absolute;">Fullscreen</Button>}
+		{!info.fs && <Button type="elevated" style="position: absolute;" id="fullscreen">Fullscreen</Button>}
         <p style="width: 100%; text-align: center;" class="md-typescale-headline-large">{info.title}</p>
 		{info.props.length != 0 && <Divider style="margin: 8px 0;" />}
 		{info.props.length != 0 && <div style="display: flex; padding: 10px; justify-content: center; align-items: center; align-content: center; box-sizing: border-box; width: 100%; flex-wrap: wrap;" set:html={propsList}></div>}
@@ -45,3 +45,19 @@ for (const i in info.props) {
 		{info.description && <p style="width: 100%;" class="md-typescale-body-medium">{info.description}</p>}
 	</Card>
 </Layout>
+
+<script define:vars={{info}} is:inline>
+	document.querySelector('#fullscreen').addEventListener('click', e => {
+		var win = window.open()
+		var script = win.document.createElement('script')
+		script.async = true
+		script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2261681163241464'
+		script.crossOrigin = 'anonymous'
+		win.document.body.style = 'margin: 0; height: 100vh;'
+		var iframe = win.document.createElement('iframe');
+		iframe.style = 'border: none; width: 100%; height: 100%; margin: 0;'
+		iframe.src = info.embedLink
+		win.document.body.appendChild(iframe)
+		win.document.body.appendChild(script)
+	})
+</script>
