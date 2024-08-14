@@ -35,10 +35,14 @@ const { title, page, style } = Astro.props
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     {title === true ? <title>Fire Game Site</title> : <title>{title} | Fire Game Site</title>}
     <link rel="icon" type="image/x-icon" href="/assets/icon.png">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap">
 </head>
 <body>
-<NavRail json={JSON.stringify(json)} selected={page} style="background: var(--md-color-surface-container-low); position: fixed; z-index: 1"></NavRail>
-<TopBar id="topbar" title={title === true ? 'Fire Game Site' : `${title} | Fire Game Site`} type="small" style="background: var(--md-color-surface-container-low); margin-left: 80px;">
+<NavRail json={JSON.stringify(json)} selected={page} style="background: var(--md-color-surface-container-low); position: fixed;"></NavRail>
+<TopBar id="topbar" title={title === true ? 'Fire Game Site' : `${title} | Fire Game Site`} type="small" style="background: var(--md-color-surface-container-low);">
     {((title !== true && page !== "1") || title === "Apps") && <IconButton slot="leading" color="var(--md-color-on-surface)" onclick="window.location.href = '/'">arrow_back</IconButton>}
     {(title !== "Apps" && page === "1") && <IconButton slot="leading" color="var(--md-color-on-surface)" onclick="window.location.href = '/apps'">arrow_back</IconButton>}
     <Search placeholder="Search for games" style="height: 45px" name="searchbar"></Search>
@@ -54,7 +58,7 @@ const { title, page, style } = Astro.props
     })
 </script>
 
-<Styles hex="#FF0000" dark />
+<Styles hex="#FF0000" dark imported />
 <style is:global>
     body, html {
         background: var(--md-color-surface-container-low);
