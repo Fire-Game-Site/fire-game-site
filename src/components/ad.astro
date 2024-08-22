@@ -7,7 +7,7 @@ interface Props {
 const { width, height } = Astro.props
 ---
 
-<div style={`${width && `width: ${width}px;`} ${height && `height: ${height}px;`} margin: auto;`}>
+<div style={`${width ? `width: ${width}px;` : ''} ${height ? `height: ${height}px;` : ''} margin: auto;`}>
     <script is:inline async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2261681163241464"
             crossorigin="anonymous"></script>
     <ins class="adsbygoogle"
