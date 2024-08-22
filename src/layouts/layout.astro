@@ -1,5 +1,6 @@
 ---
-import Styles from '../../node_modules/astro-material-design/components/styles.astro'
+import DynamicStyles from '../components/dynamic-styles.astro'
+import ColorPicker from '../components/color-picker.astro'
 import NavRail from '../../node_modules/astro-material-design/components/navigation/navigation-rail.astro'
 import TopBar from '../../node_modules/astro-material-design/components/navigation/top-bar.astro'
 import IconButton from '../../node_modules/astro-material-design/components/actions/icon-button.astro'
@@ -41,6 +42,7 @@ const { title, page, style } = Astro.props
     {((title !== true && page !== "1") || title === "Apps") && <IconButton slot="leading" color="var(--md-color-on-surface)" onclick="window.location.href = '/'">arrow_back</IconButton>}
     {(title !== "Apps" && page === "1") && <IconButton slot="leading" color="var(--md-color-on-surface)" onclick="window.location.href = '/apps'">arrow_back</IconButton>}
     <Search placeholder="Search for games" style="height: 45px" name="searchbar"></Search>
+    <ColorPicker server:defer />
 </TopBar>
 
 <div class="md-shape-corner-medium" style={"width: calc(100% - 96px); min-height: calc(100% - 48px); margin: 0 16px 16px 80px; padding: 16px; box-sizing: border-box; position: relative; background: var(--md-color-surface-container-lowest);" + style}>
@@ -53,10 +55,10 @@ const { title, page, style } = Astro.props
     })
 </script>
 
-<Styles hex="#FF0000" dark />
+<DynamicStyles server:defer />
 <style is:global>
     body, html {
-        background: var(--md-color-surface-container-low);
+        background: #000000;
         width: 100%;
         height: calc(100% - 16px);
     }

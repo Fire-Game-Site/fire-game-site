@@ -1,0 +1,19 @@
+---
+import Styles from '../../node_modules/astro-material-design/components/styles.astro'
+
+let color
+if (Astro.cookies.has('color')) {
+	color = '#' + Astro.cookies.get('color')!.value.replaceAll('#', '')
+} else {
+	color = "#FF0000"
+}
+
+console.log(Astro.cookies.get('color'))
+---
+
+<Styles hex={color} dark />
+<style is:global>
+	body {
+        background: var(--md-color-surface-container-low) !important;
+	}
+</style>

@@ -11,5 +11,8 @@ export default defineConfig({
   server: {
     port: 10000,
     host: "0.0.0.0"
+  },
+  experimental: {
+    serverIslands: true
   }
 });
