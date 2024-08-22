@@ -4,6 +4,7 @@ import Layout from "../../layouts/layout.astro"
 import Card from '../../../node_modules/astro-material-design/components/containment/card.astro'
 import Button from '../../../node_modules/astro-material-design/components/actions/button.astro'
 import Divider from '../../../node_modules/astro-material-design/components/containment/divider.astro'
+import Ad from "../../components/ad.astro";
 
 type Game = {
 	title: string,
@@ -35,7 +36,13 @@ for (const i in info.props) {
 ---
 
 <Layout title={info.title} page="0" style="display: flex; flex-direction: column; gap: 16px;">
-    <iframe src={info.embedLink} style="border: none; border-radius: 12px; width: 100%; aspect-ratio: 16 / 9" />
+	<Ad width="1000" />
+	<div style="display: flex; flex-direction: row; justify-content: space-between; padding: 0;">
+        <Ad height="750" />
+		<iframe src={info.embedLink} style="border: none; border-radius: 12px; width: 100%; aspect-ratio: 16 / 9" />
+        <Ad height="750" />
+	</div>
+    <Ad width="1000" />
 	<Card type="outlined" style="width: 100%; box-sizing: border-box; position: relative;">
 		{!info.fs && <Button type="elevated" style="position: absolute;" id="fullscreen">Fullscreen</Button>}
         <p style="width: 100%; text-align: center;" class="md-typescale-headline-large">{info.title}</p>
@@ -44,6 +51,7 @@ for (const i in info.props) {
 		{info.description && <Divider style="margin: 8px 0;" />}
 		{info.description && <p style="width: 100%;" class="md-typescale-body-medium">{info.description}</p>}
 	</Card>
+    <Ad width="1000" />
 </Layout>
 
 <script define:vars={{info}} is:inline>
