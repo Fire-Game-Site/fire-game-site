@@ -7,8 +7,6 @@ if (Astro.cookies.has('color')) {
 } else {
 	color = "#FF0000"
 }
-
-console.log(Astro.cookies.get('color'))
 ---
 
 <Styles hex={color} dark />
