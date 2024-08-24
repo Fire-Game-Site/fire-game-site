@@ -1,9 +1,11 @@
 ---
 import DynamicStyles from '../components/dynamic-styles.astro'
+import Styles from '../../node_modules/astro-material-design/components/styles.astro'
 import ColorPicker from '../components/color-picker.astro'
 import NavRail from '../../node_modules/astro-material-design/components/navigation/navigation-rail.astro'
 import TopBar from '../../node_modules/astro-material-design/components/navigation/top-bar.astro'
 import IconButton from '../../node_modules/astro-material-design/components/actions/icon-button.astro'
+import Button from '../../node_modules/astro-material-design/components/actions/button.astro'
 import Search from '../../node_modules/astro-material-design/components/navigation/search-bar.astro'
 export const pages: any = [
 	['Games', 'videogame_asset', 'window.location.href = "/"'],
@@ -35,7 +37,7 @@ const { title, page, style } = Astro.props
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     {title === true ? <title>Fire Game Site</title> : <title>{title} | Fire Game Site</title>}
     <link rel="icon" type="image/x-icon" href="/assets/icon.webp">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2261681163241464"
+    <script is:inline async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2261681163241464"
             crossorigin="anonymous"></script>
 </head>
 <body>
@@ -51,16 +53,37 @@ const { title, page, style } = Astro.props
     <slot />
 </div>
 
-<script>
-    document.querySelector('#searchbar')!.addEventListener('change', (e) => {
-        window.location.href = `/search/${(e.target as HTMLInputElement).value}`
+<div style="position: fixed; bottom: 0; right: 10px; background: var(--md-color-surface-variant); display: flex; flex-direction: row; gap: 4px; padding: 1px 2px;" class="md-shape-corner-extra-small-top">
+    <Button type="text" style="color: var(--md-color-on-surface-variant); padding: 2px 6px; height: fit-content;" className="md-typescale-label-medium" onclick="document.querySelector('title').innerText = document.querySelector('title').innerText === 'Home | Schoology' ? 'Fire Game Site' : 'Home | Schoology'; document.querySelectorAll('link[rel=icon]').forEach(el => {el.remove()}); const link = document.createElement('link'); link.setAttribute('rel', 'icon'); link.setAttribute('type', 'image/x-icon'); link.setAttribute('href', document.querySelector('title').innerText === 'Home | Schoology' ? 'https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/favicon.ico' : '/assets/icon.webp'); document.head.appendChild(link)">Switch Titles [/]</Button>
+</div>
+
+<script is:inline define:vars={{title}}>
+    document.querySelector('#searchbar').addEventListener('change', (e) => {
+        window.location.href = `/search/${(e.target).value}`
+    })
+
+    document.addEventListener('keypress', (e) => {
+        if (e.key === '/') {
+            document.querySelector('title').innerText = document.querySelector('title').innerText === 'Home | Schoology' ? (title === true ? 'Fire Game Site' : `${title} | Fire Game Site`) : 'Home | Schoology'
+            document.querySelectorAll('link[rel=icon]').forEach(el => {
+                el.remove()
+            })
+            const link = document.createElement('link')
+            link.setAttribute('rel', 'icon')
+            link.setAttribute('type', 'image/x-icon')
+            link.setAttribute('href', document.querySelector('title').innerText === 'Home | Schoology' ? 'https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/favicon.ico' : '/assets/icon.webp')
+            document.head.appendChild(link)
+        } else if (e.key === '.') {
+            window.location.href = 'https://docs.google.com/'
+        }
     })
 </script>
 
+<Styles hex="#FF0000" dark />
 <DynamicStyles server:defer />
 <style is:global>
     body, html {
-        background: #000000;
+        background: var(--md-color-surface-container-low) !important;
         width: 100%;
         height: calc(100% - 16px);
     }
