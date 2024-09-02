@@ -1,0 +1,47 @@
+---
+import Button from '../../node_modules/astro-material-design/components/actions/button.astro'
+
+interface Props {
+	title: string | boolean,
+	page?: string
+}
+const { title, page } = Astro.props
+
+let linkTitle
+let icon
+let link
+if (Astro.cookies.has('title1') && Astro.cookies.has('icon1') && Astro.cookies.has('link1')) {
+	linkTitle = Astro.cookies.get('title1')!.value
+	icon = Astro.cookies.get('icon1')!.value
+	link = Astro.cookies.get('link1')!.value
+} else {
+	linkTitle = 'Home | Schoology'
+	icon = 'https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/favicon.ico'
+	link = 'https://docs.google.com/'
+}
+console.log(linkTitle, icon, link)
+---
+
+<div style="position: fixed; bottom: 0; right: 10px; background: var(--md-color-surface-variant); display: flex; flex-direction: row; gap: 4px; padding: 1px 2px;" class="md-shape-corner-extra-small-top">
+    <Button type="text" style="color: var(--md-color-on-surface-variant); padding: 2px 6px; height: fit-content;" className="md-typescale-label-medium" onclick="document.querySelector('title').innerText = document.querySelector('title').innerText === 'Home | Schoology' ? 'Fire Game Site' : 'Home | Schoology'; document.querySelectorAll('link[rel=icon]').forEach(el => {el.remove()}); const link = document.createElement('link'); link.setAttribute('rel', 'icon'); link.setAttribute('type', 'image/x-icon'); link.setAttribute('href', document.querySelector('title').innerText === 'Home | Schoology' ? 'https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/favicon.ico' : '/assets/icon.webp'); document.head.appendChild(link)">Switch Titles [/]</Button>
+</div>
+
+<script is:inline define:vars={{title, page, linkTitle, icon, link}}>
+	if (page != '3') {
+		document.addEventListener('keypress', (e) => {
+			if (e.key === '/') {
+				document.querySelector('title').innerText = document.querySelector('title').innerText === linkTitle ? (title === true ? 'Fire Game Site' : `${title} | Fire Game Site`) : linkTitle
+				document.querySelectorAll('link[rel=icon]').forEach(el => {
+					el.remove()
+				})
+				const linkEl = document.createElement('link')
+				linkEl.setAttribute('rel', 'icon')
+				linkEl.setAttribute('type', 'image/x-icon')
+				linkEl.setAttribute('href', document.querySelector('title').innerText === linkTitle ? icon : '/assets/icon.webp')
+				document.head.appendChild(linkEl)
+			} else if (e.key === '.') {
+				window.location.href = link
+			}
+		})
+	}
+</script>

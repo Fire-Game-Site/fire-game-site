@@ -1,16 +1,19 @@
 ---
 import Icon from '../../node_modules/astro-material-design/components/icon.astro'
+import Card from '../../node_modules/astro-material-design/components/containment/card.astro'
+
+const color = Astro.cookies.get('value')?.value || 'ff0000'
 ---
 
-<label for="colorpicker">
-	<Icon color="var(--md-color-on-surface)" clearance="8px" id="palette">palette</Icon>
-</label>
-<input type="color" style="width: 0; height: 0; box-sizing: border-box; opacity: 0;" id="colorpicker">
+<Card type="outlined" style="display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 8px; height: fit-content;">
+    <p class="md-typescale-label-large" style="margin-left: 8px;">Current theme color: <span style={`color: #${color}`}>#{color}</span></p>
+    <label for="colorpicker"><Icon color="var(--md-color-on-surface)" clearance="8px" id="palette">palette</Icon></label>
+    <input type="color" style="width: 0; height: 0; box-sizing: border-box; opacity: 0;" id="colorpicker">
+</Card>
 
 <script is:inline>
 	document.querySelector('#colorpicker').addEventListener('change', (e) => {
-		console.log(`/updateCookie/color/${e.target.value.replaceAll('#', '')}${window.location.pathname}`)
-		window.location.href = `/updateCookie/color/${e.target.value.replaceAll('#', '')}${window.location.pathname}`
+		window.location.href = `/updateColor/${e.target.value.replaceAll('#', '')}`
 	})
 </script>
 
@@ -18,8 +21,6 @@ import Icon from '../../node_modules/astro-material-design/components/icon.astro
 	#palette {
 		position: relative;
         overflow: hidden;
-        margin-left: 30px;
-        margin-right: 24px;
 	}
 
 	#palette:hover::after {

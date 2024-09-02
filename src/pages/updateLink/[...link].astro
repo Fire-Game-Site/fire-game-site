@@ -1,0 +1,34 @@
+---
+import jsdom from 'jsdom'
+const { JSDOM } = jsdom
+
+export const prerender = false
+const { link } = Astro.params
+
+const res = await fetch(link!)
+const data = await res.text()
+const dom = new JSDOM(data)
+
+const title = dom.window.document.querySelector('title').innerHTML
+let icon: string | undefined
+dom.window.document.head.querySelectorAll('link').forEach((i: any) => {
+	if (i.rel.includes('icon')) {
+		icon = i.href
+	}
+})
+if (!icon) {
+	icon = 'default'
+} else if (!icon.startsWith('http')) {
+	icon = link + icon
+}
+
+console.log(title, icon)
+
+Astro.cookies.set('title', title, { path: '/_server-islands/SwitchPicker' })
+Astro.cookies.set('icon', icon, { path: '/_server-islands/SwitchPicker' })
+Astro.cookies.set('link', link!, { path: '/_server-islands/SwitchPicker' })
+Astro.cookies.set('title1', title, { path: '/_server-islands/Switcher' })
+Astro.cookies.set('icon1', icon, { path: '/_server-islands/Switcher' })
+Astro.cookies.set('link1', link!, { path: '/_server-islands/Switcher' })
+return Astro.redirect(`/settings`)
+---

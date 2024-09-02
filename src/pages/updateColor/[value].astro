@@ -1,0 +1,8 @@
+---
+export const prerender = false
+const { value } = Astro.params
+
+Astro.cookies.set('color', value!, { path: '/_server-islands/DynamicStyles' })
+Astro.cookies.set('value', value!, { path: '/_server-islands/ColorPicker' })
+return Astro.redirect(`/settings`)
+---

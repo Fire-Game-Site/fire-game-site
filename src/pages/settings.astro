@@ -1,0 +1,10 @@
+---
+import Layout from "../layouts/layout.astro";
+import ColorPicker from '../components/color-picker.astro'
+import SwitchPicker from '../components/switch-picker.astro'
+---
+
+<Layout title="Settings" page="3" style="display: flex; flex-wrap: wrap; flex-direction: row; gap: 16px; align-items: start;">
+    <ColorPicker server:defer />
+    <SwitchPicker server:defer />
+</Layout>

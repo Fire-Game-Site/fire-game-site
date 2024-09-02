@@ -1,0 +1,31 @@
+---
+import Card from '../../node_modules/astro-material-design/components/containment/card.astro'
+import Field from '../../node_modules/astro-material-design/components/selection/text-field.astro'
+import Button from '../../node_modules/astro-material-design/components/actions/button.astro'
+
+let title
+let icon
+let link
+if (Astro.cookies.has('title') && Astro.cookies.has('icon') && Astro.cookies.has('link')) {
+	title = Astro.cookies.get('title')!.value
+	icon = Astro.cookies.get('icon')!.value
+	link = Astro.cookies.get('link')!.value
+}
+---
+
+<Card type="outlined" style="display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 8px; height: fit-content;">
+	<div style="display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 8px; height: fit-content;">
+		<Field type="filled" label="Title/Page Switcher URL"></Field>
+		<Button type="tonal" id="switchpicker">Update</Button>
+	</div>
+	{title && <div style="display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 8px; height: fit-content;">
+		<p class="md-typescale-label-large">Title: {title}<br />Link: <a style="color: var(--md-color-on-surface)" href={link}>{link}</a></p>
+		{icon != "default" && <img src={icon} style="aspect-ratio: 1; width: 48px;">}
+	</div>}
+</Card>
+
+<script is:inline>
+	document.querySelector('#switchpicker').addEventListener('click', (e) => {
+		window.location.href = `/updateLink/${document.querySelector('.input input').value}`
+	})
+</script>

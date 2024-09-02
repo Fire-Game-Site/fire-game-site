@@ -1,16 +1,16 @@
 ---
 import DynamicStyles from '../components/dynamic-styles.astro'
 import Styles from '../../node_modules/astro-material-design/components/styles.astro'
-import ColorPicker from '../components/color-picker.astro'
 import NavRail from '../../node_modules/astro-material-design/components/navigation/navigation-rail.astro'
 import TopBar from '../../node_modules/astro-material-design/components/navigation/top-bar.astro'
 import IconButton from '../../node_modules/astro-material-design/components/actions/icon-button.astro'
-import Button from '../../node_modules/astro-material-design/components/actions/button.astro'
 import Search from '../../node_modules/astro-material-design/components/navigation/search-bar.astro'
+import Switcher from "../components/switcher.astro";
 export const pages: any = [
 	['Games', 'videogame_asset', 'window.location.href = "/"'],
 	['Contact', 'contact_support', 'window.location.href = "/contact"'],
-    ['Updates', 'update', 'window.location.href = "/updates"']
+    ['Updates', 'update', 'window.location.href = "/updates"'],
+    ['Settings', 'settings', 'window.location.href = "/settings"']
 ]
 
 const json: any = []
@@ -46,36 +46,17 @@ const { title, page, style } = Astro.props
     {((title !== true && page !== "1") || title === "Apps") && <IconButton slot="leading" color="var(--md-color-on-surface)" onclick="window.location.href = '/'">arrow_back</IconButton>}
     {(title !== "Apps" && page === "1") && <IconButton slot="leading" color="var(--md-color-on-surface)" onclick="window.location.href = '/apps'">arrow_back</IconButton>}
     <Search placeholder="Search for games" style="height: 45px" name="searchbar"></Search>
-    <ColorPicker server:defer />
 </TopBar>
 
 <div class="md-shape-corner-medium" style={"width: calc(100% - 96px); min-height: calc(100% - 48px); margin: 0 16px 16px 80px; padding: 16px; box-sizing: border-box; position: relative; background: var(--md-color-surface-container-lowest);" + style}>
     <slot />
 </div>
 
-<div style="position: fixed; bottom: 0; right: 10px; background: var(--md-color-surface-variant); display: flex; flex-direction: row; gap: 4px; padding: 1px 2px;" class="md-shape-corner-extra-small-top">
-    <Button type="text" style="color: var(--md-color-on-surface-variant); padding: 2px 6px; height: fit-content;" className="md-typescale-label-medium" onclick="document.querySelector('title').innerText = document.querySelector('title').innerText === 'Home | Schoology' ? 'Fire Game Site' : 'Home | Schoology'; document.querySelectorAll('link[rel=icon]').forEach(el => {el.remove()}); const link = document.createElement('link'); link.setAttribute('rel', 'icon'); link.setAttribute('type', 'image/x-icon'); link.setAttribute('href', document.querySelector('title').innerText === 'Home | Schoology' ? 'https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/favicon.ico' : '/assets/icon.webp'); document.head.appendChild(link)">Switch Titles [/]</Button>
-</div>
+<Switcher server:defer title={title} page={page}></Switcher>
 
-<script is:inline define:vars={{title}}>
+<script is:inline>
     document.querySelector('#searchbar').addEventListener('change', (e) => {
         window.location.href = `/search/${(e.target).value}`
-    })
-
-    document.addEventListener('keypress', (e) => {
-        if (e.key === '/') {
-            document.querySelector('title').innerText = document.querySelector('title').innerText === 'Home | Schoology' ? (title === true ? 'Fire Game Site' : `${title} | Fire Game Site`) : 'Home | Schoology'
-            document.querySelectorAll('link[rel=icon]').forEach(el => {
-                el.remove()
-            })
-            const link = document.createElement('link')
-            link.setAttribute('rel', 'icon')
-            link.setAttribute('type', 'image/x-icon')
-            link.setAttribute('href', document.querySelector('title').innerText === 'Home | Schoology' ? 'https://asset-cdn.schoology.com/sites/all/themes/schoology_theme/favicon.ico' : '/assets/icon.webp')
-            document.head.appendChild(link)
-        } else if (e.key === '.') {
-            window.location.href = 'https://docs.google.com/'
-        }
     })
 </script>
 

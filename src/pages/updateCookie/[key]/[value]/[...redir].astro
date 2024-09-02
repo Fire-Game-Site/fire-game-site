@@ -1,7 +1,0 @@
----
-export const prerender = false
-const { key, value, redir } = Astro.params
-
-Astro.cookies.set(key!, value!, { path: '/_server-islands/DynamicStyles' })
-return Astro.redirect(`/${redir ? redir : ''}`)
----
