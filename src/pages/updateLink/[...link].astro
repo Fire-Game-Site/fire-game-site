@@ -9,7 +9,7 @@ const res = await fetch(link!)
 const data = await res.text()
 const dom = new JSDOM(data)
 
-const title = dom.window.document.querySelector('title').innerHTML
+const title = dom.window.document.querySelector('title')!.innerHTML
 let icon: string | undefined
 dom.window.document.head.querySelectorAll('link').forEach((i: any) => {
 	if (i.rel.includes('icon')) {

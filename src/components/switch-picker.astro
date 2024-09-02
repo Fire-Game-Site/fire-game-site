@@ -25,7 +25,7 @@ if (Astro.cookies.has('title') && Astro.cookies.has('icon') && Astro.cookies.has
 </Card>
 
 <script is:inline>
-	document.querySelector('#switchpicker').addEventListener('click', (e) => {
+	document.querySelector('#switchpicker').addEventListener('click', () => {
 		window.location.href = `/updateLink/${document.querySelector('.input input').value}`
 	})
 </script>
