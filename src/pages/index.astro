@@ -16,10 +16,26 @@ for (const i in games) {
         <p class="md-typescale-headline-large">{announcement.title}</p>
         <p class="md-typescale-body-large">{announcement.description}</p>
 	</Card>
-	<div style="display: flex; flex-direction: row; justify-content: space-between; align-items: start; flex-wrap: wrap; gap: 16px;">
-		{gameList.map((i: any) => <a href={`/game/${i.link}`} style="text-decoration: none"><Card type="filled" style="width: 230px; background: var(--md-color-on-secondary)">
+	<div style="margin: 0 auto;" id="grid">
+		{gameList.map((i: any) => <a href={`/game/${i.link}`} style="text-decoration: none" class="item"><Card type="filled" style="width: 230px; background: var(--md-color-on-secondary); margin-bottom: 16px;" className={i.category}>
             <Picture src={`/${i.image}`} formats={['avif', 'webp']} width="230" height="230" class="md-shape-corner-small" alt="Game thumbnail" fallbackFormat="webp" />
 			<p class="md-typescale-label-large" style="text-align: center; text-decoration: none; color: var(--md-color-on-secondary-container)">{i.title}</p>
 		</Card></a>)}
 	</div>
+
+	<script>
+		const el = document.querySelector('#grid')
+		const iso = new Isotope(el, {
+			itemSelector: '.item',
+			layoutMode: 'masonry',
+			masonry: {
+				columnWidth: 254,
+				gutter: 16,
+				horizontalOrder: true,
+				fitWidth: true
+			}
+		})
+	</script>
+
+    <script src="./isotope.js"></script>
 </Layout>
