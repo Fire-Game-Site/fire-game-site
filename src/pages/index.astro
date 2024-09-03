@@ -23,19 +23,20 @@ for (const i in games) {
 		</Card></a>)}
 	</div>
 
-	<script>
+	<script is:inline>
 		const el = document.querySelector('#grid')
-		const iso = new Isotope(el, {
-			itemSelector: '.item',
-			layoutMode: 'masonry',
-			masonry: {
-				columnWidth: 254,
-				gutter: 16,
-				horizontalOrder: true,
-				fitWidth: true
-			}
-		})
+		window.onload = () => {
+			const iso = new Isotope(el, {
+				itemSelector: '.item',
+				layoutMode: 'masonry',
+				masonry: {
+					columnWidth: 254,
+					gutter: 16,
+					horizontalOrder: true,
+					fitWidth: true
+				}
+			})
+		}
 	</script>
-
-    <script src="./isotope.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
 </Layout>
