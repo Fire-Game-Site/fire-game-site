@@ -13,7 +13,8 @@ type Game = {
 	embedLink: string,
 	props: string[],
 	fs: boolean,
-	description: string
+	description: string,
+	category: string
 }
 
 export function getStaticPaths() {
@@ -31,8 +32,11 @@ const info: Game = games[game]
 
 let propsList = ""
 for (const i in info.props) {
-	propsList += `<p style="padding: 5px 15px; box-sizing: border-box;" class="md-typescale-title-medium">${i}: ${info.props[i]}</p>`
+	if (info.props[i] !== "") {
+		propsList += `<p style="padding: 5px 15px; box-sizing: border-box;" class="md-typescale-title-medium">${i}: ${info.props[i]}</p>`
+	}
 }
+propsList += `<p style="padding: 5px 15px; box-sizing: border-box;" class="md-typescale-title-medium">Category: ${info.category ? info.category : 'Uncategorized'}</p>`
 ---
 
 <Layout title={info.title} page="0" style="display: flex; flex-direction: column; gap: 16px;">
@@ -46,8 +50,8 @@ for (const i in info.props) {
 	<Card type="outlined" style="width: 100%; box-sizing: border-box; position: relative;">
 		{!info.fs && <Button type="elevated" style="position: absolute;" id="fullscreen">Fullscreen</Button>}
         <p style="width: 100%; text-align: center;" class="md-typescale-headline-large">{info.title}</p>
-		{info.props.length != 0 && <Divider style="margin: 8px 0;" />}
-		{info.props.length != 0 && <div style="display: flex; padding: 10px; justify-content: center; align-items: center; align-content: center; box-sizing: border-box; width: 100%; flex-wrap: wrap;" set:html={propsList}></div>}
+		<Divider style="margin: 8px 0;" />
+		<div style="display: flex; padding: 10px; justify-content: center; align-items: center; align-content: center; box-sizing: border-box; width: 100%; flex-wrap: wrap;" set:html={propsList}></div>
 		{info.description && <Divider style="margin: 8px 0;" />}
 		{info.description && <p style="width: 100%;" class="md-typescale-body-medium">{info.description}</p>}
 	</Card>
