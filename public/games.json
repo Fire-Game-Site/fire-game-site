@@ -1102,6 +1102,7 @@
 			"Controls": "",
 			"Objective": ""
 		},
+		"fs": true,
 		"description": ""
 	}
 }
