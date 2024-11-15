@@ -1091,18 +1091,5 @@
 			"Objective": ""
 		},
 		"description": ""
-	},
-	"pokerogue": {
-		"title": "Poke Rogue",
-		"link": "pokerogue",
-		"image": "assets/thumbnailunavailable.webp",
-		"embedLink": "https://pokerogue.net/",
-		"props": {
-			"Developer": "",
-			"Controls": "",
-			"Objective": ""
-		},
-		"fs": true,
-		"description": ""
 	}
 }
